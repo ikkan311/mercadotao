@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Catálogo Mayorista TAO</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- jsPDF para generar PDF del pedido -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="header-logo">
+      <span class="logo-mercado">MERCADO</span>
+      <span class="logo-tao">TAO</span>
+    </div>
+    <div class="header-texto">
+      <h1>CATÁLOGO MAYORISTA</h1>
+      <p>Para pedidos de compras mayores a $50.000</p>
+    </div>
+    <div class="header-contacto">
+      <p>CONSULTAR DISPONIBILIDAD Y ENTREGA</p>
+      <p class="tel">SEBASTIÁN 351-6148905</p>
+      <button id="btn-carrito" class="btn-primario">Ver carrito (<span id="carrito-count">0</span>)</button>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <section class="filtros">
+      <input type="text" id="buscador" placeholder="Buscar por nombre o código..." />
+      <select id="filtro-categoria">
+        <option value="">Todas las categorías</option>
+      </select>
+    </section>
+
+    <section id="grid-productos" class="grid-productos">
+      <!-- Acá se inyectan las cards -->
+    </section>
+  </main>
+
+  <!-- Modal ficha producto -->
+  <div id="modal-producto" class="modal oculto">
+    <div class="modal-contenido">
+      <button class="modal-cerrar" id="modal-cerrar">&times;</button>
+      <div class="modal-body">
+        <div class="modal-imagen">
+          <img id="modal-img" src="" alt="" />
+        </div>
+        <div class="modal-info">
+          <h2 id="modal-nombre"></h2>
+          <p class="modal-codigo" id="modal-codigo"></p>
+          <p class="modal-categoria" id="modal-categoria"></p>
+          <p class="modal-precio" id="modal-precio"></p>
+          <p class="modal-stock" id="modal-stock"></p>
+          <p id="modal-descripcion"></p>
+          <div class="modal-tags">
+            <span id="tag-novedad" class="tag tag-novedad oculto"></span>
+            <span id="tag-disponibilidad" class="tag tag-disponibilidad oculto"></span>
+            <span id="tag-promocion" class="tag tag-promocion oculto"></span>
+          </div>
+          <button id="modal-agregar" class="btn-primario">Agregar al pedido</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Panel carrito -->
+  <div id="panel-carrito" class="panel-carrito oculto">
+    <div class="panel-carrito-contenido">
+      <button class="panel-cerrar" id="carrito-cerrar">&times;</button>
+      <h2>Pedido</h2>
+      <div id="carrito-items"></div>
+      <p class="carrito-total">Total: $<span id="carrito-total">0</span></p>
+
+      <h3>Datos del comprador</h3>
+      <form id="form-datos">
+        <label>Nombre y apellido*
+          <input type="text" id="cli-nombre" required />
+        </label>
+        <label>Teléfono WhatsApp*
+          <input type="text" id="cli-whatsapp" required />
+        </label>
+        <label>Dirección*
+          <input type="text" id="cli-direccion" required />
+        </label>
+        <label>Localidad*
+          <input type="text" id="cli-localidad" required />
+        </label>
+        <label>Correo electrónico (opcional)
+          <input type="email" id="cli-email" />
+        </label>
+      </form>
+
+      <div class="panel-botones">
+        <button id="btn-wa" class="btn-primario">Enviar pedido por WhatsApp</button>
+        <button id="btn-pdf" class="btn-secundario">Generar PDF del pedido</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const WHATSAPP_DESTINO = "5493516148905"; // Cambiar si querés otro número
+
+    let productos = [];
+    let filtrados = [];
+    let carrito = [];
+
+    const gridProductos = document.getElementById("grid-productos");
+    const filtroCategoria = document.getElementById("filtro-categoria");
+    const buscador = document.getElementById("buscador");
+    const carritoCount = document.getElementById("carrito-count");
+
+    const modal = document.getElementById("modal-producto");
+    const modalCerrar = document.getElementById("modal-cerrar");
+    const modalImg = document.getElementById("modal-img");
+    const modalNombre = document.getElementById("modal-nombre");
+    const modalCodigo = document.getElementById("modal-codigo");
+    const modalCategoria = document.getElementById("modal-categoria");
+    const modalPrecio = document.getElementById("modal-precio");
+    const modalStock = document.getElementById("modal-stock");
+    const modalDescripcion = document.getElementById("modal-descripcion");
+    const tagNovedad = document.getElementById("tag-novedad");
+    const tagDisponibilidad = document.getElementById("tag-disponibilidad");
+    const tagPromocion = document.getElementById("tag-promocion");
+    const modalAgregar = document.getElementById("modal-agregar");
+
+    let productoActual = null;
+
+    const panelCarrito = document.getElementById("panel-carrito");
+    const btnCarrito = document.getElementById("btn-carrito");
+    const carritoCerrar = document.getElementById("carrito-cerrar");
+    const carritoItems = document.getElementById("carrito-items");
+    const carritoTotal = document.getElementById("carrito-total");
+
+    const cliNombre = document.getElementById("cli-nombre");
+    const cliWhatsapp = document.getElementById("cli-whatsapp");
+    const cliDireccion = document.getElementById("cli-direccion");
+    const cliLocalidad = document.getElementById("cli-localidad");
+    const cliEmail = document.getElementById("cli-email");
+
+    async function cargarProductos() {
+      const res = await fetch("productos.json");
+      productos = await res.json();
+
+      // Orden extra por orden_catalogo, por si acaso
+      productos.sort((a, b) => {
+        const oa = a.orden_catalogo || 0;
+        const ob = b.orden_catalogo || 0;
+        return oa - ob;
+      });
+
+      const categorias = [...new Set(productos.map(p => p.categoria))].sort();
+      categorias.forEach(cat => {
+        const opt = document.createElement("option");
+        opt.value = cat;
+        opt.textContent = cat;
+        filtroCategoria.appendChild(opt);
+      });
+
+      filtrados = productos;
+      renderProductos();
+    }
+
+    function renderProductos() {
+      gridProductos.innerHTML = "";
+      filtrados.forEach(p => {
+        const card = document.createElement("article");
+        card.className = "card-producto";
+        card.innerHTML = `
+          <div class="card-imagen">
+            <img src="${p.imagen || 'img/placeholder.png'}" alt="${p.nombre}" onerror="this.src='img/placeholder.png'" />
+          </div>
+          <h2 class="card-nombre">${p.nombre}</h2>
+          <p class="card-codigo">Cód: ${p.codigo || "-"}</p>
+          <p class="card-categoria">${p.categoria}</p>
+          <p class="card-precio">$ ${p.precio.toLocaleString('es-AR')}</p>
+          <p class="card-stock ${p.stock_texto.replace(' ', '-').toLowerCase()}">${p.stock_texto}</p>
+          <div class="card-tags">
+            ${p.novedad ? `<span class="tag tag-novedad">${p.novedad}</span>` : ""}
+            ${p.disponibilidad ? `<span class="tag tag-disponibilidad">${p.disponibilidad}</span>` : ""}
+            ${p.promocion ? `<span class="tag tag-promocion">${p.promocion}</span>` : ""}
+          </div>
+          <div class="card-botones">
+            <button class="btn-secundario btn-detalle" data-codigo="${p.codigo}">Ver detalle</button>
+            <button class="btn-primario btn-agregar" data-codigo="${p.codigo}">Agregar</button>
+          </div>
+        `;
+        gridProductos.appendChild(card);
+      });
+
+      // Listeners de botones
+      document.querySelectorAll(".btn-detalle").forEach(btn => {
+        btn.addEventListener("click", () => {
+          const codigo = parseInt(btn.dataset.codigo);
+          abrirModal(codigo);
+        });
+      });
+      document.querySelectorAll(".btn-agregar").forEach(btn => {
+        btn.addEventListener("click", () => {
+          const codigo = parseInt(btn.dataset.codigo);
+          agregarAlCarrito(codigo);
+        });
+      });
+    }
+
+    function aplicarFiltros() {
+      const texto = buscador.value.toLowerCase().trim();
+      const cat = filtroCategoria.value;
+
+      filtrados = productos.filter(p => {
+        const coincideTexto =
+          !texto ||
+          (p.nombre && p.nombre.toLowerCase().includes(texto)) ||
+          (p.codigo && String(p.codigo).includes(texto));
+
+        const coincideCat = !cat || p.categoria === cat;
+        return coincideTexto && coincideCat;
+      });
+      renderProductos();
+    }
+
+    buscador.addEventListener("input", aplicarFiltros);
+    filtroCategoria.addEventListener("change", aplicarFiltros);
+
+    function abrirModal(codigo) {
+      const prod = productos.find(p => p.codigo === codigo);
+      if (!prod) return;
+      productoActual = prod;
+
+      modalImg.src = prod.imagen || "img/placeholder.png";
+      modalImg.onerror = () => { modalImg.src = "img/placeholder.png"; };
+      modalNombre.textContent = prod.nombre;
+      modalCodigo.textContent = "Código: " + (prod.codigo || "-");
+      modalCategoria.textContent = prod.categoria;
+      modalPrecio.textContent = "$ " + prod.precio.toLocaleString("es-AR");
+      modalStock.textContent = prod.stock_texto;
+      modalDescripcion.textContent = prod.descripcion || "";
+
+      if (prod.novedad) {
+        tagNovedad.textContent = prod.novedad;
+        tagNovedad.classList.remove("oculto");
+      } else tagNovedad.classList.add("oculto");
+
+      if (prod.disponibilidad) {
+        tagDisponibilidad.textContent = prod.disponibilidad;
+        tagDisponibilidad.classList.remove("oculto");
+      } else tagDisponibilidad.classList.add("oculto");
+
+      if (prod.promocion) {
+        tagPromocion.textContent = prod.promocion;
+        tagPromocion.classList.remove("oculto");
+      } else tagPromocion.classList.add("oculto");
+
+      modal.classList.remove("oculto");
+    }
+
+    modalCerrar.addEventListener("click", () => modal.classList.add("oculto"));
+    modal.addEventListener("click", e => {
+      if (e.target === modal) modal.classList.add("oculto");
+    });
+
+    modalAgregar.addEventListener("click", () => {
+      if (productoActual) {
+        agregarAlCarrito(productoActual.codigo);
+        modal.classList.add("oculto");
+      }
+    });
+
+    function agregarAlCarrito(codigo) {
+      const prod = productos.find(p => p.codigo === codigo);
+      if (!prod) return;
+      const item = carrito.find(i => i.codigo === codigo);
+      if (item) {
+        item.cantidad += 1;
+      } else {
+        carrito.push({
+          codigo: prod.codigo,
+          nombre: prod.nombre,
+          precio: prod.precio,
+          cantidad: 1
+        });
+      }
+      actualizarCarrito();
+    }
+
+    function quitarDelCarrito(codigo) {
+      carrito = carrito.filter(i => i.codigo !== codigo);
+      actualizarCarrito();
+    }
+
+    function cambiarCantidad(codigo, delta) {
+      const item = carrito.find(i => i.codigo === codigo);
+      if (!item) return;
+      item.cantidad += delta;
+      if (item.cantidad <= 0) {
+        quitarDelCarrito(codigo);
+      } else {
+        actualizarCarrito();
+      }
+    }
+
+    function actualizarCarrito() {
+      carritoCount.textContent = carrito.reduce((s, i) => s + i.cantidad, 0);
+
+      carritoItems.innerHTML = "";
+      let total = 0;
+      carrito.forEach(i => {
+        const subtotal = i.precio * i.cantidad;
+        total += subtotal;
+        const div = document.createElement("div");
+        div.className = "carrito-item";
+        div.innerHTML = `
+          <div>
+            <strong>${i.nombre}</strong> (Cód: ${i.codigo})
+            <br>
+            $ ${i.precio.toLocaleString('es-AR')} x ${i.cantidad}
+          </div>
+          <div class="carrito-controles">
+            <button type="button" onclick="cambiarCantidad(${i.codigo}, -1)">-</button>
+            <span>${i.cantidad}</span>
+            <button type="button" onclick="cambiarCantidad(${i.codigo}, 1)">+</button>
+            <button type="button" onclick="quitarDelCarrito(${i.codigo})">✕</button>
+          </div>
+        `;
+        carritoItems.appendChild(div);
+      });
+      carritoTotal.textContent = total.toLocaleString("es-AR");
+    }
+
+    // Exponer funciones usadas en HTML inline
+    window.cambiarCantidad = cambiarCantidad;
+    window.quitarDelCarrito = quitarDelCarrito;
+
+    btnCarrito.addEventListener("click", () => {
+      panelCarrito.classList.remove("oculto");
+    });
+    carritoCerrar.addEventListener("click", () => {
+      panelCarrito.classList.add("oculto");
+    });
+    panelCarrito.addEventListener("click", e => {
+      if (e.target === panelCarrito) panelCarrito.classList.add("oculto");
+    });
+
+    function armarTextoPedido() {
+      let texto = "Hola, quiero hacer el siguiente pedido:%0A%0A";
+      texto += "Productos:%0A";
+      carrito.forEach(i => {
+        const subtotal = i.precio * i.cantidad;
+        texto += `- [${i.codigo}] ${i.nombre} x ${i.cantidad} = $${subtotal.toLocaleString('es-AR')}%0A`;
+      });
+      const total = carrito.reduce((s, i) => s + i.precio * i.cantidad, 0);
+      texto += `%0ATotal estimado: $${total.toLocaleString('es-AR')}%0A%0A`;
+      texto += "Datos del comprador:%0A";
+      texto += `Nombre: ${cliNombre.value}%0A`;
+      texto += `WhatsApp: ${cliWhatsapp.value}%0A`;
+      texto += `Dirección: ${cliDireccion.value}%0A`;
+      texto += `Localidad: ${cliLocalidad.value}%0A`;
+      if (cliEmail.value) {
+        texto += `Email: ${cliEmail.value}%0A`;
+      }
+      return texto;
+    }
+
+    document.getElementById("btn-wa").addEventListener("click", () => {
+      if (!cliNombre.value || !cliWhatsapp.value || !cliDireccion.value || !cliLocalidad.value) {
+        alert("Completá los datos obligatorios del comprador.");
+        return;
+      }
+      if (carrito.length === 0) {
+        alert("No hay productos en el carrito.");
+        return;
+      }
+      const texto = armarTextoPedido();
+      const tel = WHATSAPP_DESTINO.replace(/\D/g, "");
+      const url = `https://wa.me/${tel}?text=${texto}`;
+      window.open(url, "_blank");
+    });
+
+    document.getElementById("btn-pdf").addEventListener("click", () => {
+      if (carrito.length === 0) {
+        alert("No hay productos en el carrito.");
+        return;
+      }
+      const { jsPDF } = window.jspdf;
+      const doc = new jsPDF();
+
+      let y = 10;
+      doc.setFontSize(14);
+      doc.text("Pedido catálogo TAO", 10, y);
+      y += 8;
+
+      doc.setFontSize(11);
+      doc.text("Datos del comprador:", 10, y); y += 6;
+      doc.text(`Nombre: ${cliNombre.value}`, 10, y); y += 6;
+      doc.text(`WhatsApp: ${cliWhatsapp.value}`, 10, y); y += 6;
+      doc.text(`Dirección: ${cliDireccion.value}`, 10, y); y += 6;
+      doc.text(`Localidad: ${cliLocalidad.value}`, 10, y); y += 6;
+      if (cliEmail.value) {
+        doc.text(`Email: ${cliEmail.value}`, 10, y); y += 6;
+      }
+      y += 4;
+      doc.text("Productos:", 10, y); y += 6;
+
+      let total = 0;
+      carrito.forEach(i => {
+        const subtotal = i.precio * i.cantidad;
+        total += subtotal;
+        const linea = `[${i.codigo}] ${i.nombre} x ${i.cantidad} = $${subtotal.toLocaleString('es-AR')}`;
+        doc.text(linea, 10, y);
+        y += 6;
+        if (y > 280) {
+          doc.addPage();
+          y = 10;
+        }
+      });
+      y += 6;
+      doc.text(`Total estimado: $${total.toLocaleString('es-AR')}`, 10, y);
+
+      doc.save("pedido_catalogo.pdf");
+    });
+
+    cargarProductos();
+  </script>
+</body>
+</html>
