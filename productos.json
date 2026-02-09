@@ -1,2228 +1,2970 @@
 [
   {
-    "sku": 28,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CARGADOR_APPLE_5W_USBLIGHTING.jpg",
+    "sku": "28",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 1
   },
   {
-    "sku": 24,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CARGADOR_P_AUTO_RC_4801_IPHONE.jpg",
+    "sku": "24",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 1
   },
   {
-    "sku": 14,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SECADOR_DE_PELO_SEIS_SP26SP27_2000W.png",
+    "sku": "14",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 1
   },
   {
-    "sku": 35,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\ANAFE_ELECTRICO_ORYX_1HORNALLA_HPS102.jpg",
+    "sku": "35",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 1
   },
   {
-    "sku": 40,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\BOTELLA_DEPORTIVA_VACUUM_CUP2069.jpg",
+    "sku": "40",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 1
   },
   {
-    "sku": 48,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\TIMBRE_CON_PILAS_9610DC.jpg",
+    "sku": "48",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 1
   },
   {
-    "sku": 12,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PLANCHITA_PPELO_OSR_199_40W.jpg",
+    "sku": "12",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 1
   },
   {
-    "sku": 8,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\AURICULAR_VINCHA_BT_P47M.jpg",
+    "sku": "8",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 2
   },
   {
-    "sku": 69,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\RADIO_R998.png",
+    "sku": "69",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 2
   },
   {
-    "sku": 60,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\L?MPARA_INFANTIL_258_1011.jpg",
+    "sku": "60",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 2
   },
   {
-    "sku": 76,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CALCULADORA_LEGATUS_LCC11.jpg",
+    "sku": "76",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 2
   },
   {
-    "sku": 598,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MARCADORES_DOBLE_PUNTA_TOUCH_60PCS.jpg",
+    "sku": "598",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 2
   },
   {
-    "sku": 11,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CORTA_PELO_VINTAGE_T9_TRIMMER_DL1503AB2.jpg",
+    "sku": "11",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 2
   },
   {
-    "sku": 39,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\BALANZA_DE_COCINA_SF400_10KG.jpg",
+    "sku": "39",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 2
   },
   {
-    "sku": 580,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CONTROL_DE_AIRE_KA1028E.png",
+    "sku": "580",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 2
   },
   {
-    "sku": 9,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\AURICULARES_INALAMBRICOS_ROYAL_CELL_2250.png",
+    "sku": "9",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 2
   },
   {
-    "sku": 75,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\BANDOLERA_CRUZADA_ANTIRROBO_P260KA.jpg",
+    "sku": "75",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 2
   },
   {
-    "sku": 198,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\INFLADOR_MULTIUSO_BOQUILLA_INTERCAMBIABLE.jpg",
+    "sku": "198",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 2
   },
   {
-    "sku": 378,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SOPORTE_P_AUTO_MOVIL_RC_RA123.jpg",
+    "sku": "378",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 3
   },
   {
-    "sku": 15,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\catalogo maestro\\imagen\\CEPILLO MODELADOR 3 EN 1.jpg",
+    "sku": "15",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 3
   },
   {
-    "sku": 13,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SACA_PELUSA.png",
+    "sku": "13",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 3
   },
   {
-    "sku": 61,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PROYECTOR_DE_ESTRELLAS_STAR_MASTERSUONO.jpg",
+    "sku": "61",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 4
   },
   {
-    "sku": 399,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SET_LAPICERA_COLOR_PASTEL_X8_G0148.jpg",
+    "sku": "399",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 4
   },
   {
-    "sku": 400,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SET_LAPICERA_NEON_X6_G0156.jpg",
+    "sku": "400",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 4
   },
   {
-    "sku": 42,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\BOTELLAS_DEPORTIVA_1LT_OSR_G27502.jpg",
+    "sku": "42",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 4
   },
   {
-    "sku": 23,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CARGADOR_P_AUTO_RC_4801_MICRO.jpg",
+    "sku": "23",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 5
   },
   {
-    "sku": 19,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CABLE_USB_LG5009_IPHONE.png",
+    "sku": "19",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 5
   },
   {
-    "sku": 7,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\AURICULAR_VINCHA_BT_P47_NGA423BT.jpg",
+    "sku": "7",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 5
   },
   {
-    "sku": 4,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\AURICULAR_BT_BS961.jpg",
+    "sku": "4",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 5
   },
   {
-    "sku": 330,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PELOTA_DE_FUTBOL_NUMERO_5_DISE?OS_VARIOS.png",
+    "sku": "330",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 5
   },
   {
-    "sku": 43,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\BOTELLAS_DEPORTIVA_800ML_OSR_G274.jpg",
+    "sku": "43",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 5
   },
   {
-    "sku": 17,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CABLE_APPLE_IPHONE_TIPO_C_A_C.jpg",
+    "sku": "17",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 6
   },
   {
-    "sku": 6,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\AURICULAR_RC_RE10013.jpg",
+    "sku": "6",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 6
   },
   {
-    "sku": 555,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PARLANTE_LEGATUS_3_3306.png",
+    "sku": "555",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 6
   },
   {
-    "sku": 286,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\FOCO_GIRATORIO_LED_OSR.png",
+    "sku": "286",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 6
   },
   {
-    "sku": 632,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\ANANA_SQU12_X12.png",
+    "sku": "632",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 6
   },
   {
-    "sku": 671,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\TOMATE_SQU18_X12.png",
+    "sku": "671",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 6
   },
   {
-    "sku": 401,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SET_LAPICERAS_CGLITTER_X10_G01310.jpg",
+    "sku": "401",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 6
   },
   {
-    "sku": 205,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MINI_LINTERNA_KEYCHAIN_BOLSILLO_COB150.jpg",
+    "sku": "205",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 6
   },
   {
-    "sku": 44,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\L?MPARA_005121127157Z139.jpg",
+    "sku": "44",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 7
   },
   {
-    "sku": 453,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CARGADOR_LEGATUS_34_TIPO_C.jpg",
+    "sku": "453",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 10
   },
   {
-    "sku": 137,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CARGADOR_24_RC_TIPO_C.jpg",
+    "sku": "137",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 11
   },
   {
-    "sku": 26,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CABEZAL_APPLE_TIPO_C_20W_A1692.jpg",
+    "sku": "26",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 12
   },
   {
-    "sku": 27,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CABLE_USB_LG5009_MICRO.png",
+    "sku": "27",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 12
   },
   {
-    "sku": 673,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\UVA_SQU20_X12.png",
+    "sku": "673",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 12
   },
   {
-    "sku": 46,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PILAS_ORYX_AAA_X4.jpg",
+    "sku": "46",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 14
   },
   {
-    "sku": 45,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PILAS_ORYX_AA_X4.jpg",
+    "sku": "45",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
     "stock": 15
   },
   {
-    "sku": 684,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\AURICULARES_VINCHA_P9_PLUS.png",
+    "sku": "684",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "CON STOCK",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 73,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SOPORTE_DE_CELULAR_PARA_BICI_LX03.jpg",
+    "sku": "73",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 1
   },
   {
-    "sku": 359,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PARLANTE_LEGATUS_LP1130.jpg",
+    "sku": "359",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 1
   },
   {
-    "sku": 59,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\LAMPARA_ESTRELLA_KA360.jpg",
+    "sku": "59",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 1
   },
   {
-    "sku": 10,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\AURICULARES_RC_HDMIC_RE1005.jpg",
+    "sku": "10",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 2
   },
   {
-    "sku": 37,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\JOYSTICK_PS4_GENERICO_LISO.jpg",
+    "sku": "37",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 2
   },
   {
-    "sku": 565,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PIZARRA_DIGITAL_12.jpg",
+    "sku": "565",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 2
   },
   {
-    "sku": 53,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\catalogo maestro\\imagen\\CONTROL UNIVERSAL SMART.jpg",
+    "sku": "53",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 2
   },
   {
-    "sku": 71,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\catalogo maestro\\imagen\\CANDADOS DE BRONCE 32MM.jpg",
+    "sku": "71",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 2
   },
   {
-    "sku": 199,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\LINGA_ANCHI_12M_AV242441.jpg",
+    "sku": "199",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 2
   },
   {
-    "sku": 25,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CARGADOR_P_AUTO_RC_4801_TIPO_C.jpg",
+    "sku": "25",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 3
   },
   {
-    "sku": 138,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CARGADOR_DE_NOTEBOOK_LEGATUS_LCU120A.png",
+    "sku": "138",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 3
   },
   {
-    "sku": 74,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\catalogo maestro\\imagen\\SOPORTE PARA CELULAR  ALUMINIO 360?.jpg",
+    "sku": "74",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 3
   },
   {
-    "sku": 51,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\catalogo maestro\\imagen\\PAVA EL?CTRICA  ORYX 2200 W copia.jpg",
+    "sku": "51",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 3
   },
   {
-    "sku": 50,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\catalogo maestro\\imagen\\RELOJ DESPERTADOR DIGITAL CUBO LED.jpg",
+    "sku": "50",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 3
   },
   {
-    "sku": 47,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\RAQUETA_MATA_MOSQUITOS_USB_HJ03.jpg",
+    "sku": "47",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 4
   },
   {
-    "sku": 65,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\catalogo maestro\\imagen\\CONSOLA PUSH POP IT.jpg",
+    "sku": "65",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 4
   },
   {
-    "sku": 56,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\catalogo maestro\\imagen\\L?MPARA DE ESCRITORIO T?CTIL PL-9031.jpg",
+    "sku": "56",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 5
   },
   {
-    "sku": 298,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\linterna-8009-1.jpg",
+    "sku": "298",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 5
   },
   {
-    "sku": 63,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MUNECA_BARBIE.jpg",
+    "sku": "63",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 6
   },
   {
-    "sku": 3,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\catalogo maestro\\imagen\\GUANTES WINDS STOPPER XY AV24063.jpg",
+    "sku": "3",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 6
   },
   {
-    "sku": 34,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\catalogo maestro\\imagen\\CARGADOR ROYALCELL 6A 55W  2 ENTRADAS USB -TIPO C.jpg",
+    "sku": "34",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 7
   },
   {
-    "sku": 29,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\catalogo maestro\\imagen\\CARGADOR ROYALCELL 2.4A  MICRO.jpg",
+    "sku": "29",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 7
   },
   {
-    "sku": 21,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CABLE_USB_RC5018_TIPO_C_A_TIPO_C_2MT.jpg",
+    "sku": "21",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 7
   },
   {
-    "sku": 5,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\AURICULAR_BT_P9.jpg",
+    "sku": "5",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 7
   },
   {
-    "sku": 329,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PELOTA_DE_FUTBOL_NUMERO_3_MESSI.png",
+    "sku": "329",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 7
   },
   {
-    "sku": 66,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\catalogo maestro\\imagen\\SALVAVIDAS 50CM ESTAMPADO.jpg",
+    "sku": "66",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 7
   },
   {
-    "sku": 67,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\catalogo maestro\\imagen\\PELOTA INFLABLE 50CM CHOCOLATE.jpg",
+    "sku": "67",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 8
   },
   {
-    "sku": 33,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\catalogo maestro\\imagen\\CARGADOR 5.0A ROYALCELL.png",
+    "sku": "33",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 9
   },
   {
-    "sku": 2,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\RECEPTOR_DE_BLUETOOTH_G186.jpg",
+    "sku": "2",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 9
   },
   {
-    "sku": 36,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\catalogo maestro\\imagen\\DELANTAL DE COCINA TELA TRUCKER.jpg",
+    "sku": "36",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 19
   },
   {
-    "sku": 1,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\BOLSA_DE_AGUA_PARA_CELULAR.png",
+    "sku": "1",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 26
   },
   {
-    "sku": 20,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CABLE_USB_LG5009_TIPO_C.png",
+    "sku": "20",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 39
   },
   {
-    "sku": 135,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CABEZAL_MOTOROLA_30W_USB_AV24534.jpg",
+    "sku": "135",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 136,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CABEZAL_MOTOROLA_POWER_50_DUO_TIPO_C.png",
+    "sku": "136",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 140,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CARGADOR_MAGSAFE_APPLE_5000_MAH.png",
+    "sku": "140",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 579,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CABEZAL_PARA_AUTO_2_USB.png",
+    "sku": "579",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 139,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CARGADOR_DE_PILAS_RC_B04.png",
+    "sku": "139",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 18,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CABLE_RC_5015_CC.jpg",
+    "sku": "18",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 131,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CABLE_USB_IPH_1M_MD818ZM.jpg",
+    "sku": "131",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 134,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\OTG_MICRO_CON_CABLE_SK07.jpg",
+    "sku": "134",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 377,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SOPORTE_DE_CELULAR_PARA_AUTO_RB082.png",
+    "sku": "377",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 92,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\AURICULAR_RC_RE10016.png",
+    "sku": "92",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 93,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\AURICULARES_INALAMBRICOS_ANIMADOS.png",
+    "sku": "93",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 94,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\AURICULARES_LABUBU_RGB_706N.png",
+    "sku": "94",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 95,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\AURICULARES_LABUBU_RGB_906C.png",
+    "sku": "95",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 348,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PARLANTE_BLUETOOTH_CHARGE_MINI.jpg",
+    "sku": "348",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 550,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PARLANTE_BT_FANTASTIC_QUALITY_65_GTS1191.png",
+    "sku": "550",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 605,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PARLANTE_OSO_X868.png",
+    "sku": "605",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 346,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\HUMIFICADOR_PARLANTE_G_CBT_T00K8.jpg",
+    "sku": "346",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 547,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PARLANTE_BLUETOOTH_RS2410_ROYALCELL_4X2.png",
+    "sku": "547",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 584,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PARLANTE_4X2_RP44084403_ROYALCELL.png",
+    "sku": "584",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 553,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PARLANTE_HONG_KONG_65.png",
+    "sku": "553",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 619,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PARLANTE_ORYX_1333_65_RIO_10W.jpg",
+    "sku": "619",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 621,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PARLANTE_JUPITER_12.jpg",
+    "sku": "621",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 622,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PARLANTE_PLUTO_8.jpg",
+    "sku": "622",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 559,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PARLANTE_ORYX_12_URANO.png",
+    "sku": "559",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 551,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PARLANTE_HARRISON_ACID_PLUS_12.jpg",
+    "sku": "551",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 552,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PARLANTE_HARRISON_UP_TOWN_2X10.jpg",
+    "sku": "552",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 562,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PARLANTE_TORRE_SUONO_10X2.png",
+    "sku": "562",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 560,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PARLANTE_PAUTO_6X9_VIAS_OR1055_1200_W.jpg",
+    "sku": "560",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 369,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\STEREO_PAUTO_DESMONTABLE_1788E.png",
+    "sku": "369",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 89,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\STEREO_FIJO_SUONO_INF0001.jpg",
+    "sku": "89",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 90,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\STEREO_PAUTO_CPANTALLACAR_MP5_PL_AYER.png",
+    "sku": "90",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 289,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\LAMPARA_LED_AUTO_MU339.png",
+    "sku": "289",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 290,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\LAMPARA_LED_DINO_BJJ2683.png",
+    "sku": "290",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 291,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\LAMPARA_LED_MU350.png",
+    "sku": "291",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 301,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\L?MPARA_INFANTIL_268H.jpg",
+    "sku": "301",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 302,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\L?MPARA_INFANTIL_348H.jpg",
+    "sku": "302",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 304,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\L?MPARA_INFANTIL_356E.jpg",
+    "sku": "304",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 305,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\L?MPARAS_INFANTILES_343_HG.jpg",
+    "sku": "305",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 541,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\LAMPARA_DE_ESCRITORIO_ORL01.jpg",
+    "sku": "541",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 234,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\LAMPARA_DE_ESCRITORIO_PINZA_OR19_7435.jpg",
+    "sku": "234",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 87,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PROYECTOR_ASTRONAUTA_S1239.png",
+    "sku": "87",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 79,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\ESFERA_DE_CRISTAL_8CM_DE_DIAMETRO.png",
+    "sku": "79",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 539,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\ESFERAS_DE_CRISTAL_6_CM_DE_DIAMETRO.png",
+    "sku": "539",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 233,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\HUMIDIFICADOR_CAPIBARA.jpg",
+    "sku": "233",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 58,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\LAMPARA_DE_CRISTAL_Y_MADERA_6CM.png",
+    "sku": "58",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 540,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\HUMIFICADOR_PLANET_SXE323A.jpg",
+    "sku": "540",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 292,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\LAMPARA_LUNA_SUONO_75SUO082.png",
+    "sku": "292",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 311,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PROYECTOR_CON_PARLANTE_ASTRONAUTA.png",
+    "sku": "311",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 293,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\LAMPARA_RGB_WIFI_CCONTROL_TUYA.jpg",
+    "sku": "293",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 618,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\LAMPARA_SOLAR_3_EN_1_HB_9707B2.jpg",
+    "sku": "618",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 307,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PANEL_LED_PARA_CELULAR_AY96JSSR.jpg",
+    "sku": "307",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 309,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PROTON_54_LUCES_LED_RGB_CON_CONTROL.jpg",
+    "sku": "309",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 312,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\REFLECTOR_LED_PORTATIL_PANEL_RL900.jpg",
+    "sku": "312",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 577,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\ARO_DE_LUZ_18_45CM_RGB_C_TRIPODE_AS02.jpg",
+    "sku": "577",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 313,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\REFLECTOR_LED_PORTATIL_PANEL_RLRL24.jpg",
+    "sku": "313",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 230,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\FOCO_ENERGY_SAVING_BOMBILLA_8W_A608.jpg",
+    "sku": "230",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 232,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\GUIRNALDA_X100_LUZ_AZUL_DA16.png",
+    "sku": "232",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 295,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\LASER_RECARGABLE_LAMBO_TECH_033A.png",
+    "sku": "295",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 85,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\TIRA_DE_LUCES_LED_X600_CALIDA_20M.png",
+    "sku": "85",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 314,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\TIRA_DE_LUZ_NEON_VARIOS_COLORES.jpg",
+    "sku": "314",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 297,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\LINTERNA_RECARGABLE_P50.jpg",
+    "sku": "297",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 299,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\LINTERNA_RECARGABLE_TOOLS_ORYX_OR125A03.jpg",
+    "sku": "299",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 203,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\LUZ_DE_EMERGENCIA_90_LED.png",
+    "sku": "203",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 384,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CARTEL_ABIERTO.jpg",
+    "sku": "384",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 383,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CARTEL_LED_KIOSKO.jpg",
+    "sku": "383",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 276,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\TV_BOX_MX9_4K_256_GB_MEMORIA.png",
+    "sku": "276",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 370,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CAMARA_DE_SEGURIDAD_2_ANTENAS_OR101.jpg",
+    "sku": "370",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 225,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CAMARA_DE_SEGURIDAD_X8_TSL1202.jpg",
+    "sku": "225",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 239,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MAQUINA_CONTADORA_DE_BILLETES_M21E.png",
+    "sku": "239",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 386,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PROYECTOR_SMART_CON_ANDROID_LEGATUS_LPY851.jpg",
+    "sku": "386",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 572,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SOPORTE_PARA_TV_RECLINABLE_32_55.png",
+    "sku": "572",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 380,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SOPORTE_TV_FIJO_TV_1442.jpg",
+    "sku": "380",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 186,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CABLE_V3_A_USB__PS3.jpg",
+    "sku": "186",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 181,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CONSOLA_GAME_STICK_M8_24G_WIRELESS.jpg",
+    "sku": "181",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 188,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\JOYSTICK_PARA_PS2_ANAL?GICO.png",
+    "sku": "188",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 183,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\JOYSTICK_XBOX_360.jpg",
+    "sku": "183",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 184,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MINI_CONSOLA_GAMER_SUONO_84SUO082.jpg",
+    "sku": "184",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 382,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CAMARA_WEB_MINI_PACKING_AF216054.jpg",
+    "sku": "382",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 189,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MOUSE_CON_CABLE_LEGATUS_LMG212E.jpg",
+    "sku": "189",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 339,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MOUSE_CON_CABLE_LEGATUS_LMG211E.png",
+    "sku": "339",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 185,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MOUSE_INALAMBRICO_RC_RMG_2262.png",
+    "sku": "185",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 340,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MOUSE_INALAMBRICO_RC_RMG1362.png",
+    "sku": "340",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 341,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MOUSE_INALAMBRICO_RC_RMG2112.png",
+    "sku": "341",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 342,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MOUSE_INALAMBRICO_WEIB_24G.png",
+    "sku": "342",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 343,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\TECLADO__MOUSE_CON_CABLE_A1016.png",
+    "sku": "343",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 344,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\TECLADO__MOUSE_INALAMBRICO_A1012.png",
+    "sku": "344",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 387,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\REPETIDOR_WIFI_LEGATUS.jpg",
+    "sku": "387",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 263,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\ROUTER_LEGATUS_LYUNT300M.png",
+    "sku": "263",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 315,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\AMETRALLADORA_HIDROGEL_G360G950G918.jpg",
+    "sku": "315",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 626,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PISTOLA_DE_AGUA_TURBO_RECARGABLE.png",
+    "sku": "626",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 320,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CONSOLA_PUSH_CLUZ_Y_MUSICA_WA49.jpg",
+    "sku": "320",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 321,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CONSOLA_PUSH_RUSSIACONSOLA_BAILE.jpg",
+    "sku": "321",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 323,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\LABUBU_BAILARIN_CON_LUZ_WT19.png",
+    "sku": "323",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 324,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MANTA_ALMOHADA_CAPIBARA.png",
+    "sku": "324",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 325,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MAQUINA_PARA_HACER_TRENZAS_OSR_GBH01.jpg",
+    "sku": "325",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 326,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MONOPATIN_DE_COLORES_S2352.png",
+    "sku": "326",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 327,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MONOPATIN_GRAFITTI.png",
+    "sku": "327",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 328,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MOTO_CON_CONTROL_REMOTO_RCK04_CX82.png",
+    "sku": "328",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 596,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\JUGUETE_CAPIBARA_BAILARIN.png",
+    "sku": "596",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 630,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PIZARRA_DIGITAL_85.jpg",
+    "sku": "630",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 629,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PIZARRA_MAGICA_INFANTIL_9.png",
+    "sku": "629",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 566,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PIZARRA_DIGITAL_9_MULTICOLOR.jpg",
+    "sku": "566",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 628,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PIZARRA_MAGICA_DE_12_SEIS.png",
+    "sku": "628",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 332,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PULSERA_LABUBU_CON_LUZ_Y_SONIDO.png",
+    "sku": "332",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 333,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PULSERA_LABUBU_CON_LUZ_MOVIMIENTO_Y_SONIDO.png",
+    "sku": "333",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 334,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\RELOJ_MACARON_DE_COLORES_JK4308.png",
+    "sku": "334",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 335,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\RELOJ_PROYECTOR_LABUBUCAPIBARA.png",
+    "sku": "335",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 336,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SET_DE_BOXEO.png",
+    "sku": "336",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 338,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\TANQUE_CON_CONTROL_REMOTO_RCK01_CX100.png",
+    "sku": "338",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 318,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\BALANCE_CAR_CAPIBARA_WT17.png",
+    "sku": "318",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 389,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MOCHILA_CAPIBARA_S2688.png",
+    "sku": "389",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 390,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MOCHILA_INFANTIL_SUONO.png",
+    "sku": "390",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 391,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MOCHILA_PELUCHE_CAPIBARA_CP3167.jpg",
+    "sku": "391",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 392,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MOCHILA_RUNNING_PL_POWER_AV24668.jpg",
+    "sku": "392",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 393,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MOCHILA_SUONO_WATERPROOF_ACC0142.jpg",
+    "sku": "393",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 394,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SACAPUNTAS_DOBLE_SHARPENER_X60_UNIDADES.jpg",
+    "sku": "394",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 395,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SET_LAPICERA_CGLITTER_X6_G0136.jpg",
+    "sku": "395",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 396,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SET_LAPICERA_CGLITTER_X8_G0138.jpg",
+    "sku": "396",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 398,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SET_LAPICERA_COLOR_PASTEL_X6_G0146.jpg",
+    "sku": "398",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 620,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MARCADOR_DOBLE_PUNTA_TOUCH_48_PCS.jpg",
+    "sku": "620",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 597,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MARCADORES_DOBLE_PUNTA_TOUCH_80_PCS.jpg",
+    "sku": "597",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 96,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CABINA_DE_U?AS_36LED_120W_LEGATUS_LSU102.png",
+    "sku": "96",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 84,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PELUCHE_MAS_MANTA_LABUBU.jpg",
+    "sku": "84",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 77,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MOCHILA_PARA_MASCOTAS_NEGRA_ACRILICA.png",
+    "sku": "77",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 78,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MOCHILA_TRANSPORTADORA_DE_MASCOTAS_HELLO_CAT.png",
+    "sku": "78",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 97,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CEPILLO_4_EN_1_ORYX_WT601.jpg",
+    "sku": "97",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 98,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CEPILLO_HOT_AIR_5_EN_1_YX818_OR1211.jpg",
+    "sku": "98",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 103,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CORTA_PELO_ORYX_DL150915191520.jpg",
+    "sku": "103",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 104,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CORTA_PELO_T10_VACUUM_TRIMER.png",
+    "sku": "104",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 105,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CORTA_PELO_VINTAGE_BUDADRAGON_DL15171517.jpg",
+    "sku": "105",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 106,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CORTA_PELO_VINTAGE_T9_PLASTIC_DL1503AB1.jpg",
+    "sku": "106",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 108,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\DEPILADORA_4_EN_1_DL6043.png",
+    "sku": "108",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 581,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\DEPILADORA_FACIAL_RECARGABLE.png",
+    "sku": "581",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 110,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\LIMPIADOR_EL?CTRICO_DE_BROCHAS.png",
+    "sku": "110",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 111,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MASAJEADOR_CERVICAL_CDEDO_SUONO_ELB0018.png",
+    "sku": "111",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 112,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MASAJEADOR_CERVICAL_ORYX_MJ0225.png",
+    "sku": "112",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 113,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MASAJEADOR_CERVICAL_ORYX_MJ0229.png",
+    "sku": "113",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 114,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MASAJEADOR_VIBRADOR_MIMO_3_BRAZOS.jpg",
+    "sku": "114",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 116,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\ORGANIZADOR_DE_COSMETICOS.png",
+    "sku": "116",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 117,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PISTOLA_DE_MASAJE_CON_MANGO_EXTENSIBLE_SEIS_AV5256.png",
+    "sku": "117",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 118,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PLANCHITA_BUCLERA_PARA_PELO_ORYX.jpg",
+    "sku": "118",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 119,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PLANCHITA_DE_PELO_DL5205.png",
+    "sku": "119",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 120,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PLANCHITA_PPELO_ORYX_RECARGABLE_ORCPP01.jpg",
+    "sku": "120",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 121,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PLANCHITA_Y_SECADOR_ORYX_8948.jpg",
+    "sku": "121",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 122,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SECADOR_DE_PELO_LEGATUS_LSE100A.png",
+    "sku": "122",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 123,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SECADOR_DE_PELO_LSE101A_600W_LEGATUS.png",
+    "sku": "123",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 124,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SECADOR_DE_PELO_LSE122A_1200W_LEGATUS.png",
+    "sku": "124",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 125,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SECADOR_DE_PELO_ORYX_OR1651_1600W.png",
+    "sku": "125",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 126,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SECADOR_DE_PELO_ORYX_OR7015P_1400W.jpg",
+    "sku": "126",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 128,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\TIRA_DE_FOCOS_PARA_ESPEJO_VANITY_MIRROR.png",
+    "sku": "128",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 142,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\ANAFE_DOBLE_LEGATUS_2000W_LAE203.png",
+    "sku": "142",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 222,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\BALANZA_DE_BA?O_BLUETOOTH_180KG_SEIS.jpg",
+    "sku": "222",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 537,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\BALANZA_PORTATIL_SEIS_AV637K24056.jpg",
+    "sku": "537",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 146,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\BATIDORA_DE_MANO_ORYX_200W.png",
+    "sku": "146",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 147,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CAFETERA_COFFEE_MAKER_VINTAGE_15L_SUONO.png",
+    "sku": "147",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 223,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CAFETERA_ELECTRICA_OR12_12L.jpg",
+    "sku": "223",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 148,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CAFETERA_ESPRESSO_VINTAGE_ORYX_12L.png",
+    "sku": "148",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 149,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CAFETERA_ORYX_12_POCILLOS_OR13.png",
+    "sku": "149",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 150,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CORTA_PELO_MASCOTAS_LEGATUS.png",
+    "sku": "150",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 82,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\FABRICA_DE_HELADOS.png",
+    "sku": "82",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 153,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\FABRICA_DE_PASTAS_ORYX.png",
+    "sku": "153",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 231,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\FREIDORA_DE_AIRE_WESTINGHOUSE_WHAF405.jpg",
+    "sku": "231",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 155,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\GRIFERIA_DE_COCINA_EXTENSIBLE_MONOCOMANDO.png",
+    "sku": "155",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 157,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\JARRO_ANTIADHERENTE_ORYX_14_CM.png",
+    "sku": "157",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 158,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\JUGUERA_ELECTRICA_ORYX.png",
+    "sku": "158",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 159,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\JUGUERA_EL?CTRICA_SUONO_500W.png",
+    "sku": "159",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 160,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\LICUADORA_15L_ORYX_OR1004.png",
+    "sku": "160",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 236,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\LONCHERA_BENTO_BOX_LP010203.jpg",
+    "sku": "236",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 238,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\LUNCHERA_OSR_S0374_700ML.png",
+    "sku": "238",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 241,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MAQUINA_DE_COSER_ORYX_S0125OM_SM505.png",
+    "sku": "241",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 242,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MAQUINA_DE_CUPCAKES_ORYX_ORC02.jpg",
+    "sku": "242",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 243,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MAQUINA_DE_DONAS_ORYX_OR5002.png",
+    "sku": "243",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 244,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MAQUINA_DE_GALLETAS_ORBIM01.jpg",
+    "sku": "244",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 161,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MAQUINA_DE_HAMBURGUESAS_ORYX.png",
+    "sku": "161",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 245,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MICROONDAS_ORYX_20L_ORMIC01_1000W.jpg",
+    "sku": "245",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 162,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MINI_BALANZA_DIGITAL_500_GRAMOS.png",
+    "sku": "162",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 246,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MINI_MAQUINA_DE_COSER_ORYX_S01247OM202A.jpg",
+    "sku": "246",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 163,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MINI_PIMER_ORYX_HB3505.png",
+    "sku": "163",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 165,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MOLINILLO_MANUAL_CON_RECIPIENTE.png",
+    "sku": "165",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 256,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PANCHUQUERA.jpg",
+    "sku": "256",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 257,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PANQUEQUERA_ELECTRICA_ORYX_OR201PC.png",
+    "sku": "257",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 258,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PAVA_TERMO_KANJI.jpg",
+    "sku": "258",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 259,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PICADORA_ELETRICA_ORYX_VC10_2L.jpg",
+    "sku": "259",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 169,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\POCHOCLERA_ORYX_OR0089.jpg",
+    "sku": "169",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 170,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PROLONGADOR_7_SALIDAS.png",
+    "sku": "170",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 171,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SANDWICHERA_3_EN_1_LEGATUS.png",
+    "sku": "171",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 264,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SANDWICHERA_ORYX_OR1700.png",
+    "sku": "264",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 266,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SELLADORA_DE_BOLSAS_40CM.png",
+    "sku": "266",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 588,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SELLADORA_DE_BOLSAS_30CM.jpg",
+    "sku": "588",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 174,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SET_DE_OLLAS_5_PCS_ANTIADHERENTES.png",
+    "sku": "174",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 267,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SET_DE_TENEDOR_MADERA_X6_S1160.jpg",
+    "sku": "267",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 176,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SET_X10_UTENSILIOS_PARA_COCINA_DE_SILICONA.png",
+    "sku": "176",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 268,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SET_X3_DE_BOTELLAS_DE_AGUA_BT012126.jpg",
+    "sku": "268",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 270,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SET_X5_DE_OLLAS_ORYX_EKT0499BDGW.jpg",
+    "sku": "270",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 177,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\TERMO_ELECTRICO_1L.png",
+    "sku": "177",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 275,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\TOSTADORA_2_RANURAS_ORYX_OR501.png",
+    "sku": "275",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 178,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\UTENSILIOS_DE_COCINA_X5_SAA125.jpg",
+    "sku": "178",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 278,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\UTENSILIOS_DE_COCINA_X6_PIEZAS_COLORES.png",
+    "sku": "278",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 281,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\WAFLERA_ORYX_S1807S1814.jpg",
+    "sku": "281",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 180,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\YOGURTERA_EL?CTRICA_720ML_SUONO.png",
+    "sku": "180",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 228,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\DISPENSOR_DE_AGUA_AUTOMATIC_WATER_DA01.jpg",
+    "sku": "228",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 83,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MAQUINA_DE_HIELO_ORYX.png",
+    "sku": "83",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 250,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MULTIPROCESADORA__LICUADORA_ORYX_OR0946.png",
+    "sku": "250",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 260,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PROCESADORA_DE_VERDURA_OSR_CUSB_P58901.jpg",
+    "sku": "260",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 261,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\RALLADOR_MANDOLINA_MANUAL_ORYX_RAMKA3.jpg",
+    "sku": "261",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 168,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\ORGANIZADOR_DE_ALIMENTOS_JM8284_X4_PCS.jpg",
+    "sku": "168",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 251,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\ORGANIZADOR_DE_ALIMENTOS_JM82877A01.jpg",
+    "sku": "251",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 252,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\ORGANIZADOR_DE_ALIMENTOS_JN330_X5_PCS.jpg",
+    "sku": "252",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 255,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\ORGANIZADOR_DE_ZAPATOS_X7_NIVELES.png",
+    "sku": "255",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 616,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\BOTELLA_INFANTIL_600ML_CON_CORREA.png",
+    "sku": "616",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 41,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\BOTELLA_SITARUN_INSULATED_800ML_SUS_304.jpg",
+    "sku": "41",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 274,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\TERMOMATE_12L_GERMANY_TMA22SLEGENDARY.jpg",
+    "sku": "274",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 279,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\VENTILADOR_PORT?TIL_F13.jpg",
+    "sku": "279",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 280,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\VENTILADOR_PORT?TIL_FX918.jpg",
+    "sku": "280",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 583,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MINI_CAJA_FUERTE_DE_METAL.png",
+    "sku": "583",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 543,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\LUZ_PARA_BICI_RECARGABLE_BLANCAROJA.png",
+    "sku": "543",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 542,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\LUZ_DE_SILICONA_HJ0082.jpg",
+    "sku": "542",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 195,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\COMPRESOR_DE_AIRE_EL?CTRICO_SEIS.png",
+    "sku": "195",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 191,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\ASPIRADORA_INALAMBRICA_ORYX_ORVC500.png",
+    "sku": "191",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 218,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SOPLADOR_INALAMBRICO_ORWB01_500W.jpg",
+    "sku": "218",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 219,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SOPLADOR_PORT?TIL_SUONO.png",
+    "sku": "219",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 190,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\AMOLADORA_ANGULAR_ORYX_ORAG115_780W.png",
+    "sku": "190",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 582,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\LLAVE_TUBO_X46_PCS_LEGATUS.png",
+    "sku": "582",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 196,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\HIDROLAVADORA_1200W_ORYX.png",
+    "sku": "196",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 197,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\HIDROLAVADORA_INAL?MBRICA_ORYX_EL677.jpg",
+    "sku": "197",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 201,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\LLAVE_TUBO_K1073_52_PCS_ZHONGXIN.png",
+    "sku": "201",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 204,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MALETIN_DE_HERRAMIENTAS_KANJI_499_EN_1.jpg",
+    "sku": "204",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 206,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MINI_LLAVERO_LINTERNA_WS147.png",
+    "sku": "206",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 563,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PINZA_UNIVERSAL_8MANGO_NAEANJA_CNEGRO.jpg",
+    "sku": "563",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 207,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PISTOLA_DE_PINTAR.png",
+    "sku": "207",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 209,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SET_AMOLADORATALADRO_ORYX_ORA125508.png",
+    "sku": "209",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 211,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SET_DE_DESTORNILLADOR_X7_PIEZAS_AZUL.png",
+    "sku": "211",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 212,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SET_DE_HERRAMIENTAS_X40_PCS_LEGATUS.png",
+    "sku": "212",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 214,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SET_JUEGO_DE_LLAVES_TUBOS_108_PCS_ORYX.jpg",
+    "sku": "214",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 215,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SET_TORNO_ORTOR01_ORYX.png",
+    "sku": "215",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 216,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SIERRA_CIRCULAR_1500W_CSL15008.png",
+    "sku": "216",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 217,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SIERRA_CIRCULAR_ELECTRICA_ORYX_OR1409.png",
+    "sku": "217",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 677,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\LINTERNA_RECARGABLE_TGX702_19_LED.jpg",
+    "sku": "677",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 678,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CARGADOR_PAUTO_SAMSUNG_18W.jpg",
+    "sku": "678",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 679,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\RAQUETA_MATA_MOSQUITO_BLANCA.jpg",
+    "sku": "679",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 680,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\RAQUETA_MATA_MOSQUITOS_USB_COLORES.jpg",
+    "sku": "680",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 681,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PELOTA_DE_FUTBOL_NUMERO_3_MESSI.png",
+    "sku": "681",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 682,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\VENTILADOR_18_3_EN_1_IBEK_100W.png",
+    "sku": "682",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 659,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SLIME_MAGIC_CLAY_CAJA_X6_SLI10.png",
+    "sku": "659",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 633,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\BOTELLA_LICUADORA_MINI_JUICE.png",
+    "sku": "633",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 635,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CARGADOR_PORTATIL_ROYALCELL_RPB101.png",
+    "sku": "635",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 637,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CARGADOR_UNIVERSAL_DE_NOTEBOOK_ORYX_120W.jpg",
+    "sku": "637",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 638,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CINTA_CORRECTOR_6M_BH106.png",
+    "sku": "638",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 640,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\DRONE_PROMAX_CON_CONTROL_Y_PANTALLA_JS721213.png",
+    "sku": "640",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 641,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\HELLOKITYY_AV56.png",
+    "sku": "641",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 642,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\JOYSTICK_PS3_GENERICO_LISO.jpg",
+    "sku": "642",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 643,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\JUEGO_DE_GEOMETRIA_X3_PCS.png",
+    "sku": "643",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 644,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\KIT_DE_GEOMETR?A_X4.png",
+    "sku": "644",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 645,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\LABUBU_SQU9.png",
+    "sku": "645",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 646,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\KIT_DE_GEOMETRIA_X7_PIEZAS.png",
+    "sku": "646",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 648,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\LINTERNA_MINERA_XY501.png",
+    "sku": "648",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 649,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\NEBULIZADOR_JSLW302.svg",
+    "sku": "649",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 650,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PARLANTE_JUNGLE_8_15W_ORYX.png",
+    "sku": "650",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 652,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PAVA_EL?CTRICA_2L_ORYX_OSR_9145.png",
+    "sku": "652",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 653,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PELOTA_WATER_BAL_ASTRONAUTA.png",
+    "sku": "653",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 654,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PELOTA_WATER_BAL_PRINCESAS_X12U.png",
+    "sku": "654",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 655,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PELOTA_WATER_BALL_CONEJO_X12.png",
+    "sku": "655",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 656,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\RELOJ_SMART_WATCH_N10_ULTRA_7_EN_1.png",
+    "sku": "656",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 657,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\RELOJ_SMART_WATCH_S10_ULTRA_7_EN_1.png",
+    "sku": "657",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 658,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SATEN_ANTIADHERENTE_ORYX_26CM.png",
+    "sku": "658",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 660,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SLIME_MAGIC_CLAY_CAJA_X6_SLI8.png",
+    "sku": "660",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 661,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SLIME_MAGIC_CLAY_GRANDE_CAJA_X6_SLI19.png",
+    "sku": "661",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 662,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SLIME_MAGIC_CLAY_GRANDE_CAJA_X6_SLI22.png",
+    "sku": "662",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 663,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SOL_SQU8.png",
+    "sku": "663",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 664,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SOPORTE_ALUMINIO_DE_CELULAR_360.png",
+    "sku": "664",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 665,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SQUISHY_KITTY_PUFFER_BALL_CAJA_X_12U.png",
+    "sku": "665",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 666,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SQUISHY_KUROMI_PUFFER_BALL_CAJA_X_12U.png",
+    "sku": "666",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 667,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SQUISHY_PUFFER_BALL_CAJA_X_12U.png",
+    "sku": "667",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 668,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SQUISHY_UNICORNIO_PUFFER_BALL_CAJA_X_12U_SQU15.png",
+    "sku": "668",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 669,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\TEMPLADO_9D_ROYAL_CELL.png",
+    "sku": "669",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 670,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\TIRA_DE_LUZ_LED_LEGATUS_LPLO4OA_24W.svg",
+    "sku": "670",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 672,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\UNICORNIO_SQU7_X12.png",
+    "sku": "672",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 674,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\VASOS_T?RMICOS_500ML_CON_SENSOR_DE_TEMPERATURA.png",
+    "sku": "674",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 675,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\VENTILADOR_INDUSTRIAL_TELEFUNKEN_2_EN_1_24_150W.png",
+    "sku": "675",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 676,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\VENTILADOR_PORTATIL_CON_PINZA.png",
+    "sku": "676",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 651,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PARLANTE_PORT?TIL_TG_113.png",
+    "sku": "651",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 166,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\OLLA_ELECTRICA_LEGATUS_5_LITROS.png",
+    "sku": "166",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 249,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\MOPA_CON_BALDE_CENTRIFUGADOR_2_EN_1.png",
+    "sku": "249",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 210,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\SET_DE_DESTORNILLADOR_X2_SCREWDRIVER.jpg",
+    "sku": "210",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 300,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\LUZ_DE_EMERGENCIA_60_LED_MS7006MOR60L.png",
+    "sku": "300",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 631,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\BALANZA_DE_BA?O_ORYX_OR2025R_180K.jpg",
+    "sku": "631",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 634,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\CARGADOR_ROYALCELL_CABLE_C_ABEZAL_2_ENTRADAS_55W_USB_Y_TIPO_C.jpg",
+    "sku": "634",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 639,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\HELADERA_TELEFUNKEN_140L.png",
+    "sku": "639",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 109,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\ESPEJO_DE_MAQUILLAJE_CON_LUZ_LED_SUONO.png",
+    "sku": "109",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 686,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PARLANTE_BOCINA_RGB_3_DE_COLORES.png",
+    "sku": "686",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   },
   {
-    "sku": 689,
-    "imagen": "H:\\OneDrive\\TRABAJOS\\TAO Accesorios\\web reina\\imagenes\\PARLANTE_PORTATIL_RGB_3_XM129.png",
+    "sku": "689",
+    "nombre": "SIN NOMBRE",
+    "precio": 0,
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO",
-    "stock": ""
+    "stock": 0
   }
 ]
