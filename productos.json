@@ -1,2970 +1,2981 @@
 [
   {
-    "sku": "28",
-    "nombre": "CARGADOR APPLE 5W USB-LIGHTING",
-    "precio": 8000,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 1
-  },
-  {
-    "sku": "24",
-    "nombre": "CARGADOR P/ AUTO RC 4801 IPHONE",
-    "precio": 4800,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 1
-  },
-  {
-    "sku": "14",
-    "nombre": "SECADOR DE PELO SEIS SP26/SP27 2000W",
-    "precio": 24000,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 1
-  },
-  {
-    "sku": "35",
-    "nombre": "ANAFE ELECTRICO ORYX 1HORNALLA HPS-102",
-    "precio": 29000,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 1
-  },
-  {
-    "sku": "40",
-    "nombre": "BOTELLA DEPORTIVA VACUUM CUP/2069",
-    "precio": 28000,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 1
-  },
-  {
-    "sku": "48",
-    "nombre": "TIMBRE CON PILAS 9610DC",
-    "precio": 11500,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 1
-  },
-  {
-    "sku": "12",
-    "nombre": "PLANCHITA P/PELO OSR 199 40W",
-    "precio": 23000,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 1
-  },
-  {
-    "sku": "8",
-    "nombre": "AURICULAR VINCHA BT P47M",
-    "precio": 12000,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 2
-  },
-  {
-    "sku": "69",
-    "nombre": "RADIO R-998",
-    "precio": 14500,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 2
-  },
-  {
-    "sku": "60",
-    "nombre": "L?MPARA INFANTIL 258 10/11",
-    "precio": 13000,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 2
-  },
-  {
-    "sku": "76",
-    "nombre": "CALCULADORA LEGATUS LCC-11",
-    "precio": 6500,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 2
-  },
-  {
-    "sku": "598",
-    "nombre": "MARCADORES DOBLE PUNTA TOUCH 60PCS",
-    "precio": 21500,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 2
-  },
-  {
-    "sku": "11",
-    "nombre": "CORTA PELO VINTAGE T9 TRIMMER DL-1503AB2",
-    "precio": 9000,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 2
-  },
-  {
-    "sku": "39",
-    "nombre": "BALANZA DE COCINA SF-400 10KG",
-    "precio": 10000,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 2
-  },
-  {
-    "sku": "580",
-    "nombre": "CONTROL DE AIRE KA1028E",
-    "precio": 5000,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 2
-  },
-  {
-    "sku": "9",
-    "nombre": "AURICULARES INALAMBRICOS ROYAL CELL 2250",
-    "precio": 20000,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 2
-  },
-  {
-    "sku": "75",
-    "nombre": "BANDOLERA CRUZADA ANTIRROBO P260KA",
-    "precio": 26000,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 2
-  },
-  {
-    "sku": "198",
-    "nombre": "INFLADOR MULTIUSO BOQUILLA INTERCAMBIABLE",
-    "precio": 7000,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 2
-  },
-  {
-    "sku": "378",
-    "nombre": "SOPORTE P/ AUTO MOVIL RC RA123",
-    "precio": 11300,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 3
-  },
-  {
-    "sku": "15",
-    "nombre": "CEPILLO ORYX MODELADOR 3 EN 1 OR 1201",
-    "precio": 25000,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 3
-  },
-  {
-    "sku": "13",
-    "nombre": "SACA PELUSA",
-    "precio": 9900,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 3
-  },
-  {
-    "sku": "61",
-    "nombre": "PROYECTOR DE ESTRELLAS STAR MASTER/SUONO",
-    "precio": 12000,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 4
-  },
-  {
-    "sku": "399",
-    "nombre": "SET LAPICERA COLOR PASTEL X8 G014-8",
-    "precio": 34849999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 4
-  },
-  {
-    "sku": "400",
-    "nombre": "SET LAPICERA NEON X6 G015-6",
-    "precio": 26649999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 4
-  },
-  {
-    "sku": "42",
-    "nombre": "BOTELLAS DEPORTIVA 1LT OSR G275-02",
-    "precio": 13000,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 4
-  },
-  {
-    "sku": "23",
-    "nombre": "CARGADOR P/ AUTO RC 4801 MICRO",
-    "precio": 4800,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 5
-  },
-  {
-    "sku": "19",
-    "nombre": "CABLE USB LG-5009 IPHONE",
-    "precio": 2000,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 5
-  },
-  {
-    "sku": "7",
-    "nombre": "AURICULAR VINCHA BT P47/ NG-A423BT",
-    "precio": 10000,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 5
-  },
-  {
-    "sku": "4",
-    "nombre": "AURICULAR BT BS961",
-    "precio": 14000,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 5
-  },
-  {
-    "sku": "330",
-    "nombre": "PELOTA DE FUTBOL NUMERO 5 DISE?OS VARIOS",
-    "precio": 12000,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 5
-  },
-  {
-    "sku": "43",
-    "nombre": "BOTELLAS DEPORTIVA 800ML OSR G274",
-    "precio": 14000,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 5
-  },
-  {
-    "sku": "17",
-    "nombre": "CABLE APPLE IPHONE TIPO C A C",
-    "precio": 4000,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 6
-  },
-  {
-    "sku": "6",
-    "nombre": "AURICULAR RC RE10013",
-    "precio": 5500,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 6
-  },
-  {
-    "sku": "555",
-    "nombre": "PARLANTE LEGATUS 3? 3306",
-    "precio": 17000,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 6
-  },
-  {
-    "sku": "286",
-    "nombre": "FOCO GIRATORIO LED OSR",
-    "precio": 3500,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 6
-  },
-  {
-    "sku": "632",
-    "nombre": "ANANA SQU12 X12",
-    "precio": 2500,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 6
-  },
-  {
-    "sku": "671",
-    "nombre": "TOMATE SQU18 X12",
-    "precio": 2500,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 6
-  },
-  {
-    "sku": "401",
-    "nombre": "SET LAPICERAS C/GLITTER X10 G013-10",
-    "precio": 4920,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 6
-  },
-  {
-    "sku": "205",
-    "nombre": "MINI LINTERNA KEYCHAIN BOLSILLO COB-150",
-    "precio": 3300,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 6
-  },
-  {
-    "sku": "44",
-    "nombre": "L?MPARA 005/121/127/157/Z-139",
-    "precio": 22000,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 7
-  },
-  {
-    "sku": "453",
-    "nombre": "CARGADOR LEGATUS 3.4 TIPO C",
-    "precio": 4000,
-    "imagen": "img/placeholder.png",
-    "estado": "CON STOCK",
-    "stock": 10
-  },
-  {
-    "sku": "137",
+    "codigo": "137",
     "nombre": "CARGADOR 2.4 RC TIPO C",
-    "precio": 3000,
-    "imagen": "img/placeholder.png",
+    "precio": 2000,
+    "categoria": "CARGADORES",
+    "imagen": "https://drive.google.com/uc?id=1udPlSAPglvF5xd4YD3wiglxKavOUI2Wf",
     "estado": "CON STOCK",
     "stock": 11
   },
   {
-    "sku": "26",
+    "codigo": "453",
+    "nombre": "CARGADOR LEGATUS 3.4 TIPO C",
+    "precio": 3200,
+    "categoria": "CARGADORES",
+    "imagen": "https://drive.google.com/uc?id=1oBvIBj9hq9PCwEA4OqB9fyqnclZvqEB5",
+    "estado": "CON STOCK",
+    "stock": 10
+  },
+  {
+    "codigo": "26",
     "nombre": "CABEZAL APPLE TIPO C 20W A1692",
-    "precio": 12000,
-    "imagen": "img/placeholder.png",
+    "precio": 8500,
+    "categoria": "CARGADORES",
+    "imagen": "https://drive.google.com/uc?id=1raFC0KypTUNXc9hYoHdOunsb8YFK04m1",
     "estado": "CON STOCK",
     "stock": 12
   },
   {
-    "sku": "27",
+    "codigo": "28",
+    "nombre": "CARGADOR APPLE 5W USB-LIGHTING",
+    "precio": 5000,
+    "categoria": "CARGADORES",
+    "imagen": "https://drive.google.com/uc?id=1feL01s7FZNQgQyM8d0WWVqp80pa9B8Cp",
+    "estado": "CON STOCK",
+    "stock": 1
+  },
+  {
+    "codigo": "24",
+    "nombre": "CARGADOR P/ AUTO RC 4801 IPHONE",
+    "precio": 3800,
+    "categoria": "CARGADORES",
+    "imagen": "https://drive.google.com/uc?id=1nDTkVUh6glU2oEjEITgtpKbNkVcJ7DEO",
+    "estado": "CON STOCK",
+    "stock": 1
+  },
+  {
+    "codigo": "23",
+    "nombre": "CARGADOR P/ AUTO RC 4801 MICRO",
+    "precio": 3800,
+    "categoria": "CARGADORES",
+    "imagen": "https://drive.google.com/uc?id=1cW71loadL66DQJ33SQhQ3edkUutXtu9x",
+    "estado": "CON STOCK",
+    "stock": 5
+  },
+  {
+    "codigo": "19",
+    "nombre": "CABLE USB LG-5009 IPHONE",
+    "precio": 1600,
+    "categoria": "CABLES",
+    "imagen": "https://drive.google.com/uc?id=15OyEyARYQSozjjaX5gzH_S2AuI7HEwx8",
+    "estado": "CON STOCK",
+    "stock": 5
+  },
+  {
+    "codigo": "27",
     "nombre": "CABLE USB LG-5009 MICRO",
-    "precio": 2000,
-    "imagen": "img/placeholder.png",
+    "precio": 1600,
+    "categoria": "CABLES",
+    "imagen": "https://drive.google.com/uc?id=11RVF9N7VCHKDRGA44yS7qwC7r2RxqpVE",
     "estado": "CON STOCK",
     "stock": 12
   },
   {
-    "sku": "673",
+    "codigo": "17",
+    "nombre": "CABLE APPLE IPHONE TIPO C A C",
+    "precio": 3100,
+    "categoria": "CABLES",
+    "imagen": "https://drive.google.com/uc?id=1_5I021ePLX2kftD5dsVAXLKMXI1hIpeA",
+    "estado": "CON STOCK",
+    "stock": 6
+  },
+  {
+    "codigo": "378",
+    "nombre": "SOPORTE P/ AUTO MOVIL RC RA123",
+    "precio": 8800,
+    "categoria": "ACCESORIOS",
+    "imagen": "https://drive.google.com/uc?id=1DmrOHoaoOXRO3wjLczIyqQYw_c3LLqqb",
+    "estado": "CON STOCK",
+    "stock": 3
+  },
+  {
+    "codigo": "6",
+    "nombre": "AURICULAR RC RE10013",
+    "precio": 4500,
+    "categoria": "AURICULARES",
+    "imagen": "https://drive.google.com/uc?id=1WKIkUk6fEWewQE5L_NhiRoHw10vq0phv",
+    "estado": "CON STOCK",
+    "stock": 6
+  },
+  {
+    "codigo": "9",
+    "nombre": "AURICULARES INALAMBRICOS ROYAL CELL 2250",
+    "precio": 16000,
+    "categoria": "AURICULARES",
+    "imagen": "https://drive.google.com/uc?id=1Zi7ZdAf3SeWa_xPkY5A1N7QeG6IXnpVy",
+    "estado": "CON STOCK",
+    "stock": 2
+  },
+  {
+    "codigo": "7",
+    "nombre": "AURICULAR VINCHA BT P47/ NG-A423BT",
+    "precio": 7000,
+    "categoria": "AURICULARES",
+    "imagen": "https://drive.google.com/uc?id=1ThAma6yRNZepjkBLcyPs8JGOybyx1DiY",
+    "estado": "CON STOCK",
+    "stock": 5
+  },
+  {
+    "codigo": "8",
+    "nombre": "AURICULAR VINCHA BT P47M",
+    "precio": 9000,
+    "categoria": "AURICULARES",
+    "imagen": "https://drive.google.com/uc?id=1D6-wSmDt8MEmGvgXAlBKdIxHe4H54S0s",
+    "estado": "CON STOCK",
+    "stock": 2
+  },
+  {
+    "codigo": "4",
+    "nombre": "AURICULAR BT BS961",
+    "precio": 10500,
+    "categoria": "AURICULARES",
+    "imagen": "https://drive.google.com/uc?id=1a_JD6kHx7NyWt3t1XEQnjMYO5bMZxvFc",
+    "estado": "CON STOCK",
+    "stock": 5
+  },
+  {
+    "codigo": "555",
+    "nombre": "PARLANTE LEGATUS 3″ 3306",
+    "precio": 13000,
+    "categoria": "PARLANTES",
+    "imagen": "https://drive.google.com/uc?id=1fMSDuq9BefylfSMUO0k8XU-aJTqo4jSU",
+    "estado": "CON STOCK",
+    "stock": 6
+  },
+  {
+    "codigo": "69",
+    "nombre": "RADIO R-998",
+    "precio": 11300,
+    "categoria": "PARLANTES",
+    "imagen": "https://drive.google.com/uc?id=1ePHSWsI99O_cqpgoCySOM1zowzP9qcZS",
+    "estado": "CON STOCK",
+    "stock": 2
+  },
+  {
+    "codigo": "61",
+    "nombre": "PROYECTOR DE ESTRELLAS STAR MASTER/SUONO",
+    "precio": 9500,
+    "categoria": "ILUMINACIÓN",
+    "imagen": "https://drive.google.com/uc?id=1Jxsx7DsRxNOkZqxcYcqfa7upU2mUNJar",
+    "estado": "CON STOCK",
+    "stock": 4
+  },
+  {
+    "codigo": "44",
+    "nombre": "LÁMPARA 005/121/127/157/Z-139",
+    "precio": 17000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1R9V23mcDN0S17xQI1gcUqGEXpjsFKrcF",
+    "estado": "CON STOCK",
+    "stock": 7
+  },
+  {
+    "codigo": "60",
+    "nombre": "LÁMPARA INFANTIL 258 10/11",
+    "precio": 10500,
+    "categoria": "ILUMINACIÓN",
+    "imagen": "https://drive.google.com/uc?id=1yhf6Pvc-3gPFGmbIYqyluS2FpMv5kO4A",
+    "estado": "CON STOCK",
+    "stock": 2
+  },
+  {
+    "codigo": "286",
+    "nombre": "FOCO GIRATORIO LED OSR",
+    "precio": 3000,
+    "categoria": "ILUMINACIÓN",
+    "imagen": "https://drive.google.com/uc?id=18dorJSqgwt2_STlTMpVxo8ROHQPSpVOr",
+    "estado": "CON STOCK",
+    "stock": 6
+  },
+  {
+    "codigo": "330",
+    "nombre": "PELOTA DE FUTBOL NUMERO 5 DISEÑOS VARIOS",
+    "precio": 8000,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1AfRvknY8jNy36WCd83oStGTNjokaYiC2",
+    "estado": "CON STOCK",
+    "stock": 5
+  },
+  {
+    "codigo": "632",
+    "nombre": "ANANA SQU12 X12",
+    "precio": 18000,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=17aCFj1sVEIFq57ofC7pcqw7F-wLADpFT",
+    "estado": "CON STOCK",
+    "stock": 6
+  },
+  {
+    "codigo": "671",
+    "nombre": "TOMATE SQU18 X12",
+    "precio": 18000,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1VzC43NXmBzitEgCinldDcjML1boVaZL1",
+    "estado": "CON STOCK",
+    "stock": 6
+  },
+  {
+    "codigo": "673",
     "nombre": "UVA SQU20 X12",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
+    "precio": 18000,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1PQwCxnxzFycHWDjBV77mviQgDpbWAg3U",
     "estado": "CON STOCK",
     "stock": 12
   },
   {
-    "sku": "46",
-    "nombre": "PILAS ORYX AAA X4",
-    "precio": 2000,
-    "imagen": "img/placeholder.png",
+    "codigo": "75",
+    "nombre": "BANDOLERA CRUZADA ANTIRROBO P260KA",
+    "precio": 20000,
+    "categoria": "UTILES ESCOLARES",
+    "imagen": "https://drive.google.com/uc?id=1S0g3E__CwiAKY3Ht44q18AeMbs0X__tc",
     "estado": "CON STOCK",
-    "stock": 14
+    "stock": 2
   },
   {
-    "sku": "45",
+    "codigo": "76",
+    "nombre": "CALCULADORA LEGATUS LCC-11",
+    "precio": 5500,
+    "categoria": "UTILES ESCOLARES",
+    "imagen": "https://drive.google.com/uc?id=1jHdC2owsCxcKyYDeuwZyw4iVqYYQOgIK",
+    "estado": "CON STOCK",
+    "stock": 2
+  },
+  {
+    "codigo": "399",
+    "nombre": "SET LAPICERA COLOR PASTEL X8 G014-8",
+    "precio": 2800,
+    "categoria": "UTILES ESCOLARES",
+    "imagen": "https://drive.google.com/uc?id=1WUmsbY1OnMqNtbPKxYojnQSBc22Jq6sZ",
+    "estado": "CON STOCK",
+    "stock": 4
+  },
+  {
+    "codigo": "400",
+    "nombre": "SET LAPICERA NEON X6 G015-6",
+    "precio": 2200,
+    "categoria": "UTILES ESCOLARES",
+    "imagen": "https://drive.google.com/uc?id=1BhXoflWv7-rdsc87Wb8hUCaUVotNxhGa",
+    "estado": "CON STOCK",
+    "stock": 4
+  },
+  {
+    "codigo": "401",
+    "nombre": "SET LAPICERAS C/GLITTER X10 G013-10",
+    "precio": 4000,
+    "categoria": "UTILES ESCOLARES",
+    "imagen": "https://drive.google.com/uc?id=1NtyLG_SFS8vqFFTcSznhHcX2VlELYap7",
+    "estado": "CON STOCK",
+    "stock": 6
+  },
+  {
+    "codigo": "598",
+    "nombre": "MARCADORES DOBLE PUNTA TOUCH 60PCS",
+    "precio": 17500,
+    "categoria": "UTILES ESCOLARES",
+    "imagen": "https://drive.google.com/uc?id=1iKOBxEq7z95Jj6pyyq6HNG6MjqSLGGli",
+    "estado": "CON STOCK",
+    "stock": 2
+  },
+  {
+    "codigo": "15",
+    "nombre": "CEPILLO ORYX MODELADOR 3 EN 1 OR 1201",
+    "precio": 20000,
+    "categoria": "BELLEZA",
+    "imagen": "https://drive.google.com/uc?id=1ZShV8cAQWrcJow0Jog42bwr-clamzlmQ",
+    "estado": "CON STOCK",
+    "stock": 3
+  },
+  {
+    "codigo": "11",
+    "nombre": "CORTA PELO VINTAGE T9 TRIMMER DL-1503AB2",
+    "precio": 6800,
+    "categoria": "BELLEZA",
+    "imagen": "https://drive.google.com/uc?id=1OSYZO7ecFMz4cOENTARgVKJDikECMTs_",
+    "estado": "CON STOCK",
+    "stock": 2
+  },
+  {
+    "codigo": "12",
+    "nombre": "PLANCHITA P/PELO OSR 199 40W",
+    "precio": 16000,
+    "categoria": "BELLEZA",
+    "imagen": "https://drive.google.com/uc?id=1-QU-j-I-yCVMbDmS1_s63VCstmXF8Mkd",
+    "estado": "CON STOCK",
+    "stock": 1
+  },
+  {
+    "codigo": "13",
+    "nombre": "SACA PELUSA",
+    "precio": 7800,
+    "categoria": "BELLEZA",
+    "imagen": "https://drive.google.com/uc?id=1LgL_a1ixzFfxBrL96Bes21eQ4iy0TYt1",
+    "estado": "CON STOCK",
+    "stock": 3
+  },
+  {
+    "codigo": "14",
+    "nombre": "SECADOR DE PELO SEIS SP26/SP27 2000W",
+    "precio": 18000,
+    "categoria": "BELLEZA",
+    "imagen": "https://drive.google.com/uc?id=1JHTXQvXhoAkXwMYTF2dgwSK8S8RzUyjK",
+    "estado": "CON STOCK",
+    "stock": 1
+  },
+  {
+    "codigo": "35",
+    "nombre": "ANAFE ELECTRICO ORYX 1HORNALLA HPS-102",
+    "precio": 23000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1um9z8aa6RaK9GkBj1CQwdHJexU_Qw-53",
+    "estado": "CON STOCK",
+    "stock": 1
+  },
+  {
+    "codigo": "40",
+    "nombre": "BOTELLA DEPORTIVA VACUUM CUP/2069",
+    "precio": 22000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1Y0ncA3t1ANqjNauiZHQOD7msebSIyPJ2",
+    "estado": "CON STOCK",
+    "stock": 1
+  },
+  {
+    "codigo": "42",
+    "nombre": "BOTELLAS DEPORTIVA 1LT OSR G275-02",
+    "precio": 10000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1oFILofP8QB7VdV0xfQWipfqhzy6pXKv1",
+    "estado": "CON STOCK",
+    "stock": 4
+  },
+  {
+    "codigo": "43",
+    "nombre": "BOTELLAS DEPORTIVA 800ML OSR G274",
+    "precio": 11000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1cf3jPHO9ykpHbjLbD4NrHSMqkSXvBy9I",
+    "estado": "CON STOCK",
+    "stock": 5
+  },
+  {
+    "codigo": "45",
     "nombre": "PILAS ORYX AA X4",
-    "precio": 2000,
-    "imagen": "img/placeholder.png",
+    "precio": 1200,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1cKySAao_6rEnc_E6ymw3HjFpjteuH3tp",
     "estado": "CON STOCK",
     "stock": 15
   },
   {
-    "sku": "684",
-    "nombre": "AURICULARES VINCHA P9 PLUS",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
+    "codigo": "46",
+    "nombre": "PILAS ORYX AAA X4",
+    "precio": 1200,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=109ZMKeLFnia5oc4LMfXPldRNIluu864w",
     "estado": "CON STOCK",
-    "stock": 0
+    "stock": 14
   },
   {
-    "sku": "73",
-    "nombre": "SOPORTE DE CELULAR PARA BICI LX03",
-    "precio": 10800,
-    "imagen": "img/placeholder.png",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
-  },
-  {
-    "sku": "359",
-    "nombre": "PARLANTE LEGATUS LP-1130",
-    "precio": 15000,
-    "imagen": "img/placeholder.png",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
-  },
-  {
-    "sku": "59",
-    "nombre": "LAMPARA ESTRELLA KA-360",
-    "precio": 21000,
-    "imagen": "img/placeholder.png",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
-  },
-  {
-    "sku": "10",
-    "nombre": "AURICULARES RC HD-MIC RE-1005",
-    "precio": 2000,
-    "imagen": "img/placeholder.png",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
-  },
-  {
-    "sku": "37",
-    "nombre": "JOYSTICK PS4 GENERICO LISO",
-    "precio": 34000,
-    "imagen": "img/placeholder.png",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
-  },
-  {
-    "sku": "565",
-    "nombre": "PIZARRA DIGITAL 12?",
-    "precio": 7000,
-    "imagen": "img/placeholder.png",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
-  },
-  {
-    "sku": "53",
-    "nombre": "CONTROL REMOTO UNIVERSAL",
-    "precio": 7500,
-    "imagen": "img/placeholder.png",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
-  },
-  {
-    "sku": "71",
-    "nombre": "CANDADOS DE BRONCE 50 MM",
+    "codigo": "580",
+    "nombre": "CONTROL DE AIRE KA1028E",
     "precio": 4000,
-    "imagen": "img/placeholder.png",
-    "estado": "ULTIMOS DISPONIBLES",
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1O60uoCU-2hxi3oYWZ1PtSVhH0dEzRRZq",
+    "estado": "CON STOCK",
     "stock": 2
   },
   {
-    "sku": "199",
-    "nombre": "LINGA ANCHI 1.2M AV24244-1",
-    "precio": 14000,
-    "imagen": "img/placeholder.png",
-    "estado": "ULTIMOS DISPONIBLES",
+    "codigo": "198",
+    "nombre": "INFLADOR MULTIUSO BOQUILLA INTERCAMBIABLE",
+    "precio": 5200,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1qWJO3cx7o5P67owApjqhsRutHUow4mzX",
+    "estado": "CON STOCK",
     "stock": 2
   },
   {
-    "sku": "25",
-    "nombre": "CARGADOR P/ AUTO RC 4801 TIPO C",
-    "precio": 4800,
-    "imagen": "img/placeholder.png",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 3
-  },
-  {
-    "sku": "138",
-    "nombre": "CARGADOR DE NOTEBOOK UNIVERSAL",
-    "precio": 19000,
-    "imagen": "img/placeholder.png",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 3
-  },
-  {
-    "sku": "74",
-    "nombre": "SOPORTE PARA CELULAR  ALUMINIO 360?",
-    "precio": 6000,
-    "imagen": "img/placeholder.png",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 3
-  },
-  {
-    "sku": "51",
-    "nombre": "PAVA EL?CTRICA 2200 W",
-    "precio": 25000,
-    "imagen": "img/placeholder.png",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 3
-  },
-  {
-    "sku": "50",
-    "nombre": "RELOJ DESPERTADOR DIGITAL CUBO LED",
-    "precio": 6700,
-    "imagen": "img/placeholder.png",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 3
-  },
-  {
-    "sku": "47",
-    "nombre": "RAQUETA MATA MOSQUITOS USB HJ03",
-    "precio": 12500,
-    "imagen": "img/placeholder.png",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 4
-  },
-  {
-    "sku": "65",
-    "nombre": "CONSOLA PUSH POP IT",
-    "precio": 9000,
-    "imagen": "img/placeholder.png",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 4
-  },
-  {
-    "sku": "56",
-    "nombre": "L?MPARA DE ESCRITORIO T?CTIL PL-9031",
-    "precio": 18000,
-    "imagen": "img/placeholder.png",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 5
-  },
-  {
-    "sku": "298",
-    "nombre": "LINTERNA TGX-8009",
-    "precio": 10000,
-    "imagen": "img/placeholder.png",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 5
-  },
-  {
-    "sku": "63",
-    "nombre": "MUNECA BARBIE",
-    "precio": 10000,
-    "imagen": "img/placeholder.png",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 6
-  },
-  {
-    "sku": "3",
-    "nombre": "GUANTES WINDS STOPPER XY AV24063",
-    "precio": 10000,
-    "imagen": "img/placeholder.png",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 6
-  },
-  {
-    "sku": "34",
-    "nombre": "CARGADOR ROYALCELL 6A 55W  2 ENTRADAS USB -TIPO C",
-    "precio": 12500,
-    "imagen": "img/placeholder.png",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 7
-  },
-  {
-    "sku": "29",
-    "nombre": "CARGADOR ROYALCELL 2.4A  MICRO",
-    "precio": 3000,
-    "imagen": "img/placeholder.png",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 7
-  },
-  {
-    "sku": "21",
-    "nombre": "CABLE USB RC-5018 TIPO C A TIPO C 2MT",
-    "precio": 4500,
-    "imagen": "img/placeholder.png",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 7
-  },
-  {
-    "sku": "5",
-    "nombre": "AURICULAR BT P9",
-    "precio": 11000,
-    "imagen": "img/placeholder.png",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 7
-  },
-  {
-    "sku": "329",
-    "nombre": "PELOTA DE FUTBOL NUMERO 2 MUNDIAL",
-    "precio": 8000,
-    "imagen": "img/placeholder.png",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 7
-  },
-  {
-    "sku": "66",
-    "nombre": "SALVAVIDAS 50CM ESTAMPADO",
-    "precio": 4000,
-    "imagen": "img/placeholder.png",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 7
-  },
-  {
-    "sku": "67",
-    "nombre": "PELOTA INFLABLE 50CM CHOCOLATE",
-    "precio": 5000,
-    "imagen": "img/placeholder.png",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 8
-  },
-  {
-    "sku": "33",
-    "nombre": "CARGADOR 5.0A ROYALCELL MICRO",
-    "precio": 5500,
-    "imagen": "img/placeholder.png",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 9
-  },
-  {
-    "sku": "2",
-    "nombre": "RECEPTOR DE BLUETOOTH G186",
-    "precio": 3800,
-    "imagen": "img/placeholder.png",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 9
-  },
-  {
-    "sku": "36",
-    "nombre": "DELANTAL DE COCINA TELA TRUCKER",
-    "precio": 10000,
-    "imagen": "img/placeholder.png",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 19
-  },
-  {
-    "sku": "1",
-    "nombre": "BOLSA DE AGUA PARA CELULAR",
-    "precio": 3000,
-    "imagen": "img/placeholder.png",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 26
-  },
-  {
-    "sku": "20",
-    "nombre": "CABLE USB LG-5009 TIPO C",
-    "precio": 2000,
-    "imagen": "img/placeholder.png",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 39
-  },
-  {
-    "sku": "135",
+    "codigo": "135",
     "nombre": "CABEZAL MOTOROLA 30W USB AV24534",
-    "precio": 7174999999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "precio": 5600,
+    "categoria": "CARGADORES",
+    "imagen": "https://drive.google.com/uc?id=1khxiWsRlFkHjyiglJ59eZ3SvIJnORRJi",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "136",
+    "codigo": "136",
     "nombre": "CABEZAL MOTOROLA POWER 50 DUO TIPO C",
-    "precio": 11274999999999998,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "precio": 8800,
+    "categoria": "CARGADORES",
+    "imagen": "https://drive.google.com/uc?id=11NuKtGg8qWvTjMXKBh50cXG7hj0bsSB-",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "140",
+    "codigo": "140",
     "nombre": "CARGADOR MAGSAFE APPLE 5000 MAH",
-    "precio": 32594999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "precio": 25400,
+    "categoria": "CARGADORES",
+    "imagen": "https://drive.google.com/uc?id=1HKxPffCXKABoBJ5TKWPKrW0O658ALmxQ",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "579",
+    "codigo": "579",
     "nombre": "CABEZAL PARA AUTO 2 USB",
-    "precio": 12094999999999998,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "139",
-    "nombre": "CARGADOR DE PILAS RC B04",
-    "precio": 51004,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "18",
-    "nombre": "CABLE RC 5015 C-C",
-    "precio": 4000,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "131",
-    "nombre": "CABLE USB IPH 1M MD818ZM",
-    "precio": 30544999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "134",
-    "nombre": "OTG MICRO CON CABLE S-K07",
-    "precio": 12751,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "377",
-    "nombre": "SOPORTE DE CELULAR PARA AUTO RB082",
-    "precio": 14144999999999998,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "92",
-    "nombre": "AURICULAR RC RE10016",
-    "precio": 4493599999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "93",
-    "nombre": "AURICULARES INALAMBRICOS ANIMADOS",
-    "precio": 26444999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "94",
-    "nombre": "AURICULARES LABUBU RGB 706N",
-    "precio": 3687745,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "95",
-    "nombre": "AURICULARES LABUBU RGB 906C",
-    "precio": 3687745,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "348",
-    "nombre": "PARLANTE BLUETOOTH CHARGE MINI",
-    "precio": 17425,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "550",
-    "nombre": "PARLANTE BT FANTASTIC QUALITY 6.5? GTS-1191",
-    "precio": 30544999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "605",
-    "nombre": "PARLANTE OSO X-868",
-    "precio": 20000,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "346",
-    "nombre": "HUMIFICADOR PARLANTE G C/BT T00K8",
-    "precio": 3894795,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "547",
-    "nombre": "PARLANTE BLUETOOTH RS-2410 ROYALCELL 4X2",
-    "precio": 4407499999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "584",
-    "nombre": "PARLANTE 4X2 RP-4408/4403 ROYALCELL",
-    "precio": 4509999999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "553",
-    "nombre": "PARLANTE HONG KONG 6.5?",
-    "precio": 38335,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "619",
-    "nombre": "PARLANTE ORYX 1333 6,5 RIO 10W",
-    "precio": 38000,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "621",
-    "nombre": "PARLANTE JUPITER 12?",
-    "precio": 178000,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "622",
-    "nombre": "PARLANTE PLUTO 8?",
-    "precio": 63500,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "559",
-    "nombre": "PARLANTE ORYX 12? URANO",
-    "precio": 154980,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "551",
-    "nombre": "PARLANTE HARRISON ACID PLUS 12?",
-    "precio": 20192499999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "552",
-    "nombre": "PARLANTE HARRISON UP TOWN 2X10?",
-    "precio": 297250,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "562",
-    "nombre": "PARLANTE TORRE SUONO 10?X2",
-    "precio": 49199999999999990,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "560",
-    "nombre": "PARLANTE P/AUTO 6X9 VIAS OR-1055 1200 W",
-    "precio": 77900,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "369",
-    "nombre": "STEREO P/AUTO DESMONTABLE 1788E",
-    "precio": 39975,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "89",
-    "nombre": "STEREO FIJO SUONO INF0001",
-    "precio": 22959999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "90",
-    "nombre": "STEREO P/AUTO C/PANTALLACAR MP5 PL AYER",
-    "precio": 9840000000000000,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "289",
-    "nombre": "LAMPARA LED AUTO MU339",
-    "precio": 11479999999999998,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "290",
-    "nombre": "LAMPARA LED DINO BJJ268-3",
-    "precio": 11479999999999998,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "291",
-    "nombre": "LAMPARA LED MU350",
-    "precio": 11479999999999998,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "301",
-    "nombre": "L?MPARA INFANTIL 268H",
-    "precio": 12914999999999998,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "302",
-    "nombre": "L?MPARA INFANTIL 348H",
-    "precio": 12914999999999998,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "304",
-    "nombre": "L?MPARA INFANTIL 356E",
-    "precio": 12914999999999998,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "305",
-    "nombre": "L?MPARAS INFANTILES 343 H/G",
-    "precio": 17630,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "541",
-    "nombre": "LAMPARA DE ESCRITORIO OR-L01",
-    "precio": 29724999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "234",
-    "nombre": "LAMPARA DE ESCRITORIO PINZA OR-19 7435",
-    "precio": 10864999999999998,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "87",
-    "nombre": "PROYECTOR ASTRONAUTA S-1239",
-    "precio": 35875,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "79",
-    "nombre": "ESFERA DE CRISTAL 8CM DE DIAMETRO",
-    "precio": 12094999999999998,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "539",
-    "nombre": "ESFERAS DE CRISTAL 6 CM DE DIAMETRO",
-    "precio": 7174999999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "233",
-    "nombre": "HUMIDIFICADOR CAPIBARA",
-    "precio": 12197499999999998,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "58",
-    "nombre": "LAMPARA DE CRISTAL Y MADERA 6CM",
-    "precio": 9000,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "540",
-    "nombre": "HUMIFICADOR PLANET SX-E323A",
-    "precio": 17425,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "292",
-    "nombre": "LAMPARA LUNA SUONO 75-SUO082",
-    "precio": 30114499999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "311",
-    "nombre": "PROYECTOR CON PARLANTE ASTRONAUTA",
-    "precio": 4263999999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "293",
-    "nombre": "LAMPARA RGB WIFI C/CONTROL TUYA",
-    "precio": 5309499999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "618",
-    "nombre": "LAMPARA SOLAR 3 EN 1 HB 9707B-2",
-    "precio": 16200,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "307",
-    "nombre": "PANEL LED PARA CELULAR AY-96JSSR",
-    "precio": 16397949999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "309",
-    "nombre": "PROTON 54 LUCES LED RGB CON CONTROL",
-    "precio": 39975,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "312",
-    "nombre": "REFLECTOR LED PORTATIL PANEL RL-900",
-    "precio": 4304795,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "577",
-    "nombre": "ARO DE LUZ 18? 45CM RGB C/ TRIPODE AS02",
-    "precio": 8609999999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "313",
-    "nombre": "REFLECTOR LED PORTATIL PANEL RLRL-24",
-    "precio": 8404795,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "230",
-    "nombre": "FOCO ENERGY SAVING BOMBILLA 8W A60-8",
-    "precio": 5125,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "232",
-    "nombre": "GUIRNALDA X100 LUZ AZUL DA-16",
-    "precio": 5944999999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "295",
-    "nombre": "LASER RECARGABLE LAMBO TECH 03-3A",
-    "precio": 11069999999999998,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "85",
-    "nombre": "TIRA DE LUCES LED X600 CALIDA 20M",
-    "precio": 35875,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "314",
-    "nombre": "TIRA DE LUZ NEON VARIOS COLORES",
-    "precio": 17835,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "297",
-    "nombre": "LINTERNA RECARGABLE P50",
-    "precio": 22242499999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "299",
-    "nombre": "LINTERNA RECARGABLE TOOLS ORYX OR125A/03",
-    "precio": 30544999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "203",
-    "nombre": "LUZ DE EMERGENCIA 90 LED",
-    "precio": 25214999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "384",
-    "nombre": "CARTEL ?ABIERTO?",
-    "precio": 23574999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "383",
-    "nombre": "CARTEL LED ?KIOSKO?",
-    "precio": 23574999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "276",
-    "nombre": "TV BOX MX9 4K 256 GB MEMORIA",
-    "precio": 34440,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "370",
-    "nombre": "CAMARA DE SEGURIDAD 2 ANTENAS OR-101",
-    "precio": 4796999999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "225",
-    "nombre": "CAMARA DE SEGURIDAD X8 TSL-1202",
-    "precio": 4321236,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "239",
-    "nombre": "MAQUINA CONTADORA DE BILLETES M21E",
-    "precio": 15681475,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "386",
-    "nombre": "PROYECTOR SMART CON ANDROID LEGATUS LPY851",
-    "precio": 11685000000000000,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "572",
-    "nombre": "SOPORTE PARA TV RECLINABLE 32?- 55?",
-    "precio": 14759999999999998,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "380",
-    "nombre": "SOPORTE TV FIJO TV 1442",
-    "precio": 6969999999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "186",
-    "nombre": "CABLE V3 A USB / PS3",
-    "precio": 15374999999999998,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "181",
-    "nombre": "CONSOLA GAME STICK M8 2.4G WIRELESS",
-    "precio": 5534999999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "188",
-    "nombre": "JOYSTICK PARA PS2 ANAL?GICO",
-    "precio": 14144999999999998,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "183",
-    "nombre": "JOYSTICK XBOX 360",
-    "precio": 3894795,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "184",
-    "nombre": "MINI CONSOLA GAMER SUONO 84-SUO082",
-    "precio": 32800,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "382",
-    "nombre": "CAMARA WEB MINI PACKING AF216054",
-    "precio": 32594999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "189",
-    "nombre": "MOUSE CON CABLE LEGATUS LM-G212-E",
-    "precio": 5739999999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "339",
-    "nombre": "MOUSE CON CABLE LEGATUS LM-G211-E",
-    "precio": 5739999999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "185",
-    "nombre": "MOUSE INALAMBRICO RC RMG 226-2",
-    "precio": 8200,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "340",
-    "nombre": "MOUSE INALAMBRICO RC RM-G136-2",
-    "precio": 8200,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "341",
-    "nombre": "MOUSE INALAMBRICO RC RM-G211-2",
-    "precio": 8200,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "342",
-    "nombre": "MOUSE INALAMBRICO WEIB 2.4G",
-    "precio": 7174999999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "343",
-    "nombre": "TECLADO + MOUSE CON CABLE A-1016",
-    "precio": 26239999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "344",
-    "nombre": "TECLADO + MOUSE INALAMBRICO A-1012",
-    "precio": 31774999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "387",
-    "nombre": "REPETIDOR WIFI LEGATUS",
-    "precio": 24394999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "263",
-    "nombre": "ROUTER LEGATUS LY-UNT300M",
-    "precio": 34645,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "315",
-    "nombre": "AMETRALLADORA HIDROGEL G360/G950/G918",
-    "precio": 4714795,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "626",
-    "nombre": "PISTOLA DE AGUA TURBO RECARGABLE",
-    "precio": 55000,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "320",
-    "nombre": "CONSOLA PUSH C/LUZ Y MUSICA WA49",
-    "precio": 9225,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "321",
-    "nombre": "CONSOLA PUSH RUSSIA/CONSOLA BAILE",
-    "precio": 5329999999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "323",
-    "nombre": "LABUBU BAILARIN CON LUZ WT-19",
-    "precio": 26444999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "324",
-    "nombre": "MANTA ALMOHADA CAPIBARA",
-    "precio": 37925,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "325",
-    "nombre": "MAQUINA PARA HACER TRENZAS OSR GBH01",
-    "precio": 5534795,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "326",
-    "nombre": "MONOPATIN DE COLORES S2352",
-    "precio": 6457499999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "327",
-    "nombre": "MONOPATIN GRAFITTI",
-    "precio": 71750,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "328",
-    "nombre": "MOTO CON CONTROL REMOTO RCK04 CX-82",
-    "precio": 71750,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "596",
-    "nombre": "JUGUETE CAPIBARA BAILARIN",
-    "precio": 15374999999999998,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "630",
-    "nombre": "PIZARRA DIGITAL 8,5?",
-    "precio": 4200,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "629",
-    "nombre": "PIZARRA MAGICA INFANTIL 9?",
-    "precio": 8600,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "566",
-    "nombre": "PIZARRA DIGITAL 9? MULTICOLOR",
-    "precio": 7174999999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "628",
-    "nombre": "PIZARRA MAGICA DE 12? SEIS",
-    "precio": 17400,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "332",
-    "nombre": "PULSERA LABUBU CON LUZ Y SONIDO",
-    "precio": 13324999999999998,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "333",
-    "nombre": "PULSERA LABUBU CON LUZ, MOVIMIENTO Y SONIDO",
-    "precio": 16295450000000000,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "334",
-    "nombre": "RELOJ MACARON DE COLORES JK-4308",
-    "precio": 10455,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "335",
-    "nombre": "RELOJ PROYECTOR LABUBU/CAPIBARA",
-    "precio": 11479999999999998,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "336",
-    "nombre": "SET DE BOXEO",
-    "precio": 11274385000000000,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "338",
-    "nombre": "TANQUE CON CONTROL REMOTO RCK01 CX-100",
-    "precio": 71750,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "318",
-    "nombre": "BALANCE CAR CAPIBARA WT-17",
-    "precio": 26444999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "389",
-    "nombre": "MOCHILA CAPIBARA S-2688",
-    "precio": 23574999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "390",
-    "nombre": "MOCHILA INFANTIL SUONO",
-    "precio": 25624999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "391",
-    "nombre": "MOCHILA PELUCHE CAPIBARA CP-3167",
-    "precio": 23574999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "392",
-    "nombre": "MOCHILA RUNNING PL POWER AV24668",
-    "precio": 13324999999999998,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "393",
-    "nombre": "MOCHILA SUONO WATERPROOF ACC0142",
-    "precio": 4694499999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "394",
-    "nombre": "SACAPUNTAS DOBLE SHARPENER X60 UNIDADES",
-    "precio": 40795,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "395",
-    "nombre": "SET LAPICERA C/GLITTER X6 G013-6",
-    "precio": 2460,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "396",
-    "nombre": "SET LAPICERA C/GLITTER X8 G013-8",
-    "precio": 2050,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "398",
-    "nombre": "SET LAPICERA COLOR PASTEL X6 G014-6",
-    "precio": 2460,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "620",
-    "nombre": "MARCADOR DOBLE PUNTA TOUCH 48 PCS",
-    "precio": 17500,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "597",
-    "nombre": "MARCADORES DOBLE PUNTA TOUCH 80 PCS",
-    "precio": 28500,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "96",
-    "nombre": "CABINA DE U?AS 36LED 120W LEGATUS LSU102",
-    "precio": 4304999999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "84",
-    "nombre": "PELUCHE MAS MANTA LABUBU",
-    "precio": 4407295,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "77",
-    "nombre": "MOCHILA PARA MASCOTAS NEGRA ACRILICA",
-    "precio": 30749999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "78",
-    "nombre": "MOCHILA TRANSPORTADORA DE MASCOTAS HELLO CAT",
-    "precio": 26239999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "97",
-    "nombre": "CEPILLO 4 EN 1 ORYX WT-601",
-    "precio": 4509999999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "98",
-    "nombre": "CEPILLO HOT AIR 5 EN 1 YX-818/ OR-1211",
-    "precio": 4202499999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "103",
-    "nombre": "CORTA PELO ORYX DL-1509/1519/1520",
-    "precio": 39950399999999990,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "104",
-    "nombre": "CORTA PELO T10 VACUUM TRIMER",
-    "precio": 51221300000000000,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "105",
-    "nombre": "CORTA PELO VINTAGE BUDA/DRAGON DL1517/1517",
-    "precio": 19065,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "106",
-    "nombre": "CORTA PELO VINTAGE T9 PLASTIC DL-1503AB1",
-    "precio": 7789999999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "108",
-    "nombre": "DEPILADORA 4 EN 1 DL-6043",
-    "precio": 34850,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "581",
-    "nombre": "DEPILADORA FACIAL RECARGABLE",
-    "precio": 11274999999999998,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "110",
-    "nombre": "LIMPIADOR EL?CTRICO DE BROCHAS",
-    "precio": 9635,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "111",
-    "nombre": "MASAJEADOR CERVICAL C/DEDO SUONO ELB0018",
-    "precio": 68675,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "112",
-    "nombre": "MASAJEADOR CERVICAL ORYX MJ-0225",
-    "precio": 78925,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "113",
-    "nombre": "MASAJEADOR CERVICAL ORYX MJ-0229",
-    "precio": 72775,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "114",
-    "nombre": "MASAJEADOR VIBRADOR MIMO 3 BRAZOS",
-    "precio": 4510,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "116",
-    "nombre": "ORGANIZADOR DE COSMETICOS",
-    "precio": 23574999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "117",
-    "nombre": "PISTOLA DE MASAJE CON MANGO EXTENSIBLE SEIS AV5256",
-    "precio": 4673795,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "118",
-    "nombre": "PLANCHITA BUCLERA PARA PELO ORYX",
-    "precio": 5924295,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "119",
-    "nombre": "PLANCHITA DE PELO DL-5205",
-    "precio": 5124999999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "120",
-    "nombre": "PLANCHITA P/PELO ORYX RECARGABLE ORCPP01",
-    "precio": 40795,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "121",
-    "nombre": "PLANCHITA Y SECADOR ORYX 8948",
-    "precio": 4509999999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "122",
-    "nombre": "SECADOR DE PELO LEGATUS LSE100A",
-    "precio": 13119999999999998,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "123",
-    "nombre": "SECADOR DE PELO LSE-101A 600W LEGATUS",
-    "precio": 17425,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "124",
-    "nombre": "SECADOR DE PELO LSE-122A 1200W LEGATUS",
-    "precio": 35875,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "125",
-    "nombre": "SECADOR DE PELO ORYX OR-1651 1600W",
-    "precio": 715409,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "126",
-    "nombre": "SECADOR DE PELO ORYX OR-7015P 1400W",
-    "precio": 6149999999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "128",
-    "nombre": "TIRA DE FOCOS PARA ESPEJO VANITY MIRROR",
-    "precio": 17425,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "142",
-    "nombre": "ANAFE DOBLE LEGATUS 2000W LAE203",
-    "precio": 4694499999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "222",
-    "nombre": "BALANZA DE BA?O BLUETOOTH 180KG SEIS",
-    "precio": 19885,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "537",
-    "nombre": "BALANZA PORTATIL SEIS AV-637/K24056",
-    "precio": 5944999999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "146",
-    "nombre": "BATIDORA DE MANO ORYX 200W",
-    "precio": 39975,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "147",
-    "nombre": "CAFETERA COFFEE MAKER VINTAGE 1,5L SUONO",
-    "precio": 25624999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "223",
-    "nombre": "CAFETERA ELECTRICA OR-12 1.2L",
-    "precio": 6457499999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "148",
-    "nombre": "CAFETERA ESPRESSO VINTAGE ORYX 1,2L",
-    "precio": 29827294999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "149",
-    "nombre": "CAFETERA ORYX 12 POCILLOS OR-13",
-    "precio": 57395899999999990,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "150",
-    "nombre": "CORTA PELO MASCOTAS LEGATUS",
-    "precio": 20295,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "82",
-    "nombre": "FABRICA DE HELADOS",
-    "precio": 9327500000000000,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "153",
-    "nombre": "FABRICA DE PASTAS ORYX",
-    "precio": 73800,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "231",
-    "nombre": "FREIDORA DE AIRE WESTINGHOUSE WHAF405",
-    "precio": 10247950000000000,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "155",
-    "nombre": "GRIFERIA DE COCINA EXTENSIBLE MONOCOMANDO",
-    "precio": 39970899999999990,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "157",
-    "nombre": "JARRO ANTIADHERENTE ORYX 14 CM",
-    "precio": 24189999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "158",
-    "nombre": "JUGUERA ELECTRICA ORYX",
-    "precio": 141450,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "159",
-    "nombre": "JUGUERA EL?CTRICA SUONO 500W",
-    "precio": 11992500000000000,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "160",
-    "nombre": "LICUADORA 1,5L ORYX OR-1004",
-    "precio": 9594000000000000,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "236",
-    "nombre": "LONCHERA BENTO BOX LP-01/02/03",
-    "precio": 11684999999999998,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "238",
-    "nombre": "LUNCHERA OSR S0374 700ML",
-    "precio": 17012949999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "241",
-    "nombre": "MAQUINA DE COSER ORYX S0125/OM SM-505",
-    "precio": 9737500000000000,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "242",
-    "nombre": "MAQUINA DE CUPCAKES ORYX OR-C02",
-    "precio": 5637295,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "243",
-    "nombre": "MAQUINA DE DONAS ORYX OR5002",
-    "precio": 70725,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "244",
-    "nombre": "MAQUINA DE GALLETAS OR-BIM01",
-    "precio": 77695,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "161",
-    "nombre": "MAQUINA DE HAMBURGUESAS ORYX",
-    "precio": 71750,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "245",
-    "nombre": "MICROONDAS ORYX 20L OR-MIC01 1000W",
-    "precio": 311600,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "162",
-    "nombre": "MINI BALANZA DIGITAL 500 GRAMOS",
-    "precio": 7584999999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "246",
-    "nombre": "MINI MAQUINA DE COSER ORYX S01247/OM202A",
-    "precio": 35875,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "163",
-    "nombre": "MINI PIMER ORYX HB-3505",
-    "precio": 4263999999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "165",
-    "nombre": "MOLINILLO MANUAL CON RECIPIENTE",
-    "precio": 14144999999999998,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "256",
-    "nombre": "PANCHUQUERA",
-    "precio": 19884999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "257",
-    "nombre": "PANQUEQUERA ELECTRICA ORYX OR-201PC",
-    "precio": 4714999999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "258",
-    "nombre": "PAVA TERMO KANJI",
-    "precio": 5309499999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "259",
-    "nombre": "PICADORA ELETRICA ORYX VC-10 2L",
-    "precio": 6129499999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "169",
-    "nombre": "POCHOCLERA ORYX OR-0089",
-    "precio": 73800,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "170",
-    "nombre": "PROLONGADOR 7 SALIDAS",
-    "precio": 31159999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "171",
-    "nombre": "SANDWICHERA 3 EN 1 LEGATUS",
-    "precio": 66625,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "264",
-    "nombre": "SANDWICHERA ORYX OR-1700",
-    "precio": 5042795,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "266",
-    "nombre": "SELLADORA DE BOLSAS 40CM",
-    "precio": 67650,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "588",
-    "nombre": "SELLADORA DE BOLSAS 30CM",
-    "precio": 4878999999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "174",
-    "nombre": "SET DE OLLAS 5 PCS ANTIADHERENTES",
-    "precio": 147600,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "267",
-    "nombre": "SET DE TENEDOR MADERA X6 S-1160",
-    "precio": 9020,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "176",
-    "nombre": "SET X10 UTENSILIOS PARA COCINA DE SILICONA",
-    "precio": 30749999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "268",
-    "nombre": "SET X3 DE BOTELLAS DE AGUA BT01/21-26",
-    "precio": 16194999999999998,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "270",
-    "nombre": "SET X5 DE OLLAS ORYX EKT0499B/D/G/W",
-    "precio": 8589295,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "177",
-    "nombre": "TERMO ELECTRICO 1L",
-    "precio": 9840000000000000,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "275",
-    "nombre": "TOSTADORA 2 RANURAS ORYX OR-501",
-    "precio": 36900,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "178",
-    "nombre": "UTENSILIOS DE COCINA X5 SAA125",
-    "precio": 13632499999999998,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "278",
-    "nombre": "UTENSILIOS DE COCINA X6 PIEZAS COLORES",
-    "precio": 1678335,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "281",
-    "nombre": "WAFLERA ORYX S1807/S1814",
-    "precio": 4612499999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "180",
-    "nombre": "YOGURTERA EL?CTRICA 720ML SUONO",
-    "precio": 66830,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "228",
-    "nombre": "DISPENSOR DE AGUA AUTOMATIC WATER DA-01",
-    "precio": 9225,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "83",
-    "nombre": "MAQUINA DE HIELO ORYX",
-    "precio": 264450,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "250",
-    "nombre": "MULTIPROCESADORA + LICUADORA ORYX OR0946",
-    "precio": 16379294999999998,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "260",
-    "nombre": "PROCESADORA DE VERDURA OSR C/USB P589-01",
-    "precio": 14554999999999998,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "261",
-    "nombre": "RALLADOR MANDOLINA MANUAL ORYX RAMKA3",
-    "precio": 22959999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "168",
-    "nombre": "ORGANIZADOR DE ALIMENTOS JM-828-4 X4 PCS",
-    "precio": 36695,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "251",
-    "nombre": "ORGANIZADOR DE ALIMENTOS JM-828-7/7A-01",
-    "precio": 4304999999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "252",
-    "nombre": "ORGANIZADOR DE ALIMENTOS JN-330 X5 PCS",
-    "precio": 38745,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "255",
-    "nombre": "ORGANIZADOR DE ZAPATOS X7 NIVELES",
-    "precio": 34000,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "616",
-    "nombre": "BOTELLA INFANTIL 600ML CON CORREA",
     "precio": 9400,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "categoria": "CARGADORES",
+    "imagen": "https://drive.google.com/uc?id=1JvEBrDL-qcnKGa5xvLzzWNxHCWPvYyfB",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "41",
-    "nombre": "BOTELLA SITARUN INSULATED 800ML SUS 304",
-    "precio": 22000,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "139",
+    "nombre": "CARGADOR DE PILAS RC B04",
+    "precio": 4000,
+    "categoria": "CARGADORES",
+    "imagen": "https://drive.google.com/uc?id=1IFR3WQq230cisqP44zHSm4fb9UsnQgBR",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "274",
-    "nombre": "TERMO+MATE 1.2L GERMANY TMA22S/LEGENDARY",
-    "precio": 4304999999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "18",
+    "nombre": "CABLE RC 5015 C-C",
+    "precio": 2900,
+    "categoria": "CABLES",
+    "imagen": "https://drive.google.com/uc?id=1q6ZnJDzFOz-tPcqehLwy9HDPqJPNWDD9",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "279",
-    "nombre": "VENTILADOR PORT?TIL F13",
-    "precio": 4919999999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "131",
+    "nombre": "CABLE USB IPH 1M MD818ZM",
+    "precio": 2400,
+    "categoria": "CABLES",
+    "imagen": "https://drive.google.com/uc?id=1s2WhGJtfLUWtTSU1JAXPfbbZ-qfqo_V2",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "280",
-    "nombre": "VENTILADOR PORT?TIL FX918",
-    "precio": 3648795,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "134",
+    "nombre": "OTG MICRO CON CABLE S-K07",
+    "precio": 1000,
+    "categoria": "CABLES",
+    "imagen": "https://drive.google.com/uc?id=13Uwdgz2JqzjBC801cQevQXgcdMaYe8Jt",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "583",
-    "nombre": "MINI CAJA FUERTE DE METAL",
-    "precio": 40795,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "377",
+    "nombre": "SOPORTE DE CELULAR PARA AUTO RB082",
+    "precio": 11000,
+    "categoria": "ACCESORIOS",
+    "imagen": "https://drive.google.com/uc?id=1OfQKkd6MyllPJkkILuec0WxJpVP6SLc0",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "543",
-    "nombre": "LUZ PARA BICI RECARGABLE BLANCA/ROJA",
-    "precio": 31774999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "93",
+    "nombre": "AURICULARES INALAMBRICOS ANIMADOS",
+    "precio": 20600,
+    "categoria": "AURICULARES",
+    "imagen": "https://drive.google.com/uc?id=1BSi3ogPbGuqBV6aDg6oNdaNR64B2R7NU",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "542",
-    "nombre": "LUZ DE SILICONA HJ008-2",
-    "precio": 32799999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "94",
+    "nombre": "AURICULARES LABUBU RGB 706N",
+    "precio": 28800,
+    "categoria": "AURICULARES",
+    "imagen": "https://drive.google.com/uc?id=175MEq5pFVGvt_IzDcoXyc1vYbTAw7R92",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "195",
-    "nombre": "COMPRESOR DE AIRE EL?CTRICO SEIS",
-    "precio": 75850,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "95",
+    "nombre": "AURICULARES LABUBU RGB 906C",
+    "precio": 28800,
+    "categoria": "AURICULARES",
+    "imagen": "https://drive.google.com/uc?id=1Z86nTwGWdHOhXyzv7D_r2DDRHVYEIECk",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "191",
-    "nombre": "ASPIRADORA INALAMBRICA ORYX OR-VC500",
-    "precio": 67650,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "348",
+    "nombre": "PARLANTE BLUETOOTH CHARGE MINI",
+    "precio": 13600,
+    "categoria": "PARLANTES",
+    "imagen": "https://drive.google.com/uc?id=1TsLel6-HB_jWmeJ7LFS7CE9VKbhES7f4",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "218",
-    "nombre": "SOPLADOR INALAMBRICO OR-WB01 500W",
-    "precio": 75850,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "550",
+    "nombre": "PARLANTE BT FANTASTIC QUALITY 6.5″ GTS-1191",
+    "precio": 23800,
+    "categoria": "PARLANTES",
+    "imagen": "https://drive.google.com/uc?id=197RJw4k0N2LL9d19mRzwt8vRG4sjkznX",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "219",
-    "nombre": "SOPLADOR PORT?TIL SUONO",
-    "precio": 67650,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "605",
+    "nombre": "PARLANTE OSO X-868",
+    "precio": 16000,
+    "categoria": "PARLANTES",
+    "imagen": "https://drive.google.com/uc?id=1g876_1-g8hRIHmua4yvICZMNQUhgJd6_",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "190",
-    "nombre": "AMOLADORA ANGULAR ORYX OR-AG115 780W",
-    "precio": 8732999999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "346",
+    "nombre": "HUMIFICADOR PARLANTE G C/BT T00K8",
+    "precio": 30400,
+    "categoria": "PARLANTES",
+    "imagen": "https://drive.google.com/uc?id=19DfeR1MjOAHK0DC656oQJ49e-TzV_BKY",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "582",
-    "nombre": "LLAVE TUBO X46 PCS LEGATUS",
-    "precio": 18450,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "547",
+    "nombre": "PARLANTE BLUETOOTH RS-2410 ROYALCELL 4X2",
+    "precio": 34400,
+    "categoria": "PARLANTES",
+    "imagen": "https://drive.google.com/uc?id=137c1gm0eP9FBGnvxm5EDqZyIyFpXdGwb",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "196",
-    "nombre": "HIDROLAVADORA 1200W ORYX",
-    "precio": 18859999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "584",
+    "nombre": "PARLANTE 4X2 RP-4408/4403 ROYALCELL",
+    "precio": 35200,
+    "categoria": "PARLANTES",
+    "imagen": "https://drive.google.com/uc?id=1E6-7r3l1Bbt5VMo6tx0q-MRxAAK0wTam",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "197",
-    "nombre": "HIDROLAVADORA INAL?MBRICA ORYX EL677",
-    "precio": 9942500000000000,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "553",
+    "nombre": "PARLANTE HONG KONG 6.5″",
+    "precio": 29900,
+    "categoria": "PARLANTES",
+    "imagen": "https://drive.google.com/uc?id=1uj-GxuIHECM0YZRS7ReKMR6_PrVnA_AL",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "201",
-    "nombre": "LLAVE TUBO K1073 52 PCS ZHONGXIN",
-    "precio": 37925,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "619",
+    "nombre": "PARLANTE ORYX 1333 6,5 RIO 10W",
+    "precio": 28800,
+    "categoria": "PARLANTES",
+    "imagen": "https://drive.google.com/uc?id=1Ri8u7J4LqZPRP-zurp6TdzJdWtJsxGi9",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "204",
-    "nombre": "MALETIN DE HERRAMIENTAS KANJI 499 EN 1",
-    "precio": 323900,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "559",
+    "nombre": "PARLANTE ORYX 12″ URANO",
+    "precio": 121000,
+    "categoria": "PARLANTES",
+    "imagen": "https://drive.google.com/uc?id=16Fs4mAsevtOZLx3QWujRmV8x5pt7cCow",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "206",
-    "nombre": "MINI LLAVERO LINTERNA WS147",
-    "precio": 12094999999999998,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "551",
+    "nombre": "PARLANTE HARRISON ACID PLUS 12″",
+    "precio": 157600,
+    "categoria": "PARLANTES",
+    "imagen": "https://drive.google.com/uc?id=19vJTz86pTrRdr6l2MNusbE5Hs1WDrC3C",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "563",
-    "nombre": "PINZA UNIVERSAL 8?MANGO NAEANJA C/NEGRO",
-    "precio": 7174999999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "552",
+    "nombre": "PARLANTE HARRISON UP TOWN 2X10″",
+    "precio": 232000,
+    "categoria": "PARLANTES",
+    "imagen": "https://drive.google.com/uc?id=1kbes8XA5k6C92yPubQjUy9C9_rfOwz2c",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "207",
-    "nombre": "PISTOLA DE PINTAR",
-    "precio": 6129499999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "562",
+    "nombre": "PARLANTE TORRE SUONO 10″X2",
+    "precio": 384000,
+    "categoria": "PARLANTES",
+    "imagen": "https://drive.google.com/uc?id=1Gk6lTg5rPtWsCeYWDGPmkU0QpMbIgzcF",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "209",
-    "nombre": "SET AMOLADORA+TALADRO ORYX OR-A125/508",
-    "precio": 18859999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "560",
+    "nombre": "PARLANTE P/AUTO 6X9 VIAS OR-1055 1200 W",
+    "precio": 60800,
+    "categoria": "PARLANTES",
+    "imagen": "https://drive.google.com/uc?id=1eIBxNZz2ri6zqHATPmf5WNKQqzwGd-2r",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "211",
-    "nombre": "SET DE DESTORNILLADOR X7 PIEZAS AZUL",
-    "precio": 10864999999999998,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "369",
+    "nombre": "STEREO P/AUTO DESMONTABLE 1788E",
+    "precio": 31200,
+    "categoria": "PARLANTES",
+    "imagen": "https://drive.google.com/uc?id=1eotPJXULE59oT6KHJeAze3MftSqRSwsr",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "212",
-    "nombre": "SET DE HERRAMIENTAS X40 PCS LEGATUS",
-    "precio": 15374999999999998,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "89",
+    "nombre": "STEREO FIJO SUONO INF0001",
+    "precio": 17900,
+    "categoria": "AUDIO Y VIDEO",
+    "imagen": "https://drive.google.com/uc?id=19RBoJS1Cspm07XaLLFhSkkUNjdupR0QE",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "214",
-    "nombre": "SET JUEGO DE LLAVES TUBOS 108 PCS ORYX",
-    "precio": 11070000000000000,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "90",
+    "nombre": "STEREO P/AUTO C/PANTALLACAR MP5 PL AYER",
+    "precio": 76800,
+    "categoria": "AUDIO Y VIDEO",
+    "imagen": "https://drive.google.com/uc?id=1Wco7esRifdxRbGZT-jcSG8lCX3M9YZc7",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "215",
-    "nombre": "SET TORNO OR-TOR01 ORYX",
-    "precio": 11377500000000000,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "289",
+    "nombre": "LAMPARA LED AUTO MU339",
+    "precio": 9000,
+    "categoria": "ILUMINACIÓN",
+    "imagen": "https://drive.google.com/uc?id=1CvtiktXvMXQz0qAbY0OBwodLTjp1qfth",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "216",
-    "nombre": "SIERRA CIRCULAR 1500W CSL1500-8",
-    "precio": 18182065,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "290",
+    "nombre": "LAMPARA LED DINO BJJ268-3",
+    "precio": 9000,
+    "categoria": "ILUMINACIÓN",
+    "imagen": "https://drive.google.com/uc?id=1ZEB0zB2tP9mrvzGYoDFYU8J2UJdit-sB",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "217",
-    "nombre": "SIERRA CIRCULAR ELECTRICA ORYX OR-1409",
-    "precio": 1432868,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "291",
+    "nombre": "LAMPARA LED MU350",
+    "precio": 9000,
+    "categoria": "ILUMINACIÓN",
+    "imagen": "https://drive.google.com/uc?id=1MHpCdm9XmFoZ9KsaG0XgtE18t3f4qKzR",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "677",
-    "nombre": "LINTERNA RECARGABLE TGX-702 19 LED",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "301",
+    "nombre": "LÁMPARA INFANTIL 268H",
+    "precio": 10100,
+    "categoria": "ILUMINACIÓN",
+    "imagen": "https://drive.google.com/uc?id=1CwG0PlEhzJngVp_21ZWF0ZhawFMvcqhd",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "678",
-    "nombre": "CARGADOR P/AUTO SAMSUNG 18W",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "302",
+    "nombre": "LÁMPARA INFANTIL 348H",
+    "precio": 10100,
+    "categoria": "ILUMINACIÓN",
+    "imagen": "https://drive.google.com/uc?id=1ASYp8u5dqJ9Pl8RNXFC-fZoTQiS5ww8T",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "679",
-    "nombre": "RAQUETA MATA MOSQUITO BLANCA",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "304",
+    "nombre": "LÁMPARA INFANTIL 356E",
+    "precio": 10100,
+    "categoria": "ILUMINACIÓN",
+    "imagen": "https://drive.google.com/uc?id=1kYKrls39Ckfdk_gQtrjiWLHV4HVzRuNa",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "680",
-    "nombre": "RAQUETA MATA MOSQUITOS USB COLORES",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "305",
+    "nombre": "LÁMPARAS INFANTILES 343 H/G",
+    "precio": 13800,
+    "categoria": "ILUMINACIÓN",
+    "imagen": "https://drive.google.com/uc?id=12GXBseDTkYowVSGikZdrsAmmZzzkeQk0",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "681",
-    "nombre": "PELOTA DE FUTBOL NUMERO 3 MESSI",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "541",
+    "nombre": "LAMPARA DE ESCRITORIO OR-L01",
+    "precio": 23200,
+    "categoria": "ILUMINACIÓN",
+    "imagen": "https://drive.google.com/uc?id=1fUoKY6dPsa-ece-SuW-0pwMY29CqNXOs",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "682",
-    "nombre": "VENTILADOR 18? 3 EN 1 IBEK 100W",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "234",
+    "nombre": "LAMPARA DE ESCRITORIO PINZA OR-19 7435",
+    "precio": 8500,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1UJPRw5HfcIRcgquekU6DKO0Z6ViCbLxj",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "659",
-    "nombre": "Slime magic clay caja x6 SLI10",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "87",
+    "nombre": "PROYECTOR ASTRONAUTA S-1239",
+    "precio": 28000,
+    "categoria": "AUDIO Y VIDEO",
+    "imagen": "https://drive.google.com/uc?id=1aRbmDRX4QgT15MzxB9mcb2z8ocvaSeso",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "633",
-    "nombre": "BOTELLA LICUADORA MINI JUICE",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "79",
+    "nombre": "ESFERA DE CRISTAL 8CM DE DIAMETRO",
+    "precio": 9400,
+    "categoria": "ILUMINACIÓN",
+    "imagen": "https://drive.google.com/uc?id=1RkGg58P-LrJo5L36kSGYNV3X6c9i8-TP",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "635",
-    "nombre": "CARGADOR PORTATIL ROYALCELL RPB-101",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "539",
+    "nombre": "ESFERAS DE CRISTAL 6 CM DE DIAMETRO",
+    "precio": 5600,
+    "categoria": "ILUMINACIÓN",
+    "imagen": "https://drive.google.com/uc?id=1ZgSdVRnxT0p0pFGVJ5-49R9AdO4qP7dI",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "637",
-    "nombre": "CARGADOR UNIVERSAL DE NOTEBOOK ORYX 120W",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "233",
+    "nombre": "HUMIDIFICADOR CAPIBARA",
+    "precio": 9500,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1Vn3GF3DCG0-8amOu2OEwtHVcLCvK4Wuz",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "638",
-    "nombre": "CINTA CORRECTOR 6M BH-106",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "58",
+    "nombre": "LAMPARA DE CRISTAL Y MADERA 6CM",
+    "precio": 6200,
+    "categoria": "ILUMINACIÓN",
+    "imagen": "https://drive.google.com/uc?id=1Wa_NZ--_Lh83JiJhQLpCfJPcukHmj05z",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "640",
-    "nombre": "DRONE PROMAX CON CONTROL Y PANTALLA JS-7212/13",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "540",
+    "nombre": "HUMIFICADOR PLANET SX-E323A",
+    "precio": 13600,
+    "categoria": "ILUMINACIÓN",
+    "imagen": "https://drive.google.com/uc?id=1oRuONOrLvR6GBtmaGdhewpC9WCs56Ftt",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "641",
-    "nombre": "HELLOKITYY AV56",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "292",
+    "nombre": "LAMPARA LUNA SUONO 75-SUO082",
+    "precio": 23500,
+    "categoria": "ILUMINACIÓN",
+    "imagen": "https://drive.google.com/uc?id=1PSJ5L5DIT9lZYw2EZZxx-3KYCpJ8BRwA",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "642",
-    "nombre": "JOYSTICK PS3 GENERICO LISO",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "311",
+    "nombre": "PROYECTOR CON PARLANTE ASTRONAUTA",
+    "precio": 33300,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=16CADXL5Em6im7QBTXFNulBmulKcPOVcb",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "643",
-    "nombre": "JUEGO DE GEOMETRIA X3 PCS",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "293",
+    "nombre": "LAMPARA RGB WIFI C/CONTROL TUYA",
+    "precio": 41400,
+    "categoria": "ILUMINACIÓN",
+    "imagen": "https://drive.google.com/uc?id=1JZC-XUw-5ov1lkQpAv5bv2JN2rWRkt42",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "644",
-    "nombre": "KIT DE GEOMETR?A X4",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "618",
+    "nombre": "LAMPARA SOLAR 3 EN 1 HB 9707B-2",
+    "precio": 12600,
+    "categoria": "ILUMINACIÓN",
+    "imagen": "https://drive.google.com/uc?id=1ojwn1rW6OagArIdjqbuPZSuLEAWxohle",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "645",
-    "nombre": "LABUBU SQU9",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "307",
+    "nombre": "PANEL LED PARA CELULAR AY-96JSSR",
+    "precio": 12800,
+    "categoria": "ILUMINACIÓN",
+    "imagen": "https://drive.google.com/uc?id=1FcMHkOmUiZZaM8uDDGXzIIU3nkKB6FSC",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "646",
-    "nombre": "KIT DE GEOMETRIA X7 PIEZAS",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "309",
+    "nombre": "PROTON 54 LUCES LED RGB CON CONTROL",
+    "precio": 31200,
+    "categoria": "ILUMINACIÓN",
+    "imagen": "https://drive.google.com/uc?id=1wN0V_DKbQarr2J3pnaD3m2vRQaKf7DKq",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "648",
-    "nombre": "LINTERNA MINERA XY-501",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "312",
+    "nombre": "REFLECTOR LED PORTATIL PANEL RL-900",
+    "precio": 33600,
+    "categoria": "ILUMINACIÓN",
+    "imagen": "https://drive.google.com/uc?id=1tOIL8KcoUQk8daQPfhMwHEl6uSwuzGH8",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "649",
-    "nombre": "NEBULIZADOR JSL-W302",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "577",
+    "nombre": "ARO DE LUZ 18′ 45CM RGB C/ TRIPODE AS02",
+    "precio": 67200,
+    "categoria": "ILUMINACIÓN",
+    "imagen": "https://drive.google.com/uc?id=1hqoO9w0Z52q19vSFsF2t6SFfLXOsDTtG",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "650",
-    "nombre": "PARLANTE JUNGLE 8? 15W ORYX",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "313",
+    "nombre": "REFLECTOR LED PORTATIL PANEL RLRL-24",
+    "precio": 65600,
+    "categoria": "ILUMINACIÓN",
+    "imagen": "https://drive.google.com/uc?id=1hy11v_EoCX_0JDlnl6wR8pbDD47ugo22",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "652",
-    "nombre": "PAVA EL?CTRICA 2L ORYX OSR 9145",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "230",
+    "nombre": "FOCO ENERGY SAVING BOMBILLA 8W A60-8",
+    "precio": 4000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1YPPLpSKj_dCs5VBOKqHjOnOEhiPl8xa0",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "653",
-    "nombre": "PELOTA WATER BAL ASTRONAUTA",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "232",
+    "nombre": "GUIRNALDA X100 LUZ AZUL DA-16",
+    "precio": 4600,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1PpJPMeryo3qsbKsC06mjt3IKPrNX8q6E",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "654",
-    "nombre": "PELOTA WATER BAL PRINCESAS X12U",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "295",
+    "nombre": "LASER RECARGABLE LAMBO TECH 03-3A",
+    "precio": 8600,
+    "categoria": "ILUMINACIÓN",
+    "imagen": "https://drive.google.com/uc?id=1itmoWy9xT0o130ecDTbgx3ctVUa9xQ3t",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "655",
-    "nombre": "PELOTA WATER BALL CONEJO X12",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "85",
+    "nombre": "TIRA DE LUCES LED X600 CALIDA 20M",
+    "precio": 28000,
+    "categoria": "ILUMINACIÓN",
+    "imagen": "https://drive.google.com/uc?id=1X7zZrJqzjLqc_jRhh_-NCaaH9bCtMn_Q",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "656",
-    "nombre": "RELOJ SMART WATCH N10 UlTRA 7 EN 1",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "314",
+    "nombre": "TIRA DE LUZ NEON VARIOS COLORES",
+    "precio": 13900,
+    "categoria": "ILUMINACIÓN",
+    "imagen": "https://drive.google.com/uc?id=1APY3xhjvbkvu30o4ZdQlgFf_hZVEL4XY",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "657",
-    "nombre": "RELOJ SMART WATCH S10 ULTRA 7 EN 1",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "297",
+    "nombre": "LINTERNA RECARGABLE P50",
+    "precio": 17400,
+    "categoria": "ILUMINACIÓN",
+    "imagen": "https://drive.google.com/uc?id=1tMgxBC2Uz9KVCRjC5ewtRPpJRfKQoCTg",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "658",
-    "nombre": "SATEN ANTIADHERENTE ORYX 26CM",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "299",
+    "nombre": "LINTERNA RECARGABLE TOOLS ORYX OR125A/03",
+    "precio": 23800,
+    "categoria": "ILUMINACIÓN",
+    "imagen": "https://drive.google.com/uc?id=1sZ-OW3V9v9JvaobudeG-BAwWYgUd_T-D",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "660",
-    "nombre": "Slime magic clay caja x6 SLI8",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "661",
-    "nombre": "Slime magic clay grande caja x6 SLI19",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "662",
-    "nombre": "Slime magic clay grande caja x6 SLI22",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "663",
-    "nombre": "SOL SQU8",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "664",
-    "nombre": "SOPORTE ALUMINIO DE CELULAR 360",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "665",
-    "nombre": "Squishy KITTY puffer ball caja x 12u",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "666",
-    "nombre": "Squishy KUROMI puffer ball caja x 12u",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "667",
-    "nombre": "Squishy puffer ball caja x 12u",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "668",
-    "nombre": "Squishy UNICORNIO puffer ball caja x 12u SQU15",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "669",
-    "nombre": "TEMPLADO 9D ROYAL CELL",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "670",
-    "nombre": "TIRA DE LUZ LED LEGATUS LPLO4OA 24W",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "672",
-    "nombre": "UNICORNIO SQU7 X12",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "674",
-    "nombre": "VASOS T?RMICOS 500ML CON SENSOR DE TEMPERATURA",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "675",
-    "nombre": "VENTILADOR INDUSTRIAL TELEFUNKEN 2 EN 1 24? 150W",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "676",
-    "nombre": "VENTILADOR PORTATIL CON PINZA",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "651",
-    "nombre": "PARLANTE PORT?TIL TG 113",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "166",
-    "nombre": "OLLA ELECTRICA LEGATUS 5 LITROS",
-    "precio": 67445,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "249",
-    "nombre": "MOPA CON BALDE CENTRIFUGADOR 2 EN 1",
-    "precio": 4509999999999999,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "210",
-    "nombre": "SET DE DESTORNILLADOR X2 SCREWDRIVER",
-    "precio": 29724999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
-    "stock": 0
-  },
-  {
-    "sku": "300",
+    "codigo": "300",
     "nombre": "LUZ DE EMERGENCIA 60 LED MS7006M/OR-60L",
-    "precio": 21114999999999996,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "precio": 16500,
+    "categoria": "ILUMINACIÓN",
+    "imagen": "https://drive.google.com/uc?id=1oa57XD27ba6bn-A9VHNFGxLBGqToLd_p",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "631",
-    "nombre": "BALANZA DE BA?O ORYX OR-2025R 180K",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "203",
+    "nombre": "LUZ DE EMERGENCIA 90 LED",
+    "precio": 19700,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1vsFmZglx1qxcsfJBBoQaGhdnBvTQ28Tp",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "634",
-    "nombre": "CARGADOR ROYALCELL CABLE +C ABEZAL 2 entradas 55w USB Y TIPO C",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "384",
+    "nombre": "CARTEL ‘ABIERTO’",
+    "precio": 18400,
+    "categoria": "TECNOLOGIA",
+    "imagen": "https://drive.google.com/uc?id=1f-hr9Azv-ej7XwAyT8HuJGA3VK80NmGL",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "639",
-    "nombre": "HELADERA TELEFUNKEN 140L",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "383",
+    "nombre": "CARTEL LED ‘KIOSKO’",
+    "precio": 18400,
+    "categoria": "TECNOLOGIA",
+    "imagen": "https://drive.google.com/uc?id=1ekErEu6DAm76GH1hUUA0jV7y2toGfFqi",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "109",
+    "codigo": "276",
+    "nombre": "TV BOX MX9 4K 256 GB MEMORIA",
+    "precio": 26900,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=14Cu809cxeIxJiaz5a3ruDcRHPCLW0TCk",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "370",
+    "nombre": "CAMARA DE SEGURIDAD 2 ANTENAS OR-101",
+    "precio": 37400,
+    "categoria": "SEGURIDAD",
+    "imagen": "https://drive.google.com/uc?id=14Q0cEU2U5ICfJQwsHbcLtp_AWEi5IgR6",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "225",
+    "nombre": "CAMARA DE SEGURIDAD X8 TSL-1202",
+    "precio": 337300,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1Taap2jizcXpKUjEkRuhi1RvZFmeqbqok",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "239",
+    "nombre": "MAQUINA CONTADORA DE BILLETES M21E",
+    "precio": 122400,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=19Yi5vkEGIsnBl-_aXGRtk9pgoCY3iTt1",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "386",
+    "nombre": "PROYECTOR SMART CON ANDROID LEGATUS LPY851",
+    "precio": 91200,
+    "categoria": "TECNOLOGIA",
+    "imagen": "https://drive.google.com/uc?id=1LcSKQqLROfJV8eP5CZC8_57xQW73EUrC",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "572",
+    "nombre": "SOPORTE PARA TV RECLINABLE 32″- 55″",
+    "precio": 11500,
+    "categoria": "SOPORTE TV",
+    "imagen": "https://drive.google.com/uc?id=1fyDXvlKZ56SXAlTOD8vTVxzyuhn1KGTn",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "380",
+    "nombre": "SOPORTE TV FIJO TV 1442",
+    "precio": 5400,
+    "categoria": "SOPORTE TV",
+    "imagen": "https://drive.google.com/uc?id=1TkFYmLVb0QpokklN-BGDoQdGjJCTA8wV",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "186",
+    "nombre": "CABLE V3 A USB / PS3",
+    "precio": 1200,
+    "categoria": "TECNOLOGIA",
+    "imagen": "https://drive.google.com/uc?id=1zZ0FWDvyuIUP4w02Vaqxt2EvzNu8dKB_",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "181",
+    "nombre": "CONSOLA GAME STICK M8 2.4G WIRELESS",
+    "precio": 43200,
+    "categoria": "GAMER",
+    "imagen": "https://drive.google.com/uc?id=1bo2sDMzK-Y8M4LBpS585CSqv_1YhdRKI",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "188",
+    "nombre": "JOYSTICK PARA PS2 ANALÓGICO",
+    "precio": 11000,
+    "categoria": "GAMER",
+    "imagen": "https://drive.google.com/uc?id=1j39ejjWyd-aICCGZZfIR6MsEdYyR8ZxL",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "183",
+    "nombre": "JOYSTICK XBOX 360",
+    "precio": 30400,
+    "categoria": "GAMER",
+    "imagen": "https://drive.google.com/uc?id=1Gw1k0y3PIo4dzuueZy8brGWr1hxXYu2s",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "184",
+    "nombre": "MINI CONSOLA GAMER SUONO 84-SUO082",
+    "precio": 25600,
+    "categoria": "GAMER",
+    "imagen": "https://drive.google.com/uc?id=1nfv5cxfbyrewTdCvbknDOP3rQNArNsTM",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "382",
+    "nombre": "CAMARA WEB MINI PACKING AF216054",
+    "precio": 2500,
+    "categoria": "TECNOLOGIA",
+    "imagen": "https://drive.google.com/uc?id=1UfKezLJ3qQ1e_3IjFJApmyQ5WMQHDwkZ",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "189",
+    "nombre": "MOUSE CON CABLE LEGATUS LM-G212-E",
+    "precio": 4500,
+    "categoria": "GAMER",
+    "imagen": "https://drive.google.com/uc?id=1ksBKxCAVKo6gVfegQQaf2iEv1962vFCs",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "339",
+    "nombre": "MOUSE CON CABLE LEGATUS LM-G211-E",
+    "precio": 4500,
+    "categoria": "MOUSE Y TECLADO",
+    "imagen": "https://drive.google.com/uc?id=1YSCEjAUSuE383qZ0dVVH1xkOyd5bBJM4",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "185",
+    "nombre": "MOUSE INALAMBRICO RC RMG 226-2",
+    "precio": 6400,
+    "categoria": "GAMER",
+    "imagen": "https://drive.google.com/uc?id=1sp74d4a9pycViqEiGZDJxcPSm_jipLt0",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "340",
+    "nombre": "MOUSE INALAMBRICO RC RM-G136-2",
+    "precio": 6400,
+    "categoria": "MOUSE Y TECLADO",
+    "imagen": "https://drive.google.com/uc?id=1PaVfjIiH3Sct91_RT-nmVFTmwrTGTySn",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "341",
+    "nombre": "MOUSE INALAMBRICO RC RM-G211-2",
+    "precio": 6400,
+    "categoria": "MOUSE Y TECLADO",
+    "imagen": "https://drive.google.com/uc?id=11ntDduyyJxdReyxIZ6__tnkWXbDqgYcn",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "342",
+    "nombre": "MOUSE INALAMBRICO WEIB 2.4G",
+    "precio": 5600,
+    "categoria": "MOUSE Y TECLADO",
+    "imagen": "https://drive.google.com/uc?id=1ZGPPJllSTwS3F0qLvvux9o3qYfrS2A0L",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "343",
+    "nombre": "TECLADO + MOUSE CON CABLE A-1016",
+    "precio": 20500,
+    "categoria": "MOUSE Y TECLADO",
+    "imagen": "https://drive.google.com/uc?id=1O6pR884uoG2vBHU9ShP1rBgCQOUEGL-5",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "344",
+    "nombre": "TECLADO + MOUSE INALAMBRICO A-1012",
+    "precio": 24800,
+    "categoria": "MOUSE Y TECLADO",
+    "imagen": "https://drive.google.com/uc?id=1t9kfcRa0GCL49141MwJYEuEZoA7eRSgi",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "387",
+    "nombre": "REPETIDOR WIFI LEGATUS",
+    "precio": 19000,
+    "categoria": "TECNOLOGIA",
+    "imagen": "https://drive.google.com/uc?id=163jak-wiiLSFbQOljWxL4TDPs2RxURuZ",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "263",
+    "nombre": "ROUTER LEGATUS LY-UNT300M",
+    "precio": 27000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1jazRP638TUR2Dt0QBqfrvgYXTf7nqQUz",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "315",
+    "nombre": "AMETRALLADORA HIDROGEL G360/G950/G918",
+    "precio": 36800,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=17y5NoSsergmx3aGlyDz4340SksJ4geOJ",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "626",
+    "nombre": "PISTOLA DE AGUA TURBO RECARGABLE",
+    "precio": 43200,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1O2WP0p004u0i0pXLTFuES8oVm7TAmuSM",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "320",
+    "nombre": "CONSOLA PUSH C/LUZ Y MUSICA WA49",
+    "precio": 7200,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1NSyXINIBQc1WSgw_okLoRxX9hViRL7T_",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "321",
+    "nombre": "CONSOLA PUSH RUSSIA/CONSOLA BAILE",
+    "precio": 4200,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=11y4Q7uLd4XSviMKbjs4QoF7Ko5Ph9UXK",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "323",
+    "nombre": "LABUBU BAILARIN CON LUZ WT-19",
+    "precio": 20600,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1ssryZtqisEAToaVX0Fj5Xcb9SoYEByPx",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "324",
+    "nombre": "MANTA ALMOHADA CAPIBARA",
+    "precio": 29600,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1NCUTbAXTrrR4O91fS1kUcadZWstmwv-B",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "325",
+    "nombre": "MAQUINA PARA HACER TRENZAS OSR GBH01",
+    "precio": 43200,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1fYC3NEenhMbz616rnkJLHDko5NZQZ5Px",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "326",
+    "nombre": "MONOPATIN DE COLORES S2352",
+    "precio": 50400,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=16Li3BZxrT-HTJt1luqqp288Twiv43I-S",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "327",
+    "nombre": "MONOPATIN GRAFITTI",
+    "precio": 56000,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1o85RYGyfEPBCwWtyEGTSlGDaxYSHQeTa",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "328",
+    "nombre": "MOTO CON CONTROL REMOTO RCK04 CX-82",
+    "precio": 56000,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=11C6Wk7Z6v-nQpYj5M3alAtVtAUqlsL42",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "596",
+    "nombre": "JUGUETE CAPIBARA BAILARIN",
+    "precio": 12000,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1UZFaDCC3dErp0T7TrcsBSwTOz75aMUvF",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "630",
+    "nombre": "PIZARRA DIGITAL 8,5′",
+    "precio": 3300,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=18VwpdDr_qkhfo6YZSELwxVTcBSVMj-fM",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "629",
+    "nombre": "PIZARRA MAGICA INFANTIL 9″",
+    "precio": 6700,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1AXr2IuwILj7DQYxG573S-vcdAZdhPBnN",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "566",
+    "nombre": "PIZARRA DIGITAL 9″ MULTICOLOR",
+    "precio": 5600,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1iulvrRb9VfWHgkvMEHMpMeM1bVZy_sc7",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "628",
+    "nombre": "PIZARRA MAGICA DE 12″ SEIS",
+    "precio": 13600,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1Slg0TN_9f7WKnkXu2qS3wSbprVUkGhl7",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "332",
+    "nombre": "PULSERA LABUBU CON LUZ Y SONIDO",
+    "precio": 10400,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1DEWgKgKYQSEKaMSetnUkbokXuc9lf5d-",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "333",
+    "nombre": "PULSERA LABUBU CON LUZ, MOVIMIENTO Y SONIDO",
+    "precio": 12700,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1B5PpspAU4hHgye71Y9eh3ZraHbe1NeNW",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "334",
+    "nombre": "RELOJ MACARON DE COLORES JK-4308",
+    "precio": 8200,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1kz1j6qpY6c6P6VuWKI_gr2Hgmm3Yc9eI",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "335",
+    "nombre": "RELOJ PROYECTOR LABUBU/CAPIBARA",
+    "precio": 9000,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1-8M9qQFZsO3ME94rqqp0hM0Ky0TAhRFk",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "336",
+    "nombre": "SET DE BOXEO",
+    "precio": 88000,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1Wa-yf60UpVQd_dgZy7h8nBRHNZdmARxh",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "338",
+    "nombre": "TANQUE CON CONTROL REMOTO RCK01 CX-100",
+    "precio": 56000,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=10zoR6UYnSaYCIrABdDMX3qrls8Tr0hQc",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "318",
+    "nombre": "BALANCE CAR CAPIBARA WT-17",
+    "precio": 20600,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1RK9OlsSVsKGnG3J-VVoCmCeUNCqKPWHZ",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "389",
+    "nombre": "MOCHILA CAPIBARA S-2688",
+    "precio": 18400,
+    "categoria": "UTILES ESCOLARES",
+    "imagen": "https://drive.google.com/uc?id=1dm5Ckd8c-5a_PLR1EzEb7J0KWCuwfpBG",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "390",
+    "nombre": "MOCHILA INFANTIL SUONO",
+    "precio": 20000,
+    "categoria": "UTILES ESCOLARES",
+    "imagen": "https://drive.google.com/uc?id=1C-ekS3ECjZ2P3oe-vjfb5W1RY16mgpkP",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "391",
+    "nombre": "MOCHILA PELUCHE CAPIBARA CP-3167",
+    "precio": 18400,
+    "categoria": "UTILES ESCOLARES",
+    "imagen": "https://drive.google.com/uc?id=1cMJfXIcQOb484j6ro6A3hmU3PA898eXQ",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "392",
+    "nombre": "MOCHILA RUNNING PL POWER AV24668",
+    "precio": 10400,
+    "categoria": "UTILES ESCOLARES",
+    "imagen": "https://drive.google.com/uc?id=186pRoTST8iC-EICoRB8XQ7aNrBnvTow1",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "393",
+    "nombre": "MOCHILA SUONO WATERPROOF ACC0142",
+    "precio": 36600,
+    "categoria": "UTILES ESCOLARES",
+    "imagen": "https://drive.google.com/uc?id=1bgVNb0ld8_8VQ50iocBBznKSorcf3KWo",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "394",
+    "nombre": "SACAPUNTAS DOBLE SHARPENER X60 UNIDADES",
+    "precio": 31800,
+    "categoria": "UTILES ESCOLARES",
+    "imagen": "https://drive.google.com/uc?id=1orYfB0WBdWLVuFzPM9OJyrz8S-w8F5nF",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "395",
+    "nombre": "SET LAPICERA C/GLITTER X6 G013-6",
+    "precio": 1900,
+    "categoria": "UTILES ESCOLARES",
+    "imagen": "https://drive.google.com/uc?id=1tL1abMTnC7gHzzAcpxRJ4_o-hfUb697P",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "396",
+    "nombre": "SET LAPICERA C/GLITTER X8 G013-8",
+    "precio": 1600,
+    "categoria": "UTILES ESCOLARES",
+    "imagen": "https://drive.google.com/uc?id=1ZbFE3jUlZ_EzYzPvSPMFoERU93ewHEKf",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "398",
+    "nombre": "SET LAPICERA COLOR PASTEL X6 G014-6",
+    "precio": 1900,
+    "categoria": "UTILES ESCOLARES",
+    "imagen": "https://drive.google.com/uc?id=1FjGZv-4c3phY9PFFV236rEtv1l0ovA5_",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "620",
+    "nombre": "MARCADOR DOBLE PUNTA TOUCH 48 PCS",
+    "precio": 13600,
+    "categoria": "UTILES ESCOLARES",
+    "imagen": "https://drive.google.com/uc?id=1fX2PcDsbDDiDVGezZaLxdDCHjCOYHIfV",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "597",
+    "nombre": "MARCADORES DOBLE PUNTA TOUCH 80 PCS",
+    "precio": 22400,
+    "categoria": "UTILES ESCOLARES",
+    "imagen": "https://drive.google.com/uc?id=1MhF4F3OZpq7NU29kBL13hVFGKEN5daI_",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "96",
+    "nombre": "CABINA DE UÑAS 36LED 120W LEGATUS LSU102",
+    "precio": 33600,
+    "categoria": "BELLEZA",
+    "imagen": "https://drive.google.com/uc?id=1vnk_yD_i0usM5HiGKaPX2glei-Ue-fh2",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "84",
+    "nombre": "PELUCHE MAS MANTA LABUBU",
+    "precio": 34400,
+    "categoria": "ARTICULOS DE TEMPORADA",
+    "imagen": "https://drive.google.com/uc?id=17Ejqb18ZlL7YK4dOR4ZhIJ16SlfJP0aV",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "77",
+    "nombre": "MOCHILA PARA MASCOTAS NEGRA ACRILICA",
+    "precio": 24000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1ftA9EI0_0usd-Ai5GTBA6j1ELhcArClt",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "78",
+    "nombre": "MOCHILA TRANSPORTADORA DE MASCOTAS HELLO CAT",
+    "precio": 20500,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1Cd91TtR7qXvt__Xq5yMfLh7LggxDQ-dd",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "97",
+    "nombre": "CEPILLO 4 EN 1 ORYX WT-601",
+    "precio": 35200,
+    "categoria": "BELLEZA",
+    "imagen": "https://drive.google.com/uc?id=1M3YaxzgHf1ymvx7uyShTP2JvcPuwnQaY",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "98",
+    "nombre": "CEPILLO HOT AIR 5 EN 1 YX-818/ OR-1211",
+    "precio": 32800,
+    "categoria": "BELLEZA",
+    "imagen": "https://drive.google.com/uc?id=17BIR6ZV2j7luDGndnb-9Cj9CIFlvQbIi",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "103",
+    "nombre": "CORTA PELO ORYX DL-1509/1519/1520",
+    "precio": 31200,
+    "categoria": "BELLEZA",
+    "imagen": "https://drive.google.com/uc?id=1xjF9LBD2k-YXgueIz0Qs9TawbXeFE8oe",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "104",
+    "nombre": "CORTA PELO T10 VACUUM TRIMER",
+    "precio": 40000,
+    "categoria": "BELLEZA",
+    "imagen": "https://drive.google.com/uc?id=1B6L9B3_I3MKIGnMCplVrefQPiwPqYtIj",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "105",
+    "nombre": "CORTA PELO VINTAGE BUDA/DRAGON DL1517/1517",
+    "precio": 14900,
+    "categoria": "BELLEZA",
+    "imagen": "https://drive.google.com/uc?id=1DxmtjGDP53Fpdlno3SN3jXu_pQNnqfQa",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "106",
+    "nombre": "CORTA PELO VINTAGE T9 PLASTIC DL-1503AB1",
+    "precio": 6100,
+    "categoria": "BELLEZA",
+    "imagen": "https://drive.google.com/uc?id=1lDnolNLtWgAVF7wbv8rDhzdxeN8sEnZL",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "108",
+    "nombre": "DEPILADORA 4 EN 1 DL-6043",
+    "precio": 27200,
+    "categoria": "BELLEZA",
+    "imagen": "https://drive.google.com/uc?id=1SCEE68SqiW3pTGeTOMIRfXPTXiRV0Mia",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "581",
+    "nombre": "DEPILADORA FACIAL RECARGABLE",
+    "precio": 8800,
+    "categoria": "BELLEZA",
+    "imagen": "https://drive.google.com/uc?id=1tkNElYZCgFIrwbo5_AIaKJC22jkTF9lM",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "109",
     "nombre": "ESPEJO DE MAQUILLAJE CON LUZ LED SUONO",
-    "precio": 38745,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "precio": 30200,
+    "categoria": "BELLEZA",
+    "imagen": "https://drive.google.com/uc?id=1pjTk1gRzOrY5Bp0MenjByDpbQ787UfOe",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "686",
-    "nombre": "PARLANTE BOCINA RGB 3? DE COLORES",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "110",
+    "nombre": "LIMPIADOR ELÉCTRICO DE BROCHAS",
+    "precio": 7500,
+    "categoria": "BELLEZA",
+    "imagen": "https://drive.google.com/uc?id=109PntNhz0OI2CBgjfjai69K3Y04RgsuY",
+    "estado": "DISPONIBLE",
     "stock": 0
   },
   {
-    "sku": "689",
-    "nombre": "PARLANTE PORTATIL RGB 3? XM-129",
-    "precio": 0,
-    "imagen": "img/placeholder.png",
-    "estado": "A PEDIDO",
+    "codigo": "111",
+    "nombre": "MASAJEADOR CERVICAL C/DEDO SUONO ELB0018",
+    "precio": 53600,
+    "categoria": "BELLEZA",
+    "imagen": "https://drive.google.com/uc?id=1EyOs3CPaYosDGrayz9xpAAr8wULVzn-q",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "112",
+    "nombre": "MASAJEADOR CERVICAL ORYX MJ-0225",
+    "precio": 61600,
+    "categoria": "BELLEZA",
+    "imagen": "https://drive.google.com/uc?id=1nO2GkcxwfPUaOFDE7lp70PWr9Bcaunok",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "113",
+    "nombre": "MASAJEADOR CERVICAL ORYX MJ-0229",
+    "precio": 56800,
+    "categoria": "BELLEZA",
+    "imagen": "https://drive.google.com/uc?id=1cgQVV1lEIVd5pD41l9XsDqqXAFCaFFUx",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "114",
+    "nombre": "MASAJEADOR VIBRADOR MIMO 3 BRAZOS",
+    "precio": 3500,
+    "categoria": "BELLEZA",
+    "imagen": "https://drive.google.com/uc?id=1DnupUgzcTMKK6NT4i10jooy1ig6pOWSJ",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "116",
+    "nombre": "ORGANIZADOR DE COSMETICOS",
+    "precio": 18400,
+    "categoria": "BELLEZA",
+    "imagen": "https://drive.google.com/uc?id=1biUhXi2HuLEeu409_hAVAYQyFQ1v-9PY",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "117",
+    "nombre": "PISTOLA DE MASAJE CON MANGO EXTENSIBLE SEIS AV5256",
+    "precio": 36500,
+    "categoria": "BELLEZA",
+    "imagen": "https://drive.google.com/uc?id=11VSJkLrilOJbME2W2Xdq9xzz6K-VzHjx",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "118",
+    "nombre": "PLANCHITA BUCLERA PARA PELO ORYX",
+    "precio": 46200,
+    "categoria": "BELLEZA",
+    "imagen": "https://drive.google.com/uc?id=1AKO_YVKoJK-Eo20ccbsED1GQP_Wr8Zqm",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "119",
+    "nombre": "PLANCHITA DE PELO DL-5205",
+    "precio": 40000,
+    "categoria": "BELLEZA",
+    "imagen": "https://drive.google.com/uc?id=1GkaoM6qAuueh_BbMxtjXWCVzkOHYIXdI",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "120",
+    "nombre": "PLANCHITA P/PELO ORYX RECARGABLE ORCPP01",
+    "precio": 31800,
+    "categoria": "BELLEZA",
+    "imagen": "https://drive.google.com/uc?id=1p275_iz4dYd4u1lC6XiF1USqnhZAaA1V",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "568",
+    "nombre": "PLANCHITA P/PELO PRO NANO TITANIUM S1134",
+    "precio": 18900,
+    "categoria": "BELLEZA",
+    "imagen": "https://drive.google.com/uc?id=1KQO2N8rsovi1aaZbYDN7qj3KvnllvpwO",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "121",
+    "nombre": "PLANCHITA Y SECADOR ORYX 8948",
+    "precio": 35200,
+    "categoria": "BELLEZA",
+    "imagen": "https://drive.google.com/uc?id=1ttlahwVM4YjPMKkBle0RSMG60nweyJoG",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "122",
+    "nombre": "SECADOR DE PELO LEGATUS LSE100A",
+    "precio": 10200,
+    "categoria": "BELLEZA",
+    "imagen": "https://drive.google.com/uc?id=1q9nk2YNVh4XXSyttQg7QAuxpxbONTvlg",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "123",
+    "nombre": "SECADOR DE PELO LSE-101A 600W LEGATUS",
+    "precio": 13600,
+    "categoria": "BELLEZA",
+    "imagen": "https://drive.google.com/uc?id=1vcQMg8MTb3_Ru3e3VI_ZEmwreSYUtqSL",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "124",
+    "nombre": "SECADOR DE PELO LSE-122A 1200W LEGATUS",
+    "precio": 28000,
+    "categoria": "BELLEZA",
+    "imagen": "https://drive.google.com/uc?id=1V9MnLuNaW4kZPIa2Y6uZLPraMUSyJMyY",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "125",
+    "nombre": "SECADOR DE PELO ORYX OR-1651 1600W",
+    "precio": 55800,
+    "categoria": "BELLEZA",
+    "imagen": "https://drive.google.com/uc?id=16ydvfHNwy-d6icTB_YJDq4vwE7kATU5f",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "126",
+    "nombre": "SECADOR DE PELO ORYX OR-7015P 1400W",
+    "precio": 48000,
+    "categoria": "BELLEZA",
+    "imagen": "https://drive.google.com/uc?id=1qcrS25vs9mEmS9hQq_54qSUroM_xu15q",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "128",
+    "nombre": "TIRA DE FOCOS PARA ESPEJO VANITY MIRROR",
+    "precio": 13600,
+    "categoria": "BELLEZA",
+    "imagen": "https://drive.google.com/uc?id=1AATzHlvpRkri20dHnnNUktMpEpf7c8AB",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "142",
+    "nombre": "ANAFE DOBLE LEGATUS 2000W LAE203",
+    "precio": 36600,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1LHVjvS_smkoFSA1FLUq-86lvHyx25Sxp",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "222",
+    "nombre": "BALANZA DE BAÑO BLUETOOTH 180KG SEIS",
+    "precio": 15500,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1T-n2617EAILcvuHh0pUHEFHdtGnUR7Vu",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "537",
+    "nombre": "BALANZA PORTATIL SEIS AV-637/K24056",
+    "precio": 4600,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1OLkcMc7sFmLznkY8a8_cWGCxmQxYBqwW",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "146",
+    "nombre": "BATIDORA DE MANO ORYX 200W",
+    "precio": 31200,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1Bf4lrfInk6gVh81sQwHITFIIzpfzSN-i",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "147",
+    "nombre": "CAFETERA COFFEE MAKER VINTAGE 1,5L SUONO",
+    "precio": 200000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1Dg4VcreaaFN0Rd0xVbdZ59jK_izpRRhi",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "223",
+    "nombre": "CAFETERA ELECTRICA OR-12 1.2L",
+    "precio": 50400,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=19Sidu13UTb3R9zH-0PqqZnAFewaHuFac",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "148",
+    "nombre": "CAFETERA ESPRESSO VINTAGE ORYX 1,2L",
+    "precio": 232800,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1JkJUcPzpbb1roBdh6nXbkvz-fyhwpWtE",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "149",
+    "nombre": "CAFETERA ORYX 12 POCILLOS OR-13",
+    "precio": 44800,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1TL55qoMr8e5AkVVlM9d1sio50FaAgRfS",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "150",
+    "nombre": "CORTA PELO MASCOTAS LEGATUS",
+    "precio": 15800,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1lhTPHLaTjCShvkyJzuCvTrREyE7fUkyG",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "82",
+    "nombre": "FABRICA DE HELADOS",
+    "precio": 72800,
+    "categoria": "ARTICULOS DE TEMPORADA",
+    "imagen": "https://drive.google.com/uc?id=1Zs8rhBuBvKWp0LVoeL7PqSTfxA0MCpdG",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "153",
+    "nombre": "FABRICA DE PASTAS ORYX",
+    "precio": 57600,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1HoPK103RVJ2P5ZEddeUAGMI7Kpefmwsh",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "231",
+    "nombre": "FREIDORA DE AIRE WESTINGHOUSE WHAF405",
+    "precio": 80000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1t_D1VjNXrw-HR5Q5-QySWPiZbE9u3P0B",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "155",
+    "nombre": "GRIFERIA DE COCINA EXTENSIBLE MONOCOMANDO",
+    "precio": 31200,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1zisHK1HsfGq-dpFbeMOKIYNTPKM_FRU0",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "157",
+    "nombre": "JARRO ANTIADHERENTE ORYX 14 CM",
+    "precio": 18900,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1xfJaW0G-q-XuOVvaYZuQnpa4-uCYz92B",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "158",
+    "nombre": "JUGUERA ELECTRICA ORYX",
+    "precio": 110400,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=19S_URTNeEgyw7OgRxVsOCIzuygIaNPPe",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "159",
+    "nombre": "JUGUERA ELÉCTRICA SUONO 500W",
+    "precio": 93600,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1WHXcRGkQLomDpli4bOGYGmMGogCtT0Lt",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "160",
+    "nombre": "LICUADORA 1,5L ORYX OR-1004",
+    "precio": 74900,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1JJGEpNdDQsXy6shAb1lW7YIJw7nwS38G",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "236",
+    "nombre": "LONCHERA BENTO BOX LP-01/02/03",
+    "precio": 9100,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1nJILWdUNQNf4GelPbAZwHBZXn08FWjac",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "238",
+    "nombre": "LUNCHERA OSR S0374 700ML",
+    "precio": 13300,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=14z9cYQLYGpL_S2zD9z5QN5lDeqSktFP2",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "241",
+    "nombre": "MAQUINA DE COSER ORYX S0125/OM SM-505",
+    "precio": 76000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1G_fXG_8h9rw2zG-bW3wzXz2hao8dO1Zh",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "242",
+    "nombre": "MAQUINA DE CUPCAKES ORYX OR-C02",
+    "precio": 44000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1wwj-2rQ2zMMODrzZM-uaAbBCtkLRZva6",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "243",
+    "nombre": "MAQUINA DE DONAS ORYX OR5002",
+    "precio": 55200,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1QtHa-3D3yr8SUMrEs_2_bEgoobZ1TM8q",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "244",
+    "nombre": "MAQUINA DE GALLETAS OR-BIM01",
+    "precio": 60600,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1PaDPyeh83dDOM9mSLFnExWCp9QRT2OF5",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "161",
+    "nombre": "MAQUINA DE HAMBURGUESAS ORYX",
+    "precio": 56000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1lWI63jUbFNzoWAC81CJ4_cfEpUxa23a2",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "245",
+    "nombre": "MICROONDAS ORYX 20L OR-MIC01 1000W",
+    "precio": 243200,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1HVzjwH5GvlzuaOGndxi9MPakB9bdAg68",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "162",
+    "nombre": "MINI BALANZA DIGITAL 500 GRAMOS",
+    "precio": 5900,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1E0CVsNP5KnLG06YLEoROtHZfXYOEH8b5",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "246",
+    "nombre": "MINI MAQUINA DE COSER ORYX S01247/OM202A",
+    "precio": 28000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1BHl8750ZxmO86oMhRBd-6Ts3z2cm3lne",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "163",
+    "nombre": "MINI PIMER ORYX HB-3505",
+    "precio": 33300,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1xaq2t-xzHqt4cCShCIBCqA3F8bJ1TxxE",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "165",
+    "nombre": "MOLINILLO MANUAL CON RECIPIENTE",
+    "precio": 11000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1C38SXge57RXWqfBJG5mp_UKUyvIBlSZr",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "256",
+    "nombre": "PANCHUQUERA",
+    "precio": 155200,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1iTNLfTTLFIjeMljh-vc1A3K7au6Oi-l6",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "257",
+    "nombre": "PANQUEQUERA ELECTRICA ORYX OR-201PC",
+    "precio": 36800,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1tm1JgBaADHGhvfp0TEgFKCcVw6iwpVyu",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "258",
+    "nombre": "PAVA TERMO KANJI",
+    "precio": 41400,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1dxynHxxVmG0L880-7mTMojxFTKgO5PLl",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "259",
+    "nombre": "PICADORA ELETRICA ORYX VC-10 2L",
+    "precio": 47800,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1AUmYNqjG-X9M99WvSlm_v5mUna1nWP3b",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "169",
+    "nombre": "POCHOCLERA ORYX OR-0089",
+    "precio": 57600,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=15flBPKtS8iL5SVWe2rPGjW7HVtw1QK8D",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "170",
+    "nombre": "PROLONGADOR 7 SALIDAS",
+    "precio": 24300,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1CFaAfcj1hDwi5HxKwpdIJPO30cSC9xKp",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "171",
+    "nombre": "SANDWICHERA 3 EN 1 LEGATUS",
+    "precio": 52000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1er8AKsFHLQOLEKkeso5MWdTh8pfYZ7Av",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "264",
+    "nombre": "SANDWICHERA ORYX OR-1700",
+    "precio": 39400,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1nq4YI7bg8D5k8A6t-yaXDj-PzhFoss_0",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "265",
+    "nombre": "SECAPLATOS ORYX OR-744",
+    "precio": 30200,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1sbTR26c3WSO6SuiSlNSTuSkRhSDTC8MZ",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "266",
+    "nombre": "SELLADORA DE BOLSAS 40CM",
+    "precio": 52800,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1DfuSEOgx0D5p4mnTB12oWZ3VGovpOPtc",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "588",
+    "nombre": "SELLADORA DE BOLSAS 30CM",
+    "precio": 38100,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1sIE1ovkowbIWEinPj_Q2B34u_LdEqpjm",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "174",
+    "nombre": "SET DE OLLAS 5 PCS ANTIADHERENTES",
+    "precio": 115200,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1pR5tr48-xA_Jzig52wLMO7vURZi8Q4oQ",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "267",
+    "nombre": "SET DE TENEDOR MADERA X6 S-1160",
+    "precio": 7000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1S6jjquEymNO-V3gWxJjPI-6iWj_dwFDs",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "176",
+    "nombre": "SET X10 UTENSILIOS PARA COCINA DE SILICONA",
+    "precio": 24000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1vkk5-HdrdYP4CRX9KupPWjX9NWf2gS0I",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "268",
+    "nombre": "SET X3 DE BOTELLAS DE AGUA BT01/21-26",
+    "precio": 12600,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1QP24NmL6Hixl81C_SP1SNukBmr3sVlV2",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "270",
+    "nombre": "SET X5 DE OLLAS ORYX EKT0499B/D/G/W",
+    "precio": 67000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1wt3rNLT5FGlD5TTm11lbT_M0tbH1_WnW",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "177",
+    "nombre": "TERMO ELECTRICO 1L",
+    "precio": 76800,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1CPxf1uof7wwkfMgJO41gDpRm6z_kriCO",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "275",
+    "nombre": "TOSTADORA 2 RANURAS ORYX OR-501",
+    "precio": 28800,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1AKQbcxdC4cXyN1NmFu6g-XzDbgcltH4a",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "178",
+    "nombre": "UTENSILIOS DE COCINA X5 SAA125",
+    "precio": 10600,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1xq07KnpeAl7ZuEU-tZ1fRz7m2dSRQe2H",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "278",
+    "nombre": "UTENSILIOS DE COCINA X6 PIEZAS COLORES",
+    "precio": 13100,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1npUmRuBmNJXfvqWKNFppCeuP_iE82nzr",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "281",
+    "nombre": "WAFLERA ORYX S1807/S1814",
+    "precio": 36000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=14AXoSqZLcF9hVJysIBUEpYzWCyOc8ROd",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "180",
+    "nombre": "YOGURTERA ELÉCTRICA 720ML SUONO",
+    "precio": 52200,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1BKsoWGvKJXr6XVrsq9mjndXWAzN8po-G",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "83",
+    "nombre": "MAQUINA DE HIELO ORYX",
+    "precio": 206400,
+    "categoria": "ARTICULOS DE TEMPORADA",
+    "imagen": "https://drive.google.com/uc?id=1xkMaSjxqMsBUzWaQB9-ZtdM-JisHxrKK",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "250",
+    "nombre": "MULTIPROCESADORA + LICUADORA ORYX OR0946",
+    "precio": 127800,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1GYqdUtqj1mlS-7PdRo0LwDPgudcQnIJ3",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "260",
+    "nombre": "PROCESADORA DE VERDURA OSR C/USB P589-01",
+    "precio": 11400,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1ZWnD480f4BS95HfKVI0kmpv9gZrmW-PW",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "261",
+    "nombre": "RALLADOR MANDOLINA MANUAL ORYX RAMKA3",
+    "precio": 17900,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=14pDip7rrgDaYYhHNvmkBGLXB7kBFrZln",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "168",
+    "nombre": "ORGANIZADOR DE ALIMENTOS JM-828-4 X4 PCS",
+    "precio": 28600,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1jk7iaZ6Ty10TsfEpAEHykiZP5_kL-Cdr",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "251",
+    "nombre": "ORGANIZADOR DE ALIMENTOS JM-828-7/7A-01",
+    "precio": 33600,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1Yi6Gy7CDdf9KvVzaE_su0aAfjI6PPU5B",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "252",
+    "nombre": "ORGANIZADOR DE ALIMENTOS JN-330 X5 PCS",
+    "precio": 30200,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=15hJxZv3H9khqnhDaYs5NIi4hGw9BGSHU",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "255",
+    "nombre": "ORGANIZADOR DE ZAPATOS X7 NIVELES",
+    "precio": 25300,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1wwaBWdr659-2riW4o7wRAUOKH4CPeObW",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "616",
+    "nombre": "BOTELLA INFANTIL 600ML CON CORREA",
+    "precio": 7400,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1I7f1g9vMME8OUNVxm1yk3tcnDeyrwk1S",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "41",
+    "nombre": "BOTELLA SITARUN INSULATED 800ML SUS 304",
+    "precio": 17400,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1p4lFGw8KMuTCqAdDvMSm3XkZC0S1OU0w",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "274",
+    "nombre": "TERMO+MATE 1.2L GERMANY TMA22S/LEGENDARY",
+    "precio": 33600,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1BqzwKWRcn_YvSLLM5W6BGAalOdw1_srp",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "279",
+    "nombre": "VENTILADOR PORTÁTIL F13",
+    "precio": 38400,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1G2LaVyRandR4GmiWKLnkFiNvpNsslQCa",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "280",
+    "nombre": "VENTILADOR PORTÁTIL FX918",
+    "precio": 28500,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1yDyNGkSujP2WHHkJg4GQBnVtp14XDyh7",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "583",
+    "nombre": "MINI CAJA FUERTE DE METAL",
+    "precio": 31800,
+    "categoria": "SEGURIDAD",
+    "imagen": "https://drive.google.com/uc?id=1cosWLDVahg64XHGzBjcA8nl0daPxzf_x",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "249",
+    "nombre": "MOPA CON BALDE CENTRIFUGADOR 2 EN 1",
+    "precio": 35200,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1jC8fWueW2_BAea8516VPbNBdLNBF1FAf",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "542",
+    "nombre": "LUZ DE SILICONA HJ008-2",
+    "precio": 2600,
+    "categoria": "ILUMINACIÓN",
+    "imagen": "https://drive.google.com/uc?id=15W6E2tjBvZl6CbkktMJPj6QD6bcuPRfN",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "194",
+    "nombre": "COMPRESOR DE AIRE ELECTRICO CZK-3668",
+    "precio": 46400,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1m8eXhpyP0xQxlK6OmOVbuG7gEyYYRbqK",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "195",
+    "nombre": "COMPRESOR DE AIRE ELÉCTRICO SEIS",
+    "precio": 59200,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1MBVNNjI4qZ3u2saGqK-XDYMI11vufn4r",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "191",
+    "nombre": "ASPIRADORA INALAMBRICA ORYX OR-VC500",
+    "precio": 52800,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1LpTCV9TI0Zxam-sMIlYIlE5xMNNQjF1V",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "218",
+    "nombre": "SOPLADOR INALAMBRICO OR-WB01 500W",
+    "precio": 59200,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1i90qyIPVn81Zfw6_pHZ3QBrirm0FrzOK",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "219",
+    "nombre": "SOPLADOR PORTÁTIL SUONO",
+    "precio": 52800,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1t9hzRL2Uh3l91kpkSiU1PcF406wueHw0",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "190",
+    "nombre": "AMOLADORA ANGULAR ORYX OR-AG115 780W",
+    "precio": 68200,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1n-4dj0Xraa4KToU8BVWJ5p-jprHbImBl",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "582",
+    "nombre": "LLAVE TUBO X46 PCS LEGATUS",
+    "precio": 14400,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1D1CeBfHrtzxe0mPBwoFBASki0E6UoWYu",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "193",
+    "nombre": "CAJA DE HERRAMIENTAS 85 PCS ORYX",
+    "precio": 168000,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=10UXDYpQyiXUN6Y1jSVBMAO2Gzp-jfz9j",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "196",
+    "nombre": "HIDROLAVADORA 1200W ORYX",
+    "precio": 147200,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1XDjg2X4Ai-rpXE5uUHEQZVGCVJbcI5IM",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "197",
+    "nombre": "HIDROLAVADORA INALÁMBRICA ORYX EL677",
+    "precio": 77600,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1Hw8MeJhbDtU8DTtBF-e3yBgP2aTAdpGK",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "201",
+    "nombre": "LLAVE TUBO K1073 52 PCS ZHONGXIN",
+    "precio": 29600,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1m_tJXEYb9iPDhAIM-3aV9G2m9I2RBRmS",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "204",
+    "nombre": "MALETIN DE HERRAMIENTAS KANJI 499 EN 1",
+    "precio": 252800,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1ftk0GUJK7pLN_Jhx6JLDiIuwDGjYTPdq",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "206",
+    "nombre": "MINI LLAVERO LINTERNA WS147",
+    "precio": 9400,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1w9nGLzhmg2ATtnOKJUQRQyPIsg-d3fAX",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "563",
+    "nombre": "PINZA UNIVERSAL 8″MANGO NAEANJA C/NEGRO",
+    "precio": 5600,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1VEhQDYpdWSZ7QXb-iJMYOPVp6kS5OrQu",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "207",
+    "nombre": "PISTOLA DE PINTAR",
+    "precio": 47800,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=13jLWUPNkAWoBuya3dzVDdCspKsE4VGfu",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "209",
+    "nombre": "SET AMOLADORA+TALADRO ORYX OR-A125/508",
+    "precio": 147200,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1f5I0PFX_QMJHfB217CuzoV4qnVQJ0ZOx",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "210",
+    "nombre": "SET DE DESTORNILLADOR X2 SCREWDRIVER",
+    "precio": 2300,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1OMvqJaJiTPUr5FKRo5oKOf4m3ePFWIod",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "211",
+    "nombre": "SET DE DESTORNILLADOR X7 PIEZAS AZUL",
+    "precio": 8500,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=12nl6bNEqIiSsqDLR1xgqi-pOb9qKA2_F",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "214",
+    "nombre": "SET JUEGO DE LLAVES TUBOS 108 PCS ORYX",
+    "precio": 86400,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1D3BBNonhN_YIrLslr8er1jPdq_cUBIZ_",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "215",
+    "nombre": "SET TORNO OR-TOR01 ORYX",
+    "precio": 88800,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1ug2Dw--XM4sHu0rHX7XqOFija06eBSE_",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "216",
+    "nombre": "SIERRA CIRCULAR 1500W CSL1500-8",
+    "precio": 141900,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=17wJvsHZngDNKTObREEwMMKzK5F2L3SeV",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "217",
+    "nombre": "SIERRA CIRCULAR ELECTRICA ORYX OR-1409",
+    "precio": 111800,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1aK-nQg5ESe7Tm0xkyVy04MFvFbRDi_IS",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "220",
+    "nombre": "TALADRO DE IMPACTO ORYX OR0750 750W",
+    "precio": 74400,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1k2yFiYyY0c1xJ89lc11Gg2DZd19D4C4m",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "667",
+    "nombre": "Squishy puffer ball caja x 12u",
+    "precio": 32800,
+    "categoria": "ARTICULOS DE TEMPORADA",
+    "imagen": "https://drive.google.com/uc?id=1om8IRaRI_Fp_xq47QrZWmOhXyWNUNGHg",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "664",
+    "nombre": "SOPORTE ALUMINIO DE CELULAR 360",
+    "precio": 3500,
+    "categoria": "ACCESORIOS",
+    "imagen": "https://drive.google.com/uc?id=15-8lBGv_-XW0J_566wX-M4ZXqfiX8xse",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "651",
+    "nombre": "PARLANTE PORTÁTIL TG 113",
+    "precio": 12000,
+    "categoria": "AUDIO Y VIDEO",
+    "imagen": "https://drive.google.com/uc?id=1SSfK8A2s5Ozb9YztWqPxqJKGzF8Q-P3B",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "684",
+    "nombre": "AURICULARES VINCHA P9 PLUS",
+    "precio": 8400,
+    "categoria": "AURICULARES",
+    "imagen": "https://drive.google.com/uc?id=1uAQedtyrSdwI1UcRVDhceFe6h8IGbTKD",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "631",
+    "nombre": "BALANZA DE BAÑO ORYX OR-2025R 180K",
+    "precio": 14900,
+    "categoria": "BELLEZA",
+    "imagen": "https://drive.google.com/uc?id=1a_nJWufWFFG8s-c2Dct5sGC6NkQaMtaC",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "678",
+    "nombre": "CARGADOR P/AUTO SAMSUNG 18W",
+    "precio": 15200,
+    "categoria": "CARGADORES",
+    "imagen": "https://drive.google.com/uc?id=11WkdQVHEeLLOwKNDIz6QOPiKW-ArdDmI",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "635",
+    "nombre": "CARGADOR PORTATIL ROYALCELL RPB-101",
+    "precio": 25300,
+    "categoria": "CARGADORES",
+    "imagen": "https://drive.google.com/uc?id=1T_13zbDKERyTrqrJdUQ8PNm42FuId3zi",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "637",
+    "nombre": "CARGADOR UNIVERSAL DE NOTEBOOK ORYX 120W",
+    "precio": 14100,
+    "categoria": "CARGADORES",
+    "imagen": "https://drive.google.com/uc?id=1wLBdKim3xllRgQVfK-6dZH84fbpzP6hv",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "693",
+    "nombre": "BALANZA PRECISION GRAMAJE 500GR",
+    "precio": 6200,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=11xdO9z2dC6po7RoOApHIt2FeKI58FkPe",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "652",
+    "nombre": "PAVA ELÉCTRICA 2L ORYX OSR 9145",
+    "precio": 19200,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=16a7KTZfyLbtOUz1vR3Tm1Uc4GMbG8HXX",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "658",
+    "nombre": "SATEN ANTIADHERENTE ORYX 26CM",
+    "precio": 22400,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1FAX2zPFz3-sobSiUQwsR3lUTwp6oYTD0",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "674",
+    "nombre": "VASOS TÉRMICOS 500ML CON SENSOR DE TEMPERATURA",
+    "precio": 17300,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=18p4Y9XQi-MK7bPpM_vfT3keXB1uY_oel",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "639",
+    "nombre": "HELADERA TELEFUNKEN 140L",
+    "precio": 608000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=17quN1HDYXkHXSTuCIQUKZelDea9Fv3f3",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "642",
+    "nombre": "JOYSTICK PS3 GENERICO LISO",
+    "precio": 14200,
+    "categoria": "GAMER",
+    "imagen": "https://drive.google.com/uc?id=1e651J7jreCKCDHS2TPryJ9mm94Or-dVr",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "692",
+    "nombre": "PISTOLA PARA PINTAR TL0501/0502",
+    "precio": 40800,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=14qBdiwko9Z6DiH4n-K4u1HlhAXLcEtTc",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "679",
+    "nombre": "RAQUETA MATA MOSQUITO BLANCA",
+    "precio": 11800,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1V06Sh2OiDgYTvnH4vXJIfZ8YkCDfgwPU",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "680",
+    "nombre": "RAQUETA MATA MOSQUITOS USB COLORES",
+    "precio": 9300,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1kXiQ2bSz-QiS3E58rvEOfDIYlJdj6mqH",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "633",
+    "nombre": "BOTELLA LICUADORA MINI JUICE",
+    "precio": 15700,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1n54Uw09TGXpO5PQo10gdlVMsUfKqiRqk",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "649",
+    "nombre": "NEBULIZADOR JSL-W302",
+    "precio": 19000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=15T3IGOpPssVNWwRBbOfC47-3PEdUEmTK",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "675",
+    "nombre": "VENTILADOR INDUSTRIAL TELEFUNKEN 2 EN 1 24¨ 150W",
+    "precio": 148800,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1tbn6Kcra7avhfvkKI4U3aXwK09J0fbx3",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "676",
+    "nombre": "VENTILADOR PORTATIL CON PINZA",
+    "precio": 30600,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1oRLPNCG5xA769cD_ADvImrEpIQ13YpQU",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "682",
+    "nombre": "VENTILADOR 18″ 3 EN 1 IBEK 100W",
+    "precio": 54200,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1aSRTZTFVCwwJiZasDZylyvav0yyCPb2q",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "677",
+    "nombre": "LINTERNA RECARGABLE TGX-702 19 LED",
+    "precio": 14900,
+    "categoria": "ILUMINACIÓN",
+    "imagen": "https://drive.google.com/uc?id=12eaAMkmAVvHFBt1uoRc3MRF74oVdaj3M",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "648",
+    "nombre": "LINTERNA MINERA XY-501",
+    "precio": 4700,
+    "categoria": "ILUMINACIÓN",
+    "imagen": "https://drive.google.com/uc?id=1xWcLKD0oz42sK6JJIy7scMLjJWJ9n_CS",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "670",
+    "nombre": "TIRA DE LUZ LED LEGATUS LPLO4OA 24W",
+    "precio": 9100,
+    "categoria": "ILUMINACIÓN",
+    "imagen": "https://drive.google.com/uc?id=10IMWyX1SYkGqq8VzLSnNbX7JC8_ABXPc",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "681",
+    "nombre": "PELOTA DE FUTBOL NUMERO 3 MESSI",
+    "precio": 4800,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1kKQSwnJBbwJRSOFx-LRo6fX4pdpN8kqx",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "659",
+    "nombre": "Slime magic clay caja x6 SLI10",
+    "precio": 25900,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=128MQrNQGJJ_uOU_FL1vkgZgywLwBkOc9",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "641",
+    "nombre": "HELLOKITYY AV56",
+    "precio": 43200,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=13Bp1-JW9LCeQwZ_yl_Z_MbV9NP7QlQjf",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "645",
+    "nombre": "LABUBU SQU9",
+    "precio": 43200,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1FFPgKkeX7Z2I9HeoXixOaLq-5tXjVjqN",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "653",
+    "nombre": "PELOTA WATER BAL ASTRONAUTA",
+    "precio": 43200,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1Eucq16aLtfvzsmfuiqGzQW3LHRM1-rPQ",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "654",
+    "nombre": "PELOTA WATER BAL PRINCESAS X12U",
+    "precio": 32800,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1dF8TNd-VCqGfr9b2ZLOI0Ep4bl6s7nZt",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "655",
+    "nombre": "PELOTA WATER BALL CONEJO X12",
+    "precio": 43200,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1yAVTMSCKcG0ZuhhiAjTmosSsGmL9r9cH",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "660",
+    "nombre": "Slime magic clay caja x6 SLI8",
+    "precio": 25900,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=11fMEx1NXJ-sxDVCZGKltz39CVTql5UuX",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "661",
+    "nombre": "Slime magic clay grande caja x6 SLI19",
+    "precio": 43200,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1f-ARXbk89e74jIWCD2V-CkTecK-KNm6m",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "662",
+    "nombre": "Slime magic clay grande caja x6 SLI22",
+    "precio": 43200,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1f42VNz9dyuxi7jlekWat9QrLa2Wkem0K",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "663",
+    "nombre": "SOL SQU8",
+    "precio": 43200,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=19wS_N8WiwCxcQK7wZK4C2mEa8S-B1_U1",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "665",
+    "nombre": "Squishy KITTY puffer ball caja x 12u",
+    "precio": 38100,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1w09MdVxV4vQ65L_I3XAG5c9ntiDXXG_R",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "666",
+    "nombre": "Squishy KUROMI puffer ball caja x 12u",
+    "precio": 38100,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1EixyWgzgdtWq-gatjJATYohg81YMX0al",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "668",
+    "nombre": "Squishy UNICORNIO puffer ball caja x 12u SQU15",
+    "precio": 32800,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1EhzM6Yipn6Reexh3x8c3qaQwkom5SQ9x",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "672",
+    "nombre": "UNICORNIO SQU7 X12",
+    "precio": 43200,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1_-JLLVIOrbpeQPthXuYCrvIJBmJ0iUNL",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "686",
+    "nombre": "PARLANTE BOCINA RGB 3″ DE COLORES",
+    "precio": 7500,
+    "categoria": "PARLANTES",
+    "imagen": "https://drive.google.com/uc?id=1UtvS1mfyuncZkOGhGAmetF3FJM0hPtME",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "689",
+    "nombre": "PARLANTE PORTATIL RGB 3″ XM-129",
+    "precio": 7200,
+    "categoria": "PARLANTES",
+    "imagen": "https://drive.google.com/uc?id=1FcLLGpDkXONH8PrXhENrFbijIiEi23oa",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "640",
+    "nombre": "DRONE PROMAX CON CONTROL Y PANTALLA JS-7212/13",
+    "precio": 79800,
+    "categoria": "TECNOLOGIA",
+    "imagen": "https://drive.google.com/uc?id=1UbktTNUDoeLzggtJEbLjp-BUaEvt6oGR",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "638",
+    "nombre": "CINTA CORRECTOR 6M BH-106",
+    "precio": 1200,
+    "categoria": "UTILES ESCOLARES",
+    "imagen": "https://drive.google.com/uc?id=1lOl9f5XZo-qoVqnvrNLpLhWAUyyk-68H",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "643",
+    "nombre": "JUEGO DE GEOMETRIA X3 PCS",
+    "precio": 1100,
+    "categoria": "UTILES ESCOLARES",
+    "imagen": "https://drive.google.com/uc?id=1DZ2KBOdXYP8kWcVaFjrXyrtvukkB8xjC",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "644",
+    "nombre": "KIT DE GEOMETRÍA X4",
+    "precio": 800,
+    "categoria": "UTILES ESCOLARES",
+    "imagen": "https://drive.google.com/uc?id=1R9xnFj0INRZcpkY4mzJuUWKTnJpfRXGb",
+    "estado": "DISPONIBLE",
+    "stock": 0
+  },
+  {
+    "codigo": "646",
+    "nombre": "KIT DE GEOMETRIA X7 PIEZAS",
+    "precio": 4200,
+    "categoria": "UTILES ESCOLARES",
+    "imagen": "https://drive.google.com/uc?id=1bNB7BF7ryBjiT7WOqVD52e6E9I2316rf",
+    "estado": "DISPONIBLE",
     "stock": 0
   }
 ]
