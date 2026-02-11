@@ -5,6 +5,24 @@
   <title>Catálogo Mayorista TAO</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* Estilo adicional para la etiqueta de categoría */
+    .categoria-tag {
+      background: #f0f0f0;
+      color: #555;
+      font-size: 0.8rem;
+      padding: 2px 8px;
+      border-radius: 4px;
+      display: inline-block;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    .sku-text {
+      color: #777;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 <body>
 
@@ -14,11 +32,10 @@
 </header>
 
 <main class="contenedor">
-  <input type="text" id="buscador" placeholder="Buscar por nombre o SKU..." />
+  <input type="text" id="buscador" placeholder="Buscar por nombre, código o categoría..." />
   <section id="grid-productos" class="grid-productos"></section>
 </main>
 
-<!-- Carrito -->
 <div id="panel-carrito" class="panel-carrito oculto">
   <button id="carrito-cerrar">✕</button>
   <h2>Pedido</h2>
@@ -41,11 +58,30 @@ const panelCarrito = document.getElementById("panel-carrito");
 const carritoItems = document.getElementById("carrito-items");
 const carritoTotal = document.getElementById("carrito-total");
 
+// Función para transformar enlaces de Drive en visualización directa
+function obtenerUrlImagen(url) {
+  if (!url) return 'img/placeholder.png';
+  
+  // Si es un link de Google Drive, lo convertimos para visualización directa
+  if (url.includes('drive.google.com')) {
+    const match = url.match(/id=([\w-]+)|file\/d\/([\w-]+)/);
+    const id = match ? (match[1] || match[2]) : null;
+    if (id) {
+      return `https://lh3.googleusercontent.com/u/0/d/${id}`;
+    }
+  }
+  return url;
+}
+
 async function cargarProductos() {
-  const res = await fetch("productos.json");
-  productos = await res.json();
-  filtrados = productos;
-  render();
+  try {
+    const res = await fetch("productos.json");
+    productos = await res.json();
+    filtrados = productos;
+    render();
+  } catch (error) {
+    console.error("Error al cargar productos:", error);
+  }
 }
 
 function render() {
@@ -53,21 +89,25 @@ function render() {
   filtrados.forEach(p => {
     const card = document.createElement("div");
     card.className = "card-producto";
+    
+    // Se reemplaza p.sku por p.codigo y se añade p.categoria
     card.innerHTML = `
-      <img src="${p.imagen}" onerror="this.src='img/placeholder.png'">
+      <img src="${obtenerUrlImagen(p.imagen)}" onerror="this.src='img/placeholder.png'">
+      <div class="categoria-tag">${p.categoria || 'General'}</div>
       <h3>${p.nombre}</h3>
-      <p>SKU: ${p.sku}</p>
+      <p class="sku-text">Código: ${p.codigo}</p>
       <p class="precio">$ ${Number(p.precio).toLocaleString("es-AR")}</p>
       <p class="estado">${p.estado}</p>
-      <button onclick="agregar('${p.sku}')">Agregar</button>
+      <button onclick="agregar('${p.codigo}')">Agregar</button>
     `;
     grid.appendChild(card);
   });
 }
 
-function agregar(sku) {
-  const prod = productos.find(p => p.sku === sku);
-  const item = carrito.find(i => i.sku === sku);
+function agregar(codigo) {
+  // Buscamos por la propiedad .codigo
+  const prod = productos.find(p => p.codigo === codigo);
+  const item = carrito.find(i => i.codigo === codigo);
   if (item) item.cantidad++;
   else carrito.push({ ...prod, cantidad: 1 });
   actualizarCarrito();
@@ -91,23 +131,23 @@ document.getElementById("carrito-cerrar").onclick = () => panelCarrito.classList
 
 document.getElementById("btn-wa").onclick = () => {
   if (!carrito.length) return alert("Carrito vacío");
-  let texto = "Pedido:%0A";
+  let texto = "Pedido de productos:%0A";
   carrito.forEach(i=>{
-    texto += `- ${i.nombre} (${i.sku}) x ${i.cantidad}%0A`;
+    // Incluimos el código en el mensaje de WhatsApp
+    texto += `- ${i.nombre} (Cód: ${i.codigo}) x ${i.cantidad}%0A`;
   });
+  texto += `%0ATotal: $${carritoTotal.textContent}`;
   window.open(`https://wa.me/${WHATSAPP_DESTINO}?text=${texto}`);
 };
 
 buscador.oninput = () => {
   const t = buscador.value.toLowerCase();
   filtrados = productos.filter(p =>
-    p.nombre.toLowerCase().includes(t) || String(p.sku).includes(t)
+    p.nombre.toLowerCase().includes(t) || 
+    String(p.codigo).toLowerCase().includes(t) ||
+    String(p.categoria || "").toLowerCase().includes(t)
   );
   render();
 };
 
-cargarProductos();
-</script>
-
-</body>
-</html>
+cargarProductos
