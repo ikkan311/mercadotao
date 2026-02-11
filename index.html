@@ -38,13 +38,57 @@
     .carrito-header { padding: 20px; border-bottom: 2px solid #eee; display: flex; justify-content: space-between; align-items: center; }
     .carrito-lista { flex-grow: 1; overflow-y: auto; padding: 10px 20px; }
     .carrito-footer { padding: 20px; border-top: 2px solid #eee; background: #fff; }
+    
     @media (max-width: 600px) {
+      /* 1. Ajuste del contenedor para móvil */
       body { padding-top: 175px; }
-      .header-top { padding: 10px 15px; flex-wrap: wrap; }
-      .logo-container { width: 50%; }
-      .leyenda-centro { width: 100%; order: 3; padding: 10px 0 5px 0; border-top: 1px solid #eee; margin-top: 5px; }
       .grid-productos { grid-template-columns: 1fr; }
       .card-producto { height: auto; min-height: 520px; padding: 20px; }
+
+      /* 2. LEYENDA COMPRA MÍNIMA (Header) */
+      .leyenda-centro { 
+        font-size: 16px; 
+        width: 100%; order: 3; padding: 10px 0 5px 0; border-top: 1px solid #eee; margin-top: 5px;
+      }
+
+      /* 3. CATEGORÍA (Tag gris) */
+      .categoria-tag { 
+        font-size: 11px; 
+      }
+
+      /* 4. NOMBRE DEL PRODUCTO */
+      .nombre-producto { 
+        font-size: 17px; 
+      }
+
+      /* 5. CÓDIGO DEL PRODUCTO (SKU) */
+      .sku-text { 
+        font-size: 14px; 
+      }
+
+      /* 6. PRECIO */
+      .precio-text { 
+        font-size: 24px; 
+      }
+
+      /* 7. LEYENDA STOCK / ÚLTIMOS DISPONIBLES */
+      .estado-stock, .estado-ultimos { 
+        font-size: 15px; 
+      }
+
+      /* 8. NÚMEROS DE CANTIDADES (Input) */
+      .controles-compra input { 
+        font-size: 18px; 
+      }
+
+      /* 9. BOTÓN AÑADIR */
+      .btn-add { 
+        font-size: 18px; 
+      }
+
+      /* Resto de reglas originales de móvil */
+      .header-top { padding: 10px 15px; flex-wrap: wrap; }
+      .logo-container { width: 50%; }
       .contenedor-img { height: 260px; }
       .lupa-zoom { display: flex; }
       #panel-carrito { max-width: 100%; }
@@ -245,14 +289,11 @@ async function generarPDFParaImprimir() {
 
     const imgUrl = obtenerImagen(p.imagen);
     try {
-      // Subimos la imagen 1mm más para dar espacio abajo
       const imgRes = await aplanarImagenProporcional(imgUrl, cardW - 4, 30);
       if (imgRes) doc.addImage(imgRes.data, 'JPEG', x + 2 + imgRes.offsetX, y + 1 + imgRes.offsetY, imgRes.w, imgRes.h);
     } catch (e) {}
 
-    // --- MOTOR DE LIMPIEZA DE TEXTO ---
     doc.setTextColor(40); 
-    // Reemplazamos cualquier variante de comilla o símbolo que rompa el PDF
     let nombreSeguro = String(p.nombre).replace(/[″”“]/g, '"').replace(/[′’‘]/g, "'").trim();
     
     let fontSize = 7;
@@ -261,17 +302,14 @@ async function generarPDFParaImprimir() {
     
     let lineas = doc.splitTextToSize(nombreSeguro, cardW - 4);
     
-    // Si el nombre es muy largo, bajamos la fuente para que respete las 3 líneas
     if (lineas.length > 2) {
         fontSize = 6;
         doc.setFontSize(fontSize);
         lineas = doc.splitTextToSize(nombreSeguro, cardW - 4);
     }
     
-    // Dibujamos el nombre con interlineado ajustado
     doc.text(lineas.slice(0, 3), x + (cardW / 2), y + 36, { align: 'center', lineHeightFactor: 1.0 });
     
-    // --- ANCLAJE INFERIOR INAMOVIBLE ---
     doc.setFont(undefined, 'normal'); doc.setFontSize(6); doc.setTextColor(120);
     doc.text(`Cód: ${p.codigo}`, x + (cardW / 2), y + 50, { align: 'center' });
     
