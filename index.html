@@ -216,7 +216,7 @@ document.getElementById("buscador").oninput = (e) => {
 document.getElementById("btn-carrito-toggle").onclick = () => document.getElementById("panel-carrito").classList.toggle("oculto");
 document.getElementById("btn-cerrar-carrito").onclick = () => document.getElementById("panel-carrito").classList.add("oculto");
 
-// --- FUNCIÓN PARA EL CATÁLOGO PDF (CORREGIDA PARA NOMBRES LARGOS) ---
+// --- FUNCIÓN PARA EL CATÁLOGO PDF (SOLUCIÓN DEFINITIVA SÍMBOLOS Y NOMBRES) ---
 async function generarPDFParaImprimir() {
   const { jsPDF } = window.jspdf;
   const doc = new jsPDF('p', 'mm', 'a4');
@@ -245,30 +245,35 @@ async function generarPDFParaImprimir() {
 
     const imgUrl = obtenerImagen(p.imagen);
     try {
+      // Subimos la imagen 1mm más para dar espacio abajo
       const imgRes = await aplanarImagenProporcional(imgUrl, cardW - 4, 30);
-      if (imgRes) doc.addImage(imgRes.data, 'JPEG', x + 2 + imgRes.offsetX, y + 2 + imgRes.offsetY, imgRes.w, imgRes.h);
+      if (imgRes) doc.addImage(imgRes.data, 'JPEG', x + 2 + imgRes.offsetX, y + 1 + imgRes.offsetY, imgRes.w, imgRes.h);
     } catch (e) {}
 
-    // --- MOTOR DE TEXTO ROBUSTO PARA NOMBRES ---
+    // --- MOTOR DE LIMPIEZA DE TEXTO ---
     doc.setTextColor(40); 
-    let nombreLimpio = p.nombre.replace(/″/g, '"').replace(/”/g, '"'); // Normaliza comillas
+    // Reemplazamos cualquier variante de comilla o símbolo que rompa el PDF
+    let nombreSeguro = String(p.nombre).replace(/[″”“]/g, '"').replace(/[′’‘]/g, "'").trim();
+    
     let fontSize = 7;
     doc.setFontSize(fontSize);
+    doc.setFont(undefined, 'bold');
     
-    let lineas = doc.splitTextToSize(nombreLimpio, cardW - 4);
-    // Si tiene más de 2 líneas, reducimos la fuente para que no desborde
+    let lineas = doc.splitTextToSize(nombreSeguro, cardW - 4);
+    
+    // Si el nombre es muy largo, bajamos la fuente para que respete las 3 líneas
     if (lineas.length > 2) {
-        fontSize = 6.2;
+        fontSize = 6;
         doc.setFontSize(fontSize);
-        lineas = doc.splitTextToSize(nombreLimpio, cardW - 4);
+        lineas = doc.splitTextToSize(nombreSeguro, cardW - 4);
     }
     
-    doc.setFont(undefined, 'bold');
+    // Dibujamos el nombre con interlineado ajustado
     doc.text(lineas.slice(0, 3), x + (cardW / 2), y + 36, { align: 'center', lineHeightFactor: 1.0 });
     
-    // --- PRECIO Y CODIGO (ANCLAJE FIJO) ---
+    // --- ANCLAJE INFERIOR INAMOVIBLE ---
     doc.setFont(undefined, 'normal'); doc.setFontSize(6); doc.setTextColor(120);
-    doc.text(`Cód: ${p.codigo}`, x + (cardW / 2), y + 49.5, { align: 'center' });
+    doc.text(`Cód: ${p.codigo}`, x + (cardW / 2), y + 50, { align: 'center' });
     
     doc.setFontSize(13); doc.setTextColor(0, 112, 192); doc.setFont(undefined, 'bold');
     doc.text(`$${Number(p.precio).toLocaleString("es-AR")}`, x + (cardW / 2), y + 54.5, { align: 'center' });
