@@ -7,120 +7,174 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.25/jspdf.plugin.autotable.min.js"></script>
   <style>
-    /* --- DISEÑO ORIGINAL PC --- */
     body { font-family: sans-serif; margin: 0; background: #f4f4f4; }
     
+    /* HEADER */
     .header {
       display: flex; justify-content: space-between; align-items: center;
       padding: 10px 20px; background: #fff; border-bottom: 2px solid #eee;
-      position: sticky; top: 0; z-index: 1000;
+      position: sticky; top: 0; z-index: 100;
     }
     .logo-container img { height: 45px; width: auto; }
     .leyenda-centro { color: #27ae60; font-weight: bold; font-size: 0.9rem; text-align: center; flex-grow: 1; padding: 0 10px; }
 
+    /* BUSCADOR */
     .contenedor-principal { padding: 20px; max-width: 1200px; margin: 0 auto; }
     #buscador {
       width: 100%; padding: 12px; font-size: 1.1rem; border: 2px solid #ddd;
       border-radius: 8px; margin-bottom: 30px; box-sizing: border-box;
     }
 
+    /* GRID Y FICHAS */
     .grid-productos {
-      display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 20px;
     }
 
     .card-producto {
       padding: 12px; border: 1px solid #eee; border-radius: 10px;
       background: #fff; display: flex; flex-direction: column;
-      height: 410px; justify-content: flex-start; box-sizing: border-box;
+      height: 410px; 
+      justify-content: flex-start; box-sizing: border-box;
     }
 
-    .contenedor-img { width: 100%; height: 180px; display: flex; align-items: center; justify-content: center; margin-bottom: 10px; }
-    .contenedor-img img { max-width: 100%; max-height: 100%; object-fit: contain; }
+    .contenedor-img { 
+      width: 100%; 
+      height: 180px; 
+      display: flex; 
+      align-items: center; 
+      justify-content: center; 
+      margin-bottom: 10px; 
+      background: #fff;
+    }
+    .contenedor-img img { 
+      max-width: 100%; 
+      max-height: 100%; 
+      object-fit: contain; 
+    }
+
+    .categoria-tag { font-size: 0.6rem; color: #999; text-transform: uppercase; font-weight: 800; margin: 0; }
     
     .nombre-producto {
-      font-size: 0.9rem; line-height: 1.2; height: 3.6em; margin: 4px 0 0 0;
-      color: #222; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;
+      font-size: 0.9rem; line-height: 1.2; height: 3.6em; 
+      margin: 4px 0 0 0; color: #222; overflow: hidden;
+      display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;
     }
 
-    .sku-text { font-size: 0.75rem; color: #777; margin: 8px 0 3px 0; line-height: 1; }
-    .precio-text { font-weight: bold; color: #27ae60; font-size: 1.25rem; margin-bottom: 3px; line-height: 1.2; }
+    .sku-text { 
+      font-size: 0.75rem; color: #777; 
+      margin: 8px 0 3px 0; 
+      padding: 0; line-height: 1; 
+    }
+    .precio-text { 
+      font-weight: bold; color: #27ae60; font-size: 1.25rem; 
+      margin-bottom: 3px; 
+      padding: 0; line-height: 1.2; 
+    }
+    
     .estado-stock { color: #0070c0; font-weight: bold; font-size: 0.75rem; margin: 0; }
+    .estado-ultimos { color: #e67e22; font-weight: bold; font-size: 0.75rem; margin: 0; }
 
     .controles-compra { margin-top: auto; display: flex; gap: 5px; }
     .controles-compra input { width: 50px; text-align: center; border: 1px solid #ddd; border-radius: 4px; }
-    .btn-add { flex-grow: 1; background: #222; color: #fff; border: none; padding: 8px; border-radius: 4px; font-weight: bold; cursor: pointer; }
-
-    /* BOTÓN SUBIR */
-    #btn-subir {
-      position: fixed; bottom: 20px; right: 20px; background: #0070c0; color: #fff;
-      width: 50px; height: 50px; border-radius: 50%; border: none; cursor: pointer;
-      display: none; align-items: center; justify-content: center; font-size: 26px; 
-      font-weight: 900; z-index: 1500; box-shadow: 0 2px 10px rgba(0,0,0,0.3);
-    }
-
-    /* --- CAMBIOS SOLO PARA MÓVIL --- */
-    @media (max-width: 600px) {
-      .header { flex-wrap: wrap; padding: 10px; position: fixed; width: 100%; top: 0; left: 0; box-sizing: border-box; }
-      .logo-container { order: 1; width: 50%; }
-      #btn-carrito-toggle { order: 2; width: auto; }
-      .leyenda-centro { order: 3; width: 100%; margin-top: 10px; padding: 5px 0; border-top: 1px solid #eee; }
-      
-      body { padding-top: 130px; } /* Ajuste por el header fijo */
-      
-      #buscador { width: 100%; margin-top: 10px; }
-      
-      .grid-productos { grid-template-columns: 1fr; }
-      .card-producto { height: auto; min-height: 480px; text-align: center; padding: 20px; }
-      .contenedor-img { height: 250px; }
-      
-      /* Fuentes +2pt */
-      .nombre-producto { font-size: 1.1rem; }
-      .sku-text { font-size: 0.95rem; margin-top: 12px; }
-      .precio-text { font-size: 1.45rem; }
-      .estado-stock { font-size: 0.95rem; }
-      .btn-add { padding: 12px; font-size: 1rem; }
-      
-      .controles-compra { justify-content: center; }
+    .btn-add { 
+      flex-grow: 1; background: #222; color: #fff; border: none; 
+      padding: 8px; border-radius: 4px; font-weight: bold; cursor: pointer; font-size: 0.8rem;
     }
 
     /* PANEL CARRITO */
     #panel-carrito {
       position: fixed; top: 0; right: 0; width: 100%; max-width: 400px; height: 100%;
       background: #fff; box-shadow: -5px 0 25px rgba(0,0,0,0.2); z-index: 2000;
-      padding: 20px; display: flex; flex-direction: column; transition: transform 0.3s ease;
+      padding: 20px; display: flex; flex-direction: column; box-sizing: border-box;
+      transition: transform 0.3s ease;
     }
     #panel-carrito.oculto { transform: translateX(100%); }
+
+    /* BOTÓN SUBIR AZUL TAO (Abajo Derecha) */
+    #btn-subir {
+      position: fixed; bottom: 20px; right: 20px; background: #0070c0; color: #fff;
+      width: 50px; height: 50px; border-radius: 50%; border: none; cursor: pointer;
+      display: none; align-items: center; justify-content: center; font-size: 26px; 
+      font-weight: bold; z-index: 1500; box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    /* ==========================================
+       NUEVO RESPONSIVE MÓVIL (SIN TOCAR LO DE ARRIBA)
+       ========================================== */
+    @media (max-width: 600px) {
+      .header { 
+        flex-wrap: wrap; 
+        padding: 10px; 
+        position: fixed; 
+        width: 100%; 
+        top: 0; 
+        left: 0; 
+        box-sizing: border-box; 
+      }
+      .logo-container { order: 1; width: 50%; }
+      #btn-carrito-toggle { order: 2; }
+      .leyenda-centro { 
+        order: 3; 
+        width: 100%; 
+        margin-top: 8px; 
+        padding: 5px 0; 
+        border-top: 1px solid #eee; 
+        flex-grow: unset;
+      }
+      
+      body { padding-top: 140px; } /* Evita que el header fijo tape productos */
+      
+      .grid-productos { grid-template-columns: 1fr; }
+      .card-producto { 
+        height: auto; 
+        min-height: 480px; 
+        text-align: center; 
+        padding: 20px; 
+      }
+      .contenedor-img { height: 260px; }
+      .nombre-producto { font-size: 1.1rem; -webkit-box-pack: center; }
+      
+      /* Aumento de fuentes +2pt en móvil */
+      .sku-text { font-size: 0.95rem; margin-top: 12px; }
+      .precio-text { font-size: 1.45rem; }
+      .estado-stock, .estado-ultimos { font-size: 0.95rem; }
+      .btn-add { padding: 12px; font-size: 1rem; }
+      .controles-compra { justify-content: center; }
+    }
   </style>
 </head>
 <body>
 
 <header class="header">
-  <div class="logo-container"><img src="logo.png" alt="Logo"></div>
-  <div class="leyenda-centro">Precios mayorista para compras mayores a $90.000</div>
-  <button id="btn-carrito-toggle" style="cursor:pointer; padding: 8px 12px; border-radius: 6px; border: 1px solid #ddd;">🛒 (<span id="carrito-count">0</span>)</button>
+  <div class="logo-container"><img src="logo.png" alt="Logo" onerror="this.style.display='none'"></div>
+  <div class="leyenda-centro">Precios mayorista solamente para compras mayores a $90.000</div>
+  <button id="btn-carrito-toggle" style="cursor:pointer; padding: 8px 12px; border-radius: 6px; border: 1px solid #ddd;">🛒 Pedido (<span id="carrito-count">0</span>)</button>
 </header>
 
 <main class="contenedor-principal">
-  <input type="text" id="buscador" placeholder="Buscar por nombre o código..." />
+  <input type="text" id="buscador" placeholder="Buscar por nombre, código o categoría..." />
   <section id="grid-productos" class="grid-productos"></section>
 </main>
 
-<button id="btn-subir">↑</button>
+<button id="btn-subir" title="Subir">↑</button>
 
 <div id="panel-carrito" class="oculto">
   <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:2px solid #eee; padding-bottom:10px;">
-    <h3>Tu Pedido</h3>
-    <button id="btn-cerrar-carrito" style="cursor:pointer; padding:5px 10px;">Cerrar</button>
+    <h3 style="margin:0;">Tu Pedido</h3>
+    <button id="btn-cerrar-carrito" style="cursor:pointer; border:none; background:#eee; padding:5px 10px; border-radius:4px;">Cerrar</button>
   </div>
-  <div id="msg-minimo" style="background:#fff3cd; padding:10px; margin:10px 0; border-radius:4px; text-align:center;"></div>
+  <div id="msg-minimo" style="background:#fff3cd; padding:10px; margin:10px 0; border-radius:4px; font-size:0.8rem; text-align:center;"></div>
   <div style="flex-grow:1; overflow-y:auto;">
-    <table style="width:100%; border-collapse: collapse;">
+    <table style="width:100%; border-collapse: collapse; font-size: 0.85rem;">
       <tbody id="carrito-body"></tbody>
     </table>
   </div>
   <div style="border-top:2px solid #eee; padding-top:10px;">
     <h3 style="text-align:right;">Total: $<span id="carrito-total">0</span></h3>
-    <button id="btn-wa" style="width:100%; background:#27ae60; color:#fff; padding:12px; border:none; border-radius:4px; font-weight:bold; cursor:pointer;">ENVIAR WHATSAPP</button>
+    <button id="btn-pdf" style="width:100%; background:#444; color:#fff; padding:10px; margin-bottom:5px; border:none; border-radius:4px; cursor:pointer; font-weight:bold;">DESCARGAR PDF</button>
+    <button id="btn-wa" style="width:100%; background:#27ae60; color:#fff; padding:10px; border:none; border-radius:4px; cursor:pointer; font-weight:bold;">ENVIAR WHATSAPP</button>
   </div>
 </div>
 
@@ -141,7 +195,7 @@ async function cargar() {
 }
 
 function obtenerImagen(url) {
-  if (!url) return 'img/placeholder.png';
+  if (!url || url.includes('placeholder')) return 'img/placeholder.png';
   if (url.includes('drive.google.com')) {
     const id = url.match(/id=([\w-]+)|file\/d\/([\w-]+)/);
     const actualId = id ? (id[1] || id[2]) : null;
@@ -153,19 +207,24 @@ function obtenerImagen(url) {
 function render() {
   const grid = document.getElementById("grid-productos");
   grid.innerHTML = "";
+  
   filtrados.forEach(p => {
+    const maxS = p.estado === "ULTIMOS DISPONIBLES" ? (p.stock || 0) : 999;
+    const claseEst = p.estado === "CON STOCK" ? "estado-stock" : "estado-ultimos";
+    
     const div = document.createElement("div");
     div.className = "card-producto";
     div.innerHTML = `
       <div class="contenedor-img"><img src="${obtenerImagen(p.imagen)}" loading="lazy"></div>
       <div>
+        <div class="categoria-tag">${p.categoria || ''}</div>
         <h3 class="nombre-producto">${p.nombre}</h3>
         <p class="sku-text">Cód: ${p.codigo}</p>
         <p class="precio-text">$ ${Number(p.precio).toLocaleString("es-AR")}</p>
-        <p class="estado-stock">${p.estado}</p>
+        <p class="${claseEst}">${p.estado} ${p.estado === "ULTIMOS DISPONIBLES" ? '('+p.stock+')' : ''}</p>
       </div>
       <div class="controles-compra">
-        <input type="number" id="qty-${p.codigo}" value="1" min="1">
+        <input type="number" id="qty-${p.codigo}" value="1" min="1" max="${maxS}">
         <button class="btn-add" onclick="agregar('${p.codigo}')">AÑADIR</button>
       </div>
     `;
@@ -175,34 +234,45 @@ function render() {
 
 function agregar(cod) {
   const p = productos.find(x => x.codigo === cod);
-  const qty = parseInt(document.getElementById(`qty-${cod}`).value);
+  const cant = parseInt(document.getElementById(`qty-${cod}`).value);
   const ex = carrito.find(x => x.codigo === cod);
-  if (ex) ex.cantidad += qty;
-  else carrito.push({ ...p, cantidad: qty });
+  if (ex) ex.cantidad += cant;
+  else carrito.push({ ...p, cantidad: cant });
   actualizarUI();
 }
 
 function actualizarUI() {
   const body = document.getElementById("carrito-body");
-  let total = 0;
+  const totalLabel = document.getElementById("carrito-total");
+  const msg = document.getElementById("msg-minimo");
+  const btnWa = document.getElementById("btn-wa");
   body.innerHTML = "";
+  let total = 0;
   carrito.forEach(i => {
     const sub = i.precio * i.cantidad;
     total += sub;
-    body.innerHTML += `<tr><td style="padding:5px;">${i.nombre.substring(0,15)}..</td><td>x${i.cantidad}</td><td>$${sub.toLocaleString()}</td></tr>`;
+    body.innerHTML += `<tr><td>${i.codigo}</td><td>${i.nombre.substring(0,18)}..</td><td>x${i.cantidad}</td><td>$${sub.toLocaleString()}</td><td><button onclick="quitar('${i.codigo}')" style="color:red; border:none; background:none; cursor:pointer;">✕</button></td></tr>`;
   });
-  document.getElementById("carrito-total").innerText = total.toLocaleString("es-AR");
-  document.getElementById("carrito-count").innerText = carrito.reduce((acc, i) => acc + i.cantidad, 0);
-  const msg = document.getElementById("msg-minimo");
+  totalLabel.innerText = total.toLocaleString("es-AR");
+  document.getElementById("carrito-count").innerText = carrito.length;
   if (total < MINIMO_COMPRA) {
-    msg.innerHTML = `Faltan <b>$${(MINIMO_COMPRA - total).toLocaleString()}</b> para el mínimo.`;
+    msg.innerHTML = `Faltan <strong>$${(MINIMO_COMPRA - total).toLocaleString()}</strong> para el mínimo.`;
+    btnWa.style.opacity = "0.4";
+    btnWa.style.pointerEvents = "none";
   } else {
     msg.innerHTML = "✅ Mínimo alcanzado.";
     msg.style.background = "#d4edda";
+    btnWa.style.opacity = "1";
+    btnWa.style.pointerEvents = "auto";
   }
 }
 
-// BOTÓN SUBIR
+function quitar(cod) {
+  carrito = carrito.filter(x => x.codigo !== cod);
+  actualizarUI();
+}
+
+// LÓGICA BOTÓN SUBIR
 const btnSubir = document.getElementById("btn-subir");
 window.onscroll = () => {
   if (window.scrollY > 300) btnSubir.style.display = "flex";
@@ -210,9 +280,30 @@ window.onscroll = () => {
 };
 btnSubir.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
 
+document.getElementById("btn-wa").onclick = () => {
+  let total = 0;
+  let msg = "Hola MercadoTAO, mi pedido es:%0A%0A";
+  carrito.forEach((i, idx) => {
+    const sub = i.precio * i.cantidad;
+    total += sub;
+    msg += `${idx + 1}. *${i.nombre}*%0A   Cód: ${i.codigo} | Cant: ${i.cantidad}%0A   P.Unit: $${i.precio.toLocaleString()} | Sub: $${sub.toLocaleString()}%0A%0A`;
+  });
+  msg += `*TOTAL: $${total.toLocaleString()}*`;
+  window.open(`https://wa.me/${WHATSAPP_DESTINO}?text=${msg}`);
+};
+
+document.getElementById("btn-pdf").onclick = () => {
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF();
+  doc.text("Pedido - MercadoTAO", 14, 15);
+  const filas = carrito.map(i => [i.codigo, i.nombre, i.cantidad, `$${i.precio.toLocaleString()}`, `$${(i.precio * i.cantidad).toLocaleString()}`]);
+  doc.autoTable({ startY: 25, head: [['Cód', 'Prod', 'Cant', 'Unit', 'Sub']], body: filas });
+  doc.save("Pedido.pdf");
+};
+
 document.getElementById("buscador").oninput = (e) => {
   const t = e.target.value.toLowerCase();
-  filtrados = productos.filter(p => p.nombre.toLowerCase().includes(t) || String(p.codigo).includes(t));
+  filtrados = productos.filter(p => p.nombre.toLowerCase().includes(t) || String(p.codigo).toLowerCase().includes(t));
   render();
 };
 
