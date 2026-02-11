@@ -5,24 +5,6 @@
   <title>Catálogo Mayorista TAO</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="styles.css" />
-  <style>
-    /* Estilo adicional para la etiqueta de categoría */
-    .categoria-tag {
-      background: #f0f0f0;
-      color: #555;
-      font-size: 0.8rem;
-      padding: 2px 8px;
-      border-radius: 4px;
-      display: inline-block;
-      margin-bottom: 5px;
-      text-transform: uppercase;
-      font-weight: bold;
-    }
-    .sku-text {
-      color: #777;
-      font-size: 0.9rem;
-    }
-  </style>
 </head>
 <body>
 
@@ -58,17 +40,13 @@ const panelCarrito = document.getElementById("panel-carrito");
 const carritoItems = document.getElementById("carrito-items");
 const carritoTotal = document.getElementById("carrito-total");
 
-// Función para transformar enlaces de Drive en visualización directa
-function obtenerUrlImagen(url) {
-  if (!url) return 'img/placeholder.png';
-  
-  // Si es un link de Google Drive, lo convertimos para visualización directa
+// Esta función es vital para que las fotos de Drive se vean
+function obtenerUrlDrive(url) {
+  if (!url || url.includes('placeholder')) return 'img/placeholder.png';
   if (url.includes('drive.google.com')) {
     const match = url.match(/id=([\w-]+)|file\/d\/([\w-]+)/);
     const id = match ? (match[1] || match[2]) : null;
-    if (id) {
-      return `https://lh3.googleusercontent.com/u/0/d/${id}`;
-    }
+    return id ? `https://lh3.googleusercontent.com/d/${id}` : url;
   }
   return url;
 }
@@ -79,8 +57,8 @@ async function cargarProductos() {
     productos = await res.json();
     filtrados = productos;
     render();
-  } catch (error) {
-    console.error("Error al cargar productos:", error);
+  } catch (e) {
+    console.error("Error cargando productos:", e);
   }
 }
 
@@ -89,13 +67,12 @@ function render() {
   filtrados.forEach(p => {
     const card = document.createElement("div");
     card.className = "card-producto";
-    
-    // Se reemplaza p.sku por p.codigo y se añade p.categoria
+    // Cambios realizados: p.sku -> p.codigo | agregado tag de categoria
     card.innerHTML = `
-      <img src="${obtenerUrlImagen(p.imagen)}" onerror="this.src='img/placeholder.png'">
-      <div class="categoria-tag">${p.categoria || 'General'}</div>
+      <img src="${obtenerUrlDrive(p.imagen)}" onerror="this.src='img/placeholder.png'">
+      <div style="font-size:0.7em; color:gray; text-transform:uppercase; font-weight:bold;">${p.categoria || ''}</div>
       <h3>${p.nombre}</h3>
-      <p class="sku-text">Código: ${p.codigo}</p>
+      <p>Código: ${p.codigo}</p>
       <p class="precio">$ ${Number(p.precio).toLocaleString("es-AR")}</p>
       <p class="estado">${p.estado}</p>
       <button onclick="agregar('${p.codigo}')">Agregar</button>
@@ -105,7 +82,7 @@ function render() {
 }
 
 function agregar(codigo) {
-  // Buscamos por la propiedad .codigo
+  // Cambio: buscar por .codigo
   const prod = productos.find(p => p.codigo === codigo);
   const item = carrito.find(i => i.codigo === codigo);
   if (item) item.cantidad++;
@@ -131,10 +108,10 @@ document.getElementById("carrito-cerrar").onclick = () => panelCarrito.classList
 
 document.getElementById("btn-wa").onclick = () => {
   if (!carrito.length) return alert("Carrito vacío");
-  let texto = "Pedido de productos:%0A";
+  let texto = "Pedido:%0A";
   carrito.forEach(i=>{
-    // Incluimos el código en el mensaje de WhatsApp
-    texto += `- ${i.nombre} (Cód: ${i.codigo}) x ${i.cantidad}%0A`;
+    // Cambio: enviar .codigo en el mensaje
+    texto += `- ${i.nombre} (Cod: ${i.codigo}) x ${i.cantidad}%0A`;
   });
   texto += `%0ATotal: $${carritoTotal.textContent}`;
   window.open(`https://wa.me/${WHATSAPP_DESTINO}?text=${texto}`);
@@ -150,4 +127,8 @@ buscador.oninput = () => {
   render();
 };
 
-cargarProductos
+cargarProductos();
+</script>
+
+</body>
+</html>
