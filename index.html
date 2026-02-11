@@ -102,7 +102,34 @@
 }
 .leyenda-centro { 
         font-size: 20px !important; 
-    }    }
+    } 
+    /* 1. Reducimos el alto de la cabecera del carrito */
+  .carrito-header { 
+    padding: 10px 15px !important; 
+  }
+
+  /* 2. Reducimos el espacio de la lista de productos */
+  .carrito-lista { 
+    padding: 5px 15px !important; 
+  }
+
+  /* 3. Achicamos el footer donde están los botones y el total */
+  .carrito-footer { 
+    padding: 10px 20px !important; 
+  }
+
+  /* 4. Reducimos el margen del total para que los botones suban */
+  .carrito-footer h3 { 
+    margin-top: 0 !important;
+    margin-bottom: 8px !important;
+    font-size: 1.1rem !important;
+  }
+
+  /* 5. Hacemos los botones un poco más bajos para ganar espacio */
+  #btn-pdf, #btn-wa {
+    padding: 10px !important;
+    margin-bottom: 5px !important;
+  }}
   </style>
 </head>
 <body>
@@ -365,5 +392,6 @@ cargar();
 </script>
 </body>
 </html>
+
 
 
