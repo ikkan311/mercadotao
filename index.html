@@ -6,40 +6,61 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="styles.css" />
   <style>
-    /* ARREGLO PARA IMÁGENES ENORMES */
+    /* AJUSTE DE CONTENEDOR BLANCO */
     .contenedor-img {
       width: 100%;
-      height: 200px; /* Altura fija para que todas las tarjetas sean iguales */
+      height: 220px; /* Un poco más de altura para que luzcan las fotos */
       overflow: hidden;
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: #f9f9f9;
+      background-color: #ffffff; /* FONDO BLANCO */
       border-radius: 8px;
+      margin-bottom: 10px;
     }
 
     .contenedor-img img {
       max-width: 100%;
       max-height: 100%;
-      object-fit: contain; /* Ajusta la imagen sin deformarla y sin salirse */
+      object-fit: contain; /* Mantiene la proporción sin estirar */
+      display: block;
     }
 
     .card-producto {
       display: flex;
       flex-direction: column;
-      gap: 10px;
       padding: 15px;
-      border: 1px solid #eee;
+      border: 1px solid #f0f0f0;
       border-radius: 12px;
-      background: white;
+      background: #ffffff;
+      transition: transform 0.2s;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+    }
+
+    .card-producto:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     }
 
     .categoria-tag {
       font-size: 0.7em;
-      color: #888;
+      color: #999;
       text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+
+    .precio {
       font-weight: bold;
-      margin-top: 5px;
+      color: #27ae60;
+      font-size: 1.2rem;
+      margin: 8px 0;
+    }
+
+    .sku-text {
+      font-size: 0.8rem;
+      color: #666;
+      margin: 0;
     }
   </style>
 </head>
@@ -83,8 +104,8 @@ function obtenerUrlImagen(url) {
     const match = url.match(/id=([\w-]+)|file\/d\/([\w-]+)/);
     const id = match ? (match[1] || match[2]) : null;
     if (id) {
-      // Usamos el parámetro s400 para que Google envíe una versión pequeña y no la original pesada
-      return `https://lh3.googleusercontent.com/d/${id}=s400`;
+      // s600 da un poco más de calidad que s400 para fotos de productos
+      return `https://lh3.googleusercontent.com/d/${id}=s600`;
     }
   }
   return url;
@@ -97,7 +118,7 @@ async function cargarProductos() {
     filtrados = productos;
     render();
   } catch (e) {
-    console.error("Error:", e);
+    console.error("Error cargando JSON:", e);
   }
 }
 
@@ -112,11 +133,11 @@ function render() {
         <img src="${obtenerUrlImagen(p.imagen)}" loading="lazy" onerror="this.src='img/placeholder.png'">
       </div>
       <div class="categoria-tag">${p.categoria || 'General'}</div>
-      <h3 style="font-size: 1rem; margin: 5px 0;">${p.nombre}</h3>
-      <p style="font-size: 0.8rem; color: #666; margin: 0;">Cód: ${p.codigo}</p>
-      <p class="precio" style="font-weight: bold; color: #2ecc71;">$ ${Number(p.precio).toLocaleString("es-AR")}</p>
-      <p class="estado" style="font-size: 0.7rem;">${p.estado}</p>
-      <button onclick="agregar('${p.codigo}')">Agregar</button>
+      <h3 style="font-size: 1rem; margin: 5px 0; color: #333;">${p.nombre}</h3>
+      <p class="sku-text">Cód: ${p.codigo}</p>
+      <p class="precio">$ ${Number(p.precio).toLocaleString("es-AR")}</p>
+      <p style="font-size: 0.75rem; color: #e67e22; font-weight: bold;">${p.estado}</p>
+      <button onclick="agregar('${p.codigo}')">Agregar al Carrito</button>
     `;
     grid.appendChild(card);
   });
@@ -136,7 +157,8 @@ function actualizarCarrito() {
   carrito.forEach(i => {
     total += i.precio * i.cantidad;
     const div = document.createElement("div");
-    div.innerHTML = `<strong>${i.nombre}</strong> x ${i.cantidad}`;
+    div.className = "item-carrito";
+    div.innerHTML = `<strong>${i.nombre}</strong><br>${i.cantidad} x $${i.precio.toLocaleString("es-AR")}`;
     carritoItems.appendChild(div);
   });
   carritoTotal.textContent = total.toLocaleString("es-AR");
@@ -148,7 +170,7 @@ document.getElementById("carrito-cerrar").onclick = () => panelCarrito.classList
 
 document.getElementById("btn-wa").onclick = () => {
   if (!carrito.length) return alert("Carrito vacío");
-  let texto = "Pedido TAO:%0A";
+  let texto = "Hola TAO, mi pedido es:%0A";
   carrito.forEach(i=>{
     texto += `- ${i.nombre} (Cod: ${i.codigo}) x ${i.cantidad}%0A`;
   });
