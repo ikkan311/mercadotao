@@ -44,10 +44,12 @@
       body { padding-top: 175px; }
       .grid-productos { grid-template-columns: 1fr; }
       .card-producto { height: auto; min-height: 520px; padding: 20px; }
+      .controles-compra { 
+    margin-top: 15px !important; }
 
       /* 2. LEYENDA COMPRA MÍNIMA (Header) */
       .leyenda-centro { 
-        font-size: 16px; 
+        font-size: 20px; 
         width: 100%; order: 3; padding: 10px 0 5px 0; border-top: 1px solid #eee; margin-top: 5px;
       }
 
@@ -63,12 +65,12 @@
 
       /* 5. CÓDIGO DEL PRODUCTO (SKU) */
       .sku-text { 
-        font-size: 17px; 
+        font-size: 20px; 
       }
 
       /* 6. PRECIO */
       .precio-text { 
-        font-size: 28px; 
+        font-size: 30px; 
       }
 
       /* 7. LEYENDA STOCK / ÚLTIMOS DISPONIBLES */
@@ -92,7 +94,15 @@
       .contenedor-img { height: 260px; }
       .lupa-zoom { display: flex; }
       #panel-carrito { max-width: 100%; }
-    }
+      .sku-text { 
+    margin-bottom: 2px !important; 
+}
+.precio-text { 
+    margin-top: 2px !important; 
+}
+.leyenda-centro { 
+        font-size: 20px !important; 
+    }    }
   </style>
 </head>
 <body>
@@ -355,4 +365,5 @@ cargar();
 </script>
 </body>
 </html>
+
 
