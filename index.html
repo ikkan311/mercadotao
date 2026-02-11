@@ -25,9 +25,13 @@
     .grid-productos { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px; }
 
     /* FICHAS PC */
-    .card-producto { padding: 12px; border: 1px solid #eee; border-radius: 10px; background: #fff; display: flex; flex-direction: column; height: 410px; box-sizing: border-box; }
-    .contenedor-img { width: 100%; height: 180px; display: flex; align-items: center; justify-content: center; margin-bottom: 10px; }
+    .card-producto { padding: 12px; border: 1px solid #eee; border-radius: 10px; background: #fff; display: flex; flex-direction: column; height: 410px; box-sizing: border-box; position: relative; }
+    .contenedor-img { width: 100%; height: 180px; display: flex; align-items: center; justify-content: center; margin-bottom: 10px; background: #fff; cursor: zoom-in; position: relative; }
     .contenedor-img img { max-width: 100%; max-height: 100%; object-fit: contain; }
+    
+    /* ICONO LUPA (Oculto por defecto en PC) */
+    .lupa-zoom { display: none; position: absolute; top: 5px; right: 5px; background: #0070c0; color: white; width: 24px; height: 24px; border-radius: 4px; align-items: center; justify-content: center; font-size: 14px; pointer-events: none; z-index: 5; }
+
     .nombre-producto, .precio-text, .estado-stock, .estado-ultimos { text-align: center; }
     .categoria-tag { font-size: 0.6rem; color: #999; text-transform: uppercase; font-weight: 800; margin: 0; }
     .nombre-producto { font-size: 0.9rem; line-height: 1.2; height: 3.6em; margin: 4px 0 0 0; color: #222; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; }
@@ -36,16 +40,19 @@
     .estado-stock { color: #0070c0; font-weight: bold; font-size: 0.75rem; margin: 0; }
     .estado-ultimos { color: #e67e22; font-weight: bold; font-size: 0.75rem; margin: 0; }
     .controles-compra { margin-top: auto; display: flex; gap: 5px; }
-    
-    .controles-compra input { 
-      width: 60px; text-align: center; border: 1px solid #ddd; border-radius: 4px; 
-      padding: 5px 0; font-size: 1rem;
-    }
-
+    .controles-compra input { width: 60px; text-align: center; border: 1px solid #ddd; border-radius: 4px; padding: 5px 0; font-size: 1rem; }
     .btn-add { flex-grow: 1; background: #222; color: #fff; border: none; padding: 8px; border-radius: 4px; font-weight: bold; cursor: pointer; }
 
     /* BOTÓN SUBIR */
     #btn-subir { position: fixed; bottom: 20px; right: 20px; background: #0070c0; color: #fff; width: 50px; height: 50px; border-radius: 50%; border: none; cursor: pointer; display: none; align-items: center; justify-content: center; font-size: 26px; font-weight: bold; z-index: 1500; box-shadow: 0 4px 10px rgba(0,0,0,0.3); }
+
+    /* LIGHTBOX (FLOTANTE IMAGEN) */
+    #lightbox {
+      position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+      background: rgba(0,0,0,0.9); z-index: 3000; display: none;
+      align-items: center; justify-content: center; cursor: zoom-out;
+    }
+    #lightbox img { max-width: 90%; max-height: 90%; object-fit: contain; border-radius: 5px; }
 
     /* PANEL CARRITO */
     #panel-carrito {
@@ -55,7 +62,6 @@
       box-sizing: border-box;
     }
     #panel-carrito.oculto { transform: translateX(100%); }
-    
     .carrito-header { padding: 20px; border-bottom: 2px solid #eee; display: flex; justify-content: space-between; align-items: center; }
     .carrito-lista { flex-grow: 1; overflow-y: auto; padding: 10px 20px; }
     .carrito-footer { padding: 20px; border-top: 2px solid #eee; background: #fff; }
@@ -68,6 +74,7 @@
       .grid-productos { grid-template-columns: 1fr; }
       .card-producto { height: auto; min-height: 520px; padding: 20px; }
       .contenedor-img { height: 260px; }
+      .lupa-zoom { display: flex; } /* Mostramos lupa solo en móvil */
       .categoria-tag, .sku-text { text-align: left; }
       .nombre-producto, .precio-text, .estado-stock, .estado-ultimos { text-align: center; }
       .sku-text { margin-top: 2px; }
@@ -101,20 +108,19 @@
 
 <button id="btn-subir">↑</button>
 
+<div id="lightbox" onclick="this.style.display='none'">
+  <img id="img-ampliada" src="" alt="Ampliada">
+</div>
+
 <div id="panel-carrito" class="oculto">
   <div class="carrito-header">
     <h3 style="margin:0;">Tu Pedido</h3>
     <button id="btn-cerrar-carrito" style="cursor:pointer; padding:5px 10px; border:none; background:#eee; border-radius:4px;">Cerrar</button>
   </div>
-  
   <div id="msg-minimo" style="background:#fff3cd; padding:10px; margin:10px 20px; border-radius:4px; text-align:center; font-size:0.85rem;"></div>
-  
   <div class="carrito-lista">
-    <table style="width:100%; border-collapse: collapse; font-size: 0.85rem;">
-      <tbody id="carrito-body"></tbody>
-    </table>
+    <table style="width:100%; border-collapse: collapse; font-size: 0.85rem;"><tbody id="carrito-body"></tbody></table>
   </div>
-  
   <div class="carrito-footer">
     <h3 style="text-align:right; margin-bottom:10px;">Total: $<span id="carrito-total">0</span></h3>
     <button id="btn-pdf" style="width:100%; background:#444; color:#fff; padding:12px; margin-bottom:8px; border:none; border-radius:4px; cursor:pointer; font-weight:bold;">DESCARGAR PDF</button>
@@ -148,16 +154,28 @@ function obtenerImagen(url) {
   return url;
 }
 
+// Función para abrir la lupa
+function ampliarImagen(url) {
+  const lb = document.getElementById("lightbox");
+  const img = document.getElementById("img-ampliada");
+  img.src = url;
+  lb.style.display = "flex";
+}
+
 function render() {
   const grid = document.getElementById("grid-productos");
   grid.innerHTML = "";
   filtrados.forEach(p => {
+    const imgUrl = obtenerImagen(p.imagen);
     const maxS = p.estado === "ULTIMOS DISPONIBLES" ? (p.stock || 0) : 999;
     const claseEst = p.estado === "CON STOCK" ? "estado-stock" : "estado-ultimos";
     const div = document.createElement("div");
     div.className = "card-producto";
     div.innerHTML = `
-      <div class="contenedor-img"><img src="${obtenerImagen(p.imagen)}" loading="lazy"></div>
+      <div class="contenedor-img" onclick="ampliarImagen('${imgUrl}')">
+        <div class="lupa-zoom">🔍</div>
+        <img src="${imgUrl}" loading="lazy">
+      </div>
       <div>
         <div class="categoria-tag">${p.categoria || ''}</div>
         <h3 class="nombre-producto">${p.nombre}</h3>
@@ -185,22 +203,14 @@ function agregar(cod) {
 
 function actualizarUI() {
   const body = document.getElementById("carrito-body");
-  let totalDinero = 0;
-  let totalUnidades = 0; // NUEVO: Contador de unidades totales
-  body.innerHTML = "";
-  
+  let totalDinero = 0; let totalUnidades = 0; body.innerHTML = "";
   carrito.forEach(i => {
     const sub = i.precio * i.cantidad;
-    totalDinero += sub;
-    totalUnidades += i.cantidad; // Sumamos las unidades de cada artículo
+    totalDinero += sub; totalUnidades += i.cantidad;
     body.innerHTML += `<tr style="border-bottom: 1px solid #eee;"><td style="padding:10px 0;">${i.nombre.substring(0,25)}...<br><small>Cód: ${i.codigo}</small></td><td style="text-align:center;">x${i.cantidad}</td><td style="text-align:right;">$${sub.toLocaleString()}</td><td><button onclick="quitar('${i.codigo}')" style="color:red; border:none; background:none; cursor:pointer; padding-left:10px;">✕</button></td></tr>`;
   });
-  
   document.getElementById("carrito-total").innerText = totalDinero.toLocaleString("es-AR");
-  
-  // Unificado: el contador muestra totalUnidades en ambas vistas
   document.getElementById("carrito-count").innerText = totalUnidades;
-  
   const msg = document.getElementById("msg-minimo");
   const btnWa = document.getElementById("btn-wa");
   if (totalDinero < MINIMO_COMPRA) {
