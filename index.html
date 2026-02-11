@@ -266,147 +266,20 @@ document.getElementById("buscador").oninput = (e) => {
 document.getElementById("btn-carrito-toggle").onclick = () => document.getElementById("panel-carrito").classList.toggle("oculto");
 document.getElementById("btn-cerrar-carrito").onclick = () => document.getElementById("panel-carrito").classList.add("oculto");
 
-const WHATSAPP_DESTINO = "5493516148905";
-const MINIMO_COMPRA = 90000;
-let productos = [];
-let filtrados = [];
-let carrito = [];
-
-async function cargar() {
-  try {
-    const res = await fetch("productos.json");
-    productos = await res.json();
-    filtrados = productos;
-    render();
-  } catch (e) { console.error("Error", e); }
-}
-
-function obtenerImagen(url) {
-  if (!url || url.includes('placeholder')) return 'img/placeholder.png';
-  if (url.includes('drive.google.com')) {
-    const id = url.match(/id=([\w-]+)|file\/d\/([\w-]+)/);
-    const actualId = id ? (id[1] || id[2]) : null;
-    return actualId ? `https://lh3.googleusercontent.com/d/${actualId}` : url;
-  }
-  return url;
-}
-
-function ampliarImagen(url) {
-  const lb = document.getElementById("lightbox");
-  const img = document.getElementById("img-ampliada");
-  img.src = url;
-  lb.style.display = "flex";
-}
-
-function render() {
-  const grid = document.getElementById("grid-productos");
-  grid.innerHTML = "";
-  filtrados.forEach(p => {
-    const imgUrl = obtenerImagen(p.imagen);
-    const maxS = p.estado === "ULTIMOS DISPONIBLES" ? (p.stock || 0) : 999;
-    const claseEst = p.estado === "CON STOCK" ? "estado-stock" : "estado-ultimos";
-    const div = document.createElement("div");
-    div.className = "card-producto";
-    div.innerHTML = `
-      <div class="contenedor-img" onclick="ampliarImagen('${imgUrl}')">
-        <div class="lupa-zoom">+</div>
-        <img src="${imgUrl}" loading="lazy">
-      </div>
-      <div>
-        <div class="categoria-tag">${p.categoria || ''}</div>
-        <h3 class="nombre-producto">${p.nombre}</h3>
-        <p class="sku-text">Cód: ${p.codigo}</p>
-        <p class="precio-text">$ ${Number(p.precio).toLocaleString("es-AR")}</p>
-        <p class="${claseEst}">${p.estado} ${p.estado === "ULTIMOS DISPONIBLES" ? '('+p.stock+')' : ''}</p>
-      </div>
-      <div class="controles-compra">
-        <input type="number" id="qty-${p.codigo}" value="1" min="1" max="${maxS}" onfocus="this.select()">
-        <button class="btn-add" onclick="agregar('${p.codigo}')">AÑADIR</button>
-      </div>
-    `;
-    grid.appendChild(div);
-  });
-}
-
-function agregar(cod) {
-  const p = productos.find(x => x.codigo === cod);
-  const cant = parseInt(document.getElementById(`qty-${cod}`).value);
-  if(isNaN(cant) || cant < 1) return;
-  const ex = carrito.find(x => x.codigo === cod);
-  if (ex) ex.cantidad += cant; else carrito.push({ ...p, cantidad: cant });
-  actualizarUI();
-}
-
-function actualizarUI() {
-  const body = document.getElementById("carrito-body");
-  let totalDinero = 0; let totalUnidades = 0; body.innerHTML = "";
-  carrito.forEach(i => {
-    const sub = i.precio * i.cantidad;
-    totalDinero += sub; totalUnidades += i.cantidad;
-    body.innerHTML += `<tr style="border-bottom: 1px solid #eee;"><td style="padding:10px 0;">${i.nombre.substring(0,25)}...<br><small>Cód: ${i.codigo}</small></td><td style="text-align:center;">x${i.cantidad}</td><td style="text-align:right;">$${sub.toLocaleString()}</td><td><button onclick="quitar('${i.codigo}')" style="color:red; border:none; background:none; cursor:pointer; padding-left:10px;">✕</button></td></tr>`;
-  });
-  document.getElementById("carrito-total").innerText = totalDinero.toLocaleString("es-AR");
-  document.getElementById("carrito-count").innerText = totalUnidades;
-  const msg = document.getElementById("msg-minimo");
-  const btnWa = document.getElementById("btn-wa");
-  if (totalDinero < MINIMO_COMPRA) {
-    msg.innerHTML = `Faltan <strong>$${(MINIMO_COMPRA - totalDinero).toLocaleString()}</strong> para el mínimo.`;
-    btnWa.style.opacity = "0.4"; btnWa.style.pointerEvents = "none";
-  } else {
-    msg.innerHTML = "✅ Mínimo alcanzado."; msg.style.background = "#d4edda";
-    btnWa.style.opacity = "1"; btnWa.style.pointerEvents = "auto";
-  }
-}
-
-function quitar(cod) { carrito = carrito.filter(x => x.codigo !== cod); actualizarUI(); }
-
-const btnSubir = document.getElementById("btn-subir");
-window.onscroll = () => {
-  if (window.scrollY > 300) btnSubir.style.display = "flex";
-  else btnSubir.style.display = "none";
-};
-btnSubir.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
-
-document.getElementById("btn-wa").onclick = () => {
-  let total = 0; let msg = "Hola MercadoTAO, mi pedido es:%0A%0A";
-  carrito.forEach((i, idx) => {
-    const sub = i.precio * i.cantidad; total += sub;
-    msg += `${idx + 1}. *${i.nombre}*%0A   Cód: ${i.codigo} | Cant: ${i.cantidad}%0A   P.Unit: $${i.precio.toLocaleString()} | Sub: $${sub.toLocaleString()}%0A%0A`;
-  });
-  msg += `*TOTAL: $${total.toLocaleString()}*`;
-  window.open(`https://wa.me/${WHATSAPP_DESTINO}?text=${msg}`);
-};
-
-document.getElementById("btn-pdf").onclick = () => {
-  const { jsPDF } = window.jspdf; const doc = new jsPDF();
-  doc.text("Pedido - MercadoTAO", 14, 15);
-  const filas = carrito.map(i => [i.codigo, i.nombre, i.cantidad, `$${i.precio.toLocaleString()}`, `$${(i.precio * i.cantidad).toLocaleString()}`]);
-  doc.autoTable({ startY: 25, head: [['Cód', 'Prod', 'Cant', 'Unit', 'Sub']], body: filas });
-  doc.save("Pedido.pdf");
-};
-
-document.getElementById("buscador").oninput = (e) => {
-  const t = e.target.value.toLowerCase();
-  filtrados = productos.filter(p => p.nombre.toLowerCase().includes(t) || String(p.codigo).toLowerCase().includes(t) || (p.categoria && p.categoria.toLowerCase().includes(t)));
-  render();
-};
-
-document.getElementById("btn-carrito-toggle").onclick = () => document.getElementById("panel-carrito").classList.toggle("oculto");
-document.getElementById("btn-cerrar-carrito").onclick = () => document.getElementById("panel-carrito").classList.add("oculto");
-
-// --- NUEVA LÓGICA REFORZADA PARA EL CATÁLOGO PDF (TECLA P) ---
+// --- FUNCIÓN PARA EL CATÁLOGO PDF (TECLA P) ---
 async function generarPDFParaImprimir() {
   const { jsPDF } = window.jspdf;
   const doc = new jsPDF('p', 'mm', 'a4');
   const marginX = 10, marginY = 35, gap = 5;
   const cardW = (210 - (marginX * 2) - (gap * 3)) / 4; 
   const cardH = 62; 
+  const productosPorHoja = 16;
   const lista = filtrados;
 
-  if (lista.length === 0) return alert("No hay productos para mostrar");
-
   for (let i = 0; i < lista.length; i++) {
-    const indexEnHoja = i % 16;
+    const p = lista[i];
+    const indexEnHoja = i % productosPorHoja;
+    const nroPagina = Math.floor(i / productosPorHoja) + 1;
     if (i > 0 && indexEnHoja === 0) doc.addPage();
 
     if (indexEnHoja === 0) {
@@ -422,32 +295,30 @@ async function generarPDFParaImprimir() {
     doc.setDrawColor(240); doc.rect(x, y, cardW, cardH - 4);
 
     try {
-      const imgUrl = obtenerImagen(lista[i].imagen);
-      // Espacio para imagen
+      const imgUrl = obtenerImagen(p.imagen);
       doc.addImage(imgUrl, 'JPEG', x + 2, y + 2, cardW - 4, 32);
-    } catch (e) { /* Si falla la imagen sigue con el texto */ }
+    } catch (e) {}
 
     doc.setTextColor(40); doc.setFontSize(7); doc.setFont(undefined, 'bold');
-    const n = doc.splitTextToSize(lista[i].nombre, cardW - 4);
+    const n = doc.splitTextToSize(p.nombre, cardW - 4);
     doc.text(n, x + 2, y + 38);
-    
     doc.setFont(undefined, 'normal'); doc.setFontSize(6); doc.setTextColor(120);
-    doc.text(`Cód: ${lista[i].codigo}`, x + 2, y + 51);
-    
+    doc.text(`Cat: ${p.categoria || '-'}`, x + 2, y + 48);
+    doc.text(`Cód: ${p.codigo}`, x + 2, y + 51);
     doc.setFontSize(9); doc.setTextColor(0, 112, 192); doc.setFont(undefined, 'bold');
-    doc.text(`$${Number(lista[i].precio).toLocaleString("es-AR")}`, x + 2, y + 56);
+    doc.text(`$${Number(p.precio).toLocaleString("es-AR")}`, x + 2, y + 56);
 
     if (indexEnHoja === 15 || i === lista.length - 1) {
       doc.setFontSize(8); doc.setTextColor(230, 126, 34); doc.setFont(undefined, 'bold');
       doc.text("CUALQUIER CONSULTA COMUNICARSE CON SEBASTIAN AL 351-6148905", 105, 288, { align: 'center' });
+      doc.setFontSize(7); doc.setTextColor(150);
+      doc.text(`Página ${nroPagina}`, 195, 288, { align: 'right' });
     }
   }
   doc.save("Catalogo_TAO_Imprimir.pdf");
 }
 
-// Escuchador global de teclado
-document.addEventListener('keydown', (e) => {
-  // Solo se activa si NO estás escribiendo en el buscador
+window.addEventListener('keydown', (e) => {
   if (e.key.toLowerCase() === 'p' && document.activeElement.tagName !== 'INPUT') {
     generarPDFParaImprimir();
   }
@@ -457,4 +328,3 @@ cargar();
 </script>
 </body>
 </html>
-
