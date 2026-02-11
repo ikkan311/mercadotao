@@ -7,126 +7,101 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.25/jspdf.plugin.autotable.min.js"></script>
   <style>
-    :root {
-        --azul-tao: #0070c0;
-        --verde-tao: #27ae60;
-    }
-
-    body { font-family: sans-serif; margin: 0; background: #f4f4f4; padding-top: 190px; }
+    /* --- DISEÑO ORIGINAL PC --- */
+    body { font-family: sans-serif; margin: 0; background: #f4f4f4; }
     
-    /* HEADER FIJO Y REORGANIZADO */
-    .header-fixed-container {
-      position: fixed; top: 0; left: 0; width: 100%; background: #fff;
-      z-index: 1000; border-bottom: 2px solid #eee;
-    }
-
-    .header-top {
+    .header {
       display: flex; justify-content: space-between; align-items: center;
-      padding: 10px 15px;
+      padding: 10px 20px; background: #fff; border-bottom: 2px solid #eee;
+      position: sticky; top: 0; z-index: 1000;
     }
+    .logo-container img { height: 45px; width: auto; }
+    .leyenda-centro { color: #27ae60; font-weight: bold; font-size: 0.9rem; text-align: center; flex-grow: 1; padding: 0 10px; }
 
-    .logo-container img { height: 40px; width: auto; }
-
-    .leyenda-centro { 
-      width: 100%; color: var(--verde-tao); font-weight: bold; 
-      font-size: 0.95rem; text-align: center; padding: 8px 0;
-      border-top: 1px solid #f0f0f0; border-bottom: 1px solid #f0f0f0;
-    }
-
-    .search-container { padding: 10px 15px; }
+    .contenedor-principal { padding: 20px; max-width: 1200px; margin: 0 auto; }
     #buscador {
       width: 100%; padding: 12px; font-size: 1.1rem; border: 2px solid #ddd;
-      border-radius: 8px; box-sizing: border-box; outline: none;
+      border-radius: 8px; margin-bottom: 30px; box-sizing: border-box;
     }
-    #buscador:focus { border-color: var(--azul-tao); }
 
-    /* GRID Y FICHAS */
-    .contenedor-principal { padding: 15px; max-width: 1200px; margin: 0 auto; }
     .grid-productos {
-      display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 20px;
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px;
     }
 
     .card-producto {
-      padding: 15px; border: 1px solid #eee; border-radius: 12px;
+      padding: 12px; border: 1px solid #eee; border-radius: 10px;
       background: #fff; display: flex; flex-direction: column;
-      height: 460px; box-sizing: border-box; text-align: center; /* CENTRADO DE TEXTOS */
+      height: 410px; justify-content: flex-start; box-sizing: border-box;
     }
 
-    .contenedor-img { 
-      width: 100%; height: 200px; display: flex; 
-      align-items: center; justify-content: center; margin-bottom: 15px; 
-    }
+    .contenedor-img { width: 100%; height: 180px; display: flex; align-items: center; justify-content: center; margin-bottom: 10px; }
     .contenedor-img img { max-width: 100%; max-height: 100%; object-fit: contain; }
     
-    .nombre-producto { 
-        font-size: 1rem; line-height: 1.2; height: 3.6em; overflow: hidden; 
-        display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; 
-        margin: 5px 0; font-weight: bold;
+    .nombre-producto {
+      font-size: 0.9rem; line-height: 1.2; height: 3.6em; margin: 4px 0 0 0;
+      color: #222; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;
     }
 
-    .sku-text { font-size: 0.85rem; color: #777; margin: 10px 0 5px 0; }
-    .precio-text { font-weight: bold; color: var(--verde-tao); font-size: 1.5rem; margin: 5px 0; }
-    .estado-stock { color: var(--azul-tao); font-weight: bold; font-size: 0.9rem; margin-bottom: 10px; }
+    .sku-text { font-size: 0.75rem; color: #777; margin: 8px 0 3px 0; line-height: 1; }
+    .precio-text { font-weight: bold; color: #27ae60; font-size: 1.25rem; margin-bottom: 3px; line-height: 1.2; }
+    .estado-stock { color: #0070c0; font-weight: bold; font-size: 0.75rem; margin: 0; }
 
-    /* CONTROLES */
-    .controles-compra { margin-top: auto; display: flex; gap: 8px; }
-    .controles-compra input { width: 55px; text-align: center; border: 1px solid #ddd; border-radius: 6px; font-size: 1rem; }
-    .btn-add { 
-      flex-grow: 1; background: #222; color: #fff; border: none; 
-      padding: 12px; border-radius: 6px; font-weight: bold; cursor: pointer;
-    }
+    .controles-compra { margin-top: auto; display: flex; gap: 5px; }
+    .controles-compra input { width: 50px; text-align: center; border: 1px solid #ddd; border-radius: 4px; }
+    .btn-add { flex-grow: 1; background: #222; color: #fff; border: none; padding: 8px; border-radius: 4px; font-weight: bold; cursor: pointer; }
 
-    /* BOTÓN SUBIR AZUL */
+    /* BOTÓN SUBIR */
     #btn-subir {
-      position: fixed; bottom: 25px; right: 20px; background: var(--azul-tao); color: #fff;
+      position: fixed; bottom: 20px; right: 20px; background: #0070c0; color: #fff;
       width: 50px; height: 50px; border-radius: 50%; border: none; cursor: pointer;
-      display: none; align-items: center; justify-content: center; 
-      font-size: 24px; font-weight: bold; z-index: 1500; box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      display: none; align-items: center; justify-content: center; font-size: 26px; 
+      font-weight: 900; z-index: 1500; box-shadow: 0 2px 10px rgba(0,0,0,0.3);
     }
 
-    /* RESPONSIVE MÓVIL ESPECÍFICO */
+    /* --- CAMBIOS SOLO PARA MÓVIL --- */
     @media (max-width: 600px) {
-      body { padding-top: 185px; }
-      .grid-productos { grid-template-columns: 1fr; }
-      .card-producto { height: auto; padding: 20px; }
-      .contenedor-img { height: 260px; }
+      .header { flex-wrap: wrap; padding: 10px; position: fixed; width: 100%; top: 0; left: 0; box-sizing: border-box; }
+      .logo-container { order: 1; width: 50%; }
+      #btn-carrito-toggle { order: 2; width: auto; }
+      .leyenda-centro { order: 3; width: 100%; margin-top: 10px; padding: 5px 0; border-top: 1px solid #eee; }
       
-      /* Aumento de fuentes en móvil */
-      .nombre-producto { font-size: 1.2rem; }
-      .sku-text { font-size: 1rem; }
-      .precio-text { font-size: 1.7rem; }
-      .estado-stock { font-size: 1rem; }
+      body { padding-top: 130px; } /* Ajuste por el header fijo */
+      
+      #buscador { width: 100%; margin-top: 10px; }
+      
+      .grid-productos { grid-template-columns: 1fr; }
+      .card-producto { height: auto; min-height: 480px; text-align: center; padding: 20px; }
+      .contenedor-img { height: 250px; }
+      
+      /* Fuentes +2pt */
+      .nombre-producto { font-size: 1.1rem; }
+      .sku-text { font-size: 0.95rem; margin-top: 12px; }
+      .precio-text { font-size: 1.45rem; }
+      .estado-stock { font-size: 0.95rem; }
+      .btn-add { padding: 12px; font-size: 1rem; }
+      
+      .controles-compra { justify-content: center; }
     }
 
-    /* CARRITO LATERAL */
+    /* PANEL CARRITO */
     #panel-carrito {
       position: fixed; top: 0; right: 0; width: 100%; max-width: 400px; height: 100%;
-      background: #fff; z-index: 2000; padding: 20px; display: flex; 
-      flex-direction: column; box-sizing: border-box; transition: transform 0.3s;
+      background: #fff; box-shadow: -5px 0 25px rgba(0,0,0,0.2); z-index: 2000;
+      padding: 20px; display: flex; flex-direction: column; transition: transform 0.3s ease;
     }
     #panel-carrito.oculto { transform: translateX(100%); }
   </style>
 </head>
 <body>
 
-<div class="header-fixed-container">
-  <div class="header-top">
-    <div class="logo-container">
-        <img src="logo.png" alt="MERCADO TAO">
-    </div>
-    <button id="btn-carrito-toggle" style="cursor:pointer; padding: 8px 15px; border-radius: 8px; border: 1px solid #ddd; background: #f8f8f8; font-weight: bold;">
-        🛒 (<span id="carrito-count">0</span>)
-    </button>
-  </div>
-  <div class="leyenda-centro">
-    Precios mayorista para compras mayores a $90.000
-  </div>
-  <div class="search-container">
-    <input type="text" id="buscador" placeholder="Buscar por nombre o código..." />
-  </div>
-</div>
+<header class="header">
+  <div class="logo-container"><img src="logo.png" alt="Logo"></div>
+  <div class="leyenda-centro">Precios mayorista para compras mayores a $90.000</div>
+  <button id="btn-carrito-toggle" style="cursor:pointer; padding: 8px 12px; border-radius: 6px; border: 1px solid #ddd;">🛒 (<span id="carrito-count">0</span>)</button>
+</header>
 
 <main class="contenedor-principal">
+  <input type="text" id="buscador" placeholder="Buscar por nombre o código..." />
   <section id="grid-productos" class="grid-productos"></section>
 </main>
 
@@ -134,18 +109,18 @@
 
 <div id="panel-carrito" class="oculto">
   <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:2px solid #eee; padding-bottom:10px;">
-    <h3 style="margin:0;">Resumen de Pedido</h3>
-    <button id="btn-cerrar-carrito" style="border:none; background:#eee; padding:8px 12px; border-radius:5px; cursor:pointer;">✕</button>
+    <h3>Tu Pedido</h3>
+    <button id="btn-cerrar-carrito" style="cursor:pointer; padding:5px 10px;">Cerrar</button>
   </div>
-  <div id="msg-minimo" style="background:#fff3cd; padding:12px; margin:15px 0; border-radius:6px; text-align:center; font-size:0.9rem;"></div>
+  <div id="msg-minimo" style="background:#fff3cd; padding:10px; margin:10px 0; border-radius:4px; text-align:center;"></div>
   <div style="flex-grow:1; overflow-y:auto;">
     <table style="width:100%; border-collapse: collapse;">
       <tbody id="carrito-body"></tbody>
     </table>
   </div>
-  <div style="border-top:2px solid #eee; padding-top:15px;">
-    <h3 style="text-align:right; margin-bottom:15px;">Total: $<span id="carrito-total">0</span></h3>
-    <button id="btn-wa" style="width:100%; background:var(--verde-tao); color:#fff; padding:15px; border:none; border-radius:8px; font-weight:bold; cursor:pointer; font-size:1.1rem;">ENVIAR A WHATSAPP</button>
+  <div style="border-top:2px solid #eee; padding-top:10px;">
+    <h3 style="text-align:right;">Total: $<span id="carrito-total">0</span></h3>
+    <button id="btn-wa" style="width:100%; background:#27ae60; color:#fff; padding:12px; border:none; border-radius:4px; font-weight:bold; cursor:pointer;">ENVIAR WHATSAPP</button>
   </div>
 </div>
 
@@ -156,48 +131,41 @@ let productos = [];
 let filtrados = [];
 let carrito = [];
 
-// Función corregida para procesar imágenes de Google Drive
-function filtrarUrlImagen(url) {
-    if (!url) return 'img/placeholder.png';
-    if (url.includes('drive.google.com')) {
-        const id = url.match(/id=([\w-]+)|file\/d\/([\w-]+)/);
-        const actualId = id ? (id[1] || id[2]) : null;
-        return actualId ? `https://lh3.googleusercontent.com/u/0/d/${actualId}` : url;
-    }
-    return url;
-}
-
 async function cargar() {
   try {
     const res = await fetch("productos.json");
     productos = await res.json();
     filtrados = productos;
     render();
-  } catch (e) {
-    console.error("Error cargando productos", e);
+  } catch (e) { console.error("Error", e); }
+}
+
+function obtenerImagen(url) {
+  if (!url) return 'img/placeholder.png';
+  if (url.includes('drive.google.com')) {
+    const id = url.match(/id=([\w-]+)|file\/d\/([\w-]+)/);
+    const actualId = id ? (id[1] || id[2]) : null;
+    return actualId ? `https://lh3.googleusercontent.com/d/${actualId}` : url;
   }
+  return url;
 }
 
 function render() {
   const grid = document.getElementById("grid-productos");
   grid.innerHTML = "";
-  
   filtrados.forEach(p => {
-    const maxS = p.estado === "ULTIMOS DISPONIBLES" ? (p.stock || 0) : 999;
     const div = document.createElement("div");
     div.className = "card-producto";
     div.innerHTML = `
-      <div class="contenedor-img">
-        <img src="${filtrarUrlImagen(p.imagen)}" alt="${p.nombre}" loading="lazy" onerror="this.src='https://via.placeholder.com/200?text=Sin+Imagen'">
-      </div>
+      <div class="contenedor-img"><img src="${obtenerImagen(p.imagen)}" loading="lazy"></div>
       <div>
         <h3 class="nombre-producto">${p.nombre}</h3>
         <p class="sku-text">Cód: ${p.codigo}</p>
         <p class="precio-text">$ ${Number(p.precio).toLocaleString("es-AR")}</p>
-        <p class="estado-stock">${p.estado} ${p.estado === "ULTIMOS DISPONIBLES" ? '('+p.stock+')' : ''}</p>
+        <p class="estado-stock">${p.estado}</p>
       </div>
       <div class="controles-compra">
-        <input type="number" id="qty-${p.codigo}" value="1" min="1" max="${maxS}">
+        <input type="number" id="qty-${p.codigo}" value="1" min="1">
         <button class="btn-add" onclick="agregar('${p.codigo}')">AÑADIR</button>
       </div>
     `;
@@ -208,63 +176,40 @@ function render() {
 function agregar(cod) {
   const p = productos.find(x => x.codigo === cod);
   const qty = parseInt(document.getElementById(`qty-${cod}`).value);
-  const existente = carrito.find(x => x.codigo === cod);
-  
-  if (existente) existente.cantidad += qty;
+  const ex = carrito.find(x => x.codigo === cod);
+  if (ex) ex.cantidad += qty;
   else carrito.push({ ...p, cantidad: qty });
-  
   actualizarUI();
 }
 
 function actualizarUI() {
-  const count = carrito.reduce((acc, i) => acc + i.cantidad, 0);
-  document.getElementById("carrito-count").innerText = count;
-  
   const body = document.getElementById("carrito-body");
   let total = 0;
   body.innerHTML = "";
-  
   carrito.forEach(i => {
     const sub = i.precio * i.cantidad;
     total += sub;
-    body.innerHTML += `
-      <tr style="border-bottom:1px solid #eee;">
-        <td style="padding:10px 0;">
-            <div style="font-weight:bold;">${i.nombre}</div>
-            <div style="font-size:0.8rem; color:#888;">Cód: ${i.codigo}</div>
-        </td>
-        <td style="text-align:center;">x${i.cantidad}</td>
-        <td style="text-align:right; font-weight:bold;">$${sub.toLocaleString()}</td>
-      </tr>`;
+    body.innerHTML += `<tr><td style="padding:5px;">${i.nombre.substring(0,15)}..</td><td>x${i.cantidad}</td><td>$${sub.toLocaleString()}</td></tr>`;
   });
-
   document.getElementById("carrito-total").innerText = total.toLocaleString("es-AR");
+  document.getElementById("carrito-count").innerText = carrito.reduce((acc, i) => acc + i.cantidad, 0);
   const msg = document.getElementById("msg-minimo");
-  const btnWa = document.getElementById("btn-wa");
-
   if (total < MINIMO_COMPRA) {
-    msg.innerHTML = `⚠️ Faltan <b>$${(MINIMO_COMPRA - total).toLocaleString()}</b> para el pedido mínimo.`;
-    msg.style.color = "#856404";
-    btnWa.style.opacity = "0.5";
-    btnWa.style.pointerEvents = "none";
+    msg.innerHTML = `Faltan <b>$${(MINIMO_COMPRA - total).toLocaleString()}</b> para el mínimo.`;
   } else {
-    msg.innerHTML = "✅ ¡Mínimo alcanzado! Ya puedes enviar tu pedido.";
+    msg.innerHTML = "✅ Mínimo alcanzado.";
     msg.style.background = "#d4edda";
-    msg.style.color = "#155724";
-    btnWa.style.opacity = "1";
-    btnWa.style.pointerEvents = "auto";
   }
 }
 
-// Botón Subir
+// BOTÓN SUBIR
 const btnSubir = document.getElementById("btn-subir");
 window.onscroll = () => {
-  if (window.scrollY > 400) btnSubir.style.display = "flex";
+  if (window.scrollY > 300) btnSubir.style.display = "flex";
   else btnSubir.style.display = "none";
 };
 btnSubir.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
 
-// Buscador
 document.getElementById("buscador").oninput = (e) => {
   const t = e.target.value.toLowerCase();
   filtrados = productos.filter(p => p.nombre.toLowerCase().includes(t) || String(p.codigo).includes(t));
