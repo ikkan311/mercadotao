@@ -29,23 +29,25 @@
     .contenedor-img { width: 100%; height: 180px; display: flex; align-items: center; justify-content: center; margin-bottom: 10px; background: #fff; cursor: zoom-in; position: relative; }
     .contenedor-img img { max-width: 100%; max-height: 100%; object-fit: contain; }
     
-    /* ICONO LUPA - OCULTO EN WEB POR DEFECTO */
-    .lupa-zoom { 
-      display: none; 
+    /* ICONO "MÁS" PARA ZOOM (SOLO RESPONSIVE) */
+    .icono-zoom { 
+      display: none; /* Oculto en PC */
       position: absolute; 
       top: 10px; 
       right: 10px; 
-      background: #0070c0;
+      background: #0070c0; /* Azul del sitio */
       color: white; 
       width: 32px; 
       height: 32px; 
       border-radius: 50%;
       align-items: center; 
       justify-content: center; 
-      font-size: 18px; 
+      font-size: 24px; 
+      font-weight: bold;
       pointer-events: none; 
       z-index: 5; 
       box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      line-height: 0;
     }
 
     .nombre-producto, .precio-text, .estado-stock, .estado-ultimos { text-align: center; }
@@ -59,48 +61,40 @@
     .controles-compra input { width: 60px; text-align: center; border: 1px solid #ddd; border-radius: 4px; padding: 5px 0; font-size: 1rem; }
     .btn-add { flex-grow: 1; background: #222; color: #fff; border: none; padding: 8px; border-radius: 4px; font-weight: bold; cursor: pointer; }
 
-    /* BOTÓN SUBIR */
-    #btn-subir { position: fixed; bottom: 20px; right: 20px; background: #0070c0; color: #fff; width: 50px; height: 50px; border-radius: 50%; border: none; cursor: pointer; display: none; align-items: center; justify-content: center; font-size: 26px; font-weight: bold; z-index: 1500; box-shadow: 0 4px 10px rgba(0,0,0,0.3); }
-
     /* LIGHTBOX */
     #lightbox { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.9); z-index: 3000; display: none; align-items: center; justify-content: center; cursor: zoom-out; }
     #lightbox img { max-width: 90%; max-height: 90%; object-fit: contain; border-radius: 5px; }
 
-    /* PANEL CARRITO */
-    #panel-carrito { position: fixed; top: 0; right: 0; width: 100%; max-width: 400px; height: 100vh; background: #fff; box-shadow: -5px 0 25px rgba(0,0,0,0.2); z-index: 2000; display: flex; flex-direction: column; transition: transform 0.3s ease; box-sizing: border-box; }
-    #panel-carrito.oculto { transform: translateX(100%); }
-    .carrito-header { padding: 20px; border-bottom: 2px solid #eee; display: flex; justify-content: space-between; align-items: center; }
-    .carrito-lista { flex-grow: 1; overflow-y: auto; padding: 10px 20px; }
-    .carrito-footer { padding: 20px; border-top: 2px solid #eee; background: #fff; }
-
     @media (max-width: 600px) {
       body { padding-top: 175px; }
-      .header-top { padding: 10px 15px; flex-wrap: wrap; }
-      .logo-container { width: 50%; }
-      .leyenda-centro { width: 100%; order: 3; padding: 10px 0 5px 0; border-top: 1px solid #eee; margin-top: 5px; }
       .grid-productos { grid-template-columns: 1fr; }
       .card-producto { height: auto; min-height: 520px; padding: 20px; }
       .contenedor-img { height: 260px; }
-      .lupa-zoom { display: flex; } /* SOLO SE MUESTRA EN RESPONSIVE */
+      
+      .icono-zoom { display: flex; } /* SE MUESTRA SOLO EN MÓVIL */
+      
       .categoria-tag, .sku-text { text-align: left; }
       .nombre-producto, .precio-text, .estado-stock, .estado-ultimos { text-align: center; }
       .sku-text { margin-top: 2px; }
       .estado-stock, .estado-ultimos { margin-bottom: 25px; }
+      /* Fuentes +2 o 3 pts */
       .categoria-tag { font-size: 0.8rem; }
       .nombre-producto { font-size: 1.15rem; }
       .sku-text { font-size: 1rem; }
       .precio-text { font-size: 1.55rem; }
       .estado-stock, .estado-ultimos { font-size: 1rem; }
       .btn-add { padding: 15px; font-size: 1.1rem; }
-      #panel-carrito { max-width: 100%; }
     }
+
+    #panel-carrito { position: fixed; top: 0; right: 0; width: 100%; max-width: 400px; height: 100vh; background: #fff; box-shadow: -5px 0 25px rgba(0,0,0,0.2); z-index: 2000; display: flex; flex-direction: column; transition: transform 0.3s ease; box-sizing: border-box; }
+    #panel-carrito.oculto { transform: translateX(100%); }
   </style>
 </head>
 <body>
 
 <header class="header">
   <div class="header-top">
-    <div class="logo-container"><img src="logo.png" alt="Logo" onerror="this.style.display='none'"></div>
+    <div class="logo-container"><img src="logo.png" alt="Logo"></div>
     <div class="leyenda-centro">Precios mayorista solamente para compras mayores a $90.000</div>
     <button id="btn-carrito-toggle" style="cursor:pointer; padding: 8px 12px; border-radius: 6px; border: 1px solid #ddd;">🛒 Pedido (<span id="carrito-count">0</span>)</button>
   </div>
@@ -113,24 +107,21 @@
   <section id="grid-productos" class="grid-productos"></section>
 </main>
 
-<button id="btn-subir">↑</button>
-
 <div id="lightbox" onclick="this.style.display='none'">
   <img id="img-ampliada" src="" alt="Ampliada">
 </div>
 
 <div id="panel-carrito" class="oculto">
-  <div class="carrito-header">
+  <div style="padding: 20px; border-bottom: 2px solid #eee; display: flex; justify-content: space-between; align-items: center;">
     <h3 style="margin:0;">Tu Pedido</h3>
-    <button id="btn-cerrar-carrito" style="cursor:pointer; padding:5px 10px; border:none; background:#eee; border-radius:4px;">Cerrar</button>
+    <button id="btn-cerrar-carrito" style="cursor:pointer; padding:5px 10px;">Cerrar</button>
   </div>
-  <div id="msg-minimo" style="background:#fff3cd; padding:10px; margin:10px 20px; border-radius:4px; text-align:center; font-size:0.85rem;"></div>
-  <div class="carrito-lista">
+  <div id="msg-minimo" style="background:#fff3cd; padding:10px; margin:10px 20px; border-radius:4px; text-align:center;"></div>
+  <div style="flex-grow:1; overflow-y:auto; padding: 10px 20px;">
     <table style="width:100%; border-collapse: collapse; font-size: 0.85rem;"><tbody id="carrito-body"></tbody></table>
   </div>
-  <div class="carrito-footer">
-    <h3 style="text-align:right; margin-bottom:10px;">Total: $<span id="carrito-total">0</span></h3>
-    <button id="btn-pdf" style="width:100%; background:#444; color:#fff; padding:12px; margin-bottom:8px; border:none; border-radius:4px; cursor:pointer; font-weight:bold;">DESCARGAR PDF</button>
+  <div style="padding: 20px; border-top: 2px solid #eee;">
+    <h3 style="text-align:right;">Total: $<span id="carrito-total">0</span></h3>
     <button id="btn-wa" style="width:100%; background:#27ae60; color:#fff; padding:12px; border:none; border-radius:4px; cursor:pointer; font-weight:bold;">ENVIAR WHATSAPP</button>
   </div>
 </div>
@@ -153,11 +144,6 @@ async function cargar() {
 
 function obtenerImagen(url) {
   if (!url || url.includes('placeholder')) return 'img/placeholder.png';
-  if (url.includes('drive.google.com')) {
-    const id = url.match(/id=([\w-]+)|file\/d\/([\w-]+)/);
-    const actualId = id ? (id[1] || id[2]) : null;
-    return actualId ? `https://lh3.googleusercontent.com/d/${actualId}` : url;
-  }
   return url;
 }
 
@@ -173,13 +159,11 @@ function render() {
   grid.innerHTML = "";
   filtrados.forEach(p => {
     const imgUrl = obtenerImagen(p.imagen);
-    const maxS = p.estado === "ULTIMOS DISPONIBLES" ? (p.stock || 0) : 999;
-    const claseEst = p.estado === "CON STOCK" ? "estado-stock" : "estado-ultimos";
     const div = document.createElement("div");
     div.className = "card-producto";
     div.innerHTML = `
       <div class="contenedor-img" onclick="ampliarImagen('${imgUrl}')">
-        <div class="lupa-zoom">🔍</div>
+        <div class="icono-zoom">+</div>
         <img src="${imgUrl}" loading="lazy">
       </div>
       <div>
@@ -187,10 +171,10 @@ function render() {
         <h3 class="nombre-producto">${p.nombre}</h3>
         <p class="sku-text">Cód: ${p.codigo}</p>
         <p class="precio-text">$ ${Number(p.precio).toLocaleString("es-AR")}</p>
-        <p class="${claseEst}">${p.estado} ${p.estado === "ULTIMOS DISPONIBLES" ? '('+p.stock+')' : ''}</p>
+        <p class="estado-stock">${p.estado}</p>
       </div>
       <div class="controles-compra">
-        <input type="number" id="qty-${p.codigo}" value="1" min="1" max="${maxS}" onfocus="this.select()">
+        <input type="number" id="qty-${p.codigo}" value="1" min="1" onfocus="this.select()">
         <button class="btn-add" onclick="agregar('${p.codigo}')">AÑADIR</button>
       </div>
     `;
@@ -201,7 +185,6 @@ function render() {
 function agregar(cod) {
   const p = productos.find(x => x.codigo === cod);
   const cant = parseInt(document.getElementById(`qty-${cod}`).value);
-  if(isNaN(cant) || cant < 1) return;
   const ex = carrito.find(x => x.codigo === cod);
   if (ex) ex.cantidad += cant; else carrito.push({ ...p, cantidad: cant });
   actualizarUI();
@@ -211,53 +194,19 @@ function actualizarUI() {
   const body = document.getElementById("carrito-body");
   let totalDinero = 0; let totalUnidades = 0; body.innerHTML = "";
   carrito.forEach(i => {
-    const sub = i.precio * i.cantidad;
-    totalDinero += sub; totalUnidades += i.cantidad;
-    body.innerHTML += `<tr style="border-bottom: 1px solid #eee;"><td style="padding:10px 0;">${i.nombre.substring(0,25)}...<br><small>Cód: ${i.codigo}</small></td><td style="text-align:center;">x${i.cantidad}</td><td style="text-align:right;">$${sub.toLocaleString()}</td><td><button onclick="quitar('${i.codigo}')" style="color:red; border:none; background:none; cursor:pointer; padding-left:10px;">✕</button></td></tr>`;
+    totalDinero += (i.precio * i.cantidad);
+    totalUnidades += i.cantidad;
+    body.innerHTML += `<tr><td>${i.nombre}</td><td>x${i.cantidad}</td><td><button onclick="quitar('${i.codigo}')">✕</button></td></tr>`;
   });
   document.getElementById("carrito-total").innerText = totalDinero.toLocaleString("es-AR");
   document.getElementById("carrito-count").innerText = totalUnidades;
-  const msg = document.getElementById("msg-minimo");
-  const btnWa = document.getElementById("btn-wa");
-  if (totalDinero < MINIMO_COMPRA) {
-    msg.innerHTML = `Faltan <strong>$${(MINIMO_COMPRA - totalDinero).toLocaleString()}</strong> para el mínimo.`;
-    btnWa.style.opacity = "0.4"; btnWa.style.pointerEvents = "none";
-  } else {
-    msg.innerHTML = "✅ Mínimo alcanzado."; msg.style.background = "#d4edda";
-    btnWa.style.opacity = "1"; btnWa.style.pointerEvents = "auto";
-  }
 }
 
 function quitar(cod) { carrito = carrito.filter(x => x.codigo !== cod); actualizarUI(); }
 
-const btnSubir = document.getElementById("btn-subir");
-window.onscroll = () => {
-  if (window.scrollY > 300) btnSubir.style.display = "flex";
-  else btnSubir.style.display = "none";
-};
-btnSubir.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
-
-document.getElementById("btn-wa").onclick = () => {
-  let total = 0; let msg = "Hola MercadoTAO, mi pedido es:%0A%0A";
-  carrito.forEach((i, idx) => {
-    const sub = i.precio * i.cantidad; total += sub;
-    msg += `${idx + 1}. *${i.nombre}*%0A   Cód: ${i.codigo} | Cant: ${i.cantidad}%0A   P.Unit: $${i.precio.toLocaleString()} | Sub: $${sub.toLocaleString()}%0A%0A`;
-  });
-  msg += `*TOTAL: $${total.toLocaleString()}*`;
-  window.open(`https://wa.me/${WHATSAPP_DESTINO}?text=${msg}`);
-};
-
-document.getElementById("btn-pdf").onclick = () => {
-  const { jsPDF } = window.jspdf; const doc = new jsPDF();
-  doc.text("Pedido - MercadoTAO", 14, 15);
-  const filas = carrito.map(i => [i.codigo, i.nombre, i.cantidad, `$${i.precio.toLocaleString()}`, `$${(i.precio * i.cantidad).toLocaleString()}`]);
-  doc.autoTable({ startY: 25, head: [['Cód', 'Prod', 'Cant', 'Unit', 'Sub']], body: filas });
-  doc.save("Pedido.pdf");
-};
-
 document.getElementById("buscador").oninput = (e) => {
   const t = e.target.value.toLowerCase();
-  filtrados = productos.filter(p => p.nombre.toLowerCase().includes(t) || String(p.codigo).toLowerCase().includes(t) || (p.categoria && p.categoria.toLowerCase().includes(t)));
+  filtrados = productos.filter(p => p.nombre.toLowerCase().includes(t) || String(p.codigo).toLowerCase().includes(t));
   render();
 };
 
