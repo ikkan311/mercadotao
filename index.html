@@ -8,7 +8,82 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.25/jspdf.plugin.autotable.min.js"></script>
   <style>
-    /* DISEÑO DEL PANEL DEL CARRITO (FONDO BLANCO SÓLIDO) */
+    /* HEADER */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background: #fff;
+      border-bottom: 2px solid #eee;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .logo-container img { height: 50px; width: auto; }
+    .leyenda-centro { color: #27ae60; font-weight: bold; font-size: 0.95rem; text-align: center; flex-grow: 1; padding: 0 10px; }
+
+    /* BUSCADOR */
+    #buscador {
+      width: 100%;
+      padding: 18px;
+      font-size: 1.3rem;
+      border: 2px solid #ddd;
+      border-radius: 10px;
+      margin-bottom: 45px;
+      box-sizing: border-box;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    /* GRID Y FICHAS */
+    .grid-productos {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card-producto {
+      padding: 15px;
+      border: 1px solid #eee;
+      border-radius: 12px;
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      height: 420px; /* ALTURA FIJA PARA TODAS LAS FICHAS */
+      justify-content: space-between;
+      transition: box-shadow 0.3s;
+    }
+    .card-producto:hover { box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+
+    .contenedor-img { width: 100%; height: 180px; display: flex; align-items: center; justify-content: center; background: #fff; margin-bottom: 8px; }
+    .contenedor-img img { max-width: 100%; max-height: 100%; object-fit: contain; }
+
+    .categoria-tag {
+      font-size: 0.6rem; /* 2pts menos que el estándar */
+      color: #999;
+      text-transform: uppercase;
+      font-weight: 800;
+      margin-bottom: 4px;
+    }
+
+    /* AJUSTE DINÁMICO DEL NOMBRE */
+    .nombre-producto {
+      font-size: 0.9rem; /* Un poco más pequeño base */
+      line-height: 1.2;
+      height: 2.4em; /* Espacio exacto para 2 líneas */
+      margin: 5px 0;
+      color: #222;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 2; /* Corta en la segunda línea con puntos suspensivos */
+      -webkit-box-orient: vertical;
+      word-wrap: break-word;
+    }
+
+    .estado-stock { color: #00e5ff; font-weight: bold; font-size: 0.75rem; } /* Cyan vibrante */
+    .estado-ultimos { color: #e67e22; font-weight: bold; font-size: 0.75rem; }
+
+    /* PANEL CARRITO */
     #panel-carrito {
       position: fixed;
       top: 0;
@@ -16,8 +91,8 @@
       width: 100%;
       max-width: 450px;
       height: 100%;
-      background-color: #ffffff; 
-      box-shadow: -5px 0 20px rgba(0,0,0,0.3);
+      background: #fff;
+      box-shadow: -5px 0 25px rgba(0,0,0,0.2);
       z-index: 2000;
       padding: 20px;
       display: flex;
@@ -25,93 +100,48 @@
       overflow-y: auto;
       transition: transform 0.3s ease;
     }
-    
-    #panel-carrito.oculto {
-      transform: translateX(100%);
-    }
-
-    .contenedor-img { width: 100%; height: 200px; overflow: hidden; display: flex; align-items: center; justify-content: center; background: #fff; border-radius: 8px; }
-    .contenedor-img img { max-width: 100%; max-height: 100%; object-fit: contain; }
-    
-    .card-producto { padding: 15px; border: 1px solid #eee; border-radius: 12px; background: #fff; display: flex; flex-direction: column; gap: 8px; }
-    
-    .controles-cantidad { display: flex; align-items: center; gap: 10px; margin: 10px 0; }
-    .controles-cantidad input { width: 60px; text-align: center; border: 1px solid #ddd; border-radius: 4px; padding: 5px; }
-
-    .tabla-carrito { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin-top: 15px; }
-    .tabla-carrito th, .tabla-carrito td { border-bottom: 1px solid #eee; padding: 10px 5px; text-align: left; }
-    
-    .aviso-minimo {
-      background: #fff3cd;
-      color: #856404;
-      padding: 10px;
-      border-radius: 5px;
-      font-size: 0.85rem;
-      margin-bottom: 15px;
-      border: 1px solid #ffeeba;
-      text-align: center;
-    }
-
-    .btn-bloqueado {
-      background: #ccc !important;
-      cursor: not-allowed !important;
-      opacity: 0.6;
-    }
-
-    button { cursor: pointer; }
+    #panel-carrito.oculto { transform: translateX(100%); }
   </style>
 </head>
 <body>
 
 <header class="header">
-  <h1>CATÁLOGO TAO INTERACTIVO</h1>
-  <button id="btn-carrito">🛒 Ver Pedido (<span id="carrito-count">0</span>)</button>
+  <div class="logo-container">
+    <img src="logo.png" alt="Logo" onerror="this.style.display='none'"> 
+  </div>
+  <div class="leyenda-centro">
+    Precios mayorista solamente para compras mayores a $90.000
+  </div>
+  <button id="btn-carrito" style="padding:10px 15px; cursor:pointer; border-radius:8px; border:1px solid #ddd; background:#f9f9f9;">🛒 Pedido (<span id="carrito-count">0</span>)</button>
 </header>
 
-<main class="contenedor">
+<main class="contenedor" style="padding: 20px; max-width: 1200px; margin: 0 auto;">
   <input type="text" id="buscador" placeholder="Buscar por nombre, código o categoría..." />
   <section id="grid-productos" class="grid-productos"></section>
 </main>
 
 <div id="panel-carrito" class="oculto">
   <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #eee; padding-bottom: 10px;">
-    <h2 style="margin:0;">Tu Pedido</h2>
-    <button id="carrito-cerrar" style="background: #eee; border:none; padding: 5px 10px; border-radius: 5px;">✕ Cerrar</button>
+    <h2 style="margin:0;">Resumen de Pedido</h2>
+    <button id="carrito-cerrar" style="padding:5px 10px; cursor:pointer;">✕</button>
   </div>
-
-  <div id="msg-minimo" class="aviso-minimo">
-    Mínimo de compra: <strong>$90.000</strong>
-  </div>
-
-  <div style="flex-grow: 1;">
-    <table class="tabla-carrito">
-      <thead>
-        <tr>
-          <th>Cód</th>
-          <th>Producto</th>
-          <th>Cant.</th>
-          <th>Total</th>
-          <th></th>
-        </tr>
-      </thead>
+  <div id="msg-minimo" style="background:#fff3cd; padding:10px; margin:15px 0; text-align:center; border-radius:5px; font-size:0.9rem;"></div>
+  <div style="flex-grow: 1; overflow-y: auto;">
+    <table style="width:100%; font-size:0.85rem; border-collapse:collapse;">
+      <thead style="background:#f4f4f4;"><tr><th style="padding:8px;">Cód</th><th>Prod</th><th>Cant</th><th>Sub</th><th></th></tr></thead>
       <tbody id="carrito-body"></tbody>
     </table>
   </div>
-
-  <div style="border-top: 2px solid #eee; padding-top: 15px;">
-    <h3 style="text-align: right; margin-bottom: 20px;">Total General: $<span id="carrito-total">0</span></h3>
-    
-    <div style="display: flex; flex-direction: column; gap: 10px;">
-      <button id="btn-pdf" style="background: #e74c3c; color: white; padding: 12px; border:none; border-radius: 5px; font-weight: bold;">Descargar Detalle PDF</button>
-      <button id="btn-wa" style="background: #27ae60; color: white; padding: 12px; border:none; border-radius: 5px; font-weight: bold;">Enviar por WhatsApp</button>
-    </div>
+  <div style="border-top:2px solid #eee; padding-top:15px; background:#fff;">
+    <h3 style="text-align:right; margin-bottom:15px;">Total: $<span id="carrito-total">0</span></h3>
+    <button id="btn-pdf" style="width:100%; background:#444; color:white; padding:12px; margin-bottom:8px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;">DESCARGAR PDF</button>
+    <button id="btn-wa" style="width:100%; background:#27ae60; color:white; padding:12px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;">ENVIAR A WHATSAPP</button>
   </div>
 </div>
 
 <script>
 const WHATSAPP_DESTINO = "5493516148905";
 const MINIMO_COMPRA = 90000;
-
 let productos = [];
 let filtrados = [];
 let carrito = [];
@@ -119,16 +149,14 @@ let carrito = [];
 const grid = document.getElementById("grid-productos");
 const carritoBody = document.getElementById("carrito-body");
 const carritoTotal = document.getElementById("carrito-total");
-const carritoCount = document.getElementById("carrito-count");
 const btnWa = document.getElementById("btn-wa");
-const msgMinimo = document.getElementById("msg-minimo");
 
 function obtenerUrlImagen(url) {
   if (!url || url.includes('placeholder')) return 'img/placeholder.png';
   if (url.includes('drive.google.com')) {
     const match = url.match(/id=([\w-]+)|file\/d\/([\w-]+)/);
     const id = match ? (match[1] || match[2]) : null;
-    return id ? `https://lh3.googleusercontent.com/d/${id}=s400` : url;
+    return id ? `https://lh3.googleusercontent.com/d/${id}` : url;
   }
   return url;
 }
@@ -139,27 +167,31 @@ async function cargarProductos() {
     productos = await res.json();
     filtrados = productos;
     render();
-  } catch (e) {
-    console.error("Error cargando productos:", e);
-  }
+  } catch (e) { console.error("Error cargando productos", e); }
 }
 
 function render() {
   grid.innerHTML = "";
   filtrados.forEach(p => {
     const maxStock = p.estado === "ULTIMOS DISPONIBLES" ? (p.stock || 0) : 999;
+    const claseEstado = p.estado === "CON STOCK" ? "estado-stock" : "estado-ultimos";
+    
     const card = document.createElement("div");
     card.className = "card-producto";
     card.innerHTML = `
-      <div class="contenedor-img"><img src="${obtenerUrlImagen(p.imagen)}" loading="lazy" onerror="this.src='img/placeholder.png'"></div>
-      <div style="font-size:0.7em; color:gray; text-transform:uppercase;">${p.categoria || ''}</div>
-      <h3 style="font-size: 0.9rem; height: 35px; overflow: hidden;">${p.nombre}</h3>
-      <p style="font-size: 0.8rem; color: #777;">Cód: ${p.codigo}</p>
-      <p style="font-weight:bold; color: #27ae60;">$ ${Number(p.precio).toLocaleString("es-AR")}</p>
-      <p style="font-size: 0.7rem; color: #e67e22; font-weight:bold;">${p.estado} ${p.estado === "ULTIMOS DISPONIBLES" ? `(${p.stock} u.)` : ''}</p>
-      <div class="controles-cantidad">
-        <input type="number" id="qty-${p.codigo}" value="1" min="1" max="${maxStock}">
-        <button onclick="agregarAlCarrito('${p.codigo}')" style="background:#333; color:white; border:none; padding:5px 10px; border-radius:4px;">Añadir</button>
+      <div class="contenedor-img"><img src="${obtenerUrlImagen(p.imagen)}" loading="lazy"></div>
+      <div>
+        <div class="categoria-tag">${p.categoria || 'General'}</div>
+        <h3 class="nombre-producto">${p.nombre}</h3>
+        <p style="font-size: 0.75rem; color: #888; margin:0;">Cód: ${p.codigo}</p>
+      </div>
+      <div style="margin-top:auto;">
+        <p style="font-weight:bold; color: #27ae60; font-size:1.2rem; margin:8px 0;">$ ${Number(p.precio).toLocaleString("es-AR")}</p>
+        <p class="${claseEstado}">${p.estado} ${p.estado === "ULTIMOS DISPONIBLES" ? `(${p.stock} u.)` : ''}</p>
+        <div style="display:flex; gap:8px; margin-top:10px;">
+          <input type="number" id="qty-${p.codigo}" value="1" min="1" max="${maxStock}" style="width:55px; padding:8px; border:1px solid #ddd; border-radius:4px; text-align:center;">
+          <button onclick="agregarAlCarrito('${p.codigo}')" style="flex-grow:1; background:#222; color:white; border:none; padding:8px; border-radius:4px; font-weight:bold; cursor:pointer;">AÑADIR</button>
+        </div>
       </div>
     `;
     grid.appendChild(card);
@@ -176,120 +208,87 @@ function agregarAlCarrito(codigo) {
   const totalEnCarrito = existente ? existente.cantidad : 0;
 
   if (totalEnCarrito + cantidadPedida > maxStock) {
-    alert(`No puedes agregar más. Stock máximo: ${maxStock}`);
+    alert(`Stock insuficiente. Máximo disponible: ${maxStock}`);
     return;
   }
 
-  if (existente) {
-    existente.cantidad += cantidadPedida;
-  } else {
-    carrito.push({ ...p, cantidad: cantidadPedida });
-  }
-  actualizarInterfazCarrito();
-}
-
-function eliminarDelCarrito(codigo) {
-  carrito = carrito.filter(x => x.codigo !== codigo);
-  actualizarInterfazCarrito();
-}
-
-function actualizarInterfazCarrito() {
-  carritoBody.innerHTML = "";
-  let totalPedido = 0;
-  let totalItems = 0;
-
-  carrito.forEach(i => {
-    const subtotal = i.precio * i.cantidad;
-    totalPedido += subtotal;
-    totalItems += i.cantidad;
-
-    const tr = document.createElement("tr");
-    tr.innerHTML = `
-      <td>${i.codigo}</td>
-      <td>${i.nombre}</td>
-      <td>${i.cantidad}</td>
-      <td>$${subtotal.toLocaleString("es-AR")}</td>
-      <td><button onclick="eliminarDelCarrito('${i.codigo}')" style="color:red; border:none; background:none; font-size:1.2rem;">✕</button></td>
-    `;
-    carritoBody.appendChild(tr);
-  });
-
-  carritoTotal.textContent = totalPedido.toLocaleString("es-AR");
-  carritoCount.textContent = totalItems;
-
-  if (totalPedido < MINIMO_COMPRA) {
-    const falta = MINIMO_COMPRA - totalPedido;
-    msgMinimo.innerHTML = `Faltan <strong>$${falta.toLocaleString("es-AR")}</strong> para el mínimo de $90.000`;
-    msgMinimo.style.background = "#fff3cd";
-    btnWa.classList.add("btn-bloqueado");
-  } else {
-    msgMinimo.innerHTML = "✅ ¡Mínimo alcanzado! Ya puedes enviar tu pedido.";
-    msgMinimo.style.background = "#d4edda";
-    msgMinimo.style.color = "#155724";
-    btnWa.classList.remove("btn-bloqueado");
-  }
-}
-
-// GENERAR PDF
-document.getElementById("btn-pdf").onclick = () => {
-  if (carrito.length === 0) return alert("Carrito vacío");
-  const { jsPDF } = window.jspdf;
-  const doc = new jsPDF();
-  doc.text("Pedido - MercadoTAO", 14, 20);
-  const filas = carrito.map(i => [
-    i.codigo, 
-    i.nombre, 
-    i.cantidad, 
-    `$${Number(i.precio).toLocaleString("es-AR")}`, 
-    `$${(i.precio * i.cantidad).toLocaleString("es-AR")}`
-  ]);
-  doc.autoTable({ 
-    startY: 30, 
-    head: [['Cód', 'Producto', 'Cant', 'Precio Unit.', 'Subtotal']], 
-    body: filas 
-  });
-  doc.text(`TOTAL FINAL: $${carritoTotal.textContent}`, 14, doc.lastAutoTable.finalY + 10);
-  doc.save("Pedido_MercadoTAO.pdf");
-};
-
-// ENVIAR WHATSAPP (CON DESGLOSE COMPLETO)
-btnWa.onclick = () => {
-  const totalActual = carrito.reduce((acc, item) => acc + (item.precio * item.cantidad), 0);
+  if (existente) existente.cantidad += cantidadPedida;
+  else carrito.push({ ...p, cantidad: cantidadPedida });
   
-  if (totalActual < MINIMO_COMPRA) {
-    alert(`El pedido mínimo es de $90.000. Te faltan $${(MINIMO_COMPRA - totalActual).toLocaleString("es-AR")}`);
-    return;
+  actualizarCarritoUI();
+}
+
+function actualizarCarritoUI() {
+  carritoBody.innerHTML = "";
+  let total = 0;
+  carrito.forEach(i => {
+    const sub = i.precio * i.cantidad;
+    total += sub;
+    carritoBody.innerHTML += `
+      <tr style="border-bottom:1px solid #eee;">
+        <td style="padding:8px;">${i.codigo}</td>
+        <td>${i.nombre.substring(0,20)}...</td>
+        <td>${i.cantidad}</td>
+        <td>$${sub.toLocaleString()}</td>
+        <td><button onclick="eliminar('${i.codigo}')" style="color:red;border:none;background:none;cursor:pointer;">✕</button></td>
+      </tr>`;
+  });
+  
+  carritoTotal.textContent = total.toLocaleString("es-AR");
+  document.getElementById("carrito-count").textContent = carrito.reduce((acc, i) => acc + i.cantidad, 0);
+  
+  const msg = document.getElementById("msg-minimo");
+  if (total < MINIMO_COMPRA) {
+    msg.innerHTML = `Faltan <strong>$${(MINIMO_COMPRA - total).toLocaleString()}</strong> para el pedido mínimo.`;
+    msg.style.background = "#fff3cd";
+    btnWa.style.opacity = "0.4";
+    btnWa.style.cursor = "not-allowed";
+  } else {
+    msg.innerHTML = "✅ ¡Mínimo alcanzado! Ya puedes enviar tu pedido.";
+    msg.style.background = "#d4edda";
+    msg.style.color = "#155724";
+    btnWa.style.opacity = "1";
+    btnWa.style.cursor = "pointer";
   }
+}
+
+function eliminar(codigo) {
+  carrito = carrito.filter(x => x.codigo !== codigo);
+  actualizarCarritoUI();
+}
+
+btnWa.onclick = () => {
+  const total = carrito.reduce((acc, i) => acc + (i.precio * i.cantidad), 0);
+  if (total < MINIMO_COMPRA) return alert("El pedido mínimo es de $90.000");
 
   let msg = "Hola MercadoTAO, mi pedido es:%0A%0A";
-  
-  carrito.forEach((i, index) => {
-    const subtotal = i.precio * i.cantidad;
-    msg += `${index + 1}. *${i.nombre}*%0A`;
-    msg += `   Código: ${i.codigo}%0A`;
-    msg += `   Cantidad: ${i.cantidad}%0A`;
-    msg += `   Precio Unit: $${Number(i.precio).toLocaleString("es-AR")}%0A`;
-    msg += `   Subtotal: $${subtotal.toLocaleString("es-AR")}%0A%0A`;
+  carrito.forEach((i, idx) => {
+    msg += `${idx + 1}. *${i.nombre}*%0A   Cód: ${i.codigo} | Cant: ${i.cantidad}%0A   P.Unit: $${i.precio.toLocaleString()} | Sub: $${(i.precio*i.cantidad).toLocaleString()}%0A%0A`;
   });
-
-  msg += `--------------------------%0A`;
-  msg += `*TOTAL GENERAL: $${totalActual.toLocaleString("es-AR")}*`;
-  
+  msg += `--------------------------%0A*TOTAL GENERAL: $${total.toLocaleString()}*`;
   window.open(`https://wa.me/${WHATSAPP_DESTINO}?text=${msg}`);
 };
 
-document.getElementById("btn-carrito").onclick = () => document.getElementById("panel-carrito").classList.remove("oculto");
-document.getElementById("carrito-cerrar").onclick = () => document.getElementById("panel-carrito").classList.add("oculto");
+document.getElementById("btn-pdf").onclick = () => {
+    if (carrito.length === 0) return;
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF();
+    doc.setFontSize(16);
+    doc.text("Pedido - MercadoTAO", 14, 15);
+    const filas = carrito.map(i => [i.codigo, i.nombre, i.cantidad, `$${Number(i.precio).toLocaleString()}`, `$${(i.precio * i.cantidad).toLocaleString()}`]);
+    doc.autoTable({ startY: 25, head: [['Cód', 'Producto', 'Cant', 'Precio Unit.', 'Subtotal']], body: filas });
+    doc.text(`TOTAL: $${carritoTotal.textContent}`, 14, doc.lastAutoTable.finalY + 10);
+    doc.save("Pedido_MercadoTAO.pdf");
+};
 
 document.getElementById("buscador").oninput = (e) => {
   const t = e.target.value.toLowerCase();
-  filtrados = productos.filter(p => 
-    p.nombre.toLowerCase().includes(t) || 
-    String(p.codigo).toLowerCase().includes(t) || 
-    (p.categoria && p.categoria.toLowerCase().includes(t))
-  );
+  filtrados = productos.filter(p => p.nombre.toLowerCase().includes(t) || String(p.codigo).toLowerCase().includes(t) || (p.categoria && p.categoria.toLowerCase().includes(t)));
   render();
 };
+
+document.getElementById("btn-carrito").onclick = () => document.getElementById("panel-carrito").classList.toggle("oculto");
+document.getElementById("carrito-cerrar").onclick = () => document.getElementById("panel-carrito").classList.add("oculto");
 
 cargarProductos();
 </script>
