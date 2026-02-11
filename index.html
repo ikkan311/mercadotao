@@ -5,6 +5,43 @@
   <title>Catálogo Mayorista TAO</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* ARREGLO PARA IMÁGENES ENORMES */
+    .contenedor-img {
+      width: 100%;
+      height: 200px; /* Altura fija para que todas las tarjetas sean iguales */
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #f9f9f9;
+      border-radius: 8px;
+    }
+
+    .contenedor-img img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain; /* Ajusta la imagen sin deformarla y sin salirse */
+    }
+
+    .card-producto {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 15px;
+      border: 1px solid #eee;
+      border-radius: 12px;
+      background: white;
+    }
+
+    .categoria-tag {
+      font-size: 0.7em;
+      color: #888;
+      text-transform: uppercase;
+      font-weight: bold;
+      margin-top: 5px;
+    }
+  </style>
 </head>
 <body>
 
@@ -40,17 +77,14 @@ const panelCarrito = document.getElementById("panel-carrito");
 const carritoItems = document.getElementById("carrito-items");
 const carritoTotal = document.getElementById("carrito-total");
 
-// ESTA FUNCIÓN SOLUCIONA EL PROBLEMA DE LAS IMÁGENES "CARGANDO"
 function obtenerUrlImagen(url) {
   if (!url || url.includes('placeholder')) return 'img/placeholder.png';
-  
   if (url.includes('drive.google.com')) {
-    // Extraemos el ID del archivo (funciona para links uc?id= o /file/d/)
     const match = url.match(/id=([\w-]+)|file\/d\/([\w-]+)/);
     const id = match ? (match[1] || match[2]) : null;
     if (id) {
-      // Usamos el servidor de miniaturas de Google que es mucho más compatible
-      return `https://lh3.googleusercontent.com/d/${id}`;
+      // Usamos el parámetro s400 para que Google envíe una versión pequeña y no la original pesada
+      return `https://lh3.googleusercontent.com/d/${id}=s400`;
     }
   }
   return url;
@@ -63,7 +97,7 @@ async function cargarProductos() {
     filtrados = productos;
     render();
   } catch (e) {
-    console.error("Error cargando productos:", e);
+    console.error("Error:", e);
   }
 }
 
@@ -73,16 +107,15 @@ function render() {
     const card = document.createElement("div");
     card.className = "card-producto";
     
-    // Mostramos categoría, código e imagen corregida
     card.innerHTML = `
       <div class="contenedor-img">
         <img src="${obtenerUrlImagen(p.imagen)}" loading="lazy" onerror="this.src='img/placeholder.png'">
       </div>
-      <div style="font-size:0.7em; color:gray; text-transform:uppercase; margin-top:5px;">${p.categoria || 'General'}</div>
-      <h3>${p.nombre}</h3>
-      <p style="font-size:0.8em; color:#666;">Cód: ${p.codigo}</p>
-      <p class="precio">$ ${Number(p.precio).toLocaleString("es-AR")}</p>
-      <p class="estado">${p.estado}</p>
+      <div class="categoria-tag">${p.categoria || 'General'}</div>
+      <h3 style="font-size: 1rem; margin: 5px 0;">${p.nombre}</h3>
+      <p style="font-size: 0.8rem; color: #666; margin: 0;">Cód: ${p.codigo}</p>
+      <p class="precio" style="font-weight: bold; color: #2ecc71;">$ ${Number(p.precio).toLocaleString("es-AR")}</p>
+      <p class="estado" style="font-size: 0.7rem;">${p.estado}</p>
       <button onclick="agregar('${p.codigo}')">Agregar</button>
     `;
     grid.appendChild(card);
