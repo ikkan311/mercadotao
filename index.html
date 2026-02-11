@@ -40,13 +40,18 @@ const panelCarrito = document.getElementById("panel-carrito");
 const carritoItems = document.getElementById("carrito-items");
 const carritoTotal = document.getElementById("carrito-total");
 
-// Esta función es vital para que las fotos de Drive se vean
-function obtenerUrlDrive(url) {
+// ESTA FUNCIÓN SOLUCIONA EL PROBLEMA DE LAS IMÁGENES "CARGANDO"
+function obtenerUrlImagen(url) {
   if (!url || url.includes('placeholder')) return 'img/placeholder.png';
+  
   if (url.includes('drive.google.com')) {
+    // Extraemos el ID del archivo (funciona para links uc?id= o /file/d/)
     const match = url.match(/id=([\w-]+)|file\/d\/([\w-]+)/);
     const id = match ? (match[1] || match[2]) : null;
-    return id ? `https://lh3.googleusercontent.com/d/${id}` : url;
+    if (id) {
+      // Usamos el servidor de miniaturas de Google que es mucho más compatible
+      return `https://lh3.googleusercontent.com/d/${id}`;
+    }
   }
   return url;
 }
@@ -67,12 +72,15 @@ function render() {
   filtrados.forEach(p => {
     const card = document.createElement("div");
     card.className = "card-producto";
-    // Cambios realizados: p.sku -> p.codigo | agregado tag de categoria
+    
+    // Mostramos categoría, código e imagen corregida
     card.innerHTML = `
-      <img src="${obtenerUrlDrive(p.imagen)}" onerror="this.src='img/placeholder.png'">
-      <div style="font-size:0.7em; color:gray; text-transform:uppercase; font-weight:bold;">${p.categoria || ''}</div>
+      <div class="contenedor-img">
+        <img src="${obtenerUrlImagen(p.imagen)}" loading="lazy" onerror="this.src='img/placeholder.png'">
+      </div>
+      <div style="font-size:0.7em; color:gray; text-transform:uppercase; margin-top:5px;">${p.categoria || 'General'}</div>
       <h3>${p.nombre}</h3>
-      <p>Código: ${p.codigo}</p>
+      <p style="font-size:0.8em; color:#666;">Cód: ${p.codigo}</p>
       <p class="precio">$ ${Number(p.precio).toLocaleString("es-AR")}</p>
       <p class="estado">${p.estado}</p>
       <button onclick="agregar('${p.codigo}')">Agregar</button>
@@ -82,7 +90,6 @@ function render() {
 }
 
 function agregar(codigo) {
-  // Cambio: buscar por .codigo
   const prod = productos.find(p => p.codigo === codigo);
   const item = carrito.find(i => i.codigo === codigo);
   if (item) item.cantidad++;
@@ -96,7 +103,7 @@ function actualizarCarrito() {
   carrito.forEach(i => {
     total += i.precio * i.cantidad;
     const div = document.createElement("div");
-    div.innerHTML = `${i.nombre} x ${i.cantidad}`;
+    div.innerHTML = `<strong>${i.nombre}</strong> x ${i.cantidad}`;
     carritoItems.appendChild(div);
   });
   carritoTotal.textContent = total.toLocaleString("es-AR");
@@ -108,9 +115,8 @@ document.getElementById("carrito-cerrar").onclick = () => panelCarrito.classList
 
 document.getElementById("btn-wa").onclick = () => {
   if (!carrito.length) return alert("Carrito vacío");
-  let texto = "Pedido:%0A";
+  let texto = "Pedido TAO:%0A";
   carrito.forEach(i=>{
-    // Cambio: enviar .codigo en el mensaje
     texto += `- ${i.nombre} (Cod: ${i.codigo}) x ${i.cantidad}%0A`;
   });
   texto += `%0ATotal: $${carritoTotal.textContent}`;
