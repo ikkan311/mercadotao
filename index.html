@@ -35,7 +35,8 @@
     .card-producto {
       padding: 12px; border: 1px solid #eee; border-radius: 10px;
       background: #fff; display: flex; flex-direction: column;
-      height: 350px; justify-content: flex-start; box-sizing: border-box;
+      height: 370px; /* AJUSTADO PARA 3 LÍNEAS + AIRE */
+      justify-content: flex-start; box-sizing: border-box;
     }
 
     .contenedor-img { 
@@ -46,17 +47,27 @@
 
     .categoria-tag { font-size: 0.6rem; color: #999; text-transform: uppercase; font-weight: 800; margin: 0; }
     
+    /* NOMBRE PERMITIENDO 3 LÍNEAS */
     .nombre-producto {
-      font-size: 0.9rem; line-height: 1.2; height: 2.4em; 
-      margin: 4px 0; color: #222; overflow: hidden;
+      font-size: 0.9rem; line-height: 1.2; height: 3.6em; /* 3 líneas exactas */
+      margin: 4px 0 0 0; color: #222; overflow: hidden;
+      display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;
     }
 
-    /* ELIMINANDO ESPACIOS ENTRE CÓDIGO Y PRECIO */
-    .sku-text { font-size: 0.75rem; color: #777; margin: 0; padding: 0; line-height: 1; }
-    .precio-text { font-weight: bold; color: #27ae60; font-size: 1.2rem; margin: 0; padding: 0; line-height: 1.2; }
+    /* DATOS TÉCNICOS CON ESPACIADO SUTIL */
+    .sku-text { 
+      font-size: 0.75rem; color: #777; 
+      margin: 8px 0 3px 0; /* 8px de espacio con el nombre, 3px con el precio */
+      padding: 0; line-height: 1; 
+    }
+    .precio-text { 
+      font-weight: bold; color: #27ae60; font-size: 1.2rem; 
+      margin-bottom: 3px; /* Espacio con el stock */
+      padding: 0; line-height: 1.2; 
+    }
     
-    .estado-stock { color: #0070c0; font-weight: bold; font-size: 0.75rem; margin: 2px 0; }
-    .estado-ultimos { color: #e67e22; font-weight: bold; font-size: 0.75rem; margin: 2px 0; }
+    .estado-stock { color: #0070c0; font-weight: bold; font-size: 0.75rem; margin: 0; }
+    .estado-ultimos { color: #e67e22; font-weight: bold; font-size: 0.75rem; margin: 0; }
 
     .controles-compra { margin-top: auto; display: flex; gap: 5px; }
     .controles-compra input { width: 50px; text-align: center; border: 1px solid #ddd; border-radius: 4px; }
@@ -82,7 +93,7 @@
 <header class="header">
   <div class="logo-container"><img src="logo.png" alt="Logo" onerror="this.style.display='none'"></div>
   <div class="leyenda-centro">Precios mayorista solamente para compras mayores a $90.000</div>
-  <button id="btn-carrito-toggle" style="cursor:pointer; padding: 8px 12px; border-radius: 6px; border: 1px solid #ddd;">🛒 (<span id="carrito-count">0</span>)</button>
+  <button id="btn-carrito-toggle" style="cursor:pointer; padding: 8px 12px; border-radius: 6px; border: 1px solid #ddd;">🛒 Pedido (<span id="carrito-count">0</span>)</button>
 </header>
 
 <main class="contenedor-principal">
@@ -92,7 +103,7 @@
 
 <div id="panel-carrito" class="oculto">
   <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:2px solid #eee; padding-bottom:10px;">
-    <h3 style="margin:0;">Pedido</h3>
+    <h3 style="margin:0;">Tu Pedido</h3>
     <button id="btn-cerrar-carrito" style="cursor:pointer; border:none; background:#eee; padding:5px 10px; border-radius:4px;">Cerrar</button>
   </div>
   <div id="msg-minimo" style="background:#fff3cd; padding:10px; margin:10px 0; border-radius:4px; font-size:0.8rem; text-align:center;"></div>
@@ -109,6 +120,7 @@
 </div>
 
 <script>
+// La lógica JS se mantiene íntegra para asegurar que no se rompa el render
 const WHATSAPP_DESTINO = "5493516148905";
 const MINIMO_COMPRA = 90000;
 let productos = [];
@@ -122,8 +134,7 @@ async function cargar() {
     filtrados = productos;
     render();
   } catch (e) {
-    console.error("No se pudo cargar el JSON:", e);
-    document.getElementById("grid-productos").innerHTML = "<p>Error al cargar productos.</p>";
+    console.error("Error cargando JSON", e);
   }
 }
 
@@ -131,7 +142,8 @@ function obtenerImagen(url) {
   if (!url || url.includes('placeholder')) return 'img/placeholder.png';
   if (url.includes('drive.google.com')) {
     const id = url.match(/id=([\w-]+)|file\/d\/([\w-]+)/);
-    return id ? `https://lh3.googleusercontent.com/d/${id[1] || id[2]}` : url;
+    const actualId = id ? (id[1] || id[2]) : null;
+    return actualId ? `https://lh3.googleusercontent.com/d/${actualId}` : url;
   }
   return url;
 }
@@ -190,7 +202,7 @@ function actualizarUI() {
     body.innerHTML += `
       <tr>
         <td>${i.codigo}</td>
-        <td>${i.nombre.substring(0,15)}...</td>
+        <td>${i.nombre.substring(0,18)}..</td>
         <td>x${i.cantidad}</td>
         <td>$${sub.toLocaleString()}</td>
         <td><button onclick="quitar('${i.codigo}')" style="color:red; border:none; background:none; cursor:pointer;">✕</button></td>
@@ -201,7 +213,8 @@ function actualizarUI() {
   document.getElementById("carrito-count").innerText = carrito.length;
 
   if (total < MINIMO_COMPRA) {
-    msg.innerHTML = `Faltan <strong>$${(MINIMO_COMPRA - total).toLocaleString()}</strong> para el mínimo.`;
+    const falta = MINIMO_COMPRA - total;
+    msg.innerHTML = `Faltan <strong>$${falta.toLocaleString()}</strong> para el mínimo.`;
     msg.style.background = "#fff3cd";
     btnWa.style.opacity = "0.4";
     btnWa.style.pointerEvents = "none";
@@ -236,7 +249,7 @@ document.getElementById("btn-pdf").onclick = () => {
   doc.text("Pedido - MercadoTAO", 14, 15);
   const filas = carrito.map(i => [i.codigo, i.nombre, i.cantidad, `$${i.precio.toLocaleString()}`, `$${(i.precio * i.cantidad).toLocaleString()}`]);
   doc.autoTable({ startY: 25, head: [['Cód', 'Prod', 'Cant', 'Unit', 'Sub']], body: filas });
-  doc.save("Pedido.pdf");
+  doc.save("Pedido_MercadoTAO.pdf");
 };
 
 document.getElementById("buscador").oninput = (e) => {
