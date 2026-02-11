@@ -8,14 +8,54 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.25/jspdf.plugin.autotable.min.js"></script>
   <style>
+    /* CORRECCIÓN VISUAL DEL CARRITO */
+    #panel-carrito {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 100%;
+      max-width: 450px;
+      height: 100%;
+      background-color: #ffffff; /* Fondo blanco sólido para que no sea transparente */
+      box-shadow: -5px 0 15px rgba(0,0,0,0.2);
+      z-index: 1000;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      overflow-y: auto;
+      transition: transform 0.3s ease;
+    }
+    
+    #panel-carrito.oculto {
+      transform: translateX(100%); /* Lo esconde hacia la derecha */
+    }
+
     .contenedor-img { width: 100%; height: 200px; overflow: hidden; display: flex; align-items: center; justify-content: center; background: #fff; border-radius: 8px; }
     .contenedor-img img { max-width: 100%; max-height: 100%; object-fit: contain; }
+    
     .card-producto { padding: 15px; border: 1px solid #eee; border-radius: 12px; background: #fff; display: flex; flex-direction: column; gap: 8px; }
+    
     .controles-cantidad { display: flex; align-items: center; gap: 10px; margin: 10px 0; }
-    .controles-cantidad input { width: 50px; text-align: center; border: 1px solid #ddd; border-radius: 4px; padding: 5px; }
-    .tabla-carrito { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
-    .tabla-carrito th, .tabla-carrito td { border-bottom: 1px solid #eee; padding: 8px; text-align: left; }
-    .estado-alerta { color: #e67e22; font-weight: bold; font-size: 0.75rem; }
+    .controles-cantidad input { width: 60px; text-align: center; border: 1px solid #ddd; border-radius: 4px; padding: 5px; }
+
+    .tabla-carrito { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin-top: 15px; }
+    .tabla-carrito th, .tabla-carrito td { border-bottom: 1px solid #eee; padding: 10px 5px; text-align: left; }
+    
+    .aviso-minimo {
+      background: #fff3cd;
+      color: #856404;
+      padding: 10px;
+      border-radius: 5px;
+      font-size: 0.85rem;
+      margin-bottom: 15px;
+      border: 1px solid #ffeeba;
+      text-align: center;
+    }
+
+    .btn-bloqueado {
+      background: #ccc !important;
+      cursor: not-allowed !important;
+    }
   </style>
 </head>
 <body>
@@ -30,17 +70,23 @@
   <section id="grid-productos" class="grid-productos"></section>
 </main>
 
-<div id="panel-carrito" class="panel-carrito oculto">
-  <button id="carrito-cerrar">✕ Cerrar</button>
-  <h2>Resumen de Pedido</h2>
-  <div style="overflow-x: auto;">
-    <table class="tabla-carrito" id="tabla-pedido">
+<div id="panel-carrito" class="oculto">
+  <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #eee; padding-bottom: 10px;">
+    <h2 style="margin:0;">Tu Pedido</h2>
+    <button id="carrito-cerrar" style="background: #eee; border:none; padding: 5px 10px; border-radius: 5px; cursor:pointer;">✕ Cerrar</button>
+  </div>
+
+  <div id="msg-minimo" class="aviso-minimo">
+    Mínimo de compra: <strong>$90.000</strong>
+  </div>
+
+  <div style="flex-grow: 1;">
+    <table class="tabla-carrito">
       <thead>
         <tr>
           <th>Cód</th>
           <th>Producto</th>
           <th>Cant.</th>
-          <th>Unit.</th>
           <th>Subtotal</th>
           <th></th>
         </tr>
@@ -48,15 +94,21 @@
       <tbody id="carrito-body"></tbody>
     </table>
   </div>
-  <h3 style="text-align: right; margin-top: 15px;">Total: $<span id="carrito-total">0</span></h3>
-  <div style="display: flex; flex-direction: column; gap: 10px;">
-    <button id="btn-pdf" style="background: #e74c3c; color: white;">Descargar Detalle PDF</button>
-    <button id="btn-wa" style="background: #27ae60; color: white;">Enviar por WhatsApp</button>
+
+  <div style="border-top: 2px solid #eee; padding-top: 15px;">
+    <h3 style="text-align: right; margin-bottom: 20px;">Total: $<span id="carrito-total">0</span></h3>
+    
+    <div style="display: flex; flex-direction: column; gap: 10px;">
+      <button id="btn-pdf" style="background: #e74c3c; color: white; padding: 12px; border:none; border-radius: 5px; cursor:pointer; font-weight: bold;">Descargar Detalle PDF</button>
+      <button id="btn-wa" style="background: #27ae60; color: white; padding: 12px; border:none; border-radius: 5px; cursor:pointer; font-weight: bold;">Enviar por WhatsApp</button>
+    </div>
   </div>
 </div>
 
 <script>
 const WHATSAPP_DESTINO = "5493516148905";
+const MINIMO_COMPRA = 90000;
+
 let productos = [];
 let filtrados = [];
 let carrito = [];
@@ -65,6 +117,8 @@ const grid = document.getElementById("grid-productos");
 const carritoBody = document.getElementById("carrito-body");
 const carritoTotal = document.getElementById("carrito-total");
 const carritoCount = document.getElementById("carrito-count");
+const btnWa = document.getElementById("btn-wa");
+const msgMinimo = document.getElementById("msg-minimo");
 
 function obtenerUrlImagen(url) {
   if (!url || url.includes('placeholder')) return 'img/placeholder.png';
@@ -92,13 +146,13 @@ function render() {
     card.innerHTML = `
       <div class="contenedor-img"><img src="${obtenerUrlImagen(p.imagen)}" loading="lazy"></div>
       <div class="categoria-tag">${p.categoria}</div>
-      <h3 style="font-size: 0.9rem;">${p.nombre}</h3>
+      <h3 style="font-size: 0.9rem; height: 40px; overflow: hidden;">${p.nombre}</h3>
       <p style="font-size: 0.8rem; color: #777;">Cód: ${p.codigo}</p>
-      <p class="precio">$ ${Number(p.precio).toLocaleString("es-AR")}</p>
-      <p class="estado-alerta">${p.estado} ${p.estado === "ULTIMOS DISPONIBLES" ? `(${p.stock} uni.)` : ''}</p>
+      <p style="font-weight:bold; color: #27ae60;">$ ${Number(p.precio).toLocaleString("es-AR")}</p>
+      <p style="font-size: 0.7rem; color: #e67e22;">${p.estado} ${p.estado === "ULTIMOS DISPONIBLES" ? `(${p.stock} u.)` : ''}</p>
       <div class="controles-cantidad">
         <input type="number" id="qty-${p.codigo}" value="1" min="1" max="${maxStock}">
-        <button onclick="agregarAlCarrito('${p.codigo}')">Añadir</button>
+        <button onclick="agregarAlCarrito('${p.codigo}')" style="background:#333; color:white; border:none; padding:5px 10px; border-radius:4px; cursor:pointer;">Añadir</button>
       </div>
     `;
     grid.appendChild(card);
@@ -111,19 +165,16 @@ function agregarAlCarrito(codigo) {
   const cantidadPedida = parseInt(qtyInput.value);
   const maxStock = p.estado === "ULTIMOS DISPONIBLES" ? p.stock : 999;
 
-  if (cantidadPedida > maxStock) {
-    alert(`Solo hay ${maxStock} unidades disponibles.`);
+  const existente = carrito.find(x => x.codigo === codigo);
+  const totalEnCarrito = existente ? existente.cantidad : 0;
+
+  if (totalEnCarrito + cantidadPedida > maxStock) {
+    alert(`No puedes agregar más. Stock máximo: ${maxStock}`);
     return;
   }
 
-  const existente = carrito.find(x => x.codigo === codigo);
   if (existente) {
-    const nuevaCantidad = existente.cantidad + cantidadPedida;
-    if (nuevaCantidad > maxStock) {
-      alert(`No puedes agregar más. Total en carrito: ${existente.cantidad}. Stock máximo: ${maxStock}`);
-      return;
-    }
-    existente.cantidad = nuevaCantidad;
+    existente.cantidad += cantidadPedida;
   } else {
     carrito.push({ ...p, cantidad: cantidadPedida });
   }
@@ -150,43 +201,51 @@ function actualizarInterfazCarrito() {
       <td>${i.codigo}</td>
       <td>${i.nombre}</td>
       <td>${i.cantidad}</td>
-      <td>$${i.precio.toLocaleString()}</td>
       <td>$${subtotal.toLocaleString()}</td>
-      <td><button onclick="eliminarDelCarrito('${i.codigo}')" style="background:none; border:none; color:red; cursor:pointer;">✕</button></td>
+      <td><button onclick="eliminarDelCarrito('${i.codigo}')" style="color:red; border:none; background:none; cursor:pointer;">✕</button></td>
     `;
     carritoBody.appendChild(tr);
   });
 
-  carritoTotal.textContent = totalPedido.toLocaleString("es-AR");
+  const totalStr = totalPedido.toLocaleString("es-AR");
+  carritoTotal.textContent = totalStr;
   carritoCount.textContent = totalItems;
+
+  // Lógica de restricción de compra mínima
+  if (totalPedido < MINIMO_COMPRA) {
+    const falta = MINIMO_COMPRA - totalPedido;
+    msgMinimo.innerHTML = `Faltan <strong>$${falta.toLocaleString()}</strong> para el mínimo de $90.000`;
+    msgMinimo.style.display = "block";
+    btnWa.classList.add("btn-bloqueado");
+  } else {
+    msgMinimo.innerHTML = "✅ ¡Mínimo alcanzado! Ya puedes enviar tu pedido.";
+    msgMinimo.style.background = "#d4edda";
+    msgMinimo.style.color = "#155724";
+    btnWa.classList.remove("btn-bloqueado");
+  }
 }
 
-// FUNCIÓN PARA GENERAR PDF
+// PDF
 document.getElementById("btn-pdf").onclick = () => {
   if (carrito.length === 0) return alert("Carrito vacío");
   const { jsPDF } = window.jspdf;
   const doc = new jsPDF();
-  
-  doc.setFontSize(18);
   doc.text("Pedido - TAO Accesorios", 14, 20);
-  doc.setFontSize(10);
-  doc.text(`Fecha: ${new Date().toLocaleDateString()}`, 14, 28);
-
   const filas = carrito.map(i => [i.codigo, i.nombre, i.cantidad, `$${i.precio.toLocaleString()}`, `$${(i.precio * i.cantidad).toLocaleString()}`]);
-  
-  doc.autoTable({
-    startY: 35,
-    head: [['Cod', 'Producto', 'Cant', 'Unitario', 'Subtotal']],
-    body: filas,
-  });
-
+  doc.autoTable({ startY: 30, head: [['Cod', 'Producto', 'Cant', 'Unitario', 'Subtotal']], body: filas });
   doc.text(`TOTAL FINAL: $${carritoTotal.textContent}`, 14, doc.lastAutoTable.finalY + 10);
   doc.save("Pedido_TAO.pdf");
 };
 
-// WHATSAPP
-document.getElementById("btn-wa").onclick = () => {
-  if (carrito.length === 0) return alert("Carrito vacío");
+// WHATSAPP CON RESTRICCIÓN
+btnWa.onclick = () => {
+  const totalActual = carrito.reduce((acc, item) => acc + (item.precio * item.cantidad), 0);
+  
+  if (totalActual < MINIMO_COMPRA) {
+    alert(`El pedido debe ser de al menos $90.000. Te faltan $${(MINIMO_COMPRA - totalActual).toLocaleString()}`);
+    return;
+  }
+
   let msg = "Hola TAO, mi pedido es:%0A%0A";
   carrito.forEach(i => {
     msg += `*${i.nombre}*%0A(Cód: ${i.codigo}) x ${i.cantidad} u. - Sub: $${(i.precio*i.cantidad).toLocaleString()}%0A%0A`;
@@ -195,15 +254,14 @@ document.getElementById("btn-wa").onclick = () => {
   window.open(`https://wa.me/${WHATSAPP_DESTINO}?text=${msg}`);
 };
 
-// Buscador
+document.getElementById("btn-carrito").onclick = () => document.getElementById("panel-carrito").classList.remove("oculto");
+document.getElementById("carrito-cerrar").onclick = () => document.getElementById("panel-carrito").classList.add("oculto");
+
 document.getElementById("buscador").oninput = (e) => {
   const t = e.target.value.toLowerCase();
   filtrados = productos.filter(p => p.nombre.toLowerCase().includes(t) || p.codigo.toLowerCase().includes(t) || p.categoria.toLowerCase().includes(t));
   render();
 };
-
-document.getElementById("btn-carrito").onclick = () => document.getElementById("panel-carrito").classList.toggle("oculto");
-document.getElementById("carrito-cerrar").onclick = () => document.getElementById("panel-carrito").classList.add("oculto");
 
 cargarProductos();
 </script>
