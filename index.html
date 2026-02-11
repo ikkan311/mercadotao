@@ -29,17 +29,16 @@
     .contenedor-img { width: 100%; height: 180px; display: flex; align-items: center; justify-content: center; margin-bottom: 10px; background: #fff; cursor: zoom-in; position: relative; }
     .contenedor-img img { max-width: 100%; max-height: 100%; object-fit: contain; }
     
-    /* ICONO SIGNO MAS - SOLO RESPONSIVE */
     .lupa-zoom { 
       display: none; 
       position: absolute; 
       top: 10px; 
       right: 10px; 
-      background: #0070c0; /* Azul del sitio */
+      background: #0070c0; 
       color: white; 
       width: 32px; 
       height: 32px; 
-      border-radius: 50%; /* Círculo perfecto */
+      border-radius: 50%; 
       align-items: center; 
       justify-content: center; 
       font-size: 22px; 
@@ -61,14 +60,11 @@
     .controles-compra input { width: 60px; text-align: center; border: 1px solid #ddd; border-radius: 4px; padding: 5px 0; font-size: 1rem; }
     .btn-add { flex-grow: 1; background: #222; color: #fff; border: none; padding: 8px; border-radius: 4px; font-weight: bold; cursor: pointer; }
 
-    /* BOTÓN SUBIR */
     #btn-subir { position: fixed; bottom: 20px; right: 20px; background: #0070c0; color: #fff; width: 50px; height: 50px; border-radius: 50%; border: none; cursor: pointer; display: none; align-items: center; justify-content: center; font-size: 26px; font-weight: bold; z-index: 1500; box-shadow: 0 4px 10px rgba(0,0,0,0.3); }
 
-    /* LIGHTBOX */
     #lightbox { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.9); z-index: 3000; display: none; align-items: center; justify-content: center; cursor: zoom-out; }
     #lightbox img { max-width: 90%; max-height: 90%; object-fit: contain; border-radius: 5px; }
 
-    /* PANEL CARRITO */
     #panel-carrito { position: fixed; top: 0; right: 0; width: 100%; max-width: 400px; height: 100vh; background: #fff; box-shadow: -5px 0 25px rgba(0,0,0,0.2); z-index: 2000; display: flex; flex-direction: column; transition: transform 0.3s ease; box-sizing: border-box; }
     #panel-carrito.oculto { transform: translateX(100%); }
     .carrito-header { padding: 20px; border-bottom: 2px solid #eee; display: flex; justify-content: space-between; align-items: center; }
@@ -86,14 +82,6 @@
       .lupa-zoom { display: flex; }
       .categoria-tag, .sku-text { text-align: left; }
       .nombre-producto, .precio-text, .estado-stock, .estado-ultimos { text-align: center; }
-      .sku-text { margin-top: 2px; }
-      .estado-stock, .estado-ultimos { margin-bottom: 25px; }
-      .categoria-tag { font-size: 0.8rem; }
-      .nombre-producto { font-size: 1.15rem; }
-      .sku-text { font-size: 1rem; }
-      .precio-text { font-size: 1.55rem; }
-      .estado-stock, .estado-ultimos { font-size: 1rem; }
-      .btn-add { padding: 15px; font-size: 1.1rem; }
       #panel-carrito { max-width: 100%; }
     }
   </style>
@@ -266,77 +254,77 @@ document.getElementById("buscador").oninput = (e) => {
 document.getElementById("btn-carrito-toggle").onclick = () => document.getElementById("panel-carrito").classList.toggle("oculto");
 document.getElementById("btn-cerrar-carrito").onclick = () => document.getElementById("panel-carrito").classList.add("oculto");
 
-// --- NUEVA FUNCIÓN OPTIMIZADA (NO SE TRABA) ---
+// --- FUNCIÓN PARA EL CATÁLOGO PDF (OPTIMIZADA) ---
 async function generarPDFParaImprimir() {
   const { jsPDF } = window.jspdf;
   const doc = new jsPDF('p', 'mm', 'a4');
-  const marginX = 10, marginY = 35, gap = 5;
+  const marginX = 10, marginY = 40, gap = 5;
   const cardW = (210 - (marginX * 2) - (gap * 3)) / 4; 
   const cardH = 62; 
   const productosPorHoja = 16;
   const lista = filtrados;
 
-  console.log("Iniciando generación de PDF...");
-
   for (let i = 0; i < lista.length; i++) {
     const p = lista[i];
     const indexEnHoja = i % productosPorHoja;
     const nroPagina = Math.floor(i / productosPorHoja) + 1;
-    
     if (i > 0 && indexEnHoja === 0) doc.addPage();
 
     if (indexEnHoja === 0) {
-      doc.setFontSize(14); doc.setTextColor(0); doc.setFont(undefined, 'bold');
-      doc.text("CATÁLOGO DE PRODUCTOS - TAO", marginX, 15);
-      doc.setFontSize(9); doc.setTextColor(39, 174, 96); doc.setFont(undefined, 'normal');
-      doc.text("Precios mayorista solamente para compras mayores a $90.000", marginX, 20);
-      doc.setDrawColor(200); doc.line(marginX, 25, 200, 25); 
+      try { doc.addImage('logo.png', 'PNG', 105 - 15, 8, 30, 15); } catch(e){}
+      doc.setFontSize(10); doc.setTextColor(39, 174, 96); doc.setFont(undefined, 'bold');
+      doc.text("Precios mayorista solamente para compras mayores a $90.000", 105, 28, { align: 'center' });
+      doc.setDrawColor(200); doc.line(marginX, 32, 200, 32); 
     }
 
     const col = indexEnHoja % 4, fila = Math.floor(indexEnHoja / 4);
     const x = marginX + (col * (cardW + gap)), y = marginY + (fila * cardH);
-    
     doc.setDrawColor(240); doc.rect(x, y, cardW, cardH - 4);
 
-    // Cargar imagen de forma asíncrona para no trabar el navegador
     const imgUrl = obtenerImagen(p.imagen);
     try {
-      const imgData = await aplanarImagen(imgUrl);
-      if (imgData) doc.addImage(imgData, 'JPEG', x + 2, y + 2, cardW - 4, 32);
-    } catch (e) { console.warn("Error con imagen de " + p.nombre); }
+      const imgRes = await aplanarImagenProporcional(imgUrl, cardW - 4, 32);
+      if (imgRes) {
+        doc.addImage(imgRes.data, 'JPEG', x + 2 + imgRes.offsetX, y + 2 + imgRes.offsetY, imgRes.w, imgRes.h);
+      }
+    } catch (e) {}
 
     doc.setTextColor(40); doc.setFontSize(7); doc.setFont(undefined, 'bold');
     const n = doc.splitTextToSize(p.nombre, cardW - 4);
-    doc.text(n, x + 2, y + 38);
+    doc.text(n, x + (cardW / 2), y + 38, { align: 'center' });
     
     doc.setFont(undefined, 'normal'); doc.setFontSize(6); doc.setTextColor(120);
-    doc.text(`Cat: ${p.categoria || '-'}`, x + 2, y + 48);
-    doc.text(`Cód: ${p.codigo}`, x + 2, y + 51);
+    doc.text(`Cód: ${p.codigo}`, x + (cardW / 2), y + 51, { align: 'center' });
     
     doc.setFontSize(9); doc.setTextColor(0, 112, 192); doc.setFont(undefined, 'bold');
-    doc.text(`$${Number(p.precio).toLocaleString("es-AR")}`, x + 2, y + 56);
+    doc.text(`$${Number(p.precio).toLocaleString("es-AR")}`, x + (cardW / 2), y + 56, { align: 'center' });
 
     if (indexEnHoja === 15 || i === lista.length - 1) {
       doc.setFontSize(8); doc.setTextColor(230, 126, 34); doc.setFont(undefined, 'bold');
       doc.text("CUALQUIER CONSULTA COMUNICARSE CON SEBASTIAN AL 351-6148905", 105, 288, { align: 'center' });
-      doc.setFontSize(7); doc.setTextColor(150);
-      doc.text(`Página ${nroPagina}`, 195, 288, { align: 'right' });
     }
   }
   doc.save("Catalogo_TAO_Imprimir.pdf");
 }
 
-// Función auxiliar para cargar imágenes sin bloquear el navegador
-function aplanarImagen(url) {
+function aplanarImagenProporcional(url, maxW, maxH) {
   return new Promise((resolve) => {
     const img = new Image();
     img.crossOrigin = "Anonymous";
     img.onload = () => {
       const canvas = document.createElement("canvas");
+      let w = img.width, h = img.height;
+      const ratio = Math.min(maxW / w, maxH / h);
+      w *= ratio; h *= ratio;
       canvas.width = img.width; canvas.height = img.height;
       const ctx = canvas.getContext("2d");
       ctx.drawImage(img, 0, 0);
-      resolve(canvas.toDataURL("image/jpeg", 0.7)); // 0.7 reduce el peso del PDF
+      resolve({
+        data: canvas.toDataURL("image/jpeg", 0.7),
+        w: w, h: h,
+        offsetX: (maxW - w) / 2,
+        offsetY: (maxH - h) / 2
+      });
     };
     img.onerror = () => resolve(null);
     img.src = url;
