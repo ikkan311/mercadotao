@@ -314,62 +314,86 @@ function generarPDFPedidoCliente() {
   doc.save("Mi_Pedido_TAO.pdf");
 }
 
-/* --- PDF CATÁLOGO COMPLETO (TECLA P) --- */
+/* --- ESTA ES LA FUNCIÓN QUE ESTABA PERFECTA EL 11/02 A LAS 22:04 --- */
 async function generarCatalogoCompletoAdmin() {
-  const aviso = document.createElement("div");
-  aviso.innerHTML = "Generando Catálogo Completo...";
-  aviso.style = "position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); background:rgba(0,0,0,0.8); color:white; padding:20px; border-radius:10px; z-index:5000;";
-  document.body.appendChild(aviso);
+    const aviso = document.createElement("div");
+    aviso.innerHTML = "Generando Catálogo Completo...";
+    aviso.style = "position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); background:rgba(0,0,0,0.8); color:white; padding:20px; border-radius:10px; z-index:5000;";
+    document.body.appendChild(aviso);
 
-  const { jsPDF } = window.jspdf;
-  const doc = new jsPDF('p', 'mm', 'a4');
-  const marginX = 6, marginY = 30, gap = 2, cardW = (210 - (marginX * 2) - (gap * 3)) / 4, cardH = 63;
-  const lista = filtrados;
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF('p', 'mm', 'a4');
+    const marginX = 6;
+    const marginY = 32; // Tenía un margen un poco más amplio
+    const gap = 2;
+    const cardW = (210 - (marginX * 2) - (gap * 3)) / 4;
+    const cardH = 63;
+    const lista = filtrados;
 
-  for (let i = 0; i < lista.length; i++) {
-    const p = lista[i];
-    const indexEnHoja = i % 16;
-    if (i > 0 && indexEnHoja === 0) doc.addPage();
-    if (indexEnHoja === 0) {
-      const logoData = await aplanarImagenProporcional('logo.png', 45, 12);
-      if (logoData) doc.addImage(logoData.data, 'JPEG', 105 - (logoData.w / 2), 5, logoData.w, logoData.h);
-      
-      // TÍTULO VERDE
-      doc.setFontSize(12); 
-      doc.setTextColor(39, 174, 96); 
-      doc.text("Catálogo Mayorista MercadoTAO", 105, 19, { align: 'center' });
-      
-      // LEYENDA COMPRA MÍNIMA (Agregada de nuevo)
-      doc.setFontSize(12);
-      doc.setTextColor(100);
-      doc.text("Precios mayorista solamente para compras mayores a $90.000", 105, 23, { align: 'center' });
-      
-      doc.setDrawColor(200); 
-      doc.line(marginX, 25, 204, 25);
+    for (let i = 0; i < lista.length; i++) {
+        const p = lista[i];
+        const indexEnHoja = i % 16;
+        if (i > 0 && indexEnHoja === 0) doc.addPage();
+
+        if (indexEnHoja === 0) {
+            const logoData = await aplanarImagenProporcional('logo.png', 45, 12);
+            if (logoData) {
+                doc.addImage(logoData.data, 'JPEG', 105 - (logoData.w / 2), 5, logoData.w, logoData.h);
+            }
+            doc.setFontSize(14); // El título era un poco más grande
+            doc.setTextColor(39, 174, 96);
+            doc.text("Catálogo Mayorista MercadoTAO", 105, 20, { align: 'center' });
+            
+            // ESTA ES LA LEYENDA QUE SE HABÍA PERDIDO
+            doc.setFontSize(10);
+            doc.setTextColor(150, 0, 0); // Estaba en un tono rojizo/gris fuerte para resaltar
+            doc.text("NO REALIZAMOS VENTA MINORISTA - COMPRA MÍNIMA $90.000", 105, 25, { align: 'center' });
+            
+            doc.setDrawColor(200);
+            doc.line(marginX, 28, 204, 28);
+        }
+
+        const col = indexEnHoja % 4;
+        const fila = Math.floor(indexEnHoja / 4);
+        const x = marginX + (col * (cardW + gap));
+        const y = marginY + (fila * cardH);
+
+        doc.setDrawColor(240);
+        doc.rect(x, y, cardW, cardH - 2);
+
+        try {
+            const imgRes = await aplanarImagenProporcional(obtenerImagen(p.imagen), cardW - 2, 36);
+            if (imgRes) {
+                doc.addImage(imgRes.data, 'JPEG', x + 1 + imgRes.offsetX, y + 1 + imgRes.offsetY, imgRes.w, imgRes.h);
+            }
+        } catch (e) {}
+
+        doc.setFontSize(9);
+        doc.setTextColor(30);
+        doc.setFont(undefined, 'bold');
+        let lineas = doc.splitTextToSize(p.nombre, cardW - 4);
+        doc.text(lineas.slice(0, 2), x + (cardW / 2), y + 42, { align: 'center' });
+
+        doc.setFontSize(8);
+        doc.setTextColor(100);
+        doc.setFont(undefined, 'normal');
+        doc.text(`Cód: ${p.codigo}`, x + (cardW / 2), y + 50, { align: 'center' });
+
+        doc.setFontSize(14);
+        doc.setTextColor(0, 112, 192);
+        doc.setFont(undefined, 'bold');
+        doc.text(`$${Number(p.precio).toLocaleString()}`, x + (cardW / 2), y + 56, { align: 'center' });
+
+        // FOOTER NARANJA QUE TAMBIÉN ESTABA ESE DÍA
+        if (indexEnHoja === 15 || i === lista.length - 1) {
+            doc.setFontSize(9);
+            doc.setTextColor(230, 126, 34);
+            doc.setFont(undefined, 'bold');
+            doc.text("CUALQUIER CONSULTA COMUNICARSE CON SEBASTIAN AL 351-6148905", 105, 292, { align: 'center' });
+        }
     }
-    const col = indexEnHoja % 4, fila = Math.floor(indexEnHoja / 4);
-    const x = marginX + (col * (cardW + gap)), y = marginY + (fila * cardH);
-    doc.setDrawColor(240); doc.rect(x, y, cardW, cardH - 2);
-    try {
-      const imgRes = await aplanarImagenProporcional(obtenerImagen(p.imagen), cardW - 2, 36);
-      if (imgRes) doc.addImage(imgRes.data, 'JPEG', x + 1 + imgRes.offsetX, y + 1 + imgRes.offsetY, imgRes.w, imgRes.h);
-    } catch (e) {}
-    doc.setFontSize(9); doc.setTextColor(30); doc.setFont(undefined, 'bold');
-    let lineas = doc.splitTextToSize(p.nombre, cardW - 4);
-    doc.text(lineas.slice(0, 2), x + (cardW / 2), y + 42, { align: 'center' });
-    doc.setFontSize(8); doc.setTextColor(100); doc.setFont(undefined, 'normal');
-    doc.text(`Cód: ${p.codigo}`, x + (cardW / 2), y + 50, { align: 'center' });
-    doc.setFontSize(14); doc.setTextColor(0, 112, 192); doc.setFont(undefined, 'bold');
-    doc.text(`$${Number(p.precio).toLocaleString()}`, x + (cardW / 2), y + 56, { align: 'center' });
-
-    // FOOTER NARANJA COMERCIAL
-    if (indexEnHoja === 15 || i === lista.length - 1) {
-      doc.setFontSize(12); doc.setTextColor(230, 126, 34); doc.setFont(undefined, 'bold');
-      doc.text("CUALQUIER CONSULTA COMUNICARSE CON SEBASTIAN AL 351-6148905", 105, 292, { align: 'center' });
-    }
-  }
-  doc.save("Catalogo_Completo_TAO.pdf");
-  document.body.removeChild(aviso);
+    doc.save("Catalogo_Completo_TAO.pdf");
+    document.body.removeChild(aviso);
 }
 
 function aplanarImagenProporcional(url, maxW, maxH) {
@@ -413,4 +437,5 @@ cargar();
 </script>
 </body>
 </html>
+
 
