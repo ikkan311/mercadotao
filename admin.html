@@ -23,8 +23,7 @@
         <div class="bg-white p-6 rounded-lg w-full max-w-2xl max-h-[90vh] overflow-y-auto shadow-xl">
             <h2 class="text-xl font-bold mb-4" id="edit-titulo">Editar Pedido</h2>
             
-            <div id="items-pedido" class="space-y-2 mb-6">
-                </div>
+            <div id="items-pedido" class="space-y-2 mb-6"></div>
 
             <hr class="my-4">
             
@@ -36,64 +35,71 @@
                 <div class="text-xl font-bold">Total: $<span id="edit-total">0</span></div>
                 <div>
                     <button onclick="cerrarModal()" class="bg-gray-500 text-white px-4 py-2 rounded mr-2">Cancelar</button>
-                    <button onclick="procesarPedidoFinal()" class="bg-green-600 text-white px-4 py-2 rounded font-bold">Aprobar y Descontar Stock</button>
+                    <button onclick="procesarPedidoFinal(event)" class="bg-green-600 text-white px-4 py-2 rounded font-bold">Aprobar y Descontar Stock</button>
                 </div>
             </div>
         </div>
     </div>
 
     <script>
-        const URL_APPSCRIPT = "https://script.google.com/macros/s/AKfycbwdT-CPmMj6lvaMN1QpYyEBz-RARV4vhX0T99oIXrSqUSWMc2PfSWCI8VYczxRPPCuKGw/exec"; // <--- PEGA TU URL AQUÍ
-        const URL_PRODUCTOS = "productos.json"; // Tu JSON de productos
+        // URL DE TU APP SCRIPT (LA ÚLTIMA QUE GENERASTE)
+        const URL_APPSCRIPT = "https://script.google.com/macros/s/AKfycbwdT-CPmMj6lvaMN1QpYyEBz-RARV4vhX0T99oIXrSqUSWMc2PfSWCI8VYczxRPPCuKGw/exec"; 
+        const URL_PRODUCTOS = "productos.json"; 
         
         let pedidos = [];
         let stockProductos = [];
         let pedidoActual = null;
 
-        // Cargar datos al iniciar
         async function init() {
             try {
-                // Cargar productos
                 const resProd = await fetch(URL_PRODUCTOS);
                 stockProductos = await resProd.json();
 
-                // Cargar pedidos desde el Sheet
                 const resPed = await fetch(`${URL_APPSCRIPT}?action=getPedidos`);
                 pedidos = await resPed.json();
                 renderPedidos();
             } catch (e) {
-                alert("Error cargando datos. Verifica la URL del script.");
+                console.error(e);
+                alert("Error cargando datos. Revisa la consola (F12).");
             }
         }
 
         function renderPedidos() {
             const contenedor = document.getElementById("lista-pedidos");
-            const pendientes = pedidos.filter(p => p.Estado === "PENDIENTE");
+            const pendientes = pedidos.filter(p => p.ESTADO === "PENDIENTE");
 
             if(pendientes.length === 0) {
-                contenedor.innerHTML = "<p>No hay pedidos pendientes.</p>";
+                contenedor.innerHTML = "<p class='text-gray-500 text-center py-10 bg-white rounded shadow'>No hay pedidos pendientes.</p>";
                 return;
             }
 
             contenedor.innerHTML = pendientes.map(p => `
-                <div class="bg-white p-4 rounded shadow flex justify-between items-center">
+                <div class="bg-white p-4 rounded shadow flex justify-between items-center border-l-4 border-yellow-500">
                     <div>
-                        <span class="text-xs text-gray-500">${p.Fecha}</span>
-                        <h3 class="font-bold">${p.Cliente} (${p["ID Pedido"]})</h3>
-                        <p class="text-green-600 font-bold">$${p.Total}</p>
+                        <span class="text-xs text-gray-400">${new Date(p.FECHA).toLocaleString()}</span>
+                        <h3 class="font-bold text-gray-800">${p.CLIENTE || "Cliente Web"} (${p["ID PEDIDO"]})</h3>
+                        <p class="text-green-600 font-bold">$${Number(p.TOTAL).toLocaleString()}</p>
                     </div>
-                    <button onclick="abrirEditor('${p["ID Pedido"]}')" class="bg-blue-600 text-white px-4 py-2 rounded">Gestionar</button>
+                    <button onclick="abrirEditor('${p["ID PEDIDO"]}')" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded transition-colors">Gestionar</button>
                 </div>
             `).join('');
         }
 
         function abrirEditor(id) {
-            pedidoActual = pedidos.find(p => p["ID Pedido"] === id);
-            pedidoActual.carrito = JSON.parse(pedidoActual["Datos Internos"]);
+            pedidoActual = pedidos.find(p => p["ID PEDIDO"] === id);
             
-            document.getElementById("edit-titulo").innerText = `Editando ${id}`;
-            actualizarVistaCarrito();
-            document.getElementById("modal-editor").classList.add("active");
+            try {
+                // Limpiamos los datos internos por si traen caracteres extraños
+                let datosLimpios = pedidoActual["DATOS INTERNOS"];
+                pedidoActual.carrito = JSON.parse(datosLimpios);
+                
+                document.getElementById("edit-titulo").innerText = `Editando Pedido: ${id}`;
+                actualizarVistaCarrito();
+                document.getElementById("modal-editor").classList.add("active");
+            } catch (e) {
+                alert("Error al leer los productos de este pedido.");
+                console.error(e);
+            }
         }
 
         function actualizarVistaCarrito() {
@@ -103,36 +109,38 @@
             container.innerHTML = pedidoActual.carrito.map((item, index) => {
                 total += item.precio * item.cantidad;
                 return `
-                    <div class="flex items-center justify-between border-b pb-2">
+                    <div class="flex items-center justify-between border-b py-3 hover:bg-gray-50 px-2 transition-colors">
                         <div class="flex-1">
-                            <p class="font-medium">${item.nombre}</p>
-                            <p class="text-xs text-gray-500">Cod: ${item.codigo} | $${item.precio}</p>
+                            <p class="font-semibold text-gray-700">${item.nombre}</p>
+                            <p class="text-xs text-gray-500">Código: ${item.codigo} | Unitario: $${item.precio}</p>
                         </div>
-                        <div class="flex items-center gap-2">
-                            <input type="number" value="${item.cantidad}" onchange="cambiarCantidad(${index}, this.value)" class="w-16 p-1 border rounded text-center">
-                            <button onclick="eliminarItem(${index})" class="text-red-500 font-bold px-2">X</button>
+                        <div class="flex items-center gap-3">
+                            <input type="number" min="1" value="${item.cantidad}" onchange="cambiarCantidad(${index}, this.value)" class="w-16 p-1 border rounded text-center focus:ring-2 focus:ring-blue-500 outline-none">
+                            <button onclick="eliminarItem(${index})" class="text-red-500 hover:text-red-700 font-bold px-2">✕</button>
                         </div>
                     </div>
                 `;
             }).join('');
             document.getElementById("edit-total").innerText = total.toLocaleString();
+            pedidoActual.TOTAL = total;
         }
 
         function cambiarCantidad(index, valor) {
-            pedidoActual.carrito[index].cantidad = parseInt(valor);
+            pedidoActual.carrito[index].cantidad = parseInt(valor) || 0;
             actualizarVistaCarrito();
         }
 
         function eliminarItem(index) {
-            pedidoActual.carrito.splice(index, 1);
-            actualizarVistaCarrito();
+            if(confirm("¿Eliminar este producto del pedido?")) {
+                pedidoActual.carrito.splice(index, 1);
+                actualizarVistaCarrito();
+            }
         }
 
         function cerrarModal() {
             document.getElementById("modal-editor").classList.remove("active");
         }
 
-        // Buscador de productos para agregar
         document.getElementById("busqueda-prod").oninput = function(e) {
             const term = e.target.value.toLowerCase();
             const resDiv = document.getElementById("resultados-busqueda");
@@ -144,8 +152,8 @@
             ).slice(0, 5);
 
             resDiv.innerHTML = filtrados.map(p => `
-                <div onclick='agregarAlPedido(${JSON.stringify(p)})' class="p-2 hover:bg-gray-100 cursor-pointer border-b">
-                    ${p.nombre} (${p.codigo}) - <b>$${p.precio}</b>
+                <div onclick='agregarAlPedido(${JSON.stringify(p)})' class="p-3 hover:bg-blue-50 cursor-pointer border-b text-sm">
+                    <span class="font-bold">${p.nombre}</span> <span class="text-gray-500">(${p.codigo})</span> - <span class="text-green-600">$${p.precio}</span>
                 </div>
             `).join('');
             resDiv.classList.remove("hidden");
@@ -168,35 +176,31 @@
             actualizarVistaCarrito();
         }
 
-        async function procesarPedidoFinal() {
-            if(!confirm("¿Deseas confirmar los cambios y descontar el stock?")) return;
+        async function procesarPedidoFinal(event) {
+            if(!confirm("¿Deseas confirmar los cambios? Se restará el stock automáticamente en el Excel y se actualizará el catálogo.")) return;
 
             const btn = event.target;
             btn.disabled = true;
-            btn.innerText = "Procesando...";
+            btn.innerText = "Sincronizando...";
 
             try {
-                // Aquí llamamos a la función de AppScript para que haga la magia
-                // Como es una función específica del script usamos google.script.run si estuviéramos dentro, 
-                // pero como es externo usaremos un POST especial o una acción en el doPost.
-                
-                // Por simplicidad en este paso, enviamos los datos al doPost con una acción nueva:
-                const response = await fetch(URL_APPSCRIPT, {
+                // Enviamos los datos al App Script para actualizar el Excel y GitHub
+                await fetch(URL_APPSCRIPT, {
                     method: "POST",
                     mode: "no-cors",
                     body: JSON.stringify({
                         action: "APROBAR",
-                        idPedido: pedidoActual["ID Pedido"],
+                        idPedido: pedidoActual["ID PEDIDO"],
                         carritoFinal: pedidoActual.carrito
                     })
                 });
 
-                alert("Pedido aprobado. El stock se actualizará en unos segundos.");
+                alert("¡Pedido Procesado! \n1. Stock actualizado en Excel.\n2. Catálogo sincronizado en GitHub.\n3. Estado cambiado a APROBADO.");
                 location.reload();
             } catch (e) {
-                alert("Error al procesar. Intenta de nuevo.");
+                alert("Error de conexión. El pedido se guardó pero no pudimos sincronizar.");
                 btn.disabled = false;
-                btn.innerText = "Aprobar y Descontar Stock";
+                btn.innerText = "Reintentar Aprobar";
             }
         }
 
