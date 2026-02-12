@@ -4,44 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panel Admin - MercadoTAO</title>
-    <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.28/jspdf.plugin.autotable.min.js"></script>
     <style>
-        .modal { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.5); align-items: center; justify-content: center; }
+        body { font-family: sans-serif; background: #f0f2f5; margin: 0; padding: 20px; }
+        .contenedor { max-width: 800px; margin: 0 auto; }
+        h1 { color: #1e3a8a; }
+        .pedido-card { background: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-bottom: 15px; display: flex; justify-content: space-between; align-items: center; border-left: 5px solid #eab308; }
+        .pedido-info h3 { margin: 0; font-size: 1.1rem; }
+        .pedido-info p { margin: 5px 0 0; font-size: 0.85rem; color: #666; }
+        .pedido-total { text-align: right; }
+        .pedido-total span { display: block; font-weight: bold; color: #16a34a; font-size: 1.2rem; margin-bottom: 8px; }
+        .btn-gestionar { background: #2563eb; color: #fff; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer; font-weight: bold; font-size: 0.75rem; }
+        
+        /* Modal Admin */
+        .modal { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.5); align-items: center; justify-content: center; z-index: 1000; }
         .modal.active { display: flex; }
+        .modal-caja { background: #fff; width: 95%; max-width: 650px; border-radius: 10px; padding: 20px; max-height: 90vh; overflow-y: auto; }
+        .item-edit { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #eee; padding: 10px 0; }
+        .busqueda-sec { margin-top: 20px; border-top: 2px solid #eee; padding-top: 15px; }
+        .input-text { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box; }
+        .btn-aprobar { background: #16a34a; color: #fff; border: none; padding: 12px 20px; border-radius: 6px; cursor: pointer; font-weight: bold; }
     </style>
 </head>
-<body class="bg-gray-100 p-4">
-    <div class="max-w-4xl mx-auto">
-        <h1 class="text-2xl font-bold mb-4 text-blue-800">📦 Gestión de Pedidos - MercadoTAO</h1>
-        <div id="lista-pedidos" class="grid gap-4">
-            <p>Cargando pedidos...</p>
-        </div>
+<body>
+    <div class="contenedor">
+        <h1>📦 Gestión de Pedidos</h1>
+        <div id="lista-pedidos"><p>Cargando...</p></div>
     </div>
 
-    <div id="modal-editor" class="modal p-4">
-        <div class="bg-white p-6 rounded-lg w-full max-w-2xl max-h-[90vh] overflow-y-auto shadow-xl">
-            <div class="flex justify-between items-start mb-4">
+    <div id="modal-editor" class="modal">
+        <div class="modal-caja">
+            <div style="display:flex; justify-content: space-between;">
                 <div>
-                    <h2 class="text-xl font-bold" id="edit-titulo">Editar Pedido</h2>
-                    <p id="info-cliente" class="text-sm text-gray-600 font-bold"></p>
+                    <h2 id="edit-titulo" style="margin:0">Editar</h2>
+                    <p id="info-cliente" style="font-weight:bold; color:#2563eb; margin:5px 0 15px"></p>
                 </div>
-                <button onclick="generarPDF()" class="bg-gray-200 hover:bg-gray-300 px-3 py-1 rounded text-xs font-bold">📄 SOLO PDF</button>
+                <button onclick="generarPDF()" style="height:30px; cursor:pointer">📄 SOLO PDF</button>
             </div>
-            
-            <div id="items-pedido" class="space-y-2 mb-6"></div>
-
-            <hr class="my-4">
-            <h3 class="font-bold mb-2">Agregar Producto</h3>
-            <input type="text" id="busqueda-prod" placeholder="Nombre o código..." class="w-full p-2 border rounded mb-2">
-            <div id="resultados-busqueda" class="max-h-40 overflow-y-auto border rounded hidden bg-white shadow"></div>
-
-            <div class="mt-6 flex flex-col sm:flex-row justify-between items-center gap-4">
-                <div class="text-2xl font-bold text-blue-700">Total: $<span id="edit-total">0</span></div>
-                <div class="flex gap-2">
-                    <button onclick="cerrarModal()" class="bg-gray-500 text-white px-4 py-2 rounded">Cerrar</button>
-                    <button id="btnAprobar" onclick="procesarPedidoFinal(event)" class="bg-green-600 text-white px-4 py-2 rounded font-bold">Aprobar y Descargar PDF</button>
+            <div id="items-pedido"></div>
+            <div class="busqueda-sec">
+                <h3>Agregar más:</h3>
+                <input type="text" id="busqueda-prod" class="input-text" placeholder="Buscar por nombre...">
+                <div id="resultados-busqueda" style="background:#fff; border:1px solid #ddd; display:none"></div>
+            </div>
+            <div style="margin-top:30px; display:flex; justify-content: space-between; align-items: center;">
+                <div style="font-size:1.5rem; font-weight:bold">Total: $<span id="edit-total">0</span></div>
+                <div>
+                    <button onclick="cerrarModal()" style="padding:10px 15px; cursor:pointer">Cerrar</button>
+                    <button id="btnAprobar" onclick="procesarPedidoFinal()" class="btn-aprobar">Aprobar y Descargar</button>
                 </div>
             </div>
         </div>
@@ -58,36 +69,32 @@
                 stockProductos = await rP.json();
                 pedidos = await rPed.json();
                 renderPedidos();
-            } catch (e) { alert("Error de carga"); }
+            } catch (e) { alert("Error al conectar"); }
         }
 
         function renderPedidos() {
-            const contenedor = document.getElementById("lista-pedidos");
+            const cont = document.getElementById("lista-pedidos");
             const pendientes = pedidos.filter(p => p.ESTADO === "PENDIENTE");
-            if(pendientes.length === 0) {
-                contenedor.innerHTML = "<p class='text-center py-10 bg-white rounded shadow text-gray-400'>No hay pedidos pendientes.</p>";
-                return;
-            }
-            contenedor.innerHTML = pendientes.map(p => `
-                <div class="bg-white p-4 rounded shadow flex justify-between items-center border-l-4 border-yellow-500">
-                    <div>
-                        <span class="text-xs text-gray-400">${new Date(p.FECHA).toLocaleDateString()}</span>
-                        <h3 class="font-bold text-gray-800">${p.CLIENTE || "Cliente Web"}</h3>
-                        <p class="text-xs text-blue-600 font-bold">${p.WHATSAPP || ''}</p>
+            if(pendientes.length === 0) { cont.innerHTML = "No hay pedidos."; return; }
+            cont.innerHTML = pendientes.map(p => `
+                <div class="pedido-card">
+                    <div class="pedido-info">
+                        <p style="margin:0; font-size:10px">${new Date(p.FECHA).toLocaleDateString()}</p>
+                        <h3>${p.CLIENTE}</h3>
+                        <p>WA: ${p.WHATSAPP}</p>
                     </div>
-                    <div class="text-right">
-                        <p class="text-green-600 font-bold">$${Number(p.TOTAL).toLocaleString()}</p>
-                        <button onclick="abrirEditor('${p["ID PEDIDO"]}')" class="bg-blue-600 text-white px-3 py-1 rounded text-xs">GESTIONAR</button>
+                    <div class="pedido-total">
+                        <span>$${Number(p.TOTAL).toLocaleString()}</span>
+                        <button onclick="abrirEditor('${p["ID PEDIDO"]}')" class="btn-gestionar">GESTIONAR</button>
                     </div>
-                </div>
-            `).join('');
+                </div>`).join('');
         }
 
         function abrirEditor(id) {
             pedidoActual = pedidos.find(p => p["ID PEDIDO"] === id);
             pedidoActual.carrito = JSON.parse(pedidoActual["DATOS INTERNOS"]);
             document.getElementById("edit-titulo").innerText = `Pedido: ${id}`;
-            document.getElementById("info-cliente").innerText = `${pedidoActual.CLIENTE} | WA: ${pedidoActual.WHATSAPP}`;
+            document.getElementById("info-cliente").innerText = `${pedidoActual.CLIENTE} (${pedidoActual.WHATSAPP})`;
             actualizarVistaCarrito();
             document.getElementById("modal-editor").classList.add("active");
         }
@@ -98,16 +105,13 @@
             container.innerHTML = pedidoActual.carrito.map((item, index) => {
                 total += item.precio * item.cantidad;
                 return `
-                    <div class="flex items-center justify-between border-b py-2 text-sm">
-                        <div class="flex-1">
-                            <p class="font-semibold">${item.nombre}</p>
-                            <p class="text-xs text-gray-500">$${item.precio} x ${item.cantidad}</p>
-                        </div>
-                        <div class="flex gap-2">
-                            <input type="number" value="${item.cantidad}" onchange="cambiarCantidad(${index}, this.value)" class="w-12 border text-center">
-                            <button onclick="eliminarItem(${index})" class="text-red-500">✕</button>
-                        </div>
-                    </div>`;
+                <div class="item-edit">
+                    <div><b>${item.nombre}</b><br><small>$${item.precio}</small></div>
+                    <div>
+                        <input type="number" value="${item.cantidad}" onchange="cambiarCantidad(${index}, this.value)" style="width:40px">
+                        <button onclick="eliminarItem(${index})" style="color:red">✕</button>
+                    </div>
+                </div>`;
             }).join('');
             document.getElementById("edit-total").innerText = total.toLocaleString();
             pedidoActual.TOTAL_NUEVO = total;
@@ -115,20 +119,18 @@
 
         function generarPDF() {
             const { jsPDF } = window.jspdf; const doc = new jsPDF();
-            doc.setFontSize(18); doc.setTextColor(30, 58, 138); doc.text("MERCADO TAO", 105, 20, { align: 'center' });
-            doc.setFontSize(10); doc.setTextColor(0);
-            doc.text(`Cliente: ${pedidoActual.CLIENTE}`, 15, 35);
-            doc.text(`WhatsApp: ${pedidoActual.WHATSAPP}`, 15, 40);
-            doc.text(`ID Pedido: ${pedidoActual["ID PEDIDO"]}`, 15, 45);
-
+            doc.setFontSize(20); doc.text("MERCADO TAO", 105, 20, { align: 'center' });
+            doc.setFontSize(10);
+            doc.text(`Cliente: ${pedidoActual.CLIENTE} | WA: ${pedidoActual.WHATSAPP}`, 15, 35);
+            doc.text(`ID: ${pedidoActual["ID PEDIDO"]}`, 15, 40);
             const rows = pedidoActual.carrito.map(i => [i.codigo, i.nombre, i.cantidad, `$${i.precio}`, `$${i.precio * i.cantidad}`]);
-            doc.autoTable({ startY: 50, head: [['Cód', 'Producto', 'Cant', 'Precio', 'Sub']], body: rows });
+            doc.autoTable({ startY: 45, head: [['Cod', 'Producto', 'Cant', 'Precio', 'Sub']], body: rows });
             doc.text(`TOTAL: $${pedidoActual.TOTAL_NUEVO.toLocaleString()}`, 195, doc.lastAutoTable.finalY + 10, { align: 'right' });
             doc.save(`Pedido_${pedidoActual.CLIENTE}.pdf`);
         }
 
-        async function procesarPedidoFinal(event) {
-            if(!confirm("¿Confirmar y descontar stock?")) return;
+        async function procesarPedidoFinal() {
+            if(!confirm("¿Aprobar pedido?")) return;
             const btn = document.getElementById("btnAprobar");
             btn.disabled = true; btn.innerText = "Sincronizando...";
             try {
@@ -137,7 +139,7 @@
                     method: "POST", mode: "no-cors",
                     body: JSON.stringify({ action: "APROBAR", idPedido: pedidoActual["ID PEDIDO"], carritoFinal: pedidoActual.carrito })
                 });
-                alert("Procesado con éxito"); location.reload();
+                alert("Éxito"); location.reload();
             } catch (e) { alert("Error"); btn.disabled = false; }
         }
 
@@ -148,16 +150,15 @@
         document.getElementById("busqueda-prod").oninput = function(e) {
             const term = e.target.value.toLowerCase();
             const resDiv = document.getElementById("resultados-busqueda");
-            if(term.length < 2) { resDiv.classList.add("hidden"); return; }
-            const filtrados = stockProductos.filter(p => p.nombre.toLowerCase().includes(term) || p.codigo.toLowerCase().includes(term)).slice(0, 5);
-            resDiv.innerHTML = filtrados.map(p => `<div onclick='agregarAlPedido(${JSON.stringify(p)})' class="p-2 hover:bg-gray-100 cursor-pointer border-b text-sm">${p.nombre} - $${p.precio}</div>`).join('');
-            resDiv.classList.remove("hidden");
+            if(term.length < 2) { resDiv.style.display = "none"; return; }
+            const filtrados = stockProductos.filter(p => p.nombre.toLowerCase().includes(term)).slice(0, 5);
+            resDiv.innerHTML = filtrados.map(p => `<div onclick='agregarAlPedido(${JSON.stringify(p)})' style="padding:10px; cursor:pointer; border-bottom:1px solid #eee">${p.nombre}</div>`).join('');
+            resDiv.style.display = "block";
         };
-
         function agregarAlPedido(p) {
             pedidoActual.carrito.push({ codigo: p.codigo, nombre: p.nombre, precio: p.precio, cantidad: 1 });
             document.getElementById("busqueda-prod").value = "";
-            document.getElementById("resultados-busqueda").classList.add("hidden");
+            document.getElementById("resultados-busqueda").style.display = "none";
             actualizarVistaCarrito();
         }
         init();
