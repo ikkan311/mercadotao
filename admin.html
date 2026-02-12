@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel Admin - MercadoTAO</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .modal { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.5); align-items: center; justify-content: center; }
+        .modal.active { display: flex; }
+    </style>
+</head>
+<body class="bg-gray-100 p-4">
+    <div class="max-w-4xl mx-auto">
+        <h1 class="text-2xl font-bold mb-4">📦 Gestión de Pedidos</h1>
+        
+        <div id="lista-pedidos" class="grid gap-4">
+            <p>Cargando pedidos...</p>
+        </div>
+    </div>
+
+    <div id="modal-editor" class="modal p-4">
+        <div class="bg-white p-6 rounded-lg w-full max-w-2xl max-h-[90vh] overflow-y-auto shadow-xl">
+            <h2 class="text-xl font-bold mb-4" id="edit-titulo">Editar Pedido</h2>
+            
+            <div id="items-pedido" class="space-y-2 mb-6">
+                </div>
+
+            <hr class="my-4">
+            
+            <h3 class="font-bold mb-2">Agregar Producto</h3>
+            <input type="text" id="busqueda-prod" placeholder="Buscar por nombre o código..." class="w-full p-2 border rounded mb-2">
+            <div id="resultados-busqueda" class="max-h-40 overflow-y-auto border rounded hidden"></div>
+
+            <div class="mt-6 flex justify-between items-center">
+                <div class="text-xl font-bold">Total: $<span id="edit-total">0</span></div>
+                <div>
+                    <button onclick="cerrarModal()" class="bg-gray-500 text-white px-4 py-2 rounded mr-2">Cancelar</button>
+                    <button onclick="procesarPedidoFinal()" class="bg-green-600 text-white px-4 py-2 rounded font-bold">Aprobar y Descontar Stock</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const URL_APPSCRIPT = "https://script.google.com/macros/s/AKfycbwpJd-w7_uixU005tZVOMfABNpW9iAmxCH2ILj8O0hSRGTvYHXfSjGHZbt2yfSEGXHuyw/exec"; // <--- PEGA TU URL AQUÍ
+        const URL_PRODUCTOS = "productos.json"; // Tu JSON de productos
+        
+        let pedidos = [];
+        let stockProductos = [];
+        let pedidoActual = null;
+
+        // Cargar datos al iniciar
+        async function init() {
+            try {
+                // Cargar productos
+                const resProd = await fetch(URL_PRODUCTOS);
+                stockProductos = await resProd.json();
+
+                // Cargar pedidos desde el Sheet
+                const resPed = await fetch(`${URL_APPSCRIPT}?action=getPedidos`);
+                pedidos = await resPed.json();
+                renderPedidos();
+            } catch (e) {
+                alert("Error cargando datos. Verifica la URL del script.");
+            }
+        }
+
+        function renderPedidos() {
+            const contenedor = document.getElementById("lista-pedidos");
+            const pendientes = pedidos.filter(p => p.Estado === "PENDIENTE");
+
+            if(pendientes.length === 0) {
+                contenedor.innerHTML = "<p>No hay pedidos pendientes.</p>";
+                return;
+            }
+
+            contenedor.innerHTML = pendientes.map(p => `
+                <div class="bg-white p-4 rounded shadow flex justify-between items-center">
+                    <div>
+                        <span class="text-xs text-gray-500">${p.Fecha}</span>
+                        <h3 class="font-bold">${p.Cliente} (${p["ID Pedido"]})</h3>
+                        <p class="text-green-600 font-bold">$${p.Total}</p>
+                    </div>
+                    <button onclick="abrirEditor('${p["ID Pedido"]}')" class="bg-blue-600 text-white px-4 py-2 rounded">Gestionar</button>
+                </div>
+            `).join('');
+        }
+
+        function abrirEditor(id) {
+            pedidoActual = pedidos.find(p => p["ID Pedido"] === id);
+            pedidoActual.carrito = JSON.parse(pedidoActual["Datos Internos"]);
+            
+            document.getElementById("edit-titulo").innerText = `Editando ${id}`;
+            actualizarVistaCarrito();
+            document.getElementById("modal-editor").classList.add("active");
+        }
+
+        function actualizarVistaCarrito() {
+            const container = document.getElementById("items-pedido");
+            let total = 0;
+
+            container.innerHTML = pedidoActual.carrito.map((item, index) => {
+                total += item.precio * item.cantidad;
+                return `
+                    <div class="flex items-center justify-between border-b pb-2">
+                        <div class="flex-1">
+                            <p class="font-medium">${item.nombre}</p>
+                            <p class="text-xs text-gray-500">Cod: ${item.codigo} | $${item.precio}</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <input type="number" value="${item.cantidad}" onchange="cambiarCantidad(${index}, this.value)" class="w-16 p-1 border rounded text-center">
+                            <button onclick="eliminarItem(${index})" class="text-red-500 font-bold px-2">X</button>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+            document.getElementById("edit-total").innerText = total.toLocaleString();
+        }
+
+        function cambiarCantidad(index, valor) {
+            pedidoActual.carrito[index].cantidad = parseInt(valor);
+            actualizarVistaCarrito();
+        }
+
+        function eliminarItem(index) {
+            pedidoActual.carrito.splice(index, 1);
+            actualizarVistaCarrito();
+        }
+
+        function cerrarModal() {
+            document.getElementById("modal-editor").classList.remove("active");
+        }
+
+        // Buscador de productos para agregar
+        document.getElementById("busqueda-prod").oninput = function(e) {
+            const term = e.target.value.toLowerCase();
+            const resDiv = document.getElementById("resultados-busqueda");
+            
+            if(term.length < 2) { resDiv.classList.add("hidden"); return; }
+
+            const filtrados = stockProductos.filter(p => 
+                p.nombre.toLowerCase().includes(term) || p.codigo.toLowerCase().includes(term)
+            ).slice(0, 5);
+
+            resDiv.innerHTML = filtrados.map(p => `
+                <div onclick='agregarAlPedido(${JSON.stringify(p)})' class="p-2 hover:bg-gray-100 cursor-pointer border-b">
+                    ${p.nombre} (${p.codigo}) - <b>$${p.precio}</b>
+                </div>
+            `).join('');
+            resDiv.classList.remove("hidden");
+        };
+
+        function agregarAlPedido(prod) {
+            const existe = pedidoActual.carrito.find(i => i.codigo === prod.codigo);
+            if(existe) {
+                existe.cantidad++;
+            } else {
+                pedidoActual.carrito.push({
+                    codigo: prod.codigo,
+                    nombre: prod.nombre,
+                    precio: prod.precio,
+                    cantidad: 1
+                });
+            }
+            document.getElementById("busqueda-prod").value = "";
+            document.getElementById("resultados-busqueda").classList.add("hidden");
+            actualizarVistaCarrito();
+        }
+
+        async function procesarPedidoFinal() {
+            if(!confirm("¿Deseas confirmar los cambios y descontar el stock?")) return;
+
+            const btn = event.target;
+            btn.disabled = true;
+            btn.innerText = "Procesando...";
+
+            try {
+                // Aquí llamamos a la función de AppScript para que haga la magia
+                // Como es una función específica del script usamos google.script.run si estuviéramos dentro, 
+                // pero como es externo usaremos un POST especial o una acción en el doPost.
+                
+                // Por simplicidad en este paso, enviamos los datos al doPost con una acción nueva:
+                const response = await fetch(URL_APPSCRIPT, {
+                    method: "POST",
+                    mode: "no-cors",
+                    body: JSON.stringify({
+                        action: "APROBAR",
+                        idPedido: pedidoActual["ID Pedido"],
+                        carritoFinal: pedidoActual.carrito
+                    })
+                });
+
+                alert("Pedido aprobado. El stock se actualizará en unos segundos.");
+                location.reload();
+            } catch (e) {
+                alert("Error al procesar. Intenta de nuevo.");
+                btn.disabled = false;
+                btn.innerText = "Aprobar y Descontar Stock";
+            }
+        }
+
+        init();
+    </script>
+</body>
+</html>
