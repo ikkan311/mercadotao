@@ -519,7 +519,7 @@
     "categoria": "BELLEZA",
     "imagen": "https://drive.google.com/uc?id=1ZShV8cAQWrcJow0Jog42bwr-clamzlmQ",
     "estado": "CON STOCK",
-    "stock": 0
+    "stock": 3
   },
   {
     "codigo": "11",
@@ -591,7 +591,7 @@
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1QH1D8Pj2LO08yeLrTwcWalfG17Bc1ebN",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 0
+    "stock": 3
   },
   {
     "codigo": "40",
