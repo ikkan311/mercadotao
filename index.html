@@ -242,13 +242,40 @@ const btnSubir = document.getElementById("btn-subir");
 window.onscroll = () => { if (window.scrollY > 300) btnSubir.style.display = "flex"; else btnSubir.style.display = "none"; };
 btnSubir.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
 
-document.getElementById("btn-wa").onclick = () => {
-  let total = 0; let msg = "Hola MercadoTAO, mi pedido es:%0A%0A";
+document.getElementById("btn-wa").onclick = async () => {
+  let total = 0;
+  let msg = "Hola MercadoTAO, mi pedido es:%0A%0A";
+  
+  // URL de tu AppScript (la que copiaste al implementar)
+  const URL_APPSCRIPT = "https://script.google.com/macros/s/AKfycbyqz5xNNNOJoZN90xBNQk_IK2oS1b2fsm_754B2lhie0r-LNsbXxUHMzQ2ZZMs-0UJdhA/exec";
+
   carrito.forEach((i, idx) => {
-    const sub = i.precio * i.cantidad; total += sub;
-    msg += `${idx + 1}. *${i.nombre}*%0A   Cód: ${i.codigo} | Cant: ${i.cantidad}%0A   P.Unit: $${i.precio.toLocaleString()} | Sub: $${sub.toLocaleString()}%0A%0A`;
+    const sub = i.precio * i.cantidad;
+    total += sub;
+    msg += `${idx + 1}. *${i.nombre}*%0A   Cód: ${i.codigo} | Cant: ${i.cantidad}%0A%0A`;
   });
   msg += `*TOTAL: $${total.toLocaleString()}*`;
+
+  // --- REGISTRO DEL PEDIDO EN EL SHEET ---
+  // Usamos try/catch para que si falla el registro, el WhatsApp se abra igual
+  try {
+    fetch(URL_APPSCRIPT, {
+      method: "POST",
+      mode: "no-cors", // Crucial para Google Apps Script
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        cliente: "Cliente Web", // Luego podemos agregar un campo para el nombre
+        total: total,
+        carrito: carrito
+      })
+    });
+    console.log("Pedido enviado al Sheet");
+  } catch (error) {
+    console.error("Error al registrar pedido:", error);
+  }
+  // ---------------------------------------
+
+  // Abrir WhatsApp
   window.open(`https://wa.me/${WHATSAPP_DESTINO}?text=${msg}`);
 };
 
@@ -378,6 +405,7 @@ cargar();
 </script>
 </body>
 </html>
+
 
 
 
