@@ -14,7 +14,7 @@
 </head>
 <body class="bg-gray-100 p-4">
     <div class="max-w-4xl mx-auto">
-        <h1 class="text-2xl font-bold mb-4 text-blue-800">📦 MercadoTAO - Gestión de Pedidos</h1>
+        <h1 class="text-3xl font-bold mb-6 text-blue-900">📦 MercadoTAO Admin</h1>
         <div id="lista-pedidos" class="grid gap-4">
             <p>Cargando pedidos...</p>
         </div>
@@ -22,27 +22,26 @@
 
     <div id="modal-editor" class="modal p-4">
         <div class="bg-white p-6 rounded-lg w-full max-w-2xl max-h-[90vh] overflow-y-auto shadow-xl">
-            <div class="flex justify-between items-center mb-4">
-                <h2 class="text-xl font-bold" id="edit-titulo">Editar Pedido</h2>
-                <button onclick="generarPDF()" class="bg-gray-200 hover:bg-gray-300 text-gray-700 px-3 py-1 rounded text-sm flex items-center gap-1">
-                    📄 Solo PDF
-                </button>
+            <div class="flex justify-between items-start mb-4 border-b pb-2">
+                <div>
+                    <h2 class="text-xl font-bold text-blue-800" id="edit-titulo"></h2>
+                    <p id="info-cliente" class="text-sm text-gray-600 font-bold"></p>
+                </div>
+                <button onclick="generarPDF()" class="bg-gray-200 hover:bg-gray-300 px-3 py-1 rounded text-xs font-bold">📄 SOLO PDF</button>
             </div>
             
             <div id="items-pedido" class="space-y-2 mb-6"></div>
 
             <hr class="my-4">
-            <h3 class="font-bold mb-2">Agregar Producto</h3>
-            <input type="text" id="busqueda-prod" placeholder="Buscar por nombre o código..." class="w-full p-2 border rounded mb-2">
-            <div id="resultados-busqueda" class="max-h-40 overflow-y-auto border rounded hidden"></div>
+            <h3 class="font-bold mb-2 text-sm uppercase">Agregar Producto</h3>
+            <input type="text" id="busqueda-prod" placeholder="Buscar..." class="w-full p-2 border rounded-lg mb-2">
+            <div id="resultados-busqueda" class="max-h-40 overflow-y-auto border rounded-lg hidden bg-white"></div>
 
-            <div class="mt-6 flex flex-col sm:flex-row justify-between items-center gap-4">
-                <div class="text-2xl font-bold text-blue-700">Total: $<span id="edit-total">0</span></div>
+            <div class="mt-8 flex justify-between items-center border-t pt-4">
+                <div class="text-2xl font-bold text-green-700">Total: $<span id="edit-total">0</span></div>
                 <div class="flex gap-2">
-                    <button onclick="cerrarModal()" class="bg-gray-500 text-white px-4 py-2 rounded">Cancelar</button>
-                    <button id="btnAprobar" onclick="procesarPedidoFinal(event)" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded font-bold">
-                        Aprobar y Descargar PDF
-                    </button>
+                    <button onclick="cerrarModal()" class="bg-gray-400 text-white px-4 py-2 rounded-lg font-bold">Cerrar</button>
+                    <button id="btnAprobar" onclick="procesarPedidoFinal(event)" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-bold">Aprobar y Descargar</button>
                 </div>
             </div>
         </div>
@@ -51,36 +50,32 @@
     <script>
         const URL_APPSCRIPT = "https://script.google.com/macros/s/AKfycbwdT-CPmMj6lvaMN1QpYyEBz-RARV4vhX0T99oIXrSqUSWMc2PfSWCI8VYczxRPPCuKGw/exec"; 
         const URL_PRODUCTOS = "productos.json"; 
-        
-        let pedidos = [];
-        let stockProductos = [];
-        let pedidoActual = null;
+        let pedidos = [], stockProductos = [], pedidoActual = null;
 
         async function init() {
             try {
-                const resProd = await fetch(URL_PRODUCTOS);
-                stockProductos = await resProd.json();
-                const resPed = await fetch(`${URL_APPSCRIPT}?action=getPedidos`);
-                pedidos = await resPed.json();
+                const [rP, rPed] = await Promise.all([fetch(URL_PRODUCTOS), fetch(`${URL_APPSCRIPT}?action=getPedidos`)]);
+                stockProductos = await rP.json();
+                pedidos = await rPed.json();
                 renderPedidos();
-            } catch (e) { alert("Error cargando datos."); }
+            } catch (e) { alert("Error de carga"); }
         }
 
         function renderPedidos() {
             const contenedor = document.getElementById("lista-pedidos");
             const pendientes = pedidos.filter(p => p.ESTADO === "PENDIENTE");
-            if(pendientes.length === 0) {
-                contenedor.innerHTML = "<p class='text-center py-10 bg-white rounded'>No hay pedidos pendientes.</p>";
-                return;
-            }
+            if(pendientes.length === 0) { contenedor.innerHTML = "<p class='bg-white p-4 rounded shadow'>No hay pedidos.</p>"; return; }
             contenedor.innerHTML = pendientes.map(p => `
-                <div class="bg-white p-4 rounded shadow flex justify-between items-center border-l-4 border-yellow-500">
+                <div class="bg-white p-4 rounded-xl shadow-sm flex justify-between items-center border-l-4 border-blue-500">
                     <div>
-                        <span class="text-xs text-gray-400">${new Date(p.FECHA).toLocaleString()}</span>
-                        <h3 class="font-bold text-gray-800">${p.CLIENTE || "Cliente"} (${p["ID PEDIDO"]})</h3>
-                        <p class="text-green-600 font-bold">$${Number(p.TOTAL).toLocaleString()}</p>
+                        <span class="text-[10px] text-gray-400 uppercase">${new Date(p.FECHA).toLocaleDateString()}</span>
+                        <h3 class="font-bold text-gray-800">${p.CLIENTE}</h3>
+                        <p class="text-xs text-gray-500">WA: ${p.WHATSAPP}</p>
                     </div>
-                    <button onclick="abrirEditor('${p["ID PEDIDO"]}')" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Gestionar</button>
+                    <div class="text-right">
+                        <p class="text-lg font-bold text-green-600">$${Number(p.TOTAL).toLocaleString()}</p>
+                        <button onclick="abrirEditor('${p["ID PEDIDO"]}')" class="bg-blue-600 text-white text-xs px-3 py-1 rounded-full font-bold">GESTIONAR</button>
+                    </div>
                 </div>
             `).join('');
         }
@@ -88,7 +83,8 @@
         function abrirEditor(id) {
             pedidoActual = pedidos.find(p => p["ID PEDIDO"] === id);
             pedidoActual.carrito = JSON.parse(pedidoActual["DATOS INTERNOS"]);
-            document.getElementById("edit-titulo").innerText = `Pedido: ${id}`;
+            document.getElementById("edit-titulo").innerText = `ID: ${id}`;
+            document.getElementById("info-cliente").innerText = `${pedidoActual.CLIENTE} (${pedidoActual.WHATSAPP})`;
             actualizarVistaCarrito();
             document.getElementById("modal-editor").classList.add("active");
         }
@@ -98,129 +94,61 @@
             let total = 0;
             container.innerHTML = pedidoActual.carrito.map((item, index) => {
                 total += item.precio * item.cantidad;
-                return `
-                    <div class="flex items-center justify-between border-b py-2 text-sm">
-                        <div class="flex-1">
-                            <p class="font-semibold">${item.nombre}</p>
-                            <p class="text-xs text-gray-500">$${item.precio} x ${item.cantidad}</p>
-                        </div>
-                        <div class="flex items-center gap-2">
-                            <input type="number" value="${item.cantidad}" onchange="cambiarCantidad(${index}, this.value)" class="w-12 p-1 border rounded text-center">
-                            <button onclick="eliminarItem(${index})" class="text-red-500 font-bold px-2">✕</button>
-                        </div>
+                return `<div class="flex items-center justify-between border-b py-2">
+                    <div class="flex-1"><p class="text-sm font-medium">${item.nombre}</p></div>
+                    <div class="flex items-center gap-2">
+                        <input type="number" value="${item.cantidad}" onchange="cambiarCantidad(${index}, this.value)" class="w-12 border rounded text-center">
+                        <button onclick="eliminarItem(${index})" class="text-red-500 font-bold px-2">✕</button>
                     </div>
-                `;
+                </div>`;
             }).join('');
             document.getElementById("edit-total").innerText = total.toLocaleString();
-            pedidoActual.TOTAL_FINAL = total;
+            pedidoActual.TOTAL_NUEVO = total;
+        }
+
+        function generarPDF() {
+            const { jsPDF } = window.jspdf; const doc = new jsPDF();
+            doc.setFontSize(22); doc.setTextColor(30, 58, 138); doc.text("MERCADO TAO", 105, 20, { align: 'center' });
+            doc.setFontSize(10); doc.setTextColor(100); doc.text(`Pedido: ${pedidoActual["ID PEDIDO"]} | Cliente: ${pedidoActual.CLIENTE}`, 15, 30);
+            
+            const rows = pedidoActual.carrito.map(i => [i.codigo, i.nombre, i.cantidad, `$${i.precio}`, `$${i.precio * i.cantidad}`]);
+            doc.autoTable({ startY: 35, head: [['Cód', 'Producto', 'Cant', 'Unit', 'Sub']], body: rows, headStyles: { fillColor: [30, 58, 138] } });
+            
+            doc.setFontSize(14); doc.text(`TOTAL: $${pedidoActual.TOTAL_NUEVO.toLocaleString()}`, 195, doc.lastAutoTable.finalY + 10, { align: 'right' });
+            doc.save(`Pedido_${pedidoActual.CLIENTE}.pdf`);
+        }
+
+        async function procesarPedidoFinal(event) {
+            if(!confirm("¿Aprobar pedido?")) return;
+            const btn = document.getElementById("btnAprobar");
+            btn.disabled = true; btn.innerText = "Procesando...";
+            try {
+                generarPDF();
+                await fetch(URL_APPSCRIPT, {
+                    method: "POST", mode: "no-cors",
+                    body: JSON.stringify({ action: "APROBAR", idPedido: pedidoActual["ID PEDIDO"], carritoFinal: pedidoActual.carrito })
+                });
+                alert("Éxito"); location.reload();
+            } catch (e) { alert("Error"); btn.disabled = false; }
         }
 
         function cambiarCantidad(i, v) { pedidoActual.carrito[i].cantidad = parseInt(v) || 0; actualizarVistaCarrito(); }
-        function eliminarItem(i) { if(confirm("¿Eliminar producto?")) { pedidoActual.carrito.splice(i, 1); actualizarVistaCarrito(); } }
+        function eliminarItem(i) { pedidoActual.carrito.splice(i, 1); actualizarVistaCarrito(); }
         function cerrarModal() { document.getElementById("modal-editor").classList.remove("active"); }
-
-        // Buscador
         document.getElementById("busqueda-prod").oninput = function(e) {
             const term = e.target.value.toLowerCase();
             const resDiv = document.getElementById("resultados-busqueda");
             if(term.length < 2) { resDiv.classList.add("hidden"); return; }
             const filtrados = stockProductos.filter(p => p.nombre.toLowerCase().includes(term) || p.codigo.toLowerCase().includes(term)).slice(0, 5);
-            resDiv.innerHTML = filtrados.map(p => `<div onclick='agregarAlPedido(${JSON.stringify(p)})' class="p-2 hover:bg-blue-50 cursor-pointer border-b text-sm">${p.nombre} - <b>$${p.precio}</b></div>`).join('');
+            resDiv.innerHTML = filtrados.map(p => `<div onclick='agregarAlPedido(${JSON.stringify(p)})' class="p-2 hover:bg-gray-100 cursor-pointer text-xs">${p.nombre} - $${p.precio}</div>`).join('');
             resDiv.classList.remove("hidden");
         };
-
         function agregarAlPedido(p) {
-            const ex = pedidoActual.carrito.find(i => i.codigo === p.codigo);
-            if(ex) ex.cantidad++; 
-            else pedidoActual.carrito.push({codigo: p.codigo, nombre: p.nombre, precio: p.precio, cantidad: 1});
+            pedidoActual.carrito.push({codigo: p.codigo, nombre: p.nombre, precio: p.precio, cantidad: 1});
             document.getElementById("busqueda-prod").value = "";
             document.getElementById("resultados-busqueda").classList.add("hidden");
             actualizarVistaCarrito();
         }
-
-        // --- FUNCIÓN GENERAR PDF ---
-        function generarPDF() {
-            const { jsPDF } = window.jspdf;
-            const doc = new jsPDF();
-            
-            // Estilo de Título
-            doc.setFontSize(22);
-            doc.setTextColor(30, 58, 138); // Azul oscuro
-            doc.text("MERCADO TAO", 105, 20, { align: 'center' });
-            
-            doc.setFontSize(10);
-            doc.setTextColor(100);
-            doc.text("Comprobante de Pedido", 105, 28, { align: 'center' });
-
-            // Información del Cliente
-            doc.setFontSize(12);
-            doc.setTextColor(0);
-            doc.text(`ID Pedido: ${pedidoActual["ID PEDIDO"]}`, 15, 45);
-            doc.text(`Fecha: ${new Date(pedidoActual.FECHA).toLocaleDateString()}`, 15, 52);
-            doc.text(`Cliente: ${pedidoActual.CLIENTE || "Consumidor Final"}`, 15, 59);
-            doc.text(`WhatsApp: ${pedidoActual.WHATSAPP || "N/A"}`, 15, 66);
-
-            // Tabla de Productos
-            const rows = pedidoActual.carrito.map(item => [
-                item.codigo,
-                item.nombre,
-                item.cantidad,
-                `$${item.precio.toLocaleString()}`,
-                `$${(item.precio * item.cantidad).toLocaleString()}`
-            ]);
-
-            doc.autoTable({
-                startY: 75,
-                head: [['Cód', 'Producto', 'Cant', 'Unitario', 'Subtotal']],
-                body: rows,
-                headStyles: { fillColor: [30, 58, 138] },
-                margin: { top: 75 }
-            });
-
-            // Total Final
-            const finalY = doc.lastAutoTable.finalY + 10;
-            doc.setFontSize(16);
-            doc.setFont("helvetica", "bold");
-            doc.text(`TOTAL: $${pedidoActual.TOTAL_FINAL.toLocaleString()}`, 195, finalY, { align: 'right' });
-
-            // Pie de página
-            doc.setFontSize(10);
-            doc.setFont("helvetica", "italic");
-            doc.text("¡Muchas gracias por elegir MercadoTAO!", 105, finalY + 20, { align: 'center' });
-
-            doc.save(`Pedido_${pedidoActual["ID PEDIDO"]}.pdf`);
-        }
-
-        async function procesarPedidoFinal(event) {
-            if(!confirm("¿Aprobar pedido? Esto descontará stock y generará el PDF.")) return;
-
-            const btn = document.getElementById("btnAprobar");
-            btn.disabled = true;
-            btn.innerText = "Sincronizando...";
-
-            try {
-                // 1. Generar el PDF antes de que se recargue la página
-                generarPDF();
-
-                // 2. Avisar a Google Sheets para descontar stock y marcar como aprobado
-                await fetch(URL_APPSCRIPT, {
-                    method: "POST",
-                    mode: "no-cors",
-                    body: JSON.stringify({
-                        action: "APROBAR",
-                        idPedido: pedidoActual["ID PEDIDO"],
-                        carritoFinal: pedidoActual.carrito
-                    })
-                });
-
-                alert("Sincronización completa.");
-                location.reload();
-            } catch (e) {
-                alert("Error de red.");
-                btn.disabled = false;
-            }
-        }
-
         init();
     </script>
 </body>
