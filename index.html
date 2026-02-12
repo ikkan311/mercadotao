@@ -8,7 +8,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.25/jspdf.plugin.autotable.min.js"></script>
   
   <style>
-    /* BLOQUE DE DISEÑO Y RESPONSIVE - ESTRICTAMENTE CONSERVADO */
+    /* -----------------------------------------------------------
+       DISEÑO BASE Y ESTRUCTURA
+    ----------------------------------------------------------- */
     body { font-family: sans-serif; margin: 0; background: #f4f4f4; padding-top: 140px; }
     .header { background: #fff; border-bottom: 2px solid #eee; position: fixed; top: 0; left: 0; width: 100%; z-index: 1000; box-sizing: border-box; }
     .header-top { display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; }
@@ -16,12 +18,16 @@
     .leyenda-centro { color: #27ae60; font-weight: bold; font-size: 0.9rem; text-align: center; flex-grow: 1; padding: 0 10px; }
     .search-wrapper { padding: 0 20px 10px 20px; }
     #buscador { width: 100%; padding: 10px; font-size: 1.1rem; border: 2px solid #ddd; border-radius: 8px; box-sizing: border-box; }
+    
     .contenedor-principal { padding: 20px; max-width: 1200px; margin: 0 auto; }
     .grid-productos { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px; }
+    
     .card-producto { padding: 12px; border: 1px solid #eee; border-radius: 10px; background: #fff; display: flex; flex-direction: column; height: 410px; box-sizing: border-box; position: relative; }
     .contenedor-img { width: 100%; height: 180px; display: flex; align-items: center; justify-content: center; margin-bottom: 10px; background: #fff; cursor: zoom-in; position: relative; }
     .contenedor-img img { max-width: 100%; max-height: 100%; object-fit: contain; }
+    
     .lupa-zoom { display: none; position: absolute; top: 10px; right: 10px; background: #0070c0; color: white; width: 32px; height: 32px; border-radius: 50%; align-items: center; justify-content: center; font-size: 22px; font-weight: bold; pointer-events: none; z-index: 5; box-shadow: 0 2px 5px rgba(0,0,0,0.2); line-height: 0; }
+    
     .nombre-producto, .precio-text, .estado-stock, .estado-ultimos { text-align: center; }
     .categoria-tag { font-size: 0.6rem; color: #999; text-transform: uppercase; font-weight: 800; margin: 0; }
     .nombre-producto { font-size: 0.9rem; line-height: 1.2; height: 3.6em; margin: 4px 0 0 0; color: #222; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; }
@@ -29,48 +35,65 @@
     .precio-text { font-weight: bold; color: #27ae60; font-size: 1.25rem; margin-bottom: 3px; line-height: 1.2; }
     .estado-stock { color: #0070c0; font-weight: bold; font-size: 0.75rem; margin: 0; }
     .estado-ultimos { color: #e67e22; font-weight: bold; font-size: 0.75rem; margin: 0; }
+    
     .controles-compra { margin-top: auto; display: flex; gap: 5px; }
     .controles-compra input { width: 60px; text-align: center; border: 1px solid #ddd; border-radius: 4px; padding: 5px 0; font-size: 1rem; }
     .btn-add { flex-grow: 1; background: #222; color: #fff; border: none; padding: 8px; border-radius: 4px; font-weight: bold; cursor: pointer; }
-    
+
+    /* BOTONES FLOTANTES */
     #btn-subir { position: fixed; bottom: 85px; right: 20px; background: #0070c0; color: #fff; width: 50px; height: 50px; border-radius: 50%; border: none; cursor: pointer; display: none; align-items: center; justify-content: center; font-size: 26px; font-weight: bold; z-index: 1500; box-shadow: 0 4px 10px rgba(0,0,0,0.3); }
     .btn-whatsapp-flotante { position: fixed; bottom: 20px; right: 20px; background-color: #25d366; color: white; width: 55px; height: 55px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 10px rgba(0,0,0,0.3); z-index: 1600; text-decoration: none; }
 
     #lightbox { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.9); z-index: 3000; display: none; align-items: center; justify-content: center; cursor: zoom-out; }
     #lightbox img { max-width: 90%; max-height: 90%; object-fit: contain; }
 
+    /* PANEL CARRITO */
     #panel-carrito { position: fixed; top: 0; right: 0; width: 100%; max-width: 400px; height: 100vh; background: #fff; box-shadow: -5px 0 25px rgba(0,0,0,0.2); z-index: 2000; display: flex; flex-direction: column; transition: transform 0.3s ease; }
     #panel-carrito.oculto { transform: translateX(100%); }
     .carrito-header { padding: 20px; border-bottom: 2px solid #eee; display: flex; justify-content: space-between; align-items: center; }
     .carrito-lista { flex-grow: 1; overflow-y: auto; padding: 10px 20px; }
     .carrito-footer { padding: 20px; border-top: 2px solid #eee; background: #fff; }
 
+    /* MODAL DE DATOS */
     #modal-datos { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); z-index: 4000; display: none; align-items: center; justify-content: center; }
     .modal-contenido { background: white; padding: 25px; border-radius: 12px; width: 90%; max-width: 350px; }
     .modal-contenido h2 { margin-top: 0; color: #222; }
     .modal-contenido input { width: 100%; padding: 12px; margin: 10px 0; border: 1px solid #ddd; border-radius: 6px; box-sizing: border-box; font-size: 1rem; }
     .btn-confirmar { width: 100%; background: #27ae60; color: white; border: none; padding: 12px; border-radius: 6px; font-weight: bold; cursor: pointer; }
 
+    /* -----------------------------------------------------------
+       RESPONSIVE - PARÁMETROS ESTRICTOS !IMPORTANT
+    ----------------------------------------------------------- */
     @media (max-width: 600px) {
       body { padding-top: 175px; }
       .grid-productos { grid-template-columns: 1fr; }
       .card-producto { height: auto; min-height: 520px; padding: 20px; }
       .controles-compra { margin-top: 15px !important; }
+      
       #btn-subir { bottom: 85px !important; }
       .btn-whatsapp-flotante { bottom: 20px !important; width: 50px; height: 50px; }
+      
       .leyenda-centro { font-size: 20px !important; width: 100%; order: 3; padding: 10px 0 5px 0; border-top: 1px solid #eee; margin-top: 5px; }
+      
       .categoria-tag { font-size: 15px; }
       .nombre-producto { font-size: 20px; }
       .sku-text { font-size: 20px; }
       .precio-text { font-size: 30px; }
       .estado-stock, .estado-ultimos { font-size: 16px; }
+      
       .controles-compra input { font-size: 18px; }
       .btn-add { font-size: 18px; }
+      
       .header-top { padding: 10px 15px; flex-wrap: wrap; }
       .logo-container { width: 50%; }
       .contenedor-img { height: 260px; }
       .lupa-zoom { display: flex; }
+      
       #panel-carrito { max-width: 100%; }
+      .carrito-header { padding: 10px 15px !important; }
+      .carrito-lista { padding: 5px 15px !important; max-height: 550px !important; overflow-y: auto !important; }
+      .carrito-footer { padding: 10px 20px !important; }
+      .carrito-footer h3 { margin-top: 0 !important; margin-bottom: 8px !important; font-size: 1.1rem !important; }
     }
   </style>
 </head>
@@ -122,7 +145,7 @@
   <div class="carrito-footer">
     <h3 style="text-align:right; margin-bottom:10px;">Total: $<span id="carrito-total">0</span></h3>
     <button onclick="generarPDFPedidoCliente()" style="width:100%; background:#444; color:#fff; padding:12px; margin-bottom:8px; border:none; border-radius:4px; cursor:pointer; font-weight:bold;">DESCARGAR MI PEDIDO (PDF)</button>
-    <button id="btn-wa" onclick="abrirModalDatos()" style="width:100%; background:#27ae60; color:#fff; padding:12px; border:none; border-radius:4px; cursor:pointer; font-weight:bold;">FINALIZAR PEDIDO</button>
+    <button id="btn-wa" onclick="abrirModalDatos()" style="width:100%; background:#27ae60; color:#fff; padding:12px; border:none; border-radius:4px; cursor:pointer; font-weight:bold;">ENVIAR WHATSAPP</button>
   </div>
 </div>
 
@@ -206,7 +229,7 @@ function actualizarUI() {
   carrito.forEach(i => {
     const sub = i.precio * i.cantidad;
     totalD += sub; totalU += i.cantidad;
-    body.innerHTML += `<tr style="border-bottom: 1px solid #eee;"><td style="padding:10px 0;">${i.nombre.substring(0,25)}...</td><td style="text-align:center;">x${i.cantidad}</td><td style="text-align:right;">$${sub.toLocaleString()}</td><td><button onclick="quitar('${i.codigo}')" style="color:red; border:none; background:none; cursor:pointer; padding-left:10px;">✕</button></td></tr>`;
+    body.innerHTML += `<tr style="border-bottom: 1px solid #eee;"><td style="padding:10px 0;">${i.nombre.substring(0,25)}...<br><small>Cód: ${i.codigo}</small></td><td style="text-align:center;">x${i.cantidad}</td><td style="text-align:right;">$${sub.toLocaleString()}</td><td><button onclick="quitar('${i.codigo}')" style="color:red; border:none; background:none; cursor:pointer; padding-left:10px;">✕</button></td></tr>`;
   });
   document.getElementById("carrito-total").innerText = totalD.toLocaleString("es-AR");
   document.getElementById("carrito-count").innerText = totalU;
@@ -237,54 +260,81 @@ async function confirmarYEnviar() {
 
   const total = carrito.reduce((s, i) => s + (i.precio * i.cantidad), 0);
   
+  // Guardar en Google Sheets
   try {
     fetch(URL_APPSCRIPT, {
       method: "POST",
       mode: "no-cors",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ cliente: nombre, telefono: tel, total: total, carrito: carrito })
+      body: JSON.stringify({
+        cliente: nombre,
+        telefono: tel,
+        total: total,
+        carrito: carrito
+      })
     });
   } catch (e) { console.error("Error Sheets:", e); }
 
+  // WhatsApp Format
   let msg = `Hola MercadoTAO, soy *${nombre}* (Tel: ${tel}). Mi pedido es:%0A%0A`;
-  carrito.forEach((i, idx) => { msg += `${idx + 1}. *${i.nombre}* (Cód: ${i.codigo}) x${i.cantidad}%0A`; });
-  msg += `%0ATOTAL: *$${total.toLocaleString()}*`;
+  carrito.forEach((i, idx) => {
+    msg += `${idx + 1}. *${i.nombre}*%0A   Cód: ${i.codigo} | Cant: ${i.cantidad}%0A%0A`;
+  });
+  msg += `*TOTAL: $${total.toLocaleString()}*`;
   
   window.open(`https://wa.me/${WHATSAPP_DESTINO}?text=${msg}`);
   cerrarModal();
 }
 
+/* --- PDF PEDIDO CLIENTE --- */
 function generarPDFPedidoCliente() {
   if (carrito.length === 0) return;
   const { jsPDF } = window.jspdf;
   const doc = new jsPDF();
   doc.setFontSize(18);
-  doc.text("Mi Pedido - MercadoTAO", 14, 20);
-  const filas = carrito.map(i => [i.codigo, i.nombre, i.cantidad, `$${i.precio.toLocaleString()}`, `$${(i.precio * i.cantidad).toLocaleString()}`]);
-  doc.autoTable({ startY: 30, head: [['Cód', 'Producto', 'Cant', 'Precio U.', 'Subtotal']], body: filas });
+  doc.text("Pedido - MercadoTAO", 14, 20);
+  
+  const filas = carrito.map(i => [
+    i.codigo, 
+    i.nombre, 
+    i.cantidad, 
+    `$${i.precio.toLocaleString()}`, 
+    `$${(i.precio * i.cantidad).toLocaleString()}`
+  ]);
+
+  doc.autoTable({
+    startY: 30,
+    head: [['Cód', 'Producto', 'Cant', 'Precio U.', 'Subtotal']],
+    body: filas,
+  });
+
   const total = carrito.reduce((s, i) => s + (i.precio * i.cantidad), 0);
   doc.setFontSize(14);
   doc.text(`Total del pedido: $${total.toLocaleString()}`, 14, doc.lastAutoTable.finalY + 10);
   doc.save("Mi_Pedido_TAO.pdf");
 }
 
+/* --- PDF CATÁLOGO COMPLETO (TECLA P) --- */
 async function generarCatalogoCompletoAdmin() {
   const aviso = document.createElement("div");
   aviso.innerHTML = "Generando Catálogo Completo...";
   aviso.style = "position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); background:rgba(0,0,0,0.8); color:white; padding:20px; border-radius:10px; z-index:5000;";
   document.body.appendChild(aviso);
+
   const { jsPDF } = window.jspdf;
   const doc = new jsPDF('p', 'mm', 'a4');
   const marginX = 6, marginY = 30, gap = 2, cardW = (210 - (marginX * 2) - (gap * 3)) / 4, cardH = 63;
   const lista = filtrados;
+
   for (let i = 0; i < lista.length; i++) {
-    const p = lista[i]; const indexEnHoja = i % 16;
+    const p = lista[i];
+    const indexEnHoja = i % 16;
     if (i > 0 && indexEnHoja === 0) doc.addPage();
     if (indexEnHoja === 0) {
       const logoData = await aplanarImagenProporcional('logo.png', 45, 12);
       if (logoData) doc.addImage(logoData.data, 'JPEG', 105 - (logoData.w / 2), 5, logoData.w, logoData.h);
       doc.setFontSize(12); doc.setTextColor(39, 174, 96); doc.text("Catálogo Mayorista MercadoTAO", 105, 21, { align: 'center' });
-      doc.line(marginX, 24, 204, 24);
+      doc.setDrawColor(200); doc.line(marginX, 24, 204, 24);
     }
     const col = indexEnHoja % 4, fila = Math.floor(indexEnHoja / 4);
     const x = marginX + (col * (cardW + gap)), y = marginY + (fila * cardH);
@@ -300,6 +350,12 @@ async function generarCatalogoCompletoAdmin() {
     doc.text(`Cód: ${p.codigo}`, x + (cardW / 2), y + 50, { align: 'center' });
     doc.setFontSize(14); doc.setTextColor(0, 112, 192); doc.setFont(undefined, 'bold');
     doc.text(`$${Number(p.precio).toLocaleString()}`, x + (cardW / 2), y + 56, { align: 'center' });
+
+    // FOOTER NARANJA
+    if (indexEnHoja === 15 || i === lista.length - 1) {
+      doc.setFontSize(9); doc.setTextColor(230, 126, 34); doc.setFont(undefined, 'bold');
+      doc.text("CUALQUIER CONSULTA COMUNICARSE CON SEBASTIAN AL 351-6148905", 105, 292, { align: 'center' });
+    }
   }
   doc.save("Catalogo_Completo_TAO.pdf");
   document.body.removeChild(aviso);
@@ -307,19 +363,25 @@ async function generarCatalogoCompletoAdmin() {
 
 function aplanarImagenProporcional(url, maxW, maxH) {
   return new Promise((resolve) => {
-    const img = new Image(); img.crossOrigin = "Anonymous";
+    const img = new Image();
+    img.crossOrigin = "Anonymous";
     img.onload = () => {
       const canvas = document.createElement("canvas");
-      let w = img.width, h = img.height; const ratio = Math.min(maxW / w, maxH / h); w *= ratio; h *= ratio;
+      let w = img.width, h = img.height;
+      const ratio = Math.min(maxW / w, maxH / h);
+      w *= ratio; h *= ratio;
       canvas.width = img.width; canvas.height = img.height;
-      const ctx = canvas.getContext("2d"); ctx.fillStyle = "#FFFFFF"; ctx.fillRect(0, 0, canvas.width, canvas.height);
+      const ctx = canvas.getContext("2d");
+      ctx.fillStyle = "#FFFFFF"; ctx.fillRect(0, 0, canvas.width, canvas.height);
       ctx.drawImage(img, 0, 0);
       resolve({ data: canvas.toDataURL("image/jpeg", 0.8), w: w, h: h, offsetX: (maxW - w) / 2, offsetY: (maxH - h) / 2 });
     };
-    img.onerror = () => resolve(null); img.src = url;
+    img.onerror = () => resolve(null);
+    img.src = url;
   });
 }
 
+/* --- EVENTOS --- */
 window.onscroll = () => { document.getElementById("btn-subir").style.display = window.scrollY > 300 ? "flex" : "none"; };
 document.getElementById("btn-subir").onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
 document.getElementById("btn-carrito-toggle").onclick = () => document.getElementById("panel-carrito").classList.toggle("oculto");
@@ -329,9 +391,13 @@ document.getElementById("buscador").oninput = (e) => {
   filtrados = productos.filter(p => p.nombre.toLowerCase().includes(t) || String(p.codigo).includes(t) || (p.categoria && p.categoria.toLowerCase().includes(t)));
   render();
 };
+
 window.addEventListener('keydown', (e) => {
-  if (e.key.toLowerCase() === 'p' && document.activeElement.tagName !== 'INPUT') generarCatalogoCompletoAdmin();
+  if (e.key.toLowerCase() === 'p' && document.activeElement.tagName !== 'INPUT') {
+    generarCatalogoCompletoAdmin();
+  }
 });
+
 cargar();
 </script>
 </body>
