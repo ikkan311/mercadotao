@@ -18,7 +18,6 @@
     .leyenda-centro { color: #27ae60; font-weight: bold; font-size: 0.9rem; text-align: center; flex-grow: 1; padding: 0 10px; }
     .search-wrapper { padding: 0 20px 10px 20px; }
     #buscador { width: 100%; padding: 10px; font-size: 1.1rem; border: 2px solid #ddd; border-radius: 8px; box-sizing: border-box; }
-    .lupa-zoom { display: none; }
     .contenedor-principal { padding: 20px; max-width: 1200px; margin: 0 auto; }
     .grid-productos { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px; }
     
@@ -163,12 +162,12 @@
       .carrito-lista { padding: 5px 15px !important; max-height: 55vh !important; }
 
       /* Lupa azul para avisar que hay zoom */
-      .lupa-zoom { 
-        display: flex !important; /* Forzamos que se vea en móvil */
+     .lupa-zoom { 
+        display: flex !important; 
         position: absolute; 
         top: 10px; 
         right: 10px; 
-        background: #0070c0; /* Azul TAO */
+        background: #0070c0; 
         color: white; 
         width: 35px; 
         height: 35px; 
@@ -181,6 +180,7 @@
         z-index: 5; 
         box-shadow: 0 2px 5px rgba(0,0,0,0.3); 
         line-height: 0;
+      }
       }
     }
       
@@ -276,12 +276,12 @@ function render() {
     const claseEst = p.estado === "CON STOCK" ? "estado-stock" : "estado-ultimos";
     const div = document.createElement("div");
     div.className = "card-producto";
+    
+    // Aquí está el bloque corregido sin duplicaciones
     div.innerHTML = `
-      div.innerHTML = `
-  <div class="contenedor-img" onclick="ampliarImagen('${imgUrl}')">
-    <div class="lupa-zoom">+</div> 
-    <img src="${imgUrl}" loading="lazy">
-  </div>
+      <div class="contenedor-img" onclick="ampliarImagen('${imgUrl}')">
+        <div class="lupa-zoom">+</div> 
+        <img src="${imgUrl}" loading="lazy">
       </div>
       <div>
         <div class="categoria-tag">${p.categoria || ''}</div>
@@ -597,6 +597,7 @@ cargar();
 </script>
 </body>
 </html>
+
 
 
 
