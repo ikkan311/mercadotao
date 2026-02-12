@@ -270,11 +270,21 @@ document.getElementById("btn-carrito-toggle").onclick = () => document.getElemen
 document.getElementById("btn-cerrar-carrito").onclick = () => document.getElementById("panel-carrito").classList.add("oculto");
 
 async function generarPDFParaImprimir() {
+  // Mostrar aviso de "Generando"
+  const aviso = document.createElement("div");
+  aviso.innerHTML = "Generando PDF, por favor espere...";
+  aviso.style = "position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); background:rgba(0,0,0,0.8); color:white; padding:20px; border-radius:10px; z-index:5000; font-weight:bold;";
+  document.body.appendChild(aviso);
+
   const { jsPDF } = window.jspdf;
   const doc = new jsPDF('p', 'mm', 'a4');
-  const marginX = 10, marginY = 38, gap = 5;
-  const cardW = (210 - (marginX * 2) - (gap * 3)) / 4; 
-  const cardH = 60; 
+  
+  // CONFIGURACIÓN DE PÁGINA (Precisión en mm)
+  const marginX = 6;      // Margen lateral reducido para ganar ancho
+  const marginY = 30;     // Espacio superior inicial
+  const gap = 2;          // Separación mínima entre fichas
+  const cardW = (210 - (marginX * 2) - (gap * 3)) / 4; // Ancho de ficha (~49mm)
+  const cardH = 63;       // Alto de ficha
   const productosPorHoja = 16;
   const lista = filtrados;
 
@@ -283,43 +293,59 @@ async function generarPDFParaImprimir() {
     const indexEnHoja = i % productosPorHoja;
     if (i > 0 && indexEnHoja === 0) doc.addPage();
 
+    // HEADER DE LA HOJA
     if (indexEnHoja === 0) {
-      const logoData = await aplanarImagenProporcional('logo.png', 40, 15);
-      if (logoData) doc.addImage(logoData.data, 'JPEG', 105 - (logoData.w / 2), 8, logoData.w, logoData.h);
-      doc.setFontSize(11); doc.setTextColor(39, 174, 96); doc.setFont(undefined, 'bold');
-      doc.text("Precios mayorista solamente para compras mayores a $90.000", 105, 28, { align: 'center' });
-      doc.setDrawColor(200); doc.line(marginX, 32, 200, 32); 
+      const logoData = await aplanarImagenProporcional('logo.png', 45, 12);
+      if (logoData) {
+        doc.addImage(logoData.data, 'JPEG', 105 - (logoData.w / 2), 5, logoData.w, logoData.h);
+      }
+      doc.setFontSize(12); doc.setTextColor(39, 174, 96); doc.setFont(undefined, 'bold');
+      doc.text("Precios mayorista solamente para compras mayores a $90.000", 105, 21, { align: 'center' });
+      doc.setDrawColor(200); doc.line(marginX, 24, 204, 24); // Línea divisoria superior
     }
 
-    const col = indexEnHoja % 4, fila = Math.floor(indexEnHoja / 4);
-    const x = marginX + (col * (cardW + gap)), y = marginY + (fila * cardH);
-    doc.setDrawColor(240); doc.rect(x, y, cardW, cardH - 5);
+    const col = indexEnHoja % 4;
+    const fila = Math.floor(indexEnHoja / 4);
+    const x = marginX + (col * (cardW + gap));
+    const y = marginY + (fila * cardH);
 
+    // Borde de la ficha (muy tenue)
+    doc.setDrawColor(240); doc.rect(x, y, cardW, cardH - 2);
+
+    // IMAGEN (Más grande)
     const imgUrl = obtenerImagen(p.imagen);
     try {
-      const imgRes = await aplanarImagenProporcional(imgUrl, cardW - 4, 30);
-      if (imgRes) doc.addImage(imgRes.data, 'JPEG', x + 2 + imgRes.offsetX, y + 1 + imgRes.offsetY, imgRes.w, imgRes.h);
+      const imgRes = await aplanarImagenProporcional(imgUrl, cardW - 2, 36);
+      if (imgRes) {
+        doc.addImage(imgRes.data, 'JPEG', x + 1 + imgRes.offsetX, y + 1 + imgRes.offsetY, imgRes.w, imgRes.h);
+      }
     } catch (e) {}
 
-    doc.setTextColor(40); 
+    // NOMBRE DEL PRODUCTO (Más grande y compacto)
+    doc.setTextColor(30);
     let nombreSeguro = String(p.nombre).replace(/[″”“]/g, '"').replace(/[′’‘]/g, "'").trim();
-    let fontSize = 7;
-    doc.setFontSize(fontSize);
-    doc.setFont(undefined, 'bold');
+    doc.setFontSize(9); doc.setFont(undefined, 'bold');
     let lineas = doc.splitTextToSize(nombreSeguro, cardW - 4);
-    if (lineas.length > 2) { fontSize = 6; doc.setFontSize(fontSize); lineas = doc.splitTextToSize(nombreSeguro, cardW - 4); }
-    doc.text(lineas.slice(0, 3), x + (cardW / 2), y + 36, { align: 'center', lineHeightFactor: 1.0 });
-    doc.setFont(undefined, 'normal'); doc.setFontSize(6); doc.setTextColor(120);
+    doc.text(lineas.slice(0, 2), x + (cardW / 2), y + 42, { align: 'center', lineHeightFactor: 1.0 });
+    
+    // CÓDIGO (Pegado al nombre)
+    doc.setFont(undefined, 'normal'); doc.setFontSize(8); doc.setTextColor(100);
     doc.text(`Cód: ${p.codigo}`, x + (cardW / 2), y + 50, { align: 'center' });
-    doc.setFontSize(13); doc.setTextColor(0, 112, 192); doc.setFont(undefined, 'bold');
-    doc.text(`$${Number(p.precio).toLocaleString("es-AR")}`, x + (cardW / 2), y + 54.5, { align: 'center' });
 
+    // PRECIO (Grande)
+    doc.setFontSize(14); doc.setTextColor(0, 112, 192); doc.setFont(undefined, 'bold');
+    doc.text(`$${Number(p.precio).toLocaleString("es-AR")}`, x + (cardW / 2), y + 56, { align: 'center' });
+
+    // FOOTER DE LA HOJA
     if (indexEnHoja === 15 || i === lista.length - 1) {
-      doc.setFontSize(10); doc.setTextColor(230, 126, 34); doc.setFont(undefined, 'bold');
-      doc.text("CUALQUIER CONSULTA COMUNICARSE CON SEBASTIAN AL 351-6148905", 105, 290, { align: 'center' });
+      doc.setFontSize(9); doc.setTextColor(230, 126, 34); doc.setFont(undefined, 'bold');
+      doc.text("CUALQUIER CONSULTA COMUNICARSE CON SEBASTIAN AL 351-6148905", 105, 292, { align: 'center' });
     }
   }
+
   doc.save("Catalogo_TAO_Imprimir.pdf");
+  document.body.removeChild(aviso); // Quitar aviso al terminar
+}
 }
 
 function aplanarImagenProporcional(url, maxW, maxH) {
@@ -353,4 +379,5 @@ cargar();
 </script>
 </body>
 </html>
+
 
