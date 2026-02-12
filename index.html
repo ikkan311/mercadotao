@@ -61,40 +61,109 @@
     .modal-contenido input { width: 100%; padding: 12px; margin: 10px 0; border: 1px solid #ddd; border-radius: 6px; box-sizing: border-box; font-size: 1rem; }
     .btn-confirmar { width: 100%; background: #27ae60; color: white; border: none; padding: 12px; border-radius: 6px; font-weight: bold; cursor: pointer; }
 
-    /* -----------------------------------------------------------
-       RESPONSIVE - PARÁMETROS ESTRICTOS !IMPORTANT
+  /* -----------------------------------------------------------
+       RESPONSIVE UNIFICADO: LEGIBILIDAD + DISEÑO COMPACTO
     ----------------------------------------------------------- */
+    /* Importamos la fuente Inter para que los números y letras sean ultra claros */
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
     @media (max-width: 600px) {
-      body { padding-top: 175px; }
-      .grid-productos { grid-template-columns: 1fr; }
-      .card-producto { height: auto; min-height: 520px; padding: 20px; }
-      .controles-compra { margin-top: 15px !important; }
+      body { 
+        font-family: 'Inter', sans-serif; 
+        padding-top: 155px; /* Espacio para el header doble en móvil */
+      }
+
+      .grid-productos { 
+        padding: 10px;
+        gap: 15px;
+      }
+
+      .card-producto { 
+        /* Usamos vh para que la ficha intente entrar entera en el alto de pantalla */
+        height: auto;
+        min-height: 480px; 
+        max-height: 82vh; 
+        padding: 15px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      }
+
+      .contenedor-img { 
+        height: 200px; /* Tamaño generoso para la imagen */
+        margin-bottom: 10px;
+        flex-shrink: 0;
+      }
+
+      .leyenda-centro { 
+        font-size: 1.1rem !important; 
+        line-height: 1.2;
+        padding: 10px 0;
+        width: 100%;
+        order: 3;
+        border-top: 1px solid #eee;
+      }
       
-      #btn-subir { bottom: 85px !important; }
-      .btn-whatsapp-flotante { bottom: 20px !important; width: 50px; height: 50px; }
+      .nombre-producto { 
+        font-size: 1.25rem; 
+        font-weight: 700;
+        line-height: 1.2;
+        margin: 5px 0;
+        height: auto;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2; /* Limita a 2 renglones para no empujar el botón */
+        -webkit-box-orient: vertical;
+      }
+
+      .sku-text { font-size: 0.95rem; color: #666; margin: 2px 0; }
       
-      .leyenda-centro { font-size: 20px !important; width: 100%; order: 3; padding: 10px 0 5px 0; border-top: 1px solid #eee; margin-top: 5px; }
+      .precio-text { 
+        font-size: 2rem; /* Precio bien grande para gente con visión reducida */
+        font-weight: 800;
+        margin: 5px 0;
+        color: #27ae60;
+      }
+
+      .estado-stock, .estado-ultimos { 
+        font-size: 1rem; 
+        font-weight: bold;
+      }
       
-      .categoria-tag { font-size: 15px; }
-      .nombre-producto { font-size: 20px; }
-      .sku-text { font-size: 20px; }
-      .precio-text { font-size: 30px; }
-      .estado-stock, .estado-ultimos { font-size: 16px; }
+      .controles-compra { 
+        gap: 10px;
+        margin-top: 8px;
+        flex-shrink: 0;
+      }
       
-      .controles-compra input { font-size: 18px; }
-      .btn-add { font-size: 18px; }
+      .controles-compra input { 
+        font-size: 1.3rem; 
+        height: 50px; /* Botón de cantidad alto */
+        width: 75px;
+        font-weight: bold;
+      }
       
-      .header-top { padding: 10px 15px; flex-wrap: wrap; }
-      .logo-container { width: 50%; }
-      .contenedor-img { height: 260px; }
-      .lupa-zoom { display: flex; }
+      .btn-add { 
+        font-size: 1.2rem; 
+        height: 50px; /* Botón de añadir alto para dedos grandes */
+        font-weight: 800;
+        background-color: #222;
+      }
+
+      /* Ajustes de Cabecera Móvil */
+      .header-top { padding: 5px 12px; flex-wrap: wrap; }
+      .logo-container { width: 40%; }
+      .logo-container img { height: 35px; }
+      #buscador { font-size: 1.2rem; padding: 12px; }
       
-      #panel-carrito { max-width: 100%; }
+      /* Ajuste del Carrito */
+      #panel-carrito { width: 100%; }
       .carrito-header { padding: 10px 15px !important; }
-      .carrito-lista { padding: 5px 15px !important; max-height: 550px !important; overflow-y: auto !important; }
-      .carrito-footer { padding: 10px 20px !important; }
-      .carrito-footer h3 { margin-top: 0 !important; margin-bottom: 8px !important; font-size: 1.1rem !important; }
+      .carrito-lista { padding: 5px 15px !important; max-height: 55vh !important; }
     }
+      
+     
   </style>
 </head>
 <body>
@@ -505,6 +574,7 @@ cargar();
 </script>
 </body>
 </html>
+
 
 
 
