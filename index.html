@@ -250,7 +250,7 @@ let carrito = [];
 
 async function cargar() {
   try {
-    const res = await fetch("productos.json");
+    const res = await fetch('productos.json?v=' + new Date().getTime());
     productos = await res.json();
     filtrados = productos;
     render();
@@ -597,6 +597,7 @@ cargar();
 </script>
 </body>
 </html>
+
 
 
 
