@@ -333,8 +333,19 @@ async function generarCatalogoCompletoAdmin() {
     if (indexEnHoja === 0) {
       const logoData = await aplanarImagenProporcional('logo.png', 45, 12);
       if (logoData) doc.addImage(logoData.data, 'JPEG', 105 - (logoData.w / 2), 5, logoData.w, logoData.h);
-      doc.setFontSize(12); doc.setTextColor(39, 174, 96); doc.text("Catálogo Mayorista MercadoTAO", 105, 21, { align: 'center' });
-      doc.setDrawColor(200); doc.line(marginX, 24, 204, 24);
+      
+      // TÍTULO VERDE
+      doc.setFontSize(12); 
+      doc.setTextColor(39, 174, 96); 
+      doc.text("Catálogo Mayorista MercadoTAO", 105, 19, { align: 'center' });
+      
+      // LEYENDA COMPRA MÍNIMA (Agregada de nuevo)
+      doc.setFontSize(12);
+      doc.setTextColor(100);
+      doc.text("Precios mayorista solamente para compras mayores a $90.000", 105, 23, { align: 'center' });
+      
+      doc.setDrawColor(200); 
+      doc.line(marginX, 25, 204, 25);
     }
     const col = indexEnHoja % 4, fila = Math.floor(indexEnHoja / 4);
     const x = marginX + (col * (cardW + gap)), y = marginY + (fila * cardH);
@@ -351,9 +362,9 @@ async function generarCatalogoCompletoAdmin() {
     doc.setFontSize(14); doc.setTextColor(0, 112, 192); doc.setFont(undefined, 'bold');
     doc.text(`$${Number(p.precio).toLocaleString()}`, x + (cardW / 2), y + 56, { align: 'center' });
 
-    // FOOTER NARANJA
+    // FOOTER NARANJA COMERCIAL
     if (indexEnHoja === 15 || i === lista.length - 1) {
-      doc.setFontSize(9); doc.setTextColor(230, 126, 34); doc.setFont(undefined, 'bold');
+      doc.setFontSize(12); doc.setTextColor(230, 126, 34); doc.setFont(undefined, 'bold');
       doc.text("CUALQUIER CONSULTA COMUNICARSE CON SEBASTIAN AL 351-6148905", 105, 292, { align: 'center' });
     }
   }
@@ -402,3 +413,4 @@ cargar();
 </script>
 </body>
 </html>
+
