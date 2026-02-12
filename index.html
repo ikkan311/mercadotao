@@ -30,7 +30,14 @@
     .controles-compra { margin-top: auto; display: flex; gap: 5px; }
     .controles-compra input { width: 60px; text-align: center; border: 1px solid #ddd; border-radius: 4px; padding: 5px 0; font-size: 1rem; }
     .btn-add { flex-grow: 1; background: #222; color: #fff; border: none; padding: 8px; border-radius: 4px; font-weight: bold; cursor: pointer; }
+    
+    /* Botón Subir (Flecha Azul) */
     #btn-subir { position: fixed; bottom: 20px; right: 20px; background: #0070c0; color: #fff; width: 50px; height: 50px; border-radius: 50%; border: none; cursor: pointer; display: none; align-items: center; justify-content: center; font-size: 26px; font-weight: bold; z-index: 1500; box-shadow: 0 4px 10px rgba(0,0,0,0.3); }
+    
+    /* ESTILO BOTÓN WHATSAPP FLOTANTE */
+    .btn-whatsapp-flotante { position: fixed; bottom: 20px; right: 20px; background-color: #25d366; color: white; width: 55px; height: 55px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 10px rgba(0,0,0,0.3); z-index: 1600; transition: transform 0.3s; text-decoration: none; }
+    .btn-whatsapp-flotante:hover { transform: scale(1.1); background-color: #128c7e; }
+
     #lightbox { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.9); z-index: 3000; display: none; align-items: center; justify-content: center; cursor: zoom-out; }
     #lightbox img { max-width: 90%; max-height: 90%; object-fit: contain; border-radius: 5px; }
     #panel-carrito { position: fixed; top: 0; right: 0; width: 100%; max-width: 400px; height: 100vh; background: #fff; box-shadow: -5px 0 25px rgba(0,0,0,0.2); z-index: 2000; display: flex; flex-direction: column; transition: transform 0.3s ease; box-sizing: border-box; }
@@ -40,102 +47,34 @@
     .carrito-footer { padding: 20px; border-top: 2px solid #eee; background: #fff; }
     
     @media (max-width: 600px) {
-      /* 1. Ajuste del contenedor para móvil */
       body { padding-top: 175px; }
       .grid-productos { grid-template-columns: 1fr; }
       .card-producto { height: auto; min-height: 520px; padding: 20px; }
-      .controles-compra { 
-    margin-top: 15px !important; }
+      .controles-compra { margin-top: 15px !important; }
 
-      /* 2. LEYENDA COMPRA MÍNIMA (Header) */
-      .leyenda-centro { 
-        font-size: 20px; 
-        width: 100%; order: 3; padding: 10px 0 5px 0; border-top: 1px solid #eee; margin-top: 5px;
-      }
+      /* Ajustes de posición para botones flotantes en móvil */
+      #btn-subir { bottom: 85px !important; } /* Sube la flecha azul para dejar sitio al WA */
+      .btn-whatsapp-flotante { bottom: 20px !important; width: 50px; height: 50px; }
 
-      /* 3. CATEGORÍA (Tag gris) */
-      .categoria-tag { 
-        font-size: 15px; 
-      }
-
-      /* 4. NOMBRE DEL PRODUCTO */
-      .nombre-producto { 
-        font-size: 20px; 
-      }
-
-      /* 5. CÓDIGO DEL PRODUCTO (SKU) */
-      .sku-text { 
-        font-size: 20px; 
-      }
-
-      /* 6. PRECIO */
-      .precio-text { 
-        font-size: 30px; 
-      }
-
-      /* 7. LEYENDA STOCK / ÚLTIMOS DISPONIBLES */
-      .estado-stock, .estado-ultimos { 
-        font-size: 16px; 
-      }
-
-      /* 8. NÚMEROS DE CANTIDADES (Input) */
-      .controles-compra input { 
-        font-size: 18px; 
-      }
-
-      /* 9. BOTÓN AÑADIR */
-      .btn-add { 
-        font-size: 18px; 
-      }
-
-      /* Resto de reglas originales de móvil */
+      .leyenda-centro { font-size: 20px !important; width: 100%; order: 3; padding: 10px 0 5px 0; border-top: 1px solid #eee; margin-top: 5px; }
+      .categoria-tag { font-size: 15px; }
+      .nombre-producto { font-size: 20px; }
+      .sku-text { font-size: 20px; margin-bottom: 2px !important; }
+      .precio-text { font-size: 30px; margin-top: 2px !important; }
+      .estado-stock, .estado-ultimos { font-size: 16px; }
+      .controles-compra input { font-size: 18px; }
+      .btn-add { font-size: 18px; }
       .header-top { padding: 10px 15px; flex-wrap: wrap; }
       .logo-container { width: 50%; }
       .contenedor-img { height: 260px; }
       .lupa-zoom { display: flex; }
       #panel-carrito { max-width: 100%; }
-      .sku-text { 
-    margin-bottom: 2px !important; 
-}
-.precio-text { 
-    margin-top: 2px !important; 
-}
-.leyenda-centro { 
-        font-size: 20px !important; 
-    } 
-    /* 1. Reducimos el alto de la cabecera del carrito */
-  .carrito-header { 
-    padding: 10px 15px !important; 
-  }
-
-  /* 2. Reducimos el espacio de la lista de productos */
-  .carrito-lista { 
-    padding: 5px 15px !important; 
-  }
-
-  /* 3. Achicamos el footer donde están los botones y el total */
-  .carrito-footer { 
-    padding: 10px 20px !important; 
-  }
-
-  /* 4. Reducimos el margen del total para que los botones suban */
-  .carrito-footer h3 { 
-    margin-top: 0 !important;
-    margin-bottom: 8px !important;
-    font-size: 1.1rem !important;
-  }
-
-  /* 5. Hacemos los botones un poco más bajos para ganar espacio */
-  #btn-pdf, #btn-wa {
-    padding: 10px !important;
-    margin-bottom: 5px !important;
-  }
-   .carrito-lista {
-      max-height: 550px !important; 
-      padding: 2px 10px !important;
-      overflow-y: auto !important; /* Esto permite que deslices los productos dentro de esos 180px */
-  }
-} 
+      
+      .carrito-header { padding: 10px 15px !important; }
+      .carrito-lista { padding: 5px 15px !important; max-height: 550px !important; overflow-y: auto !important; }
+      .carrito-footer { padding: 10px 20px !important; }
+      .carrito-footer h3 { margin-top: 0 !important; margin-bottom: 8px !important; font-size: 1.1rem !important; }
+      #btn-pdf, #btn-wa { padding: 10px !important; margin-bottom: 5px !important; }
     }
   </style>
 </head>
@@ -157,6 +96,14 @@
 </main>
 
 <button id="btn-subir">↑</button>
+
+<a href="https://wa.me/5493516148905?text=Hola%20Mercado%20Tao,%20quiero%20consultarte%20por..." 
+   class="btn-whatsapp-flotante" 
+   target="_blank">
+   <svg viewBox="0 0 448 512" width="30" height="30">
+     <path fill="white" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.1 0-65.6-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/>
+   </svg>
+</a>
 
 <div id="lightbox" onclick="this.style.display='none'">
   <img id="img-ampliada" src="" alt="Ampliada">
@@ -304,7 +251,6 @@ document.getElementById("buscador").oninput = (e) => {
 document.getElementById("btn-carrito-toggle").onclick = () => document.getElementById("panel-carrito").classList.toggle("oculto");
 document.getElementById("btn-cerrar-carrito").onclick = () => document.getElementById("panel-carrito").classList.add("oculto");
 
-// --- FUNCIÓN PARA EL CATÁLOGO PDF (SOLUCIÓN DEFINITIVA SÍMBOLOS Y NOMBRES) ---
 async function generarPDFParaImprimir() {
   const { jsPDF } = window.jspdf;
   const doc = new jsPDF('p', 'mm', 'a4');
@@ -339,24 +285,14 @@ async function generarPDFParaImprimir() {
 
     doc.setTextColor(40); 
     let nombreSeguro = String(p.nombre).replace(/[″”“]/g, '"').replace(/[′’‘]/g, "'").trim();
-    
     let fontSize = 7;
     doc.setFontSize(fontSize);
     doc.setFont(undefined, 'bold');
-    
     let lineas = doc.splitTextToSize(nombreSeguro, cardW - 4);
-    
-    if (lineas.length > 2) {
-        fontSize = 6;
-        doc.setFontSize(fontSize);
-        lineas = doc.splitTextToSize(nombreSeguro, cardW - 4);
-    }
-    
+    if (lineas.length > 2) { fontSize = 6; doc.setFontSize(fontSize); lineas = doc.splitTextToSize(nombreSeguro, cardW - 4); }
     doc.text(lineas.slice(0, 3), x + (cardW / 2), y + 36, { align: 'center', lineHeightFactor: 1.0 });
-    
     doc.setFont(undefined, 'normal'); doc.setFontSize(6); doc.setTextColor(120);
     doc.text(`Cód: ${p.codigo}`, x + (cardW / 2), y + 50, { align: 'center' });
-    
     doc.setFontSize(13); doc.setTextColor(0, 112, 192); doc.setFont(undefined, 'bold');
     doc.text(`$${Number(p.precio).toLocaleString("es-AR")}`, x + (cardW / 2), y + 54.5, { align: 'center' });
 
@@ -399,12 +335,3 @@ cargar();
 </script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
