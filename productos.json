@@ -149,7 +149,7 @@
     "precio": 3000,
     "categoria": "ACCESORIOS",
     "imagen": "https://drive.google.com/uc?id=1m8VahlTqbE-3_LcBzl0RYh5UZ0r-lV7d",
-    "estado": "ULTIMOS DISPONIBLES",
+    "estado": "CON STOCK",
     "stock": 9
   },
   {
@@ -176,7 +176,7 @@
     "precio": 8800,
     "categoria": "ACCESORIOS",
     "imagen": "https://drive.google.com/uc?id=1DmrOHoaoOXRO3wjLczIyqQYw_c3LLqqb",
-    "estado": "ULTIMOS DISPONIBLES",
+    "estado": "CON STOCK",
     "stock": 3
   },
   {
@@ -275,7 +275,7 @@
     "precio": 11300,
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=1ePHSWsI99O_cqpgoCySOM1zowzP9qcZS",
-    "estado": "ULTIMOS DISPONIBLES",
+    "estado": "CON STOCK",
     "stock": 2
   },
   {
@@ -293,7 +293,7 @@
     "precio": 9500,
     "categoria": "ILUMINACIÓN",
     "imagen": "https://drive.google.com/uc?id=1Jxsx7DsRxNOkZqxcYcqfa7upU2mUNJar",
-    "estado": "ULTIMOS DISPONIBLES",
+    "estado": "CON STOCK",
     "stock": 4
   },
   {
@@ -354,7 +354,7 @@
     "codigo": "37",
     "nombre": "JOYSTICK PS4 GENERICO LISO",
     "precio": 27000,
-    "categoria": "GAMER",
+    "categoria": "TECNOLOGIA",
     "imagen": "https://drive.google.com/uc?id=1c006E6BiIX2QBqnUL0RmIeiHqrMXcfhI",
     "estado": "CON STOCK",
     "stock": 2
@@ -420,7 +420,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=17aCFj1sVEIFq57ofC7pcqw7F-wLADpFT",
     "estado": "CON STOCK",
-    "stock": 6
+    "stock": 0.5
   },
   {
     "codigo": "671",
@@ -428,8 +428,8 @@
     "precio": 18000,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1VzC43NXmBzitEgCinldDcjML1boVaZL1",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 6
+    "estado": "CON STOCK",
+    "stock": 0.5
   },
   {
     "codigo": "673",
@@ -437,7 +437,7 @@
     "precio": 18000,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1PQwCxnxzFycHWDjBV77mviQgDpbWAg3U",
-    "estado": "ULTIMOS DISPONIBLES",
+    "estado": "CON STOCK",
     "stock": 12
   },
   {
@@ -453,7 +453,7 @@
     "codigo": "75",
     "nombre": "BANDOLERA CRUZADA ANTIRROBO P260KA",
     "precio": 20000,
-    "categoria": "UTILES ESCOLARES",
+    "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1S0g3E__CwiAKY3Ht44q18AeMbs0X__tc",
     "estado": "CON STOCK",
     "stock": 2
@@ -462,7 +462,7 @@
     "codigo": "76",
     "nombre": "CALCULADORA LEGATUS LCC-11",
     "precio": 5500,
-    "categoria": "UTILES ESCOLARES",
+    "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1jHdC2owsCxcKyYDeuwZyw4iVqYYQOgIK",
     "estado": "CON STOCK",
     "stock": 2
@@ -471,34 +471,34 @@
     "codigo": "399",
     "nombre": "SET LAPICERA COLOR PASTEL X8 G014-8",
     "precio": 2800,
-    "categoria": "UTILES ESCOLARES",
+    "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1WUmsbY1OnMqNtbPKxYojnQSBc22Jq6sZ",
-    "estado": "ULTIMOS DISPONIBLES",
+    "estado": "CON STOCK",
     "stock": 4
   },
   {
     "codigo": "400",
     "nombre": "SET LAPICERA NEON X6 G015-6",
     "precio": 2200,
-    "categoria": "UTILES ESCOLARES",
+    "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1BhXoflWv7-rdsc87Wb8hUCaUVotNxhGa",
-    "estado": "ULTIMOS DISPONIBLES",
+    "estado": "CON STOCK",
     "stock": 4
   },
   {
     "codigo": "401",
     "nombre": "SET LAPICERAS C/GLITTER X10 G013-10",
     "precio": 4000,
-    "categoria": "UTILES ESCOLARES",
+    "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1NtyLG_SFS8vqFFTcSznhHcX2VlELYap7",
-    "estado": "ULTIMOS DISPONIBLES",
+    "estado": "CON STOCK",
     "stock": 6
   },
   {
     "codigo": "598",
     "nombre": "MARCADORES DOBLE PUNTA TOUCH 60PCS",
     "precio": 17500,
-    "categoria": "UTILES ESCOLARES",
+    "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1iKOBxEq7z95Jj6pyyq6HNG6MjqSLGGli",
     "estado": "CON STOCK",
     "stock": 2
@@ -507,7 +507,7 @@
     "codigo": "3",
     "nombre": "GUANTES WINDS STOPPER XY AV24063",
     "precio": 7500,
-    "categoria": "ARTICULOS DE TEMPORADA",
+    "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1kHzXSDXwWa1vq_esoqHL8d1FURHVGdwY",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 6
@@ -516,7 +516,7 @@
     "codigo": "15",
     "nombre": "CEPILLO ORYX MODELADOR 3 EN 1 OR 1201",
     "precio": 20000,
-    "categoria": "BELLEZA",
+    "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1ZShV8cAQWrcJow0Jog42bwr-clamzlmQ",
     "estado": "CON STOCK",
     "stock": 3
@@ -525,7 +525,7 @@
     "codigo": "11",
     "nombre": "CORTA PELO VINTAGE T9 TRIMMER DL-1503AB2",
     "precio": 6800,
-    "categoria": "BELLEZA",
+    "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1OSYZO7ecFMz4cOENTARgVKJDikECMTs_",
     "estado": "CON STOCK",
     "stock": 2
@@ -534,27 +534,27 @@
     "codigo": "12",
     "nombre": "PLANCHITA P/PELO OSR 199 40W",
     "precio": 16000,
-    "categoria": "BELLEZA",
+    "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1-QU-j-I-yCVMbDmS1_s63VCstmXF8Mkd",
-    "estado": "ULTIMOS DISPONIBLES",
+    "estado": "CON STOCK",
     "stock": 1
   },
   {
     "codigo": "13",
     "nombre": "SACA PELUSA",
     "precio": 7800,
-    "categoria": "BELLEZA",
+    "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1LgL_a1ixzFfxBrL96Bes21eQ4iy0TYt1",
-    "estado": "ULTIMOS DISPONIBLES",
+    "estado": "CON STOCK",
     "stock": 3
   },
   {
     "codigo": "14",
     "nombre": "SECADOR DE PELO SEIS SP26/SP27 2000W",
     "precio": 18000,
-    "categoria": "BELLEZA",
+    "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1Y19Kf3rSbthmsnimoniA0rWqYmGn_IFs",
-    "estado": "ULTIMOS DISPONIBLES",
+    "estado": "CON STOCK",
     "stock": 1
   },
   {
@@ -579,7 +579,7 @@
     "codigo": "36",
     "nombre": "DELANTAL DE COCINA TELA TRUCKER",
     "precio": 7500,
-    "categoria": "COCINA",
+    "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1lNc80yJIIXzjLc_HnGTiQgRyDwdSj5rk",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 19
@@ -644,7 +644,7 @@
     "precio": 1200,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=109ZMKeLFnia5oc4LMfXPldRNIluu864w",
-    "estado": "ULTIMOS DISPONIBLES",
+    "estado": "CON STOCK",
     "stock": 14
   },
   {
@@ -668,10 +668,10 @@
   {
     "codigo": "48",
     "nombre": "TIMBRE CON PILAS 9610DC",
-    "precio": 8800,
+    "precio": 10000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1FXgqtxq8txGgZC0Gy9k-R6hFH0x8Ar3N",
-    "estado": "ULTIMOS DISPONIBLES",
+    "estado": "CON STOCK",
     "stock": 1
   },
   {
