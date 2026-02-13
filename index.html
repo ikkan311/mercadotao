@@ -11,13 +11,26 @@
     /* -----------------------------------------------------------
        DISEÑO BASE Y ESTRUCTURA
     ----------------------------------------------------------- */
-    body { font-family: sans-serif; margin: 0; background: #f4f4f4; padding-top: 140px; }
+    body { font-family: sans-serif; margin: 0; background: #f4f4f4; padding-top: 200px; }
     .header { background: #fff; border-bottom: 2px solid #eee; position: fixed; top: 0; left: 0; width: 100%; z-index: 1000; box-sizing: border-box; }
     .header-top { display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; }
     .logo-container img { height: 45px; width: auto; }
     .leyenda-centro { color: #27ae60; font-weight: bold; font-size: 0.9rem; text-align: center; flex-grow: 1; padding: 0 10px; }
     .search-wrapper { padding: 0 20px 10px 20px; }
     #buscador { width: 100%; padding: 10px; font-size: 1.1rem; border: 2px solid #ddd; border-radius: 8px; box-sizing: border-box; }
+   .filter-wrapper { 
+  padding: 0 20px 10px 20px; 
+}
+#filtro-categoria { 
+  width: 100%; 
+  padding: 12px; 
+  font-size: 1.1rem; 
+  border: 2px solid #ddd; 
+  border-radius: 8px; 
+  background-color: #fff; 
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+}
     .contenedor-principal { padding: 20px; max-width: 1200px; margin: 0 auto; }
     .grid-productos { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px; }
     
@@ -198,6 +211,11 @@
   <div class="search-wrapper">
     <input type="text" id="buscador" placeholder="Buscar por nombre, código o categoría..." />
   </div>
+  <div class="filter-wrapper">
+    <select id="filtro-categoria">
+      <option value="todos">📦 Todas las categorías</option>
+    </select>
+  </div>
 </header>
 
 <main class="contenedor-principal">
@@ -253,8 +271,22 @@ async function cargar() {
     const res = await fetch('productos.json?v=' + new Date().getTime());
     productos = await res.json();
     filtrados = productos;
+    llenarCategorias(); // Esta función crea las opciones del menú
     render();
-  } catch (e) { console.error("Error", e); }
+  } catch (e) { console.error("Error al cargar productos:", e); }
+}
+
+function llenarCategorias() {
+  const select = document.getElementById("filtro-categoria");
+  // Esto saca las categorías de tu JSON automáticamente
+  const categorias = [...new Set(productos.map(p => p.categoria))].filter(Boolean).sort();
+  
+  categorias.forEach(cat => {
+    const opt = document.createElement("option");
+    opt.value = cat;
+    opt.textContent = cat;
+    select.appendChild(opt);
+  });
 }
 
 function obtenerImagen(url) {
@@ -581,11 +613,24 @@ window.onscroll = () => { document.getElementById("btn-subir").style.display = w
 document.getElementById("btn-subir").onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
 document.getElementById("btn-carrito-toggle").onclick = () => document.getElementById("panel-carrito").classList.toggle("oculto");
 document.getElementById("btn-cerrar-carrito").onclick = () => document.getElementById("panel-carrito").classList.add("oculto");
-document.getElementById("buscador").oninput = (e) => {
-  const t = e.target.value.toLowerCase();
-  filtrados = productos.filter(p => p.nombre.toLowerCase().includes(t) || String(p.codigo).includes(t) || (p.categoria && p.categoria.toLowerCase().includes(t)));
+function ejecutarFiltros() {
+  const texto = document.getElementById("buscador").value.toLowerCase();
+  const catSeleccionada = document.getElementById("filtro-categoria").value;
+
+  filtrados = productos.filter(p => {
+    const coincideTexto = p.nombre.toLowerCase().includes(texto) || 
+                          String(p.codigo).includes(texto);
+    
+    const coincideCat = (catSeleccionada === "todos") || (p.categoria === catSeleccionada);
+    
+    return coincideTexto && coincideCat;
+  });
   render();
-};
+}
+
+// Vinculamos los eventos
+document.getElementById("buscador").oninput = ejecutarFiltros;
+document.getElementById("filtro-categoria").onchange = ejecutarFiltros;
 
 window.addEventListener('keydown', (e) => {
   if (e.key.toLowerCase() === 'p' && document.activeElement.tagName !== 'INPUT') {
@@ -597,6 +642,7 @@ cargar();
 </script>
 </body>
 </html>
+
 
 
 
