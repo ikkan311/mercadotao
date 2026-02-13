@@ -11,26 +11,30 @@
     /* -----------------------------------------------------------
        DISEÑO BASE Y ESTRUCTURA
     ----------------------------------------------------------- */
-    body { font-family: sans-serif; margin: 0; background: #f4f4f4; padding-top: 200px; }
+    body { font-family: sans-serif; margin: 0; background: #f4f4f4; padding-top: 220px; }
     .header { background: #fff; border-bottom: 2px solid #eee; position: fixed; top: 0; left: 0; width: 100%; z-index: 1000; box-sizing: border-box; }
     .header-top { display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; }
     .logo-container img { height: 45px; width: auto; }
     .leyenda-centro { color: #27ae60; font-weight: bold; font-size: 0.9rem; text-align: center; flex-grow: 1; padding: 0 10px; }
     .search-wrapper { padding: 0 20px 10px 20px; }
     #buscador { width: 100%; padding: 10px; font-size: 1.1rem; border: 2px solid #ddd; border-radius: 8px; box-sizing: border-box; }
-   .filter-wrapper { 
-  padding: 0 20px 10px 20px; 
-}
-#filtro-categoria { 
-  width: 100%; 
-  padding: 12px; 
-  font-size: 1.1rem; 
-  border: 2px solid #ddd; 
-  border-radius: 8px; 
-  background-color: #fff; 
-  cursor: pointer;
-  font-family: 'Inter', sans-serif;
-}
+  .filter-wrapper { 
+      padding: 0 20px 10px 20px;
+      display: flex;
+      justify-content: flex-start; /* Alineado a la izquierda, o 'center' si preferís */
+    }
+    #filtro-categoria { 
+      width: auto; /* Se ajusta al texto en pantallas grandes */
+      min-width: 200px; /* Un mínimo para que no quede muy pegado */
+      max-width: 100%; 
+      padding: 12px; 
+      font-size: 1.1rem; 
+      border: 2px solid #ddd; 
+      border-radius: 8px; 
+      background-color: #fff; 
+      cursor: pointer;
+      font-family: 'Inter', sans-serif;
+    }
     .contenedor-principal { padding: 20px; max-width: 1200px; margin: 0 auto; }
     .grid-productos { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px; }
     
@@ -79,10 +83,10 @@
     /* Importamos la fuente Inter para que los números y letras sean ultra claros */
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
 
-    @media (max-width: 600px) {
+   @media (max-width: 600px) {
       body { 
         font-family: 'Inter', sans-serif; 
-        padding-top: 155px; /* Espacio para el header doble en móvil */
+        padding-top: 240px; /* Aumentamos el espacio para que no pise la ficha */
       }
 
       .grid-productos { 
@@ -168,7 +172,9 @@
       .logo-container { width: 40%; }
       .logo-container img { height: 35px; }
       #buscador { font-size: 1.2rem; padding: 12px; }
-      
+      #filtro-categoria { 
+        width: 100%; /* En móviles vuelve a ocupar todo el ancho */
+      }
       /* Ajuste del Carrito */
       #panel-carrito { width: 100%; }
       .carrito-header { padding: 10px 15px !important; }
@@ -642,6 +648,7 @@ cargar();
 </script>
 </body>
 </html>
+
 
 
 
