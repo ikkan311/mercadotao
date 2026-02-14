@@ -519,11 +519,10 @@ const y = marginY + (fila * cardH);
 
 
 
-// Borde de la ficha (muy tenue)
-
-doc.setDrawColor(240); doc.rect(x, y, cardW, cardH - 2);
-
-
+// Borde de la ficha: más grueso y más oscuro
+doc.setLineWidth(0.3); 
+doc.setDrawColor(150); 
+doc.rect(x, y, cardW, cardH - 2);
 
 // IMAGEN (Más grande)
 
@@ -645,6 +644,7 @@ cargar();
 </script>
 </body>
 </html>
+
 
 
 
