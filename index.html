@@ -468,17 +468,12 @@ const doc = new jsPDF('p', 'mm', 'a4');
 
 // CONFIGURACIÓN DE PÁGINA (Precisión en mm)
 
-const marginX = 6; // Margen lateral reducido para ganar ancho
-
-const marginY = 30; // Espacio superior inicial
-
-const gap = 2; // Separación mínima entre fichas
-
-const cardW = (210 - (marginX * 2) - (gap * 3)) / 4; // Ancho de ficha (~49mm)
-
-const cardH = 63; // Alto de ficha
-
-const productosPorHoja = 16;
+const marginX = 8; 
+const marginY = 30; 
+const gap = 3; 
+const cardW = (210 - (marginX * 2) - (gap * 2)) / 3; // Ahora dividido por 3 columnas
+const cardH = 63; 
+const productosPorHoja = 12; // Cambiado a 12 por hoja
 
 const lista = filtrados;
 
@@ -515,9 +510,8 @@ doc.text("Precios mayorista solamente para compras mayores a $90.000", 105, 21, 
 
 
 
-const col = indexEnHoja % 4;
-
-const fila = Math.floor(indexEnHoja / 4);
+const col = indexEnHoja % 3; // Cambiado a 3 columnas
+const fila = Math.floor(indexEnHoja / 3); // Cambiado a 3
 
 const x = marginX + (col * (cardW + gap));
 
@@ -537,7 +531,7 @@ const imgUrl = obtenerImagen(p.imagen);
 
 try {
 
-const imgRes = await aplanarImagenProporcional(imgUrl, cardW - 2, 36);
+const imgRes = await aplanarImagenProporcional(imgUrl, cardW - 2, 40);
 
 if (imgRes) {
 
@@ -559,14 +553,14 @@ doc.setFontSize(9); doc.setFont(undefined, 'bold');
 
 let lineas = doc.splitTextToSize(nombreSeguro, cardW - 4);
 
-doc.text(lineas.slice(0, 2), x + (cardW / 2), y + 42, { align: 'center', lineHeightFactor: 1.0 });
+doc.text(lineas.slice(0, 2), x + (cardW / 2), y + 46, { align: 'center', lineHeightFactor: 1.0 });
 
 
 // CÓDIGO (Pegado al nombre)
 
 doc.setFont(undefined, 'normal'); doc.setFontSize(8); doc.setTextColor(100);
 
-doc.text(`Cód: ${p.codigo}`, x + (cardW / 2), y + 50, { align: 'center' });
+doc.text(`Cód: ${p.codigo}`, x + (cardW / 2), y + 53, { align: 'center' });
 
 
 
@@ -574,7 +568,7 @@ doc.text(`Cód: ${p.codigo}`, x + (cardW / 2), y + 50, { align: 'center' });
 
 doc.setFontSize(14); doc.setTextColor(0, 112, 192); doc.setFont(undefined, 'bold');
 
-doc.text(`$${Number(p.precio).toLocaleString("es-AR")}`, x + (cardW / 2), y + 56, { align: 'center' });
+doc.text(`$${Number(p.precio).toLocaleString("es-AR")}`, x + (cardW / 2), y + 59, { align: 'center' });
 
 
 
@@ -651,6 +645,7 @@ cargar();
 </script>
 </body>
 </html>
+
 
 
 
