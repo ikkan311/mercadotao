@@ -104,9 +104,16 @@
             let total = 0;
             container.innerHTML = pedidoActual.carrito.map((item, index) => {
                 total += item.precio * item.cantidad;
+                // Buscamos el stock en la lista global
+                const pInfo = stockProductos.find(p => p.codigo === item.codigo);
+                const st = pInfo ? (pInfo.stock !== undefined && pInfo.stock !== null ? pInfo.stock : "-") : "-";
+                
                 return `
                 <div class="item-edit">
-                    <div><b>${item.nombre}</b><br><small>$${item.precio}</small></div>
+                    <div>
+                        <b>${item.nombre} (Cód: ${item.codigo})</b><br>
+                        <small>$${item.precio} | Stock: (${st})</small>
+                    </div>
                     <div>
                         <input type="number" value="${item.cantidad}" onchange="cambiarCantidad(${index}, this.value)" style="width:40px">
                         <button onclick="eliminarItem(${index})" style="color:red">✕</button>
@@ -152,7 +159,10 @@
             const resDiv = document.getElementById("resultados-busqueda");
             if(term.length < 2) { resDiv.style.display = "none"; return; }
             const filtrados = stockProductos.filter(p => p.nombre.toLowerCase().includes(term)).slice(0, 5);
-            resDiv.innerHTML = filtrados.map(p => `<div onclick='agregarAlPedido(${JSON.stringify(p)})' style="padding:10px; cursor:pointer; border-bottom:1px solid #eee">${p.nombre}</div>`).join('');
+            resDiv.innerHTML = filtrados.map(p => {
+    const st = p.stock !== undefined && p.stock !== null ? p.stock : "-";
+    return `<div onclick='agregarAlPedido(${JSON.stringify(p)})' style="padding:10px; cursor:pointer; border-bottom:1px solid #eee">${p.nombre} (Stock: ${st})</div>`;
+}).join('');
             resDiv.style.display = "block";
         };
         function agregarAlPedido(p) {
