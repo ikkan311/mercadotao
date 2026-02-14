@@ -408,12 +408,13 @@ async function confirmarYEnviar() {
     });
   } catch (e) { console.error("Error Sheets:", e); }
 
-  // WhatsApp Format
+// WhatsApp Format
   let msg = `Hola MercadoTAO, soy *${nombre}* (Tel: ${tel}). Mi pedido es:%0A%0A`;
   carrito.forEach((i, idx) => {
-    msg += `${idx + 1}. *${i.nombre}*%0A   Cód: ${i.codigo} | Cant: ${i.cantidad}%0A%0A`;
+    const subtotal = i.precio * i.cantidad;
+    msg += `${idx + 1}. *${i.nombre}*%0A   ${i.cantidad} x $${i.precio.toLocaleString()} = $${subtotal.toLocaleString()}%0A%0A`;
   });
-  msg += `*TOTAL: $${total.toLocaleString()}*`;
+  msg += `*TOTAL GENERAL: $${total.toLocaleString()}*`;
   
   window.open(`https://wa.me/${WHATSAPP_DESTINO}?text=${msg}`);
   cerrarModal();
@@ -644,6 +645,7 @@ cargar();
 </script>
 </body>
 </html>
+
 
 
 
