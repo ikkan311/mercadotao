@@ -412,7 +412,7 @@ async function confirmarYEnviar() {
   let msg = `Hola MercadoTAO, soy *${nombre}* (Tel: ${tel}). Mi pedido es:%0A%0A`;
   carrito.forEach((i, idx) => {
     const subtotal = i.precio * i.cantidad;
-    msg += `${idx + 1}. *${i.nombre}*%0A   ${i.cantidad} x $${i.precio.toLocaleString()} = $${subtotal.toLocaleString()}%0A%0A`;
+    msg += `${idx + 1}. *${i.nombre}*%0A Cód: ${i.codigo}  ${i.cantidad} x $${i.precio.toLocaleString()} = $${subtotal.toLocaleString()}%0A%0A`;
   });
   msg += `*TOTAL GENERAL: $${total.toLocaleString()}*`;
   
@@ -645,6 +645,7 @@ cargar();
 </script>
 </body>
 </html>
+
 
 
 
