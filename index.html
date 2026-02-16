@@ -486,7 +486,15 @@ const p = lista[i];
 
 const indexEnHoja = i % productosPorHoja;
 
-if (i > 0 && indexEnHoja === 0) doc.addPage();
+if (i > 0 && indexEnHoja === 0) {
+  // --- AGREGAR ESTO ---
+  doc.setFontSize(10); 
+  doc.setTextColor(230, 126, 34); 
+  doc.setFont(undefined, 'bold');
+  doc.text("CUALQUIER CONSULTA COMUNICARSE CON SEBASTIAN AL 351-6148905", 105, 290, { align: 'center' });
+  // --------------------
+  doc.addPage();
+}
 
 
 
@@ -531,7 +539,7 @@ const imgUrl = obtenerImagen(p.imagen);
 
 try {
 
-const imgRes = await aplanarImagenProporcional(imgUrl, cardW - 2, 40);
+const imgRes = await aplanarImagenProporcional(imgUrl, cardW - 2, cardW - 2);
 
 if (imgRes) {
 
@@ -572,19 +580,11 @@ doc.text(`$${Number(p.precio).toLocaleString("es-AR")}`, x + (cardW / 2), y + 59
 
 
 
-// FOOTER DE LA HOJA
-
-if (indexEnHoja === 15 || i === lista.length - 1) {
-
-doc.setFontSize(12); doc.setTextColor(230, 126, 34); doc.setFont(undefined, 'bold');
-
-doc.text("CUALQUIER CONSULTA COMUNICARSE CON SEBASTIAN AL 351-6148905", 105, 292, { align: 'center' });
-
-}
-
-}
-
-
+// Imprimir footer en la última hoja antes de guardar
+doc.setFontSize(10); 
+doc.setTextColor(230, 126, 34); 
+doc.setFont(undefined, 'bold');
+doc.text("CUALQUIER CONSULTA COMUNICARSE CON SEBASTIAN AL 351-6148905", 105, 290, { align: 'center' });
 
 doc.save("Catalogo_TAO_Imprimir.pdf");
 
@@ -645,6 +645,7 @@ cargar();
 </script>
 </body>
 </html>
+
 
 
 
