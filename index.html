@@ -487,14 +487,14 @@ const p = lista[i];
 const indexEnHoja = i % productosPorHoja;
 
 if (i > 0 && indexEnHoja === 0) {
-  // --- AGREGAR ESTO ---
-  doc.setFontSize(10); 
-  doc.setTextColor(230, 126, 34); 
-  doc.setFont(undefined, 'bold');
-  doc.text("CUALQUIER CONSULTA COMUNICARSE CON SEBASTIAN AL 351-6148905", 105, 290, { align: 'center' });
-  // --------------------
-  doc.addPage();
-}
+      // Imprimir footer antes de cambiar de hoja
+      doc.setFontSize(10);
+      doc.setTextColor(230, 126, 34);
+      doc.setFont(undefined, 'bold');
+      doc.text("CUALQUIER CONSULTA COMUNICARSE CON SEBASTIAN AL 351-6148905", 105, 290, { align: 'center' });
+      
+      doc.addPage();
+    }
 
 
 
@@ -645,6 +645,7 @@ cargar();
 </script>
 </body>
 </html>
+
 
 
 
