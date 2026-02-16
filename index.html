@@ -577,7 +577,7 @@ doc.text(`Cód: ${p.codigo}`, x + (cardW / 2), y + 53, { align: 'center' });
 doc.setFontSize(14); doc.setTextColor(0, 112, 192); doc.setFont(undefined, 'bold');
 
 doc.text(`$${Number(p.precio).toLocaleString("es-AR")}`, x + (cardW / 2), y + 59, { align: 'center' });
-
+}
 
 
 // Imprimir footer en la última hoja antes de guardar
@@ -645,6 +645,7 @@ cargar();
 </script>
 </body>
 </html>
+
 
 
 
