@@ -15,7 +15,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=10FUznbbTRE98huoYjBTGPuxTpmZFfsbO",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 7
+    "stock": 6
   },
   {
     "codigo": "453",
@@ -42,7 +42,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1nEnJRpdvPDCOd-ZW_sKKYovESeqp_2ub",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 7
+    "stock": 14
   },
   {
     "codigo": "26",
@@ -69,7 +69,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1nDTkVUh6glU2oEjEITgtpKbNkVcJ7DEO",
     "estado": "CON STOCK",
-    "stock": 1
+    "stock": 2
   },
   {
     "codigo": "23",
@@ -114,7 +114,7 @@
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1MIdnzsRW-TAAq44kOuSD6wCWdaazPbAu",
     "estado": "CON STOCK",
-    "stock": 12
+    "stock": 18
   },
   {
     "codigo": "20",
@@ -123,7 +123,7 @@
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1TfyIwJKlUGCrgKLQogOX8agKlEWa2lIv",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 39
+    "stock": 38
   },
   {
     "codigo": "21",
@@ -141,7 +141,7 @@
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1_5I021ePLX2kftD5dsVAXLKMXI1hIpeA",
     "estado": "CON STOCK",
-    "stock": 6
+    "stock": 9
   },
   {
     "codigo": "2",
@@ -160,6 +160,15 @@
     "imagen": "https://drive.google.com/uc?id=1ph9xd6lG3jxoHx313OGMhR6WKMLodk1T",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 26
+  },
+  {
+    "codigo": "72",
+    "nombre": "SOPORTE DE CELULAR PARA AUTO RA145",
+    "precio": 11000,
+    "categoria": "ACCESORIOS",
+    "imagen": "https://drive.google.com/uc?id=1csORvGadYgn5dIG_WV1UUSQzVcxUD9UH",
+    "estado": "CON STOCK",
+    "stock": 3
   },
   {
     "codigo": "73",
@@ -204,7 +213,7 @@
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=1WKIkUk6fEWewQE5L_NhiRoHw10vq0phv",
     "estado": "CON STOCK",
-    "stock": 6
+    "stock": 16
   },
   {
     "codigo": "9",
@@ -267,7 +276,7 @@
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=1h_JnXAMSV-1BeCBffwtGX0l2jreCpVac",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
+    "stock": 2
   },
   {
     "codigo": "69",
@@ -275,6 +284,15 @@
     "precio": 11300,
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=1ePHSWsI99O_cqpgoCySOM1zowzP9qcZS",
+    "estado": "CON STOCK",
+    "stock": 2
+  },
+  {
+    "codigo": "587",
+    "nombre": "RELOJ SMARTWATCH 7EN1 ROYAL S10 ULTRA",
+    "precio": 19000,
+    "categoria": "TECNOLOGIA",
+    "imagen": "https://drive.google.com/uc?id=1F7JFXuYs2-_EoIxvjnW2lxDf9eFWdx01",
     "estado": "CON STOCK",
     "stock": 2
   },
@@ -438,7 +456,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1PQwCxnxzFycHWDjBV77mviQgDpbWAg3U",
     "estado": "CON STOCK",
-    "stock": 12
+    "stock": 1
   },
   {
     "codigo": "565",
@@ -501,7 +519,7 @@
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1iKOBxEq7z95Jj6pyyq6HNG6MjqSLGGli",
     "estado": "CON STOCK",
-    "stock": 2
+    "stock": 3
   },
   {
     "codigo": "3",
@@ -537,7 +555,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1-QU-j-I-yCVMbDmS1_s63VCstmXF8Mkd",
     "estado": "CON STOCK",
-    "stock": 1
+    "stock": 2
   },
   {
     "codigo": "13",
@@ -549,11 +567,29 @@
     "stock": 3
   },
   {
+    "codigo": "123",
+    "nombre": "SECADOR DE PELO LSE-101A 600W LEGATUS",
+    "precio": 14000,
+    "categoria": "CUIDADO PERSONAL",
+    "imagen": "https://drive.google.com/uc?id=1vcQMg8MTb3_Ru3e3VI_ZEmwreSYUtqSL",
+    "estado": "CON STOCK",
+    "stock": 1
+  },
+  {
     "codigo": "14",
     "nombre": "SECADOR DE PELO SEIS SP26/SP27 2000W",
     "precio": 18000,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1Y19Kf3rSbthmsnimoniA0rWqYmGn_IFs",
+    "estado": "CON STOCK",
+    "stock": 1
+  },
+  {
+    "codigo": "127",
+    "nombre": "SECADOR DE PELO SEIS SP 34 2400W",
+    "precio": 25000,
+    "categoria": "CUIDADO PERSONAL",
+    "imagen": "https://drive.google.com/uc?id=1z3IVh-zuSx2iAqgMV45S1DNeHc6yNKFs",
     "estado": "CON STOCK",
     "stock": 1
   },
