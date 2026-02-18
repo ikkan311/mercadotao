@@ -277,7 +277,7 @@ let carrito = [];
 
 async function cargar() {
   try {
-    const res = await fetch('productos.json?v=' + new Date().getTime());
+    const res = await fetch('productos.json?v=' + Date.now());
     productos = await res.json();
     filtrados = productos;
     llenarCategorias(); // Esta función crea las opciones del menú
@@ -571,18 +571,19 @@ function ejecutarFiltros() {
   const texto = document.getElementById("buscador").value.toLowerCase();
   const catSeleccionada = document.getElementById("filtro-categoria").value;
 
-  filtrados = productos.filter(p => {
-    // 1. Filtro de Stock: Debe tener stock y ser mayor a 0
-    const tieneStock = p.stock !== undefined && p.stock !== null && p.stock !== "" && Number(p.stock) > 0;
+filtrados = productos.filter(p => {
+    // Convertimos el stock a número limpiando posibles espacios
+    const valorStock = (p.stock === undefined || p.stock === null || p.stock === "") ? 0 : Number(p.stock);
     
-    // 2. Filtros existentes
+    // Si el valor no es un número válido o es 0 o menor, NO pasa el filtro
+    if (isNaN(valorStock) || valorStock <= 0) return false;
+
     const coincideTexto = p.nombre.toLowerCase().includes(texto) || 
                           String(p.codigo).includes(texto);
     
     const coincideCat = (catSeleccionada === "todos") || (p.categoria === catSeleccionada);
     
-    // Solo devuelve verdadero si tiene stock Y coincide con la búsqueda/categoría
-    return tieneStock && coincideTexto && coincideCat;
+    return coincideTexto && coincideCat;
   });
   render();
 }
@@ -601,6 +602,7 @@ cargar();
 </script>
 </body>
 </html>
+
 
 
 
