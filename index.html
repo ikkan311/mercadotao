@@ -572,12 +572,17 @@ function ejecutarFiltros() {
   const catSeleccionada = document.getElementById("filtro-categoria").value;
 
   filtrados = productos.filter(p => {
+    // 1. Filtro de Stock: Debe tener stock y ser mayor a 0
+    const tieneStock = p.stock !== undefined && p.stock !== null && p.stock !== "" && Number(p.stock) > 0;
+    
+    // 2. Filtros existentes
     const coincideTexto = p.nombre.toLowerCase().includes(texto) || 
                           String(p.codigo).includes(texto);
     
     const coincideCat = (catSeleccionada === "todos") || (p.categoria === catSeleccionada);
     
-    return coincideTexto && coincideCat;
+    // Solo devuelve verdadero si tiene stock Y coincide con la búsqueda/categoría
+    return tieneStock && coincideTexto && coincideCat;
   });
   render();
 }
@@ -596,6 +601,7 @@ cargar();
 </script>
 </body>
 </html>
+
 
 
 
