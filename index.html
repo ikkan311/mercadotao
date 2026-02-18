@@ -470,8 +470,8 @@ const doc = new jsPDF('p', 'mm', 'a4');
 // CONFIGURACIÓN DE PÁGINA (Precisión en mm)
 
 const marginX = 8; 
-const marginY = 30; 
-const gap = 2; 
+const marginY = 28; 
+const gap = 3; 
 const cardW = (210 - (marginX * 2) - (gap * 3)) / 4; 
 const cardH = 65; 
 const productosPorHoja = 16; // Cambiado a 16 por hoja
@@ -502,7 +502,7 @@ if (i > 0 && indexEnHoja === 0) {
 
 if (indexEnHoja === 0) {
 
-const logoData = await aplanarImagenProporcional('logo.png', 47, 47);
+const logoData = await aplanarImagenProporcional('logo.png', 45, 45);
 
 if (logoData) {
 
@@ -536,9 +536,9 @@ doc.rect(x, y, cardW, cardH - 2);
 // IMAGEN (Forzada a 47x47)
 const imgUrl = obtenerImagen(p.imagen);
 try {
-  const imgRes = await aplanarImagenProporcional(imgUrl, 47, 47);
+  const imgRes = await aplanarImagenProporcional(imgUrl, 45, 45);
   if (imgRes) {
-    doc.addImage(imgRes.data, 'JPEG', x + ((cardW - 47) / 2), y + 1, 47, 47);
+    doc.addImage(imgRes.data, 'JPEG', x + ((cardW - 45) / 2), y + 2, 45, 45);
   }
 } catch (e) { console.error(e); }
 
@@ -559,19 +559,19 @@ if (lineasNombre.length > 2) {
 }
 
 // Dibujamos máximo 3 renglones
-doc.text(lineasNombre.slice(0, 3), x + (cardW / 2), y + 52, { align: 'center', lineHeightFactor: 1.0 });
+doc.text(lineasNombre.slice(0, 3), x + (cardW / 2), y + 51, { align: 'center', lineHeightFactor: 1.0 });
 
 // CÓDIGO
 doc.setFont(undefined, 'normal'); doc.setFontSize(7); doc.setTextColor(100);
-doc.text(`Cód: ${p.codigo}`, x + (cardW / 2), y + 59, { align: 'center' });
+doc.text(`Cód: ${p.codigo}`, x + (cardW / 2), y + 58, { align: 'center' });
 
 // PRECIO
 doc.setFontSize(12); doc.setTextColor(0, 112, 192); doc.setFont(undefined, 'bold');
-doc.text(`$${Number(p.precio).toLocaleString("es-AR")}`, x + (cardW / 2), y + 63, { align: 'center' });
+doc.text(`$${Number(p.precio).toLocaleString("es-AR")}`, x + (cardW / 2), y + 62, { align: 'center' });
 }
 
 // Imprimir footer en la última hoja antes de guardar
-doc.setFontSize(10); 
+doc.setFontSize(11); 
 doc.setTextColor(230, 126, 34); 
 doc.setFont(undefined, 'bold');
 doc.text("CUALQUIER CONSULTA COMUNICARSE CON SEBASTIAN AL 351-6148905", 105, 290, { align: 'center' });
@@ -635,6 +635,7 @@ cargar();
 </script>
 </body>
 </html>
+
 
 
 
