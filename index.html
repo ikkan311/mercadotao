@@ -471,10 +471,10 @@ const doc = new jsPDF('p', 'mm', 'a4');
 
 const marginX = 8; 
 const marginY = 30; 
-const gap = 3; 
-const cardW = (210 - (marginX * 2) - (gap * 2)) / 3; // Ahora dividido por 3 columnas
+const gap = 2; 
+const cardW = (210 - (marginX * 2) - (gap * 3)) / 4; // Ahora dividido por 3 columnas
 const cardH = 63; 
-const productosPorHoja = 12; // Cambiado a 12 por hoja
+const productosPorHoja = 16; // Cambiado a 16 por hoja
 
 const lista = filtrados;
 
@@ -488,10 +488,10 @@ const indexEnHoja = i % productosPorHoja;
 
 if (i > 0 && indexEnHoja === 0) {
       // Imprimir footer antes de cambiar de hoja
-      doc.setFontSize(10);
+      doc.setFontSize(9);
       doc.setTextColor(230, 126, 34);
       doc.setFont(undefined, 'bold');
-      doc.text("CUALQUIER CONSULTA COMUNICARSE CON SEBASTIAN AL 351-6148905", 105, 290, { align: 'center' });
+      doc.text("CUALQUIER CONSULTA COMUNICARSE CON SEBASTIAN AL 351-6148905", 105, 292, { align: 'center' });
       
       doc.addPage();
     }
@@ -502,7 +502,7 @@ if (i > 0 && indexEnHoja === 0) {
 
 if (indexEnHoja === 0) {
 
-const logoData = await aplanarImagenProporcional('logo.png', 45, 12);
+const logoData = await aplanarImagenProporcional('logo.png', 47, 47);
 
 if (logoData) {
 
@@ -551,33 +551,31 @@ doc.addImage(imgRes.data, 'JPEG', x + 1 + imgRes.offsetX, y + 1 + imgRes.offsetY
 
 
 
-// NOMBRE DEL PRODUCTO (Más grande y compacto)
-
-doc.setTextColor(30);
-
-let nombreSeguro = String(p.nombre).replace(/[″”“]/g, '"').replace(/[′’‘]/g, "'").trim();
-
-doc.setFontSize(9); doc.setFont(undefined, 'bold');
+// --- BLOQUE NOMBRE DEL PRODUCTO CON AUTO-AJUSTE ---
+let fontSizeTit = 9; // Fuente inicial
+doc.setFontSize(fontSizeTit);
+doc.setFont(undefined, 'bold');
 
 let lineas = doc.splitTextToSize(nombreSeguro, cardW - 4);
 
-doc.text(lineas.slice(0, 2), x + (cardW / 2), y + 46, { align: 'center', lineHeightFactor: 1.0 });
-
-
-// CÓDIGO (Pegado al nombre)
-
-doc.setFont(undefined, 'normal'); doc.setFontSize(8); doc.setTextColor(100);
-
-doc.text(`Cód: ${p.codigo}`, x + (cardW / 2), y + 53, { align: 'center' });
-
-
-
-// PRECIO (Grande)
-
-doc.setFontSize(14); doc.setTextColor(0, 112, 192); doc.setFont(undefined, 'bold');
-
-doc.text(`$${Number(p.precio).toLocaleString("es-AR")}`, x + (cardW / 2), y + 59, { align: 'center' });
+// Si el texto ocupa más de 3 renglones, bajamos la fuente a 7 e intentamos de nuevo
+if (lineas.length > 3) {
+    fontSizeTit = 7;
+    doc.setFontSize(fontSizeTit);
+    lineas = doc.splitTextToSize(nombreSeguro, cardW - 4);
 }
+
+// Dibujamos máximo 3 renglones para no pisar el precio
+doc.text(lineas.slice(0, 3), x + (cardW / 2), y + 51, { align: 'center', lineHeightFactor: 1.0 });
+
+
+// CÓDIGO (Posición fija abajo del área de texto)
+doc.setFont(undefined, 'normal'); doc.setFontSize(7); doc.setTextColor(100);
+doc.text(`Cód: ${p.codigo}`, x + (cardW / 2), y + 58, { align: 'center' });
+
+// PRECIO (Posición fija al final de la ficha)
+doc.setFontSize(12); doc.setTextColor(0, 112, 192); doc.setFont(undefined, 'bold');
+doc.text(`$${Number(p.precio).toLocaleString("es-AR")}`, x + (cardW / 2), y + 62, { align: 'center' });
 
 
 // Imprimir footer en la última hoja antes de guardar
@@ -645,6 +643,7 @@ cargar();
 </script>
 </body>
 </html>
+
 
 
 
