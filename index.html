@@ -449,118 +449,99 @@ function generarPDFPedidoCliente() {
 }
 
 async function generarPDFParaImprimir() {
+  const aviso = document.createElement("div");
+  aviso.innerHTML = "Generando PDF, por favor espere...";
+  aviso.style = "position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); background:rgba(0,0,0,0.8); color:white; padding:20px; border-radius:10px; z-index:5000; font-weight:bold;";
+  document.body.appendChild(aviso);
 
-// Mostrar aviso de "Generando"
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF('p', 'mm', 'a4');
 
-const aviso = document.createElement("div");
+  // CONFIGURACIÓN 4x4
+  const marginX = 10; 
+  const marginY = 25; 
+  const gap = 2; 
+  const cardW = (210 - (marginX * 2) - (gap * 3)) / 4; 
+  const cardH = 62; 
+  const productosPorHoja = 16; 
+  const lista = filtrados;
 
-aviso.innerHTML = "Generando PDF, por favor espere...";
+  for (let i = 0; i < lista.length; i++) {
+    const p = lista[i];
+    const indexEnHoja = i % productosPorHoja;
 
-aviso.style = "position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); background:rgba(0,0,0,0.8); color:white; padding:20px; border-radius:10px; z-index:5000; font-weight:bold;";
-
-document.body.appendChild(aviso);
-
-
-
-const { jsPDF } = window.jspdf;
-
-const doc = new jsPDF('p', 'mm', 'a4');
-
-
-const marginX = 10; // Aumentamos margen lateral
-const marginY = 25; // Espacio para el header
-const gap = 2; 
-const cardW = (210 - (marginX * 2) - (gap * 3)) / 4; // Da ~47mm por ficha
-const cardH = 62; // Reducimos alto para que 4 filas entren sobradas (62 * 4 = 248mm)
-const productosPorHoja = 16; // Cambiado a 16 por hoja
-
-const lista = filtrados;
-
-
-
-for (let i = 0; i < lista.length; i++) {
-
-const p = lista[i];
-
-const indexEnHoja = i % productosPorHoja;
-
-if (i > 0 && indexEnHoja === 0) {
-      // Imprimir footer antes de cambiar de hoja
-      doc.setFontSize(11); // Footer más grande
-doc.setTextColor(230, 126, 34);
-doc.setFont(undefined, 'bold');
-doc.text("CUALQUIER CONSULTA COMUNICARSE CON SEBASTIAN AL 351-6148905", 105, 288, { align: 'center' });
-      
+    if (i > 0 && indexEnHoja === 0) {
+      // Footer de cada hoja antes de pasar a la siguiente
+      doc.setFontSize(11);
+      doc.setTextColor(230, 126, 34);
+      doc.setFont(undefined, 'bold');
+      doc.text("CUALQUIER CONSULTA COMUNICARSE CON SEBASTIAN AL 351-6148905", 105, 288, { align: 'center' });
       doc.addPage();
     }
 
+    // HEADER DE HOJA
+    if (indexEnHoja === 0) {
+      const logoData = await aplanarImagenProporcional('logo.png', 45, 12);
+      if (logoData) {
+        doc.addImage(logoData.data, 'JPEG', 105 - (logoData.w / 2), 5, logoData.w, logoData.h);
+      }
+      doc.setFontSize(12); doc.setTextColor(39, 174, 96); doc.setFont(undefined, 'bold');
+      doc.text("Precios mayorista solamente para compras mayores a $90.000", 105, 21, { align: 'center' });
+    }
 
+    const col = indexEnHoja % 4;
+    const fila = Math.floor(indexEnHoja / 4);
+    const x = marginX + (col * (cardW + gap));
+    const y = marginY + (fila * cardH);
 
-// HEADER DE LA HOJA
+    // Borde ficha
+    doc.setLineWidth(0.1); 
+    doc.setDrawColor(200); 
+    doc.rect(x, y, cardW, cardH - 2);
 
-if (indexEnHoja === 0) {
+    // IMAGEN (42x42 para que no toque bordes)
+    const imgUrl = obtenerImagen(p.imagen);
+    try {
+      const imgRes = await aplanarImagenProporcional(imgUrl, 42, 42);
+      if (imgRes) {
+        doc.addImage(imgRes.data, 'JPEG', x + ((cardW - 42) / 2), y + 2, 42, 42);
+      }
+    } catch (e) {}
 
-const logoData = await aplanarImagenProporcional('logo.png', 45, 45);
+    // NOMBRE CON AUTO-AJUSTE
+    let nombreSeguro = String(p.nombre).replace(/[″”“]/g, '"').replace(/[′’‘]/g, "'").trim();
+    let fontSizeTit = 9; 
+    doc.setFontSize(fontSizeTit);
+    doc.setFont(undefined, 'bold');
+    doc.setTextColor(30);
 
-if (logoData) {
+    let lineasNombre = doc.splitTextToSize(nombreSeguro, cardW - 4);
+    if (lineasNombre.length > 2) {
+        fontSizeTit = 7;
+        doc.setFontSize(fontSizeTit);
+        lineasNombre = doc.splitTextToSize(nombreSeguro, cardW - 4);
+    }
+    doc.text(lineasNombre.slice(0, 3), x + (cardW / 2), y + 49, { align: 'center', lineHeightFactor: 1.0 });
 
-doc.addImage(logoData.data, 'JPEG', 105 - (logoData.w / 2), 5, logoData.w, logoData.h);
+    // CÓDIGO
+    doc.setFont(undefined, 'normal'); doc.setFontSize(7); doc.setTextColor(100);
+    doc.text(`Cód: ${p.codigo}`, x + (cardW / 2), y + 56, { align: 'center' });
 
+    // PRECIO
+    doc.setFontSize(11); doc.setTextColor(0, 112, 192); doc.setFont(undefined, 'bold');
+    doc.text(`$${Number(p.precio).toLocaleString("es-AR")}`, x + (cardW / 2), y + 60, { align: 'center' });
+  }
+
+  // Footer última hoja
+  doc.setFontSize(11);
+  doc.setTextColor(230, 126, 34);
+  doc.setFont(undefined, 'bold');
+  doc.text("CUALQUIER CONSULTA COMUNICARSE CON SEBASTIAN AL 351-6148905", 105, 288, { align: 'center' });
+
+  doc.save("Catalogo_TAO_Imprimir.pdf");
+  document.body.removeChild(aviso);
 }
 
-doc.setFontSize(14); doc.setTextColor(39, 174, 96); doc.setFont(undefined, 'bold');
-
-doc.text("Precios mayorista solamente para compras mayores a $90.000", 105, 21, { align: 'center' });
-
-
-}
-
-
-
-const col = indexEnHoja % 3; // Cambiado a 3 columnas
-const fila = Math.floor(indexEnHoja / 3); // Cambiado a 3
-
-const x = marginX + (col * (cardW + gap));
-
-const y = marginY + (fila * cardH);
-
-
-
-// Borde de la ficha: más grueso y más oscuro
-doc.setLineWidth(0.3); 
-doc.setDrawColor(150); 
-doc.rect(x, y, cardW, cardH - 2);
-
-// IMAGEN: Tamaño 42x42 para dejar aire en la ficha de 47mm
-const imgRes = await aplanarImagenProporcional(imgUrl, 42, 42);
-if (imgRes) {
-  doc.addImage(imgRes.data, 'JPEG', x + ((cardW - 42) / 2), y + 2, 42, 42);
-}
-
-// NOMBRE (Auto-ajuste 3 renglones)
-// ... (mantenemos la lógica de reducción de fuente a 7pt si es largo) ...
-doc.text(lineasNombre.slice(0, 3), x + (cardW / 2), y + 49, { align: 'center', lineHeightFactor: 1.0 });
-
-// CÓDIGO
-doc.setFontSize(7);
-doc.text(`Cód: ${p.codigo}`, x + (cardW / 2), y + 56, { align: 'center' });
-
-// PRECIO
-doc.setFontSize(11); // Un punto menos para asegurar espacio
-doc.text(`$${Number(p.precio).toLocaleString("es-AR")}`, x + (cardW / 2), y + 60, { align: 'center' });
-}
-
-// Imprimir footer en la última hoja antes de guardar
-doc.setFontSize(11); // Footer más grande
-doc.setTextColor(230, 126, 34);
-doc.setFont(undefined, 'bold');
-doc.text("CUALQUIER CONSULTA COMUNICARSE CON SEBASTIAN AL 351-6148905", 105, 288, { align: 'center' });
-
-doc.save("Catalogo_TAO_Imprimir.pdf");
-
-document.body.removeChild(aviso); // Quitar aviso al terminar
-
-}
 function aplanarImagenProporcional(url, maxW, maxH) {
   return new Promise((resolve) => {
     const img = new Image();
@@ -615,6 +596,7 @@ cargar();
 </script>
 </body>
 </html>
+
 
 
 
