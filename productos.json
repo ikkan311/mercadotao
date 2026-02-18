@@ -15,7 +15,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=10FUznbbTRE98huoYjBTGPuxTpmZFfsbO",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 6
+    "stock": 3
   },
   {
     "codigo": "453",
@@ -24,7 +24,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1oBvIBj9hq9PCwEA4OqB9fyqnclZvqEB5",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 10
+    "stock": 7
   },
   {
     "codigo": "33",
@@ -42,7 +42,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1nEnJRpdvPDCOd-ZW_sKKYovESeqp_2ub",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 14
+    "stock": 12
   },
   {
     "codigo": "26",
@@ -123,7 +123,7 @@
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1TfyIwJKlUGCrgKLQogOX8agKlEWa2lIv",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 38
+    "stock": 36
   },
   {
     "codigo": "21",
@@ -132,7 +132,7 @@
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1qA_erwCLAlipvE8OAypOOtnSUMXf0AUW",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 7
+    "stock": 2
   },
   {
     "codigo": "17",
@@ -168,7 +168,7 @@
     "categoria": "ACCESORIOS",
     "imagen": "https://drive.google.com/uc?id=1csORvGadYgn5dIG_WV1UUSQzVcxUD9UH",
     "estado": "CON STOCK",
-    "stock": 3
+    "stock": 2
   },
   {
     "codigo": "73",
@@ -204,7 +204,7 @@
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=1sdwkafDLQKs80CE_NHhgldAeVx7FFkyN",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
+    "stock": 1
   },
   {
     "codigo": "6",
@@ -213,7 +213,7 @@
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=1WKIkUk6fEWewQE5L_NhiRoHw10vq0phv",
     "estado": "CON STOCK",
-    "stock": 16
+    "stock": 13
   },
   {
     "codigo": "9",
@@ -276,7 +276,7 @@
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=1h_JnXAMSV-1BeCBffwtGX0l2jreCpVac",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
+    "stock": 1
   },
   {
     "codigo": "69",
@@ -285,7 +285,7 @@
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=1ePHSWsI99O_cqpgoCySOM1zowzP9qcZS",
     "estado": "CON STOCK",
-    "stock": 2
+    "stock": 0
   },
   {
     "codigo": "587",
@@ -294,7 +294,7 @@
     "categoria": "TECNOLOGIA",
     "imagen": "https://drive.google.com/uc?id=1F7JFXuYs2-_EoIxvjnW2lxDf9eFWdx01",
     "estado": "CON STOCK",
-    "stock": 2
+    "stock": 1
   },
   {
     "codigo": "59",
@@ -573,7 +573,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1vcQMg8MTb3_Ru3e3VI_ZEmwreSYUtqSL",
     "estado": "CON STOCK",
-    "stock": 1
+    "stock": 0
   },
   {
     "codigo": "14",
@@ -582,7 +582,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1Y19Kf3rSbthmsnimoniA0rWqYmGn_IFs",
     "estado": "CON STOCK",
-    "stock": 1
+    "stock": 0
   },
   {
     "codigo": "127",
@@ -627,7 +627,7 @@
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1QH1D8Pj2LO08yeLrTwcWalfG17Bc1ebN",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 3
+    "stock": 2
   },
   {
     "codigo": "40",
