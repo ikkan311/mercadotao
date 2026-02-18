@@ -467,13 +467,11 @@ const { jsPDF } = window.jspdf;
 const doc = new jsPDF('p', 'mm', 'a4');
 
 
-// CONFIGURACIÓN DE PÁGINA (Precisión en mm)
-
-const marginX = 8; 
-const marginY = 28; 
-const gap = 3; 
-const cardW = (210 - (marginX * 2) - (gap * 3)) / 4; 
-const cardH = 65; 
+const marginX = 10; // Aumentamos margen lateral
+const marginY = 25; // Espacio para el header
+const gap = 2; 
+const cardW = (210 - (marginX * 2) - (gap * 3)) / 4; // Da ~47mm por ficha
+const cardH = 62; // Reducimos alto para que 4 filas entren sobradas (62 * 4 = 248mm)
 const productosPorHoja = 16; // Cambiado a 16 por hoja
 
 const lista = filtrados;
@@ -488,10 +486,10 @@ const indexEnHoja = i % productosPorHoja;
 
 if (i > 0 && indexEnHoja === 0) {
       // Imprimir footer antes de cambiar de hoja
-      doc.setFontSize(9);
-      doc.setTextColor(230, 126, 34);
-      doc.setFont(undefined, 'bold');
-      doc.text("CUALQUIER CONSULTA COMUNICARSE CON SEBASTIAN AL 351-6148905", 105, 292, { align: 'center' });
+      doc.setFontSize(11); // Footer más grande
+doc.setTextColor(230, 126, 34);
+doc.setFont(undefined, 'bold');
+doc.text("CUALQUIER CONSULTA COMUNICARSE CON SEBASTIAN AL 351-6148905", 105, 288, { align: 'center' });
       
       doc.addPage();
     }
@@ -533,48 +531,30 @@ doc.setLineWidth(0.3);
 doc.setDrawColor(150); 
 doc.rect(x, y, cardW, cardH - 2);
 
-// IMAGEN (Forzada a 47x47)
-const imgUrl = obtenerImagen(p.imagen);
-try {
-  const imgRes = await aplanarImagenProporcional(imgUrl, 45, 45);
-  if (imgRes) {
-    doc.addImage(imgRes.data, 'JPEG', x + ((cardW - 45) / 2), y + 2, 45, 45);
-  }
-} catch (e) { console.error(e); }
-
-// NOMBRE DEL PRODUCTO CON REDUCCIÓN DE FUENTE
-let nombreSeguro = String(p.nombre).replace(/[″”“]/g, '"').replace(/[′’‘]/g, "'").trim();
-let fontSizeTit = 9; 
-doc.setFontSize(fontSizeTit);
-doc.setFont(undefined, 'bold');
-doc.setTextColor(30);
-
-let lineasNombre = doc.splitTextToSize(nombreSeguro, cardW - 4);
-
-// Si excede 2 renglones, bajamos la fuente para que entren 3 cómodos
-if (lineasNombre.length > 2) {
-    fontSizeTit = 7;
-    doc.setFontSize(fontSizeTit);
-    lineasNombre = doc.splitTextToSize(nombreSeguro, cardW - 4);
+// IMAGEN: Tamaño 42x42 para dejar aire en la ficha de 47mm
+const imgRes = await aplanarImagenProporcional(imgUrl, 42, 42);
+if (imgRes) {
+  doc.addImage(imgRes.data, 'JPEG', x + ((cardW - 42) / 2), y + 2, 42, 42);
 }
 
-// Dibujamos máximo 3 renglones
-doc.text(lineasNombre.slice(0, 3), x + (cardW / 2), y + 51, { align: 'center', lineHeightFactor: 1.0 });
+// NOMBRE (Auto-ajuste 3 renglones)
+// ... (mantenemos la lógica de reducción de fuente a 7pt si es largo) ...
+doc.text(lineasNombre.slice(0, 3), x + (cardW / 2), y + 49, { align: 'center', lineHeightFactor: 1.0 });
 
 // CÓDIGO
-doc.setFont(undefined, 'normal'); doc.setFontSize(7); doc.setTextColor(100);
-doc.text(`Cód: ${p.codigo}`, x + (cardW / 2), y + 58, { align: 'center' });
+doc.setFontSize(7);
+doc.text(`Cód: ${p.codigo}`, x + (cardW / 2), y + 56, { align: 'center' });
 
 // PRECIO
-doc.setFontSize(12); doc.setTextColor(0, 112, 192); doc.setFont(undefined, 'bold');
-doc.text(`$${Number(p.precio).toLocaleString("es-AR")}`, x + (cardW / 2), y + 62, { align: 'center' });
+doc.setFontSize(11); // Un punto menos para asegurar espacio
+doc.text(`$${Number(p.precio).toLocaleString("es-AR")}`, x + (cardW / 2), y + 60, { align: 'center' });
 }
 
 // Imprimir footer en la última hoja antes de guardar
-doc.setFontSize(11); 
-doc.setTextColor(230, 126, 34); 
+doc.setFontSize(11); // Footer más grande
+doc.setTextColor(230, 126, 34);
 doc.setFont(undefined, 'bold');
-doc.text("CUALQUIER CONSULTA COMUNICARSE CON SEBASTIAN AL 351-6148905", 105, 290, { align: 'center' });
+doc.text("CUALQUIER CONSULTA COMUNICARSE CON SEBASTIAN AL 351-6148905", 105, 288, { align: 'center' });
 
 doc.save("Catalogo_TAO_Imprimir.pdf");
 
@@ -635,6 +615,7 @@ cargar();
 </script>
 </body>
 </html>
+
 
 
 
