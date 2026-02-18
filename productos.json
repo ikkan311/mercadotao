@@ -279,15 +279,6 @@
     "stock": 4
   },
   {
-    "codigo": "69",
-    "nombre": "RADIO R-998",
-    "precio": 11300,
-    "categoria": "PARLANTES",
-    "imagen": "https://drive.google.com/uc?id=1ePHSWsI99O_cqpgoCySOM1zowzP9qcZS",
-    "estado": "CON STOCK",
-    "stock": 0
-  },
-  {
     "codigo": "587",
     "nombre": "RELOJ SMARTWATCH 7EN1 ROYAL S10 ULTRA",
     "precio": 19000,
@@ -565,24 +556,6 @@
     "imagen": "https://drive.google.com/uc?id=1LgL_a1ixzFfxBrL96Bes21eQ4iy0TYt1",
     "estado": "CON STOCK",
     "stock": 3
-  },
-  {
-    "codigo": "123",
-    "nombre": "SECADOR DE PELO LSE-101A 600W LEGATUS",
-    "precio": 14000,
-    "categoria": "CUIDADO PERSONAL",
-    "imagen": "https://drive.google.com/uc?id=1vcQMg8MTb3_Ru3e3VI_ZEmwreSYUtqSL",
-    "estado": "CON STOCK",
-    "stock": 0
-  },
-  {
-    "codigo": "14",
-    "nombre": "SECADOR DE PELO SEIS SP26/SP27 2000W",
-    "precio": 18000,
-    "categoria": "CUIDADO PERSONAL",
-    "imagen": "https://drive.google.com/uc?id=1Y19Kf3rSbthmsnimoniA0rWqYmGn_IFs",
-    "estado": "CON STOCK",
-    "stock": 0
   },
   {
     "codigo": "127",
