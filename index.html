@@ -472,8 +472,8 @@ const doc = new jsPDF('p', 'mm', 'a4');
 const marginX = 8; 
 const marginY = 30; 
 const gap = 2; 
-const cardW = (210 - (marginX * 2) - (gap * 3)) / 4; // Ahora dividido por 3 columnas
-const cardH = 63; 
+const cardW = (210 - (marginX * 2) - (gap * 3)) / 4; 
+const cardH = 65; 
 const productosPorHoja = 16; // Cambiado a 16 por hoja
 
 const lista = filtrados;
@@ -533,50 +533,42 @@ doc.setLineWidth(0.3);
 doc.setDrawColor(150); 
 doc.rect(x, y, cardW, cardH - 2);
 
-// IMAGEN (Más grande)
-
+// IMAGEN (Forzada a 47x47)
 const imgUrl = obtenerImagen(p.imagen);
-
 try {
+  const imgRes = await aplanarImagenProporcional(imgUrl, 47, 47);
+  if (imgRes) {
+    doc.addImage(imgRes.data, 'JPEG', x + ((cardW - 47) / 2), y + 1, 47, 47);
+  }
+} catch (e) { console.error(e); }
 
-const imgRes = await aplanarImagenProporcional(imgUrl, cardW - 2, cardW - 2);
-
-if (imgRes) {
-
-doc.addImage(imgRes.data, 'JPEG', x + 1 + imgRes.offsetX, y + 1 + imgRes.offsetY, imgRes.w, imgRes.h);
-
-}
-
-} catch (e) {}
-
-
-
-// --- BLOQUE NOMBRE DEL PRODUCTO CON AUTO-AJUSTE ---
-let fontSizeTit = 9; // Fuente inicial
+// NOMBRE DEL PRODUCTO CON REDUCCIÓN DE FUENTE
+let nombreSeguro = String(p.nombre).replace(/[″”“]/g, '"').replace(/[′’‘]/g, "'").trim();
+let fontSizeTit = 9; 
 doc.setFontSize(fontSizeTit);
 doc.setFont(undefined, 'bold');
+doc.setTextColor(30);
 
-let lineas = doc.splitTextToSize(nombreSeguro, cardW - 4);
+let lineasNombre = doc.splitTextToSize(nombreSeguro, cardW - 4);
 
-// Si el texto ocupa más de 3 renglones, bajamos la fuente a 7 e intentamos de nuevo
-if (lineas.length > 3) {
+// Si excede 2 renglones, bajamos la fuente para que entren 3 cómodos
+if (lineasNombre.length > 2) {
     fontSizeTit = 7;
     doc.setFontSize(fontSizeTit);
-    lineas = doc.splitTextToSize(nombreSeguro, cardW - 4);
+    lineasNombre = doc.splitTextToSize(nombreSeguro, cardW - 4);
 }
 
-// Dibujamos máximo 3 renglones para no pisar el precio
-doc.text(lineas.slice(0, 3), x + (cardW / 2), y + 51, { align: 'center', lineHeightFactor: 1.0 });
+// Dibujamos máximo 3 renglones
+doc.text(lineasNombre.slice(0, 3), x + (cardW / 2), y + 52, { align: 'center', lineHeightFactor: 1.0 });
 
-
-// CÓDIGO (Posición fija abajo del área de texto)
+// CÓDIGO
 doc.setFont(undefined, 'normal'); doc.setFontSize(7); doc.setTextColor(100);
-doc.text(`Cód: ${p.codigo}`, x + (cardW / 2), y + 58, { align: 'center' });
+doc.text(`Cód: ${p.codigo}`, x + (cardW / 2), y + 59, { align: 'center' });
 
-// PRECIO (Posición fija al final de la ficha)
+// PRECIO
 doc.setFontSize(12); doc.setTextColor(0, 112, 192); doc.setFont(undefined, 'bold');
-doc.text(`$${Number(p.precio).toLocaleString("es-AR")}`, x + (cardW / 2), y + 62, { align: 'center' });
-
+doc.text(`$${Number(p.precio).toLocaleString("es-AR")}`, x + (cardW / 2), y + 63, { align: 'center' });
+}
 
 // Imprimir footer en la última hoja antes de guardar
 doc.setFontSize(10); 
@@ -643,6 +635,7 @@ cargar();
 </script>
 </body>
 </html>
+
 
 
 
