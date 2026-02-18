@@ -524,7 +524,7 @@ async function generarPDFParaImprimir() {
     doc.text(lineasNombre.slice(0, 3), x + (cardW / 2), y + 49, { align: 'center', lineHeightFactor: 1.0 });
 
     // CÓDIGO
-    doc.setFont(undefined, 'normal'); doc.setFontSize(7); doc.setTextColor(100);
+    doc.setFont(undefined, 'normal'); doc.setFontSize(9); doc.setTextColor(100);
     doc.text(`Cód: ${p.codigo}`, x + (cardW / 2), y + 56, { align: 'center' });
 
     // PRECIO
@@ -596,6 +596,7 @@ cargar();
 </script>
 </body>
 </html>
+
 
 
 
