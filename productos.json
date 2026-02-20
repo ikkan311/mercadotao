@@ -6,7 +6,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1udPlSAPglvF5xd4YD3wiglxKavOUI2Wf",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 5
+    "stock": 3
   },
   {
     "codigo": "29",
@@ -15,7 +15,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=10FUznbbTRE98huoYjBTGPuxTpmZFfsbO",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 3
+    "stock": 2
   },
   {
     "codigo": "453",
@@ -105,7 +105,7 @@
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1TIVboCSHL-R9Eis-adANSB9y7Eb_IqkW",
     "estado": "CON STOCK",
-    "stock": 5
+    "stock": 0
   },
   {
     "codigo": "27",
@@ -114,7 +114,7 @@
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1MIdnzsRW-TAAq44kOuSD6wCWdaazPbAu",
     "estado": "CON STOCK",
-    "stock": 18
+    "stock": 13
   },
   {
     "codigo": "20",
@@ -123,7 +123,7 @@
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1TfyIwJKlUGCrgKLQogOX8agKlEWa2lIv",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 29
+    "stock": 24
   },
   {
     "codigo": "21",
