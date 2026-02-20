@@ -348,7 +348,7 @@
     "categoria": "ILUMINACIÓN",
     "imagen": "https://drive.google.com/uc?id=1Yr4l1qgGqoaG_nsAFp2bG1JJ6Fxinv86",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 5
+    "stock": 3
   },
   {
     "codigo": "205",
@@ -375,7 +375,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1Ft8znbHpQcSNR3ZxIUjTO5yajR_DTUCP",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 4
+    "stock": 2
   },
   {
     "codigo": "63",
@@ -438,7 +438,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1VzC43NXmBzitEgCinldDcjML1boVaZL1",
     "estado": "CON STOCK",
-    "stock": 0.5
+    "stock": -0.5
   },
   {
     "codigo": "673",
@@ -582,7 +582,7 @@
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1Cn1kZifednWH6Dpdj93Tv1wcpXDNlmpV",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
+    "stock": 1
   },
   {
     "codigo": "36",
@@ -636,7 +636,7 @@
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1juQxX54sETQRWT_blCktmk1KT_HCOTpT",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 3
+    "stock": 2
   },
   {
     "codigo": "45",
@@ -708,7 +708,7 @@
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1qWJO3cx7o5P67owApjqhsRutHUow4mzX",
     "estado": "CON STOCK",
-    "stock": 2
+    "stock": 1
   },
   {
     "codigo": "199",
@@ -717,6 +717,6 @@
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1w2jYeCB2XvXADBWWfBeVyJEr0oyn51gM",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
+    "stock": 1
   }
 ]
