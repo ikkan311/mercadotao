@@ -37,7 +37,7 @@
   },
   {
     "codigo": "34",
-    "nombre": "CARGADOR ROYALCELL CABLE +C ABEZAL 2 entradas 55w USB Y TIPO C",
+    "nombre": "CARGADOR ROYALCELL 55W USB Y TIPO C",
     "precio": 9500,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1nEnJRpdvPDCOd-ZW_sKKYovESeqp_2ub",
@@ -203,15 +203,6 @@
     "precio": 2400,
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1s2WhGJtfLUWtTSU1JAXPfbbZ-qfqo_V2",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "134",
-    "nombre": "OTG MICRO CON CABLE S-K07",
-    "precio": 1000,
-    "categoria": "CABLES",
-    "imagen": "https://drive.google.com/uc?id=13Uwdgz2JqzjBC801cQevQXgcdMaYe8Jt",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -954,15 +945,6 @@
     "stock": 1
   },
   {
-    "codigo": "276",
-    "nombre": "TV BOX MX9 4K 256 GB MEMORIA",
-    "precio": 26900,
-    "categoria": "TECNOLOGIA",
-    "imagen": "https://drive.google.com/uc?id=14Cu809cxeIxJiaz5a3ruDcRHPCLW0TCk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
     "codigo": "386",
     "nombre": "PROYECTOR SMART CON ANDROID LEGATUS LPY851",
     "precio": 91200,
@@ -972,11 +954,11 @@
     "stock": 0
   },
   {
-    "codigo": "186",
-    "nombre": "CABLE V3 A USB / PS3",
-    "precio": 1200,
+    "codigo": "276",
+    "nombre": "TV BOX MX9 4K 256 GB MEMORIA",
+    "precio": 26900,
     "categoria": "TECNOLOGIA",
-    "imagen": "https://drive.google.com/uc?id=1zZ0FWDvyuIUP4w02Vaqxt2EvzNu8dKB_",
+    "imagen": "https://drive.google.com/uc?id=14Cu809cxeIxJiaz5a3ruDcRHPCLW0TCk",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -1287,13 +1269,13 @@
     "stock": 0
   },
   {
-    "codigo": "566",
-    "nombre": "PIZARRA DIGITAL 9″ MULTICOLOR",
-    "precio": 5600,
+    "codigo": "565",
+    "nombre": "PIZARRA DIGITAL 12′",
+    "precio": 5300,
     "categoria": "JUGUETERIA",
-    "imagen": "https://drive.google.com/uc?id=1iulvrRb9VfWHgkvMEHMpMeM1bVZy_sc7",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "imagen": "https://drive.google.com/uc?id=1EUEqE4l0FCImbzt4fgM1eNeGMwvsWP0W",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 2
   },
   {
     "codigo": "628",
@@ -1305,13 +1287,13 @@
     "stock": 0
   },
   {
-    "codigo": "565",
-    "nombre": "PIZARRA DIGITAL 12′",
-    "precio": 5300,
+    "codigo": "566",
+    "nombre": "PIZARRA DIGITAL 9″ MULTICOLOR",
+    "precio": 5600,
     "categoria": "JUGUETERIA",
-    "imagen": "https://drive.google.com/uc?id=1EUEqE4l0FCImbzt4fgM1eNeGMwvsWP0W",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
+    "imagen": "https://drive.google.com/uc?id=1iulvrRb9VfWHgkvMEHMpMeM1bVZy_sc7",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
   },
   {
     "codigo": "632",
@@ -1341,20 +1323,20 @@
     "stock": 1
   },
   {
-    "codigo": "332",
-    "nombre": "PULSERA LABUBU CON LUZ Y SONIDO",
-    "precio": 10400,
-    "categoria": "JUGUETERIA",
-    "imagen": "https://drive.google.com/uc?id=1DEWgKgKYQSEKaMSetnUkbokXuc9lf5d-",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
     "codigo": "333",
     "nombre": "PULSERA LABUBU CON LUZ, MOVIMIENTO Y SONIDO",
     "precio": 12700,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1B5PpspAU4hHgye71Y9eh3ZraHbe1NeNW",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
+    "codigo": "332",
+    "nombre": "PULSERA LABUBU CON LUZ Y SONIDO",
+    "precio": 10400,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1DEWgKgKYQSEKaMSetnUkbokXuc9lf5d-",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -2129,15 +2111,6 @@
     "precio": 56000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1lWI63jUbFNzoWAC81CJ4_cfEpUxa23a2",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "245",
-    "nombre": "MICROONDAS ORYX 20L OR-MIC01 1000W",
-    "precio": 243200,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1HVzjwH5GvlzuaOGndxi9MPakB9bdAg68",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
