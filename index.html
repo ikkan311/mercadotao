@@ -524,11 +524,12 @@ async function generarPDFParaImprimir() {
     doc.setDrawColor(200); 
     doc.rect(x, y, cardW, cardH - 2);
 
-    // CÓDIGO (Arriba a la izquierda, espaciado mínimo)
+    // CÓDIGO (Debajo de la foto, alineado a la izquierda)
     doc.setFont(undefined, 'normal'); 
     doc.setFontSize(8); 
-    doc.setTextColor(150);
-    doc.text(`${p.codigo}`, x + 2, y + 4);
+    doc.setTextColor(100);
+    // x + 2 lo pega al borde izquierdo, y + 44 lo pone justo bajo la imagen
+    doc.text(`Cód: ${p.codigo}`, x + 2, y + 44);
 
     // IMAGEN (42x42 para que no toque bordes)
     const imgUrl = obtenerImagen(p.imagen);
@@ -552,7 +553,7 @@ async function generarPDFParaImprimir() {
         doc.setFontSize(fontSizeTit);
         lineasNombre = doc.splitTextToSize(nombreSeguro, cardW - 4);
     }
-    doc.text(lineasNombre.slice(0, 3), x + (cardW / 2), y + 46, { align: 'center', lineHeightFactor: 1.0 });
+    doc.text(lineasNombre.slice(0, 3), x + (cardW / 2), y + 48, { align: 'center', lineHeightFactor: 1.0 });
 
     
     // LEYENDA DE ESTADO (Colores originales del index)
@@ -571,11 +572,11 @@ async function generarPDFParaImprimir() {
     doc.setFontSize(7);
     doc.setTextColor(colorTexto[0], colorTexto[1], colorTexto[2]);
     doc.setFont(undefined, 'bold');
-    doc.text(textoMostrar, x + (cardW / 2), y + 55, { align: 'center' });
+    doc.text(textoMostrar, x + (cardW / 2), y + 56, { align: 'center' });
 
     // PRECIO
     doc.setFontSize(11); doc.setTextColor(39, 174, 96); doc.setFont(undefined, 'bold');
-    doc.text(`$${Number(p.precio).toLocaleString("es-AR")}`, x + (cardW / 2), y + 62, { align: 'center' });
+    doc.text(`$${Number(p.precio).toLocaleString("es-AR")}`, x + (cardW / 2), y + 63, { align: 'center' });
   }
 
   // Footer última hoja
@@ -683,6 +684,7 @@ cargar();
 </script>
 </body>
 </html>
+
 
 
 
