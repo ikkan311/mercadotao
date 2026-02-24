@@ -522,21 +522,21 @@ async function generarPDFParaImprimir() {
     // Borde ficha
     doc.setLineWidth(0.1); 
     doc.setDrawColor(200); 
-    doc.rect(x, y, cardW, cardH - 2);
+    doc.rect(x, y, cardW, cardH - 1);
 
-    // CÓDIGO (Debajo de la foto, alineado a la izquierda)
+   // CÓDIGO (Debajo de la foto, alineado a la izquierda)
     doc.setFont(undefined, 'normal'); 
     doc.setFontSize(8); 
     doc.setTextColor(100);
-    // x + 2 lo pega al borde izquierdo, y + 46 lo pone justo bajo la imagen
-    doc.text(`Cód: ${p.codigo}`, x + 2, y + 46);
+    // x + 5 lo separa un poco del borde izquierdo, y + 48 lo baja tras la foto
+    doc.text(`Cód: ${p.codigo}`, x + 5, y + 47);
 
     // IMAGEN (42x42 para que no toque bordes)
     const imgUrl = obtenerImagen(p.imagen);
     try {
       const imgRes = await aplanarImagenProporcional(imgUrl, 42, 42);
       if (imgRes) {
-        doc.addImage(imgRes.data, 'JPEG', x + ((cardW - 42) / 2), y + 2, 42, 42);
+        doc.addImage(imgRes.data, 'JPEG', x + ((cardW - 40) / 2), y + 2, 40, 40);
       }
     } catch (e) {}
 
@@ -553,7 +553,7 @@ async function generarPDFParaImprimir() {
         doc.setFontSize(fontSizeTit);
         lineasNombre = doc.splitTextToSize(nombreSeguro, cardW - 4);
     }
-    doc.text(lineasNombre.slice(0, 3), x + (cardW / 2), y + 50, { align: 'center', lineHeightFactor: 1.0 });
+    doc.text(lineasNombre.slice(0, 3), x + (cardW / 2), y + 52, { align: 'center', lineHeightFactor: 1.0 });
 
     
     // LEYENDA DE ESTADO (Colores originales del index)
@@ -572,7 +572,7 @@ async function generarPDFParaImprimir() {
     doc.setFontSize(7);
     doc.setTextColor(colorTexto[0], colorTexto[1], colorTexto[2]);
     doc.setFont(undefined, 'bold');
-    doc.text(textoMostrar, x + (cardW / 2), y + 56, { align: 'center' });
+    doc.text(textoMostrar, x + (cardW / 2), y + 58, { align: 'center' });
 
     // PRECIO
     doc.setFontSize(11); doc.setTextColor(39, 174, 96); doc.setFont(undefined, 'bold');
@@ -684,6 +684,7 @@ cargar();
 </script>
 </body>
 </html>
+
 
 
 
