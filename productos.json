@@ -50,7 +50,7 @@
     "precio": 5600,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1khxiWsRlFkHjyiglJ59eZ3SvIJnORRJi",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -59,7 +59,7 @@
     "precio": 8800,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=11NuKtGg8qWvTjMXKBh50cXG7hj0bsSB-",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -86,7 +86,7 @@
     "precio": 25400,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1HKxPffCXKABoBJ5TKWPKrW0O658ALmxQ",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -122,7 +122,7 @@
     "precio": 9400,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1JvEBrDL-qcnKGa5xvLzzWNxHCWPvYyfB",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -140,7 +140,7 @@
     "precio": 4000,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1IFR3WQq230cisqP44zHSm4fb9UsnQgBR",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -176,7 +176,7 @@
     "precio": 2900,
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1q6ZnJDzFOz-tPcqehLwy9HDPqJPNWDD9",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -203,7 +203,7 @@
     "precio": 2400,
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1s2WhGJtfLUWtTSU1JAXPfbbZ-qfqo_V2",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -221,7 +221,7 @@
     "precio": 1000,
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=13Uwdgz2JqzjBC801cQevQXgcdMaYe8Jt",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -248,7 +248,7 @@
     "precio": 11000,
     "categoria": "ACCESORIOS",
     "imagen": "https://drive.google.com/uc?id=1OfQKkd6MyllPJkkILuec0WxJpVP6SLc0",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -347,7 +347,7 @@
     "precio": 20600,
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=1BSi3ogPbGuqBV6aDg6oNdaNR64B2R7NU",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -356,7 +356,7 @@
     "precio": 28800,
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=175MEq5pFVGvt_IzDcoXyc1vYbTAw7R92",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -365,7 +365,7 @@
     "precio": 28800,
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=1Z86nTwGWdHOhXyzv7D_r2DDRHVYEIECk",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -392,7 +392,7 @@
     "precio": 13600,
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=1TsLel6-HB_jWmeJ7LFS7CE9VKbhES7f4",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -401,7 +401,7 @@
     "precio": 23800,
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=197RJw4k0N2LL9d19mRzwt8vRG4sjkznX",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -410,7 +410,7 @@
     "precio": 16000,
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=1g876_1-g8hRIHmua4yvICZMNQUhgJd6_",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -419,7 +419,7 @@
     "precio": 30400,
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=19DfeR1MjOAHK0DC656oQJ49e-TzV_BKY",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -428,7 +428,7 @@
     "precio": 34400,
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=137c1gm0eP9FBGnvxm5EDqZyIyFpXdGwb",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -437,7 +437,7 @@
     "precio": 35200,
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=1E6-7r3l1Bbt5VMo6tx0q-MRxAAK0wTam",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -446,7 +446,7 @@
     "precio": 29900,
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=1uj-GxuIHECM0YZRS7ReKMR6_PrVnA_AL",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -455,7 +455,7 @@
     "precio": 28800,
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=1Ri8u7J4LqZPRP-zurp6TdzJdWtJsxGi9",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -464,7 +464,7 @@
     "precio": 49500,
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=1PrDDR4xmZje75Yq4lm50oqmTaVpY2mI_",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -473,7 +473,7 @@
     "precio": 121000,
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=16Fs4mAsevtOZLx3QWujRmV8x5pt7cCow",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -482,7 +482,7 @@
     "precio": 157600,
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=19vJTz86pTrRdr6l2MNusbE5Hs1WDrC3C",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -491,7 +491,7 @@
     "precio": 232000,
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=1kbes8XA5k6C92yPubQjUy9C9_rfOwz2c",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -500,7 +500,7 @@
     "precio": 384000,
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=1Gk6lTg5rPtWsCeYWDGPmkU0QpMbIgzcF",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -527,7 +527,7 @@
     "precio": 60800,
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=1eIBxNZz2ri6zqHATPmf5WNKQqzwGd-2r",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -536,7 +536,7 @@
     "precio": 31200,
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=1eotPJXULE59oT6KHJeAze3MftSqRSwsr",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -545,7 +545,7 @@
     "precio": 17900,
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=19RBoJS1Cspm07XaLLFhSkkUNjdupR0QE",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -554,7 +554,7 @@
     "precio": 76800,
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=1Wco7esRifdxRbGZT-jcSG8lCX3M9YZc7",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -572,7 +572,7 @@
     "precio": 9000,
     "categoria": "ILUMINACIÓN",
     "imagen": "https://drive.google.com/uc?id=1CvtiktXvMXQz0qAbY0OBwodLTjp1qfth",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -581,7 +581,7 @@
     "precio": 9000,
     "categoria": "ILUMINACIÓN",
     "imagen": "https://drive.google.com/uc?id=1ZEB0zB2tP9mrvzGYoDFYU8J2UJdit-sB",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -590,7 +590,7 @@
     "precio": 9000,
     "categoria": "ILUMINACIÓN",
     "imagen": "https://drive.google.com/uc?id=1MHpCdm9XmFoZ9KsaG0XgtE18t3f4qKzR",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -626,7 +626,7 @@
     "precio": 10100,
     "categoria": "ILUMINACIÓN",
     "imagen": "https://drive.google.com/uc?id=1CwG0PlEhzJngVp_21ZWF0ZhawFMvcqhd",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -635,7 +635,7 @@
     "precio": 10100,
     "categoria": "ILUMINACIÓN",
     "imagen": "https://drive.google.com/uc?id=1ASYp8u5dqJ9Pl8RNXFC-fZoTQiS5ww8T",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -644,7 +644,7 @@
     "precio": 10100,
     "categoria": "ILUMINACIÓN",
     "imagen": "https://drive.google.com/uc?id=1kYKrls39Ckfdk_gQtrjiWLHV4HVzRuNa",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -653,7 +653,7 @@
     "precio": 13800,
     "categoria": "ILUMINACIÓN",
     "imagen": "https://drive.google.com/uc?id=12GXBseDTkYowVSGikZdrsAmmZzzkeQk0",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -671,7 +671,7 @@
     "precio": 28000,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1aRbmDRX4QgT15MzxB9mcb2z8ocvaSeso",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -689,7 +689,7 @@
     "precio": 9500,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1Vn3GF3DCG0-8amOu2OEwtHVcLCvK4Wuz",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -698,7 +698,7 @@
     "precio": 13600,
     "categoria": "ILUMINACIÓN",
     "imagen": "https://drive.google.com/uc?id=1oRuONOrLvR6GBtmaGdhewpC9WCs56Ftt",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -707,7 +707,7 @@
     "precio": 23500,
     "categoria": "ILUMINACIÓN",
     "imagen": "https://drive.google.com/file/d/1oL98nzoDW-ZX0YZdmPQY5vi_LJ9TNbsE/view",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -716,7 +716,7 @@
     "precio": 33300,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=16CADXL5Em6im7QBTXFNulBmulKcPOVcb",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -725,7 +725,7 @@
     "precio": 41400,
     "categoria": "ILUMINACIÓN",
     "imagen": "https://drive.google.com/uc?id=1JZC-XUw-5ov1lkQpAv5bv2JN2rWRkt42",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -734,7 +734,7 @@
     "precio": 12600,
     "categoria": "ILUMINACIÓN",
     "imagen": "https://drive.google.com/uc?id=1ojwn1rW6OagArIdjqbuPZSuLEAWxohle",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -743,7 +743,7 @@
     "precio": 12800,
     "categoria": "ILUMINACIÓN",
     "imagen": "https://drive.google.com/uc?id=1FcMHkOmUiZZaM8uDDGXzIIU3nkKB6FSC",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -752,7 +752,7 @@
     "precio": 31200,
     "categoria": "ILUMINACIÓN",
     "imagen": "https://drive.google.com/uc?id=1wN0V_DKbQarr2J3pnaD3m2vRQaKf7DKq",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -761,7 +761,7 @@
     "precio": 33600,
     "categoria": "ILUMINACIÓN",
     "imagen": "https://drive.google.com/uc?id=1tOIL8KcoUQk8daQPfhMwHEl6uSwuzGH8",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -770,7 +770,7 @@
     "precio": 67200,
     "categoria": "ILUMINACIÓN",
     "imagen": "https://drive.google.com/uc?id=1hqoO9w0Z52q19vSFsF2t6SFfLXOsDTtG",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -779,7 +779,7 @@
     "precio": 65600,
     "categoria": "ILUMINACIÓN",
     "imagen": "https://drive.google.com/uc?id=1hy11v_EoCX_0JDlnl6wR8pbDD47ugo22",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -788,7 +788,7 @@
     "precio": 4000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1YPPLpSKj_dCs5VBOKqHjOnOEhiPl8xa0",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -797,7 +797,7 @@
     "precio": 4600,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1PpJPMeryo3qsbKsC06mjt3IKPrNX8q6E",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -806,7 +806,7 @@
     "precio": 28000,
     "categoria": "ILUMINACIÓN",
     "imagen": "https://drive.google.com/uc?id=1X7zZrJqzjLqc_jRhh_-NCaaH9bCtMn_Q",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -815,7 +815,7 @@
     "precio": 13900,
     "categoria": "ILUMINACIÓN",
     "imagen": "https://drive.google.com/uc?id=1APY3xhjvbkvu30o4ZdQlgFf_hZVEL4XY",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -824,7 +824,7 @@
     "precio": 17400,
     "categoria": "ILUMINACIÓN",
     "imagen": "https://drive.google.com/uc?id=1tMgxBC2Uz9KVCRjC5ewtRPpJRfKQoCTg",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -842,7 +842,7 @@
     "precio": 23800,
     "categoria": "ILUMINACIÓN",
     "imagen": "https://drive.google.com/uc?id=1sZ-OW3V9v9JvaobudeG-BAwWYgUd_T-D",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -860,7 +860,7 @@
     "precio": 16500,
     "categoria": "ILUMINACIÓN",
     "imagen": "https://drive.google.com/uc?id=1oa57XD27ba6bn-A9VHNFGxLBGqToLd_p",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -869,7 +869,7 @@
     "precio": 19700,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1vsFmZglx1qxcsfJBBoQaGhdnBvTQ28Tp",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -878,7 +878,7 @@
     "precio": 18400,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1f-hr9Azv-ej7XwAyT8HuJGA3VK80NmGL",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -887,7 +887,7 @@
     "precio": 18400,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1ekErEu6DAm76GH1hUUA0jV7y2toGfFqi",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -896,7 +896,7 @@
     "precio": 26900,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=14Cu809cxeIxJiaz5a3ruDcRHPCLW0TCk",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -905,7 +905,7 @@
     "precio": 37400,
     "categoria": "SEGURIDAD",
     "imagen": "https://drive.google.com/uc?id=14Q0cEU2U5ICfJQwsHbcLtp_AWEi5IgR6",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -914,7 +914,7 @@
     "precio": 48000,
     "categoria": "SEGURIDAD",
     "imagen": "https://drive.google.com/uc?id=1FH2qQ1WxO37phGByN25pI7lRiX9MGXiG",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -923,7 +923,7 @@
     "precio": 337300,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1Taap2jizcXpKUjEkRuhi1RvZFmeqbqok",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -932,7 +932,7 @@
     "precio": 122400,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=19Yi5vkEGIsnBl-_aXGRtk9pgoCY3iTt1",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -941,7 +941,7 @@
     "precio": 91200,
     "categoria": "TECNOLOGIA",
     "imagen": "https://drive.google.com/uc?id=1LcSKQqLROfJV8eP5CZC8_57xQW73EUrC",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -950,7 +950,7 @@
     "precio": 11500,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1fyDXvlKZ56SXAlTOD8vTVxzyuhn1KGTn",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -959,7 +959,7 @@
     "precio": 5400,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1TkFYmLVb0QpokklN-BGDoQdGjJCTA8wV",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -968,7 +968,7 @@
     "precio": 1200,
     "categoria": "TECNOLOGIA",
     "imagen": "https://drive.google.com/uc?id=1zZ0FWDvyuIUP4w02Vaqxt2EvzNu8dKB_",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -977,7 +977,7 @@
     "precio": 11000,
     "categoria": "TECNOLOGIA",
     "imagen": "https://drive.google.com/uc?id=1j39ejjWyd-aICCGZZfIR6MsEdYyR8ZxL",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -995,7 +995,7 @@
     "precio": 30400,
     "categoria": "TECNOLOGIA",
     "imagen": "https://drive.google.com/uc?id=1Gw1k0y3PIo4dzuueZy8brGWr1hxXYu2s",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1004,7 +1004,7 @@
     "precio": 25600,
     "categoria": "TECNOLOGIA",
     "imagen": "https://drive.google.com/uc?id=1nfv5cxfbyrewTdCvbknDOP3rQNArNsTM",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1013,7 +1013,7 @@
     "precio": 2500,
     "categoria": "TECNOLOGIA",
     "imagen": "https://drive.google.com/uc?id=1UfKezLJ3qQ1e_3IjFJApmyQ5WMQHDwkZ",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1022,7 +1022,7 @@
     "precio": 4500,
     "categoria": "TECNOLOGIA",
     "imagen": "https://drive.google.com/uc?id=1ksBKxCAVKo6gVfegQQaf2iEv1962vFCs",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1031,7 +1031,7 @@
     "precio": 4500,
     "categoria": "TECNOLOGIA",
     "imagen": "https://drive.google.com/uc?id=1YSCEjAUSuE383qZ0dVVH1xkOyd5bBJM4",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1040,7 +1040,7 @@
     "precio": 6400,
     "categoria": "TECNOLOGIA",
     "imagen": "https://drive.google.com/uc?id=1sp74d4a9pycViqEiGZDJxcPSm_jipLt0",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1049,7 +1049,7 @@
     "precio": 6400,
     "categoria": "TECNOLOGIA",
     "imagen": "https://drive.google.com/uc?id=1PaVfjIiH3Sct91_RT-nmVFTmwrTGTySn",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1058,7 +1058,7 @@
     "precio": 6400,
     "categoria": "TECNOLOGIA",
     "imagen": "https://drive.google.com/uc?id=11ntDduyyJxdReyxIZ6__tnkWXbDqgYcn",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1067,7 +1067,7 @@
     "precio": 5600,
     "categoria": "TECNOLOGIA",
     "imagen": "https://drive.google.com/uc?id=1ZGPPJllSTwS3F0qLvvux9o3qYfrS2A0L",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1076,7 +1076,7 @@
     "precio": 20500,
     "categoria": "TECNOLOGIA",
     "imagen": "https://drive.google.com/uc?id=1O6pR884uoG2vBHU9ShP1rBgCQOUEGL-5",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1085,7 +1085,7 @@
     "precio": 24800,
     "categoria": "TECNOLOGIA",
     "imagen": "https://drive.google.com/uc?id=1t9kfcRa0GCL49141MwJYEuEZoA7eRSgi",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1094,7 +1094,7 @@
     "precio": 46000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1RLBEshPCxRSmX-eHO6U6SJhBLOEPwRiw",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1103,7 +1103,7 @@
     "precio": 27000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1jazRP638TUR2Dt0QBqfrvgYXTf7nqQUz",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1112,7 +1112,7 @@
     "precio": 36800,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=17y5NoSsergmx3aGlyDz4340SksJ4geOJ",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1121,7 +1121,7 @@
     "precio": 43200,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1O2WP0p004u0i0pXLTFuES8oVm7TAmuSM",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1130,7 +1130,7 @@
     "precio": 7200,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1NSyXINIBQc1WSgw_okLoRxX9hViRL7T_",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1148,7 +1148,7 @@
     "precio": 4200,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=11y4Q7uLd4XSviMKbjs4QoF7Ko5Ph9UXK",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1157,7 +1157,7 @@
     "precio": 20600,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1ssryZtqisEAToaVX0Fj5Xcb9SoYEByPx",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1166,7 +1166,7 @@
     "precio": 29600,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1NCUTbAXTrrR4O91fS1kUcadZWstmwv-B",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1175,7 +1175,7 @@
     "precio": 43200,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1fYC3NEenhMbz616rnkJLHDko5NZQZ5Px",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1184,7 +1184,7 @@
     "precio": 50400,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=16Li3BZxrT-HTJt1luqqp288Twiv43I-S",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1193,7 +1193,7 @@
     "precio": 56000,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1o85RYGyfEPBCwWtyEGTSlGDaxYSHQeTa",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1202,7 +1202,7 @@
     "precio": 56000,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=11C6Wk7Z6v-nQpYj5M3alAtVtAUqlsL42",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1220,7 +1220,7 @@
     "precio": 12000,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1UZFaDCC3dErp0T7TrcsBSwTOz75aMUvF",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1256,7 +1256,7 @@
     "precio": 3300,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=18VwpdDr_qkhfo6YZSELwxVTcBSVMj-fM",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1274,7 +1274,7 @@
     "precio": 6700,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1AXr2IuwILj7DQYxG573S-vcdAZdhPBnN",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1283,7 +1283,7 @@
     "precio": 5600,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1iulvrRb9VfWHgkvMEHMpMeM1bVZy_sc7",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1292,7 +1292,7 @@
     "precio": 13600,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1Slg0TN_9f7WKnkXu2qS3wSbprVUkGhl7",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1337,7 +1337,7 @@
     "precio": 10400,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1DEWgKgKYQSEKaMSetnUkbokXuc9lf5d-",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1346,7 +1346,7 @@
     "precio": 12700,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1B5PpspAU4hHgye71Y9eh3ZraHbe1NeNW",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1355,7 +1355,7 @@
     "precio": 8200,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1kz1j6qpY6c6P6VuWKI_gr2Hgmm3Yc9eI",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1364,7 +1364,7 @@
     "precio": 9000,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1-8M9qQFZsO3ME94rqqp0hM0Ky0TAhRFk",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1373,7 +1373,7 @@
     "precio": 88000,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1Wa-yf60UpVQd_dgZy7h8nBRHNZdmARxh",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1382,7 +1382,7 @@
     "precio": 56000,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=10zoR6UYnSaYCIrABdDMX3qrls8Tr0hQc",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1391,7 +1391,7 @@
     "precio": 20600,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1RK9OlsSVsKGnG3J-VVoCmCeUNCqKPWHZ",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1418,7 +1418,7 @@
     "precio": 18400,
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1dm5Ckd8c-5a_PLR1EzEb7J0KWCuwfpBG",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1427,7 +1427,7 @@
     "precio": 20000,
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1C-ekS3ECjZ2P3oe-vjfb5W1RY16mgpkP",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1436,7 +1436,7 @@
     "precio": 18400,
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1cMJfXIcQOb484j6ro6A3hmU3PA898eXQ",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1445,7 +1445,7 @@
     "precio": 10400,
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=186pRoTST8iC-EICoRB8XQ7aNrBnvTow1",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1454,7 +1454,7 @@
     "precio": 36600,
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1bgVNb0ld8_8VQ50iocBBznKSorcf3KWo",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1463,7 +1463,7 @@
     "precio": 31800,
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1orYfB0WBdWLVuFzPM9OJyrz8S-w8F5nF",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1472,7 +1472,7 @@
     "precio": 1900,
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1tL1abMTnC7gHzzAcpxRJ4_o-hfUb697P",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1481,7 +1481,7 @@
     "precio": 1900,
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1FjGZv-4c3phY9PFFV236rEtv1l0ovA5_",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1526,7 +1526,7 @@
     "precio": 22400,
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1MhF4F3OZpq7NU29kBL13hVFGKEN5daI_",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1535,7 +1535,7 @@
     "precio": 33600,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1vnk_yD_i0usM5HiGKaPX2glei-Ue-fh2",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1553,7 +1553,7 @@
     "precio": 34400,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=17Ejqb18ZlL7YK4dOR4ZhIJ16SlfJP0aV",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1562,7 +1562,7 @@
     "precio": 24000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1ftA9EI0_0usd-Ai5GTBA6j1ELhcArClt",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1571,7 +1571,7 @@
     "precio": 35200,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1M3YaxzgHf1ymvx7uyShTP2JvcPuwnQaY",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1580,7 +1580,7 @@
     "precio": 32800,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=17BIR6ZV2j7luDGndnb-9Cj9CIFlvQbIi",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1598,7 +1598,7 @@
     "precio": 31200,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1xjF9LBD2k-YXgueIz0Qs9TawbXeFE8oe",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1607,7 +1607,7 @@
     "precio": 40000,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1B6L9B3_I3MKIGnMCplVrefQPiwPqYtIj",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1616,7 +1616,7 @@
     "precio": 14900,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1DxmtjGDP53Fpdlno3SN3jXu_pQNnqfQa",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1625,7 +1625,7 @@
     "precio": 6100,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1lDnolNLtWgAVF7wbv8rDhzdxeN8sEnZL",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1643,7 +1643,7 @@
     "precio": 27200,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1SCEE68SqiW3pTGeTOMIRfXPTXiRV0Mia",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1652,7 +1652,7 @@
     "precio": 8800,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1tkNElYZCgFIrwbo5_AIaKJC22jkTF9lM",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1661,7 +1661,7 @@
     "precio": 30200,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1pjTk1gRzOrY5Bp0MenjByDpbQ787UfOe",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1670,7 +1670,7 @@
     "precio": 7500,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=109PntNhz0OI2CBgjfjai69K3Y04RgsuY",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1679,7 +1679,7 @@
     "precio": 53600,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1EyOs3CPaYosDGrayz9xpAAr8wULVzn-q",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1688,7 +1688,7 @@
     "precio": 61600,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1nO2GkcxwfPUaOFDE7lp70PWr9Bcaunok",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1697,7 +1697,7 @@
     "precio": 56800,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1cgQVV1lEIVd5pD41l9XsDqqXAFCaFFUx",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1706,7 +1706,7 @@
     "precio": 3500,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1DnupUgzcTMKK6NT4i10jooy1ig6pOWSJ",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1715,7 +1715,7 @@
     "precio": 18400,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1biUhXi2HuLEeu409_hAVAYQyFQ1v-9PY",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1724,7 +1724,7 @@
     "precio": 36500,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=11VSJkLrilOJbME2W2Xdq9xzz6K-VzHjx",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1733,7 +1733,7 @@
     "precio": 46200,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1AKO_YVKoJK-Eo20ccbsED1GQP_Wr8Zqm",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1742,7 +1742,7 @@
     "precio": 40000,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1GkaoM6qAuueh_BbMxtjXWCVzkOHYIXdI",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1751,7 +1751,7 @@
     "precio": 31800,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1p275_iz4dYd4u1lC6XiF1USqnhZAaA1V",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1769,7 +1769,7 @@
     "precio": 18900,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1KQO2N8rsovi1aaZbYDN7qj3KvnllvpwO",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1778,7 +1778,7 @@
     "precio": 35200,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1ttlahwVM4YjPMKkBle0RSMG60nweyJoG",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1796,7 +1796,7 @@
     "precio": 10200,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1q9nk2YNVh4XXSyttQg7QAuxpxbONTvlg",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1814,7 +1814,7 @@
     "precio": 28000,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1V9MnLuNaW4kZPIa2Y6uZLPraMUSyJMyY",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1823,7 +1823,7 @@
     "precio": 55800,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=16ydvfHNwy-d6icTB_YJDq4vwE7kATU5f",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1832,7 +1832,7 @@
     "precio": 48000,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1qcrS25vs9mEmS9hQq_54qSUroM_xu15q",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1859,7 +1859,7 @@
     "precio": 13600,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1AATzHlvpRkri20dHnnNUktMpEpf7c8AB",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1868,7 +1868,7 @@
     "precio": 43000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=10MVwKvyDWK847HVhNUUjdPiBvlxnD44v",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1886,7 +1886,7 @@
     "precio": 15500,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1T-n2617EAILcvuHh0pUHEFHdtGnUR7Vu",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1904,7 +1904,7 @@
     "precio": 4600,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1OLkcMc7sFmLznkY8a8_cWGCxmQxYBqwW",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1913,7 +1913,7 @@
     "precio": 31200,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1Bf4lrfInk6gVh81sQwHITFIIzpfzSN-i",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1922,7 +1922,7 @@
     "precio": 200000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1Dg4VcreaaFN0Rd0xVbdZ59jK_izpRRhi",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1931,7 +1931,7 @@
     "precio": 50400,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=19Sidu13UTb3R9zH-0PqqZnAFewaHuFac",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1940,7 +1940,7 @@
     "precio": 232800,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1JkJUcPzpbb1roBdh6nXbkvz-fyhwpWtE",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1949,7 +1949,7 @@
     "precio": 44800,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1TL55qoMr8e5AkVVlM9d1sio50FaAgRfS",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1958,7 +1958,7 @@
     "precio": 15800,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1lhTPHLaTjCShvkyJzuCvTrREyE7fUkyG",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1976,7 +1976,7 @@
     "precio": 72800,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1Zs8rhBuBvKWp0LVoeL7PqSTfxA0MCpdG",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1985,7 +1985,7 @@
     "precio": 57600,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1HoPK103RVJ2P5ZEddeUAGMI7Kpefmwsh",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -1994,7 +1994,7 @@
     "precio": 80000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1t_D1VjNXrw-HR5Q5-QySWPiZbE9u3P0B",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2003,7 +2003,7 @@
     "precio": 31200,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1zisHK1HsfGq-dpFbeMOKIYNTPKM_FRU0",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2012,7 +2012,7 @@
     "precio": 18900,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1xfJaW0G-q-XuOVvaYZuQnpa4-uCYz92B",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2021,7 +2021,7 @@
     "precio": 110400,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=19S_URTNeEgyw7OgRxVsOCIzuygIaNPPe",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2030,7 +2030,7 @@
     "precio": 93600,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1WHXcRGkQLomDpli4bOGYGmMGogCtT0Lt",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2039,7 +2039,7 @@
     "precio": 74900,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1JJGEpNdDQsXy6shAb1lW7YIJw7nwS38G",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2048,7 +2048,7 @@
     "precio": 9100,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1nJILWdUNQNf4GelPbAZwHBZXn08FWjac",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2057,7 +2057,7 @@
     "precio": 13300,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=14z9cYQLYGpL_S2zD9z5QN5lDeqSktFP2",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2066,7 +2066,7 @@
     "precio": 76000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1G_fXG_8h9rw2zG-bW3wzXz2hao8dO1Zh",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2075,7 +2075,7 @@
     "precio": 44000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1wwj-2rQ2zMMODrzZM-uaAbBCtkLRZva6",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2084,7 +2084,7 @@
     "precio": 55200,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1QtHa-3D3yr8SUMrEs_2_bEgoobZ1TM8q",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2093,7 +2093,7 @@
     "precio": 60600,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1PaDPyeh83dDOM9mSLFnExWCp9QRT2OF5",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2102,7 +2102,7 @@
     "precio": 56000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1lWI63jUbFNzoWAC81CJ4_cfEpUxa23a2",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2111,7 +2111,7 @@
     "precio": 243200,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1HVzjwH5GvlzuaOGndxi9MPakB9bdAg68",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2120,7 +2120,7 @@
     "precio": 5900,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1E0CVsNP5KnLG06YLEoROtHZfXYOEH8b5",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2129,7 +2129,7 @@
     "precio": 28000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1BHl8750ZxmO86oMhRBd-6Ts3z2cm3lne",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2138,7 +2138,7 @@
     "precio": 33300,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1xaq2t-xzHqt4cCShCIBCqA3F8bJ1TxxE",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2147,7 +2147,7 @@
     "precio": 11000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1C38SXge57RXWqfBJG5mp_UKUyvIBlSZr",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2156,7 +2156,7 @@
     "precio": 53500,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1-TvRjgrQ0R0u7q1vFb_KmUfEmqoeJBHe",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2165,7 +2165,7 @@
     "precio": 60600,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1sFY-sOoxpGBZOzjvHDO7D24b8vJNbUIK",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2174,7 +2174,7 @@
     "precio": 36800,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1tm1JgBaADHGhvfp0TEgFKCcVw6iwpVyu",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2192,7 +2192,7 @@
     "precio": 41400,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1dxynHxxVmG0L880-7mTMojxFTKgO5PLl",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2201,7 +2201,7 @@
     "precio": 47800,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1AUmYNqjG-X9M99WvSlm_v5mUna1nWP3b",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2210,7 +2210,7 @@
     "precio": 57600,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=15flBPKtS8iL5SVWe2rPGjW7HVtw1QK8D",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2219,7 +2219,7 @@
     "precio": 24300,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1CFaAfcj1hDwi5HxKwpdIJPO30cSC9xKp",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2228,7 +2228,7 @@
     "precio": 52000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1er8AKsFHLQOLEKkeso5MWdTh8pfYZ7Av",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2237,7 +2237,7 @@
     "precio": 39400,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1nq4YI7bg8D5k8A6t-yaXDj-PzhFoss_0",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2246,7 +2246,7 @@
     "precio": 52800,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1DfuSEOgx0D5p4mnTB12oWZ3VGovpOPtc",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2255,7 +2255,7 @@
     "precio": 38100,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1sIE1ovkowbIWEinPj_Q2B34u_LdEqpjm",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2264,7 +2264,7 @@
     "precio": 115200,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1pR5tr48-xA_Jzig52wLMO7vURZi8Q4oQ",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2273,7 +2273,7 @@
     "precio": 7000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1S6jjquEymNO-V3gWxJjPI-6iWj_dwFDs",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2282,7 +2282,7 @@
     "precio": 24000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1vkk5-HdrdYP4CRX9KupPWjX9NWf2gS0I",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2291,7 +2291,7 @@
     "precio": 12600,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1QP24NmL6Hixl81C_SP1SNukBmr3sVlV2",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2300,7 +2300,7 @@
     "precio": 67000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1wt3rNLT5FGlD5TTm11lbT_M0tbH1_WnW",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2309,7 +2309,7 @@
     "precio": 76800,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1CPxf1uof7wwkfMgJO41gDpRm6z_kriCO",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2318,7 +2318,7 @@
     "precio": 28800,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1AKQbcxdC4cXyN1NmFu6g-XzDbgcltH4a",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2327,7 +2327,7 @@
     "precio": 10600,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1xq07KnpeAl7ZuEU-tZ1fRz7m2dSRQe2H",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2336,7 +2336,7 @@
     "precio": 13100,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1npUmRuBmNJXfvqWKNFppCeuP_iE82nzr",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2345,7 +2345,7 @@
     "precio": 36000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=14AXoSqZLcF9hVJysIBUEpYzWCyOc8ROd",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2354,7 +2354,7 @@
     "precio": 52200,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1BKsoWGvKJXr6XVrsq9mjndXWAzN8po-G",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2363,7 +2363,7 @@
     "precio": 206400,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1xkMaSjxqMsBUzWaQB9-ZtdM-JisHxrKK",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2372,7 +2372,7 @@
     "precio": 127800,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1GYqdUtqj1mlS-7PdRo0LwDPgudcQnIJ3",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2381,7 +2381,7 @@
     "precio": 40000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1WHfRHyaKbTAOGf9Dblah_FqX0vJEaofe",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2390,7 +2390,7 @@
     "precio": 11400,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1ZWnD480f4BS95HfKVI0kmpv9gZrmW-PW",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2399,7 +2399,7 @@
     "precio": 17900,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=14pDip7rrgDaYYhHNvmkBGLXB7kBFrZln",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2408,7 +2408,7 @@
     "precio": 28600,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1jk7iaZ6Ty10TsfEpAEHykiZP5_kL-Cdr",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2417,7 +2417,7 @@
     "precio": 33600,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1Yi6Gy7CDdf9KvVzaE_su0aAfjI6PPU5B",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2426,7 +2426,7 @@
     "precio": 30200,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=15hJxZv3H9khqnhDaYs5NIi4hGw9BGSHU",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2435,7 +2435,7 @@
     "precio": 25300,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1wwaBWdr659-2riW4o7wRAUOKH4CPeObW",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2453,7 +2453,7 @@
     "precio": 17400,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1p4lFGw8KMuTCqAdDvMSm3XkZC0S1OU0w",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2480,7 +2480,7 @@
     "precio": 33600,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1BqzwKWRcn_YvSLLM5W6BGAalOdw1_srp",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2489,7 +2489,7 @@
     "precio": 38400,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1G2LaVyRandR4GmiWKLnkFiNvpNsslQCa",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2498,7 +2498,7 @@
     "precio": 28500,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1yDyNGkSujP2WHHkJg4GQBnVtp14XDyh7",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2570,7 +2570,7 @@
     "precio": 31800,
     "categoria": "SEGURIDAD",
     "imagen": "https://drive.google.com/uc?id=1cosWLDVahg64XHGzBjcA8nl0daPxzf_x",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2606,7 +2606,7 @@
     "precio": 35200,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1jC8fWueW2_BAea8516VPbNBdLNBF1FAf",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2615,7 +2615,7 @@
     "precio": 46400,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1m8eXhpyP0xQxlK6OmOVbuG7gEyYYRbqK",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2624,7 +2624,7 @@
     "precio": 59200,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1MBVNNjI4qZ3u2saGqK-XDYMI11vufn4r",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2633,7 +2633,7 @@
     "precio": 52800,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1LpTCV9TI0Zxam-sMIlYIlE5xMNNQjF1V",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2642,7 +2642,7 @@
     "precio": 59200,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1i90qyIPVn81Zfw6_pHZ3QBrirm0FrzOK",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2651,7 +2651,7 @@
     "precio": 52800,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1t9hzRL2Uh3l91kpkSiU1PcF406wueHw0",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2660,7 +2660,7 @@
     "precio": 68200,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1n-4dj0Xraa4KToU8BVWJ5p-jprHbImBl",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2669,7 +2669,7 @@
     "precio": 147200,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1XDjg2X4Ai-rpXE5uUHEQZVGCVJbcI5IM",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2678,7 +2678,7 @@
     "precio": 29600,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1m_tJXEYb9iPDhAIM-3aV9G2m9I2RBRmS",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2687,7 +2687,7 @@
     "precio": 252800,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1ftk0GUJK7pLN_Jhx6JLDiIuwDGjYTPdq",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2696,7 +2696,7 @@
     "precio": 9400,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1w9nGLzhmg2ATtnOKJUQRQyPIsg-d3fAX",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2705,7 +2705,7 @@
     "precio": 5600,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1VEhQDYpdWSZ7QXb-iJMYOPVp6kS5OrQu",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2714,7 +2714,7 @@
     "precio": 47800,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=13jLWUPNkAWoBuya3dzVDdCspKsE4VGfu",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2723,7 +2723,7 @@
     "precio": 147200,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1f5I0PFX_QMJHfB217CuzoV4qnVQJ0ZOx",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2732,7 +2732,7 @@
     "precio": 2300,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1OMvqJaJiTPUr5FKRo5oKOf4m3ePFWIod",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2741,7 +2741,7 @@
     "precio": 8500,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=12nl6bNEqIiSsqDLR1xgqi-pOb9qKA2_F",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2750,7 +2750,7 @@
     "precio": 10500,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1S6UETupVVH66kBn8SQj2CvhL5BBRdd_K",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2759,7 +2759,7 @@
     "precio": 86400,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1D3BBNonhN_YIrLslr8er1jPdq_cUBIZ_",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2768,7 +2768,7 @@
     "precio": 141900,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=17wJvsHZngDNKTObREEwMMKzK5F2L3SeV",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2777,7 +2777,7 @@
     "precio": 111800,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1aK-nQg5ESe7Tm0xkyVy04MFvFbRDi_IS",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2786,7 +2786,7 @@
     "precio": 74400,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1k2yFiYyY0c1xJ89lc11Gg2DZd19D4C4m",
-    "estado": "A PEDIDO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   }
 ]
