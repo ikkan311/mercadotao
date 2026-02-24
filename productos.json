@@ -207,15 +207,6 @@
     "stock": 0
   },
   {
-    "codigo": "2",
-    "nombre": "RECEPTOR DE BLUETOOTH G186",
-    "precio": 3000,
-    "categoria": "ACCESORIOS",
-    "imagen": "https://drive.google.com/uc?id=1m8VahlTqbE-3_LcBzl0RYh5UZ0r-lV7d",
-    "estado": "CON STOCK",
-    "stock": 9
-  },
-  {
     "codigo": "134",
     "nombre": "OTG MICRO CON CABLE S-K07",
     "precio": 1000,
@@ -223,6 +214,15 @@
     "imagen": "https://drive.google.com/uc?id=13Uwdgz2JqzjBC801cQevQXgcdMaYe8Jt",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
+  },
+  {
+    "codigo": "2",
+    "nombre": "RECEPTOR DE BLUETOOTH G186",
+    "precio": 3000,
+    "categoria": "ACCESORIOS",
+    "imagen": "https://drive.google.com/uc?id=1m8VahlTqbE-3_LcBzl0RYh5UZ0r-lV7d",
+    "estado": "CON STOCK",
+    "stock": 9
   },
   {
     "codigo": "1",
@@ -513,15 +513,6 @@
     "stock": 0
   },
   {
-    "codigo": "587",
-    "nombre": "RELOJ SMART WATCH S10 ULTRA 7 EN 1",
-    "precio": 19000,
-    "categoria": "TECNOLOGIA",
-    "imagen": "https://drive.google.com/file/d/1y6koTB4nZMoYGZMvPCrD7TknYKLEPTZi/view",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
-  },
-  {
     "codigo": "560",
     "nombre": "PARLANTE P/AUTO 6X9 VIAS OR-1055 1200 W",
     "precio": 60800,
@@ -561,7 +552,7 @@
     "codigo": "59",
     "nombre": "LAMPARA ESTRELLA KA-360",
     "precio": 16800,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1DLkStsdgzP5xFWoCOZviMIsYRHCDtOHx",
     "estado": "CON STOCK",
     "stock": 1
@@ -570,7 +561,7 @@
     "codigo": "289",
     "nombre": "LAMPARA LED AUTO MU339",
     "precio": 9000,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1CvtiktXvMXQz0qAbY0OBwodLTjp1qfth",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
@@ -579,7 +570,7 @@
     "codigo": "290",
     "nombre": "LAMPARA LED DINO BJJ268-3",
     "precio": 9000,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1ZEB0zB2tP9mrvzGYoDFYU8J2UJdit-sB",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
@@ -588,7 +579,7 @@
     "codigo": "291",
     "nombre": "LAMPARA LED MU350",
     "precio": 9000,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1MHpCdm9XmFoZ9KsaG0XgtE18t3f4qKzR",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
@@ -597,70 +588,70 @@
     "codigo": "61",
     "nombre": "PROYECTOR DE ESTRELLAS STAR MASTER/SUONO",
     "precio": 9500,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1Jxsx7DsRxNOkZqxcYcqfa7upU2mUNJar",
     "estado": "CON STOCK",
     "stock": 4
   },
   {
     "codigo": "44",
-    "nombre": "LÁMPARA 005/121/127/157/Z-139",
+    "nombre": "LAMPARA 005/121/127/157/Z-139",
     "precio": 17000,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1R9V23mcDN0S17xQI1gcUqGEXpjsFKrcF",
     "estado": "CON STOCK",
     "stock": 7
   },
   {
     "codigo": "60",
-    "nombre": "LÁMPARA INFANTIL 258 10/11",
+    "nombre": "LAMPARA INFANTIL 258 10/11",
     "precio": 10500,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1yhf6Pvc-3gPFGmbIYqyluS2FpMv5kO4A",
     "estado": "CON STOCK",
     "stock": 2
   },
   {
     "codigo": "301",
-    "nombre": "LÁMPARA INFANTIL 268H",
+    "nombre": "LAMPARA INFANTIL 268H",
     "precio": 10100,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1CwG0PlEhzJngVp_21ZWF0ZhawFMvcqhd",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
     "codigo": "302",
-    "nombre": "LÁMPARA INFANTIL 348H",
+    "nombre": "LAMPARA INFANTIL 348H",
     "precio": 10100,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1ASYp8u5dqJ9Pl8RNXFC-fZoTQiS5ww8T",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
     "codigo": "304",
-    "nombre": "LÁMPARA INFANTIL 356E",
+    "nombre": "LAMPARA INFANTIL 356E",
     "precio": 10100,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1kYKrls39Ckfdk_gQtrjiWLHV4HVzRuNa",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
     "codigo": "305",
-    "nombre": "LÁMPARAS INFANTILES 343 H/G",
+    "nombre": "LAMPARAS INFANTILES 343 H/G",
     "precio": 13800,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=12GXBseDTkYowVSGikZdrsAmmZzzkeQk0",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
     "codigo": "56",
-    "nombre": "LÁMPARA DE ESCRITORIO TÁCTIL PL-9031",
+    "nombre": "LAMPARA DE ESCRITORIO TÁCTIL PL-9031",
     "precio": 13500,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1vDmNJHbXo84p3ET3Wr8APt7EFtVGLk-3",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 5
@@ -678,7 +669,7 @@
     "codigo": "286",
     "nombre": "FOCO GIRATORIO LED OSR",
     "precio": 3000,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=18dorJSqgwt2_STlTMpVxo8ROHQPSpVOr",
     "estado": "CON STOCK",
     "stock": 6
@@ -687,7 +678,7 @@
     "codigo": "233",
     "nombre": "HUMIDIFICADOR CAPIBARA",
     "precio": 9500,
-    "categoria": "HOGAR",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1Vn3GF3DCG0-8amOu2OEwtHVcLCvK4Wuz",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
@@ -696,7 +687,7 @@
     "codigo": "540",
     "nombre": "HUMIFICADOR PLANET SX-E323A",
     "precio": 13600,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1oRuONOrLvR6GBtmaGdhewpC9WCs56Ftt",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
@@ -705,7 +696,7 @@
     "codigo": "292",
     "nombre": "LAMPARA LUNA SUONO 75-SUO082",
     "precio": 23500,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/file/d/1oL98nzoDW-ZX0YZdmPQY5vi_LJ9TNbsE/view",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
@@ -714,7 +705,7 @@
     "codigo": "311",
     "nombre": "PROYECTOR CON PARLANTE ASTRONAUTA",
     "precio": 33300,
-    "categoria": "JUGUETERIA",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=16CADXL5Em6im7QBTXFNulBmulKcPOVcb",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
@@ -723,7 +714,7 @@
     "codigo": "293",
     "nombre": "LAMPARA RGB WIFI C/CONTROL TUYA",
     "precio": 41400,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1JZC-XUw-5ov1lkQpAv5bv2JN2rWRkt42",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
@@ -732,7 +723,7 @@
     "codigo": "618",
     "nombre": "LAMPARA SOLAR 3 EN 1 HB 9707B-2",
     "precio": 12600,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1ojwn1rW6OagArIdjqbuPZSuLEAWxohle",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
@@ -741,7 +732,7 @@
     "codigo": "307",
     "nombre": "PANEL LED PARA CELULAR AY-96JSSR",
     "precio": 12800,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1FcMHkOmUiZZaM8uDDGXzIIU3nkKB6FSC",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
@@ -750,7 +741,7 @@
     "codigo": "309",
     "nombre": "PROTON 54 LUCES LED RGB CON CONTROL",
     "precio": 31200,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1wN0V_DKbQarr2J3pnaD3m2vRQaKf7DKq",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
@@ -759,7 +750,7 @@
     "codigo": "312",
     "nombre": "REFLECTOR LED PORTATIL PANEL RL-900",
     "precio": 33600,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1tOIL8KcoUQk8daQPfhMwHEl6uSwuzGH8",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
@@ -768,7 +759,7 @@
     "codigo": "577",
     "nombre": "ARO DE LUZ 18′ 45CM RGB C/ TRIPODE AS02",
     "precio": 67200,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1hqoO9w0Z52q19vSFsF2t6SFfLXOsDTtG",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
@@ -777,7 +768,7 @@
     "codigo": "313",
     "nombre": "REFLECTOR LED PORTATIL PANEL RLRL-24",
     "precio": 65600,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1hy11v_EoCX_0JDlnl6wR8pbDD47ugo22",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
@@ -786,7 +777,7 @@
     "codigo": "230",
     "nombre": "FOCO ENERGY SAVING BOMBILLA 8W A60-8",
     "precio": 4000,
-    "categoria": "HOGAR",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1YPPLpSKj_dCs5VBOKqHjOnOEhiPl8xa0",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
@@ -795,7 +786,7 @@
     "codigo": "232",
     "nombre": "GUIRNALDA X100 LUZ AZUL DA-16",
     "precio": 4600,
-    "categoria": "HOGAR",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1PpJPMeryo3qsbKsC06mjt3IKPrNX8q6E",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
@@ -804,7 +795,7 @@
     "codigo": "85",
     "nombre": "TIRA DE LUCES LED X600 CALIDA 20M",
     "precio": 28000,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1X7zZrJqzjLqc_jRhh_-NCaaH9bCtMn_Q",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
@@ -813,7 +804,7 @@
     "codigo": "314",
     "nombre": "TIRA DE LUZ NEON VARIOS COLORES",
     "precio": 13900,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1APY3xhjvbkvu30o4ZdQlgFf_hZVEL4XY",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
@@ -822,7 +813,7 @@
     "codigo": "297",
     "nombre": "LINTERNA RECARGABLE P50",
     "precio": 17400,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1tMgxBC2Uz9KVCRjC5ewtRPpJRfKQoCTg",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
@@ -831,7 +822,7 @@
     "codigo": "298",
     "nombre": "LINTERNA TGX-8009",
     "precio": 8000,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1Yr4l1qgGqoaG_nsAFp2bG1JJ6Fxinv86",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 1
@@ -840,7 +831,7 @@
     "codigo": "299",
     "nombre": "LINTERNA RECARGABLE TOOLS ORYX OR125A/03",
     "precio": 23800,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1sZ-OW3V9v9JvaobudeG-BAwWYgUd_T-D",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
@@ -849,16 +840,25 @@
     "codigo": "205",
     "nombre": "MINI LINTERNA KEYCHAIN BOLSILLO COB-150",
     "precio": 2600,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1z1VE9DffmKc0A56MUKfFP8igh4EoD_f1",
     "estado": "CON STOCK",
     "stock": 6
   },
   {
+    "codigo": "206",
+    "nombre": "MINI LLAVERO LINTERNA WS147",
+    "precio": 9400,
+    "categoria": "ILUMINACION",
+    "imagen": "https://drive.google.com/uc?id=1w9nGLzhmg2ATtnOKJUQRQyPIsg-d3fAX",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
     "codigo": "300",
     "nombre": "LUZ DE EMERGENCIA 60 LED MS7006M/OR-60L",
     "precio": 16500,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1oa57XD27ba6bn-A9VHNFGxLBGqToLd_p",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
@@ -867,7 +867,7 @@
     "codigo": "203",
     "nombre": "LUZ DE EMERGENCIA 90 LED",
     "precio": 19700,
-    "categoria": "HERRAMIENTAS",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1vsFmZglx1qxcsfJBBoQaGhdnBvTQ28Tp",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
@@ -887,15 +887,6 @@
     "precio": 18400,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1ekErEu6DAm76GH1hUUA0jV7y2toGfFqi",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "276",
-    "nombre": "TV BOX MX9 4K 256 GB MEMORIA",
-    "precio": 26900,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=14Cu809cxeIxJiaz5a3ruDcRHPCLW0TCk",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -921,7 +912,7 @@
     "codigo": "225",
     "nombre": "CAMARA DE SEGURIDAD X8 TSL-1202",
     "precio": 337300,
-    "categoria": "HOGAR",
+    "categoria": "SEGURIDAD",
     "imagen": "https://drive.google.com/uc?id=1Taap2jizcXpKUjEkRuhi1RvZFmeqbqok",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
@@ -930,8 +921,44 @@
     "codigo": "239",
     "nombre": "MAQUINA CONTADORA DE BILLETES M21E",
     "precio": 122400,
-    "categoria": "HOGAR",
+    "categoria": "SEGURIDAD",
     "imagen": "https://drive.google.com/uc?id=19Yi5vkEGIsnBl-_aXGRtk9pgoCY3iTt1",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
+    "codigo": "583",
+    "nombre": "MINI CAJA FUERTE DE METAL",
+    "precio": 31800,
+    "categoria": "SEGURIDAD",
+    "imagen": "https://drive.google.com/uc?id=1cosWLDVahg64XHGzBjcA8nl0daPxzf_x",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
+    "codigo": "71",
+    "nombre": "CANDADOS DE BRONCE 50 MM",
+    "precio": 2700,
+    "categoria": "SEGURIDAD",
+    "imagen": "https://drive.google.com/uc?id=1pXLUJh2Z3yYHzPe4sQo8y-z_1EEfoyWR",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 2
+  },
+  {
+    "codigo": "587",
+    "nombre": "RELOJ SMART WATCH S10 ULTRA 7 EN 1",
+    "precio": 19000,
+    "categoria": "TECNOLOGIA",
+    "imagen": "https://drive.google.com/file/d/1y6koTB4nZMoYGZMvPCrD7TknYKLEPTZi/view",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 1
+  },
+  {
+    "codigo": "276",
+    "nombre": "TV BOX MX9 4K 256 GB MEMORIA",
+    "precio": 26900,
+    "categoria": "TECNOLOGIA",
+    "imagen": "https://drive.google.com/uc?id=14Cu809cxeIxJiaz5a3ruDcRHPCLW0TCk",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -941,24 +968,6 @@
     "precio": 91200,
     "categoria": "TECNOLOGIA",
     "imagen": "https://drive.google.com/uc?id=1LcSKQqLROfJV8eP5CZC8_57xQW73EUrC",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "572",
-    "nombre": "SOPORTE PARA TV RECLINABLE 32″- 55″",
-    "precio": 11500,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1fyDXvlKZ56SXAlTOD8vTVxzyuhn1KGTn",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "380",
-    "nombre": "SOPORTE TV FIJO TV 1442",
-    "precio": 5400,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1TkFYmLVb0QpokklN-BGDoQdGjJCTA8wV",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -1092,7 +1101,7 @@
     "codigo": "229",
     "nombre": "ESTABILIZADOR KANJI SL9205",
     "precio": 46000,
-    "categoria": "HOGAR",
+    "categoria": "TECNOLOGIA",
     "imagen": "https://drive.google.com/uc?id=1RLBEshPCxRSmX-eHO6U6SJhBLOEPwRiw",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
@@ -1101,7 +1110,7 @@
     "codigo": "263",
     "nombre": "ROUTER LEGATUS LY-UNT300M",
     "precio": 27000,
-    "categoria": "HOGAR",
+    "categoria": "TECNOLOGIA",
     "imagen": "https://drive.google.com/uc?id=1jazRP638TUR2Dt0QBqfrvgYXTf7nqQUz",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
@@ -1320,7 +1329,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1VzC43NXmBzitEgCinldDcjML1boVaZL1",
     "estado": "CON STOCK",
-    "stock": -1.5
+    "stock": 0.5
   },
   {
     "codigo": "673",
@@ -1364,6 +1373,15 @@
     "precio": 9000,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1-8M9qQFZsO3ME94rqqp0hM0Ky0TAhRFk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
+    "codigo": "84",
+    "nombre": "PELUCHE MAS MANTA LABUBU",
+    "precio": 34400,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=17Ejqb18ZlL7YK4dOR4ZhIJ16SlfJP0aV",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -1530,15 +1548,6 @@
     "stock": 0
   },
   {
-    "codigo": "96",
-    "nombre": "CABINA DE UÑAS 36LED 120W LEGATUS LSU102",
-    "precio": 33600,
-    "categoria": "CUIDADO PERSONAL",
-    "imagen": "https://drive.google.com/uc?id=1vnk_yD_i0usM5HiGKaPX2glei-Ue-fh2",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
     "codigo": "3",
     "nombre": "GUANTES WINDS STOPPER XY AV24063",
     "precio": 7500,
@@ -1548,20 +1557,11 @@
     "stock": 6
   },
   {
-    "codigo": "84",
-    "nombre": "PELUCHE MAS MANTA LABUBU",
-    "precio": 34400,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=17Ejqb18ZlL7YK4dOR4ZhIJ16SlfJP0aV",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "77",
-    "nombre": "MOCHILA PARA MASCOTAS NEGRA ACRILICA",
-    "precio": 24000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1ftA9EI0_0usd-Ai5GTBA6j1ELhcArClt",
+    "codigo": "96",
+    "nombre": "CABINA DE UÑAS 36LED 120W LEGATUS LSU102",
+    "precio": 33600,
+    "categoria": "CUIDADO PERSONAL",
+    "imagen": "https://drive.google.com/uc?id=1vnk_yD_i0usM5HiGKaPX2glei-Ue-fh2",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -1782,15 +1782,6 @@
     "stock": 0
   },
   {
-    "codigo": "13",
-    "nombre": "SACA PELUSA",
-    "precio": 7800,
-    "categoria": "CUIDADO PERSONAL",
-    "imagen": "https://drive.google.com/uc?id=1LgL_a1ixzFfxBrL96Bes21eQ4iy0TYt1",
-    "estado": "CON STOCK",
-    "stock": 2
-  },
-  {
     "codigo": "122",
     "nombre": "SECADOR DE PELO LEGATUS LSE100A",
     "precio": 10200,
@@ -1859,6 +1850,24 @@
     "precio": 13600,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1AATzHlvpRkri20dHnnNUktMpEpf7c8AB",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
+    "codigo": "572",
+    "nombre": "SOPORTE PARA TV RECLINABLE 32″- 55″",
+    "precio": 11500,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1fyDXvlKZ56SXAlTOD8vTVxzyuhn1KGTn",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
+    "codigo": "380",
+    "nombre": "SOPORTE TV FIJO TV 1442",
+    "precio": 5400,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1TkFYmLVb0QpokklN-BGDoQdGjJCTA8wV",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -1949,6 +1958,15 @@
     "precio": 44800,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1TL55qoMr8e5AkVVlM9d1sio50FaAgRfS",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
+    "codigo": "77",
+    "nombre": "MOCHILA PARA MASCOTAS NEGRA ACRILICA",
+    "precio": 24000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1ftA9EI0_0usd-Ai5GTBA6j1ELhcArClt",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -2070,6 +2088,15 @@
     "stock": 0
   },
   {
+    "codigo": "246",
+    "nombre": "MINI MAQUINA DE COSER ORYX S01247/OM202A",
+    "precio": 28000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1BHl8750ZxmO86oMhRBd-6Ts3z2cm3lne",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
     "codigo": "242",
     "nombre": "MAQUINA DE CUPCAKES ORYX OR-C02",
     "precio": 44000,
@@ -2120,15 +2147,6 @@
     "precio": 5900,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1E0CVsNP5KnLG06YLEoROtHZfXYOEH8b5",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "246",
-    "nombre": "MINI MAQUINA DE COSER ORYX S01247/OM202A",
-    "precio": 28000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1BHl8750ZxmO86oMhRBd-6Ts3z2cm3lne",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -2565,22 +2583,22 @@
     "stock": 4
   },
   {
-    "codigo": "583",
-    "nombre": "MINI CAJA FUERTE DE METAL",
-    "precio": 31800,
-    "categoria": "SEGURIDAD",
-    "imagen": "https://drive.google.com/uc?id=1cosWLDVahg64XHGzBjcA8nl0daPxzf_x",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "codigo": "13",
+    "nombre": "SACA PELUSA",
+    "precio": 7800,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1LgL_a1ixzFfxBrL96Bes21eQ4iy0TYt1",
+    "estado": "CON STOCK",
+    "stock": 2
   },
   {
-    "codigo": "71",
-    "nombre": "CANDADOS DE BRONCE 50 MM",
-    "precio": 2700,
-    "categoria": "SEGURIDAD",
-    "imagen": "https://drive.google.com/uc?id=1pXLUJh2Z3yYHzPe4sQo8y-z_1EEfoyWR",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
+    "codigo": "249",
+    "nombre": "MOPA CON BALDE CENTRIFUGADOR 2 EN 1",
+    "precio": 35200,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1jC8fWueW2_BAea8516VPbNBdLNBF1FAf",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
   },
   {
     "codigo": "198",
@@ -2598,15 +2616,6 @@
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1w2jYeCB2XvXADBWWfBeVyJEr0oyn51gM",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 0
-  },
-  {
-    "codigo": "249",
-    "nombre": "MOPA CON BALDE CENTRIFUGADOR 2 EN 1",
-    "precio": 35200,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1jC8fWueW2_BAea8516VPbNBdLNBF1FAf",
-    "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
   {
@@ -2687,15 +2696,6 @@
     "precio": 252800,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1ftk0GUJK7pLN_Jhx6JLDiIuwDGjYTPdq",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "206",
-    "nombre": "MINI LLAVERO LINTERNA WS147",
-    "precio": 9400,
-    "categoria": "HERRAMIENTAS",
-    "imagen": "https://drive.google.com/uc?id=1w9nGLzhmg2ATtnOKJUQRQyPIsg-d3fAX",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
