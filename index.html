@@ -500,15 +500,15 @@ async function generarPDFParaImprimir() {
       doc.setFontSize(11);
       doc.setTextColor(230, 126, 34);
       doc.setFont(undefined, 'bold');
-      doc.text("CUALQUIER CONSULTA COMUNICARSE CON SEBASTIAN AL 351-6148905", 105, 288, { align: 'center' });
+      doc.text("CUALQUIER CONSULTA COMUNICARSE CON SEBASTIAN AL 351-6148905", 105, 289, { align: 'center' });
       doc.addPage();
     }
 
     // HEADER DE HOJA
     if (indexEnHoja === 0) {
-      const logoData = await aplanarImagenProporcional('logo.png', 45, 12);
+      const logoData = await aplanarImagenProporcional('logo.png', 55, 15);
       if (logoData) {
-        doc.addImage(logoData.data, 'JPEG', 105 - (logoData.w / 2), 5, logoData.w, logoData.h);
+        doc.addImage(logoData.data, 'JPEG', 105 - (logoData.w / 2), 4, logoData.w, logoData.h);
       }
       doc.setFontSize(12); doc.setTextColor(39, 174, 96); doc.setFont(undefined, 'bold');
       doc.text("Precios mayorista solamente para compras mayores a $90.000", 105, 21, { align: 'center' });
@@ -553,7 +553,7 @@ async function generarPDFParaImprimir() {
         doc.setFontSize(fontSizeTit);
         lineasNombre = doc.splitTextToSize(nombreSeguro, cardW - 4);
     }
-    doc.text(lineasNombre.slice(0, 3), x + (cardW / 2), y + 52, { align: 'center', lineHeightFactor: 1.0 });
+    doc.text(lineasNombre.slice(0, 3), x + (cardW / 2), y + 51, { align: 'center', lineHeightFactor: 1.0 });
 
     
     // LEYENDA DE ESTADO (Colores originales del index)
@@ -576,14 +576,14 @@ async function generarPDFParaImprimir() {
 
     // PRECIO
     doc.setFontSize(11); doc.setTextColor(39, 174, 96); doc.setFont(undefined, 'bold');
-    doc.text(`$${Number(p.precio).toLocaleString("es-AR")}`, x + (cardW / 2), y + 62, { align: 'center' });
+    doc.text(`$${Number(p.precio).toLocaleString("es-AR")}`, x + (cardW / 2), y + 63, { align: 'center' });
   }
 
   // Footer última hoja
   doc.setFontSize(11);
   doc.setTextColor(230, 126, 34);
   doc.setFont(undefined, 'bold');
-  doc.text("CUALQUIER CONSULTA COMUNICARSE CON SEBASTIAN AL 351-6148905", 105, 288, { align: 'center' });
+  doc.text("CUALQUIER CONSULTA COMUNICARSE CON SEBASTIAN AL 351-6148905", 105, 289, { align: 'center' });
 
   doc.save("Catalogo_TAO_Imprimir.pdf");
   document.body.removeChild(aviso);
@@ -684,6 +684,7 @@ cargar();
 </script>
 </body>
 </html>
+
 
 
 
