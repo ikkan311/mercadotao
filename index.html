@@ -247,7 +247,27 @@
     <button style="background:none; border:none; color:#777; width:100%; margin-top:10px; cursor:pointer;" onclick="cerrarModal()">Cancelar</button>
   </div>
 </div>
+<div id="modal-print-options" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); z-index: 5000; display: none; align-items: center; justify-content: center;">
+  <div style="background: white; padding: 25px; border-radius: 12px; width: 90%; max-width: 300px; font-family: sans-serif;">
+    <h2 style="margin-top: 0; font-size: 1.2rem; text-align: center;">Opciones de PDF</h2>
+    <p style="font-size: 0.9rem; color: #666; text-align: center;">¿Qué productos incluir?</p>
+    
+    <div style="display: flex; flex-direction: column; gap: 12px; margin: 20px 0;">
+      <label style="color: #0070c0; font-weight: bold; cursor:pointer; display: flex; align-items: center; gap: 10px;">
+        <input type="checkbox" id="p-stock" checked> CON STOCK
+      </label>
+      <label style="color: #e74c3c; font-weight: bold; cursor:pointer; display: flex; align-items: center; gap: 10px;">
+        <input type="checkbox" id="p-ultimos" checked> ULTIMOS DISPONIBLES
+      </label>
+      <label style="color: #e67e22; font-weight: bold; cursor:pointer; display: flex; align-items: center; gap: 10px;">
+        <input type="checkbox" id="p-pedido" checked> A PEDIDO
+      </label>
+    </div>
 
+    <button onclick="confirmarImpresion()" style="width: 100%; background: #222; color: white; border: none; padding: 12px; border-radius: 6px; font-weight: bold; cursor: pointer; margin-bottom: 10px;">GENERAR PDF</button>
+    <button onclick="document.getElementById('modal-print-options').style.display='none'" style="background:none; border:none; color:#777; width:100%; cursor:pointer; font-size: 0.8rem;">Volver al catálogo</button>
+  </div>
+</div>
 <div id="lightbox" onclick="this.style.display='none'"><img id="img-ampliada" src=""></div>
 
 <div id="panel-carrito" class="oculto">
@@ -599,14 +619,50 @@ document.getElementById("filtro-categoria").onchange = ejecutarFiltros;
 
 window.addEventListener('keydown', (e) => {
   if (e.key.toLowerCase() === 'p' && document.activeElement.tagName !== 'INPUT') {
-    generarPDFParaImprimir();
+    document.getElementById('modal-print-options').style.display = 'flex';
   }
 });
+  async function confirmarImpresion() {
+  // Cerramos el menú
+  document.getElementById('modal-print-options').style.display = 'none';
+
+  // Leemos qué estados quieres imprimir
+  const verStock = document.getElementById('p-stock').checked;
+  const verUltimos = document.getElementById('p-ultimos').checked;
+  const verPedido = document.getElementById('p-pedido').checked;
+
+  // Guardamos la lista actual para no romper lo que el usuario ve en la web
+  const listaOriginalFiltrados = [...filtrados];
+
+  // Filtramos temporalmente la lista solo para el PDF
+  filtrados = filtrados.filter(p => {
+    const est = p.estado.toUpperCase();
+    if (est.includes("CON STOCK") && !verStock) return false;
+    if (est.includes("ULTIMOS") && !verUltimos) return false;
+    if (est.includes("A PEDIDO") && !verPedido) return false;
+    return true;
+  });
+
+  // Si no quedó nada para imprimir, avisamos
+  if (filtrados.length === 0) {
+    alert("No hay productos que coincidan con los estados seleccionados.");
+    filtrados = listaOriginalFiltrados;
+    return;
+  }
+
+  // Llamamos a la función de imprimir (que ya usa la variable 'filtrados')
+  await generarPDFParaImprimir();
+
+  // Restauramos la lista original en la pantalla para que no desaparezcan productos de la web
+  filtrados = listaOriginalFiltrados;
+  render();
+}
 
 cargar();
 </script>
 </body>
 </html>
+
 
 
 
