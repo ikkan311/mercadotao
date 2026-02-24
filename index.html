@@ -546,15 +546,32 @@ async function generarPDFParaImprimir() {
         doc.setFontSize(fontSizeTit);
         lineasNombre = doc.splitTextToSize(nombreSeguro, cardW - 4);
     }
-    doc.text(lineasNombre.slice(0, 3), x + (cardW / 2), y + 49, { align: 'center', lineHeightFactor: 1.0 });
+    doc.text(lineasNombre.slice(0, 3), x + (cardW / 2), y + 48, { align: 'center', lineHeightFactor: 1.0 });
 
     // CÓDIGO
-    doc.setFont(undefined, 'normal'); doc.setFontSize(9); doc.setTextColor(100);
-    doc.text(`Cód: ${p.codigo}`, x + (cardW / 2), y + 56, { align: 'center' });
+    doc.setFont(undefined, 'normal'); doc.setFontSize(8); doc.setTextColor(100);
+    doc.text(`Cód: ${p.codigo}`, x + (cardW / 2), y + 53, { align: 'center' });
+    // LEYENDA DE ESTADO (Colores originales del index)
+    let colorTexto = [100, 100, 100]; // Gris por defecto
+    let textoMostrar = p.estado;
+    
+    if (p.estado.includes("CON STOCK")) {
+        colorTexto = [0, 112, 192]; // Azul (#0070c0)
+    } else if (p.estado.includes("ULTIMOS")) {
+        colorTexto = [231, 76, 60]; // Rojo (#e74c3c)
+        textoMostrar = "ULTIMOS DISPONIBLES"; // Sin el número de stock
+    } else if (p.estado.includes("A PEDIDO")) {
+        colorTexto = [230, 126, 34]; // Naranja (#e67e22)
+    }
+
+    doc.setFontSize(7);
+    doc.setTextColor(colorTexto[0], colorTexto[1], colorTexto[2]);
+    doc.setFont(undefined, 'bold');
+    doc.text(textoMostrar, x + (cardW / 2), y + 57, { align: 'center' });
 
     // PRECIO
-    doc.setFontSize(11); doc.setTextColor(0, 112, 192); doc.setFont(undefined, 'bold');
-    doc.text(`$${Number(p.precio).toLocaleString("es-AR")}`, x + (cardW / 2), y + 60, { align: 'center' });
+    doc.setFontSize(11); doc.setTextColor(39, 174, 96); doc.setFont(undefined, 'bold');
+    doc.text(`$${Number(p.precio).toLocaleString("es-AR")}`, x + (cardW / 2), y + 62, { align: 'center' });
   }
 
   // Footer última hoja
@@ -662,6 +679,7 @@ cargar();
 </script>
 </body>
 </html>
+
 
 
 
