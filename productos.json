@@ -27,6 +27,15 @@
     "stock": 7
   },
   {
+    "codigo": "452",
+    "nombre": "CARGADOR LEGATUS 3.4 MICRO",
+    "precio": 2080,
+    "categoria": "CARGADORES",
+    "imagen": "https://drive.google.com/uc?id=1PubsAv4g60mq1I-9WJC12Zh68HzleCPa",
+    "estado": "CON STOCK",
+    "stock": 3
+  },
+  {
     "codigo": "33",
     "nombre": "CARGADOR 5.0A ROYALCELL MICRO",
     "precio": 4200,
@@ -78,7 +87,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1feL01s7FZNQgQyM8d0WWVqp80pa9B8Cp",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
+    "stock": 0
   },
   {
     "codigo": "140",
@@ -105,7 +114,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1cW71loadL66DQJ33SQhQ3edkUutXtu9x",
     "estado": "CON STOCK",
-    "stock": 5
+    "stock": 3
   },
   {
     "codigo": "25",
@@ -159,7 +168,7 @@
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1MIdnzsRW-TAAq44kOuSD6wCWdaazPbAu",
     "estado": "CON STOCK",
-    "stock": 13
+    "stock": 7
   },
   {
     "codigo": "20",
@@ -195,7 +204,7 @@
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1_5I021ePLX2kftD5dsVAXLKMXI1hIpeA",
     "estado": "CON STOCK",
-    "stock": 9
+    "stock": 6
   },
   {
     "codigo": "131",
@@ -231,7 +240,7 @@
     "categoria": "ACCESORIOS",
     "imagen": "https://drive.google.com/uc?id=1csORvGadYgn5dIG_WV1UUSQzVcxUD9UH",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
+    "stock": 1
   },
   {
     "codigo": "377",
@@ -258,7 +267,7 @@
     "categoria": "ACCESORIOS",
     "imagen": "https://drive.google.com/uc?id=1DmrOHoaoOXRO3wjLczIyqQYw_c3LLqqb",
     "estado": "CON STOCK",
-    "stock": 3
+    "stock": 2
   },
   {
     "codigo": "74",
@@ -276,7 +285,7 @@
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=1sdwkafDLQKs80CE_NHhgldAeVx7FFkyN",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 0
+    "stock": 1
   },
   {
     "codigo": "6",
@@ -285,7 +294,7 @@
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=1WKIkUk6fEWewQE5L_NhiRoHw10vq0phv",
     "estado": "CON STOCK",
-    "stock": 5
+    "stock": 3
   },
   {
     "codigo": "9",
@@ -375,7 +384,7 @@
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=1h_JnXAMSV-1BeCBffwtGX0l2jreCpVac",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 4
+    "stock": 3
   },
   {
     "codigo": "348",
@@ -933,7 +942,16 @@
     "categoria": "SEGURIDAD",
     "imagen": "https://drive.google.com/uc?id=1pXLUJh2Z3yYHzPe4sQo8y-z_1EEfoyWR",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
+    "stock": 1
+  },
+  {
+    "codigo": "587",
+    "nombre": "RELOJ SMART WATCH S10 ULTRA 7 EN 1",
+    "precio": 19000,
+    "categoria": "TECNOLOGIA",
+    "imagen": "https://drive.google.com/file/d/1G5vahIIU32z04eUNir1sS_0vxONsNv6f/view?pli=1",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 1
   },
   {
     "codigo": "276",
@@ -952,15 +970,6 @@
     "imagen": "https://drive.google.com/uc?id=1LcSKQqLROfJV8eP5CZC8_57xQW73EUrC",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
-  },
-  {
-    "codigo": "587",
-    "nombre": "RELOJ SMART WATCH S10 ULTRA 7 EN 1",
-    "precio": 19000,
-    "categoria": "TECNOLOGIA",
-    "imagen": "https://drive.google.com/file/d/1G5vahIIU32z04eUNir1sS_0vxONsNv6f/view?pli=1",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
   },
   {
     "codigo": "188",
@@ -1131,7 +1140,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1Ft8znbHpQcSNR3ZxIUjTO5yajR_DTUCP",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 0
+    "stock": 2
   },
   {
     "codigo": "321",
@@ -1203,7 +1212,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1RhFfCQs-WuOHJ3hOPR_OoWmKthCZ7zAR",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 6
+    "stock": 7
   },
   {
     "codigo": "596",
@@ -1410,7 +1419,7 @@
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1S0g3E__CwiAKY3Ht44q18AeMbs0X__tc",
     "estado": "CON STOCK",
-    "stock": 2
+    "stock": 1
   },
   {
     "codigo": "389",
@@ -1491,7 +1500,7 @@
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1WUmsbY1OnMqNtbPKxYojnQSBc22Jq6sZ",
     "estado": "CON STOCK",
-    "stock": 4
+    "stock": 0
   },
   {
     "codigo": "400",
@@ -1500,7 +1509,7 @@
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1BhXoflWv7-rdsc87Wb8hUCaUVotNxhGa",
     "estado": "CON STOCK",
-    "stock": 4
+    "stock": 0
   },
   {
     "codigo": "401",
@@ -1509,7 +1518,7 @@
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1NtyLG_SFS8vqFFTcSznhHcX2VlELYap7",
     "estado": "CON STOCK",
-    "stock": 6
+    "stock": 3
   },
   {
     "codigo": "598",
@@ -1518,7 +1527,7 @@
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1iKOBxEq7z95Jj6pyyq6HNG6MjqSLGGli",
     "estado": "CON STOCK",
-    "stock": 3
+    "stock": 2
   },
   {
     "codigo": "597",
@@ -1743,7 +1752,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1-QU-j-I-yCVMbDmS1_s63VCstmXF8Mkd",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
+    "stock": 1
   },
   {
     "codigo": "568",
@@ -1818,15 +1827,6 @@
     "stock": 0
   },
   {
-    "codigo": "127",
-    "nombre": "SECADOR DE PELO SEIS SP 34 2400W",
-    "precio": 25000,
-    "categoria": "CUIDADO PERSONAL",
-    "imagen": "https://drive.google.com/uc?id=1z3IVh-zuSx2iAqgMV45S1DNeHc6yNKFs",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
-  },
-  {
     "codigo": "128",
     "nombre": "TIRA DE FOCOS PARA ESPEJO VANITY MIRROR",
     "precio": 13600,
@@ -1834,6 +1834,15 @@
     "imagen": "https://drive.google.com/uc?id=1AATzHlvpRkri20dHnnNUktMpEpf7c8AB",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
+  },
+  {
+    "codigo": "127",
+    "nombre": "SECADOR DE PELO SEIS SP 34 2400W",
+    "precio": 25000,
+    "categoria": "CUIDADO PERSONAL",
+    "imagen": "https://drive.google.com/uc?id=1z3IVh-zuSx2iAqgMV45S1DNeHc6yNKFs",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 1
   },
   {
     "codigo": "572",
@@ -1887,7 +1896,7 @@
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1Cn1kZifednWH6Dpdj93Tv1wcpXDNlmpV",
     "estado": "CON STOCK",
-    "stock": 0
+    "stock": 1
   },
   {
     "codigo": "537",
@@ -2499,7 +2508,7 @@
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1juQxX54sETQRWT_blCktmk1KT_HCOTpT",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
+    "stock": 2
   },
   {
     "codigo": "45",
@@ -2508,7 +2517,7 @@
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1cKySAao_6rEnc_E6ymw3HjFpjteuH3tp",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 15
+    "stock": 11
   },
   {
     "codigo": "46",
@@ -2517,7 +2526,25 @@
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=109ZMKeLFnia5oc4LMfXPldRNIluu864w",
     "estado": "CON STOCK",
-    "stock": 14
+    "stock": 10
+  },
+  {
+    "codigo": "49",
+    "nombre": "PILAS REDONDAS CR2032 X 5",
+    "precio": 1500,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1zCGOIOB0lfoXimp8PnEybOl8eR642qw7",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 3
+  },
+  {
+    "codigo": "52",
+    "nombre": "ADAPTADOR 2 PATAS",
+    "precio": 700,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1CWtzk4KN53h0DoWMrF3w4ADu27Tb_0bh",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 5
   },
   {
     "codigo": "580",
@@ -2535,7 +2562,7 @@
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1Zx2ga_v6ZaJK6o4Hct8RBbyChqeSc45i",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
+    "stock": 1
   },
   {
     "codigo": "48",
@@ -2580,7 +2607,7 @@
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1qWJO3cx7o5P67owApjqhsRutHUow4mzX",
     "estado": "CON STOCK",
-    "stock": 0
+    "stock": 1
   },
   {
     "codigo": "199",
@@ -2589,7 +2616,7 @@
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1w2jYeCB2XvXADBWWfBeVyJEr0oyn51gM",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 0
+    "stock": 1
   },
   {
     "codigo": "194",
@@ -2759,6 +2786,15 @@
     "precio": 74400,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1k2yFiYyY0c1xJ89lc11Gg2DZd19D4C4m",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
+    "codigo": "698",
+    "nombre": "ORGANIZADOR DE ZAPATOS VERTICAL X10 NIVELES",
+    "precio": 28500,
+    "categoria": "HOGAR",
+    "imagen": "img/placeholder.png",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   }
