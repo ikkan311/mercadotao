@@ -1,30 +1,12 @@
 [
   {
-    "codigo": "137",
-    "nombre": "CARGADOR 2.4 RC TIPO C",
-    "precio": 2000,
-    "categoria": "CARGADORES",
-    "imagen": "https://drive.google.com/uc?id=1udPlSAPglvF5xd4YD3wiglxKavOUI2Wf",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 3
-  },
-  {
-    "codigo": "29",
-    "nombre": "CARGADOR ROYALCELL 2.4A  MICRO",
-    "precio": 2000,
-    "categoria": "CARGADORES",
-    "imagen": "https://drive.google.com/uc?id=10FUznbbTRE98huoYjBTGPuxTpmZFfsbO",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
-  },
-  {
     "codigo": "453",
     "nombre": "CARGADOR LEGATUS 3.4 TIPO C",
     "precio": 3200,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1oBvIBj9hq9PCwEA4OqB9fyqnclZvqEB5",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 7
+    "stock": 1
   },
   {
     "codigo": "452",
@@ -33,7 +15,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1PubsAv4g60mq1I-9WJC12Zh68HzleCPa",
     "estado": "CON STOCK",
-    "stock": 3
+    "stock": 2
   },
   {
     "codigo": "33",
@@ -79,15 +61,6 @@
     "imagen": "https://drive.google.com/uc?id=1raFC0KypTUNXc9hYoHdOunsb8YFK04m1",
     "estado": "CON STOCK",
     "stock": 12
-  },
-  {
-    "codigo": "28",
-    "nombre": "CARGADOR APPLE 5W USB-LIGHTING",
-    "precio": 5000,
-    "categoria": "CARGADORES",
-    "imagen": "https://drive.google.com/uc?id=1feL01s7FZNQgQyM8d0WWVqp80pa9B8Cp",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 0
   },
   {
     "codigo": "140",
@@ -252,15 +225,6 @@
     "stock": 0
   },
   {
-    "codigo": "73",
-    "nombre": "SOPORTE DE CELULAR PARA BICI LX03",
-    "precio": 8500,
-    "categoria": "ACCESORIOS",
-    "imagen": "https://drive.google.com/uc?id=16A7oqYERZniSocMUjEPvqEXgUkAg9VvN",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 0
-  },
-  {
     "codigo": "378",
     "nombre": "SOPORTE P/ AUTO MOVIL RC RA123",
     "precio": 8800,
@@ -277,15 +241,6 @@
     "imagen": "https://drive.google.com/uc?id=1aIml6VyzDESKLotM_C6BJgkKhFc0GkCQ",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 3
-  },
-  {
-    "codigo": "10",
-    "nombre": "AURICULARES RC HD-MIC RE-1005",
-    "precio": 1600,
-    "categoria": "AURICULARES",
-    "imagen": "https://drive.google.com/uc?id=1sdwkafDLQKs80CE_NHhgldAeVx7FFkyN",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
   },
   {
     "codigo": "6",
@@ -554,8 +509,8 @@
     "precio": 16800,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1DLkStsdgzP5xFWoCOZviMIsYRHCDtOHx",
-    "estado": "CON STOCK",
-    "stock": 1
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
   },
   {
     "codigo": "289",
@@ -945,15 +900,6 @@
     "stock": 1
   },
   {
-    "codigo": "587",
-    "nombre": "RELOJ SMART WATCH S10 ULTRA 7 EN 1",
-    "precio": 19000,
-    "categoria": "TECNOLOGIA",
-    "imagen": "https://drive.google.com/file/d/1G5vahIIU32z04eUNir1sS_0vxONsNv6f/view?pli=1",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
-  },
-  {
     "codigo": "276",
     "nombre": "TV BOX MX9 4K 256 GB MEMORIA",
     "precio": 26900,
@@ -970,6 +916,15 @@
     "imagen": "https://drive.google.com/uc?id=1LcSKQqLROfJV8eP5CZC8_57xQW73EUrC",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
+  },
+  {
+    "codigo": "587",
+    "nombre": "RELOJ SMART WATCH S10 ULTRA 7 EN 1",
+    "precio": 19000,
+    "categoria": "TECNOLOGIA",
+    "imagen": "https://drive.google.com/file/d/1G5vahIIU32z04eUNir1sS_0vxONsNv6f/view?pli=1",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 1
   },
   {
     "codigo": "188",
@@ -1242,15 +1197,6 @@
     "stock": 5
   },
   {
-    "codigo": "67",
-    "nombre": "PELOTA INFLABLE 50CM CHOCOLATE",
-    "precio": 3000,
-    "categoria": "JUGUETERIA",
-    "imagen": "https://drive.google.com/uc?id=16OTTTFdwWgSyomRKAt3m1NMjnwVor-6a",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 8
-  },
-  {
     "codigo": "630",
     "nombre": "PIZARRA DIGITAL 8,5′",
     "precio": 3300,
@@ -1260,13 +1206,13 @@
     "stock": 0
   },
   {
-    "codigo": "66",
-    "nombre": "SALVAVIDAS 50CM ESTAMPADO",
-    "precio": 2700,
+    "codigo": "67",
+    "nombre": "PELOTA INFLABLE 50CM CHOCOLATE",
+    "precio": 3000,
     "categoria": "JUGUETERIA",
-    "imagen": "https://drive.google.com/uc?id=1ZF0zFDeulSrS-3xRiB6-YPybnd3xzhpC",
+    "imagen": "https://drive.google.com/uc?id=16OTTTFdwWgSyomRKAt3m1NMjnwVor-6a",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 7
+    "stock": 8
   },
   {
     "codigo": "629",
@@ -1278,13 +1224,13 @@
     "stock": 0
   },
   {
-    "codigo": "565",
-    "nombre": "PIZARRA DIGITAL 12′",
-    "precio": 5300,
+    "codigo": "66",
+    "nombre": "SALVAVIDAS 50CM ESTAMPADO",
+    "precio": 2700,
     "categoria": "JUGUETERIA",
-    "imagen": "https://drive.google.com/uc?id=1EUEqE4l0FCImbzt4fgM1eNeGMwvsWP0W",
+    "imagen": "https://drive.google.com/uc?id=1ZF0zFDeulSrS-3xRiB6-YPybnd3xzhpC",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
+    "stock": 7
   },
   {
     "codigo": "566",
@@ -1301,6 +1247,15 @@
     "precio": 13600,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1Slg0TN_9f7WKnkXu2qS3wSbprVUkGhl7",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
+    "codigo": "565",
+    "nombre": "PIZARRA DIGITAL 12′",
+    "precio": 5300,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1EUEqE4l0FCImbzt4fgM1eNeGMwvsWP0W",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -1517,8 +1472,8 @@
     "precio": 4000,
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1NtyLG_SFS8vqFFTcSznhHcX2VlELYap7",
-    "estado": "CON STOCK",
-    "stock": 3
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
   },
   {
     "codigo": "598",
