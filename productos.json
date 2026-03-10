@@ -1,8 +1,53 @@
 [
   {
+    "codigo": "29",
+    "nombre": "CARGADOR ROYALCELL 2.4A  MICRO",
+    "precio": 3000,
+    "categoria": "CARGADORES",
+    "imagen": "https://drive.google.com/uc?id=10FUznbbTRE98huoYjBTGPuxTpmZFfsbO",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 12
+  },
+  {
+    "codigo": "30",
+    "nombre": "CARGADOR ROYALCELL 2.4A  TIPO C",
+    "precio": 3000,
+    "categoria": "CARGADORES",
+    "imagen": "https://drive.google.com/uc?id=11r4t5dEIcl13Uln7_02VyvdzeM2m8vU1",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 6
+  },
+  {
+    "codigo": "453",
+    "nombre": "CARGADOR LEGATUS 3.4 TIPO C",
+    "precio": 3500,
+    "categoria": "CARGADORES",
+    "imagen": "https://drive.google.com/uc?id=1oBvIBj9hq9PCwEA4OqB9fyqnclZvqEB5",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 12
+  },
+  {
+    "codigo": "452",
+    "nombre": "CARGADOR LEGATUS 3.4 MICRO",
+    "precio": 3500,
+    "categoria": "CARGADORES",
+    "imagen": "https://drive.google.com/uc?id=1PubsAv4g60mq1I-9WJC12Zh68HzleCPa",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 6
+  },
+  {
+    "codigo": "32",
+    "nombre": "CARGADOR 5.0A ROYALCELL  TIPO C",
+    "precio": 4500,
+    "categoria": "CARGADORES",
+    "imagen": "https://drive.google.com/uc?id=19z1XirI6u3nBsdZRnUpbqvoUwgjDqxFi",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 14
+  },
+  {
     "codigo": "33",
     "nombre": "CARGADOR 5.0A ROYALCELL MICRO",
-    "precio": 4200,
+    "precio": 4500,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=19z1XirI6u3nBsdZRnUpbqvoUwgjDqxFi",
     "estado": "ULTIMOS DISPONIBLES",
@@ -19,7 +64,7 @@
   },
   {
     "codigo": "26",
-    "nombre": "CABEZAL APPLE TIPO C 20W A1692",
+    "nombre": "CABEZAL APPLE TIPO C 20W",
     "precio": 8500,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1raFC0KypTUNXc9hYoHdOunsb8YFK04m1",
@@ -29,7 +74,7 @@
   {
     "codigo": "24",
     "nombre": "CARGADOR P/ AUTO RC 4801 IPHONE",
-    "precio": 3800,
+    "precio": 4000,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1nDTkVUh6glU2oEjEITgtpKbNkVcJ7DEO",
     "estado": "ULTIMOS DISPONIBLES",
@@ -38,16 +83,16 @@
   {
     "codigo": "23",
     "nombre": "CARGADOR P/ AUTO RC 4801 MICRO",
-    "precio": 3800,
+    "precio": 4000,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1cW71loadL66DQJ33SQhQ3edkUutXtu9x",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 3
+    "stock": 2
   },
   {
     "codigo": "138",
     "nombre": "CARGADOR DE NOTEBOOK UNIVERSAL",
-    "precio": 14500,
+    "precio": 15000,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=10_eav-lPG4bXjQDbcboheQ6Ip5OTQTU8",
     "estado": "ULTIMOS DISPONIBLES",
@@ -56,25 +101,25 @@
   {
     "codigo": "27",
     "nombre": "CABLE USB LG-5009 MICRO",
-    "precio": 1600,
+    "precio": 1800,
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1MIdnzsRW-TAAq44kOuSD6wCWdaazPbAu",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 13
+    "stock": 10
   },
   {
     "codigo": "20",
     "nombre": "CABLE USB LG-5009 TIPO C",
-    "precio": 1600,
+    "precio": 1800,
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1TfyIwJKlUGCrgKLQogOX8agKlEWa2lIv",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 17
+    "stock": 22
   },
   {
     "codigo": "21",
     "nombre": "CABLE USB RC-5018 TIPO C A TIPO C 2MT",
-    "precio": 3500,
+    "precio": 3600,
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1qA_erwCLAlipvE8OAypOOtnSUMXf0AUW",
     "estado": "ULTIMOS DISPONIBLES",
@@ -83,7 +128,7 @@
   {
     "codigo": "17",
     "nombre": "CABLE APPLE IPHONE TIPO C A C",
-    "precio": 3100,
+    "precio": 3300,
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1_5I021ePLX2kftD5dsVAXLKMXI1hIpeA",
     "estado": "ULTIMOS DISPONIBLES",
@@ -91,12 +136,12 @@
   },
   {
     "codigo": "2",
-    "nombre": "RECEPTOR DE BLUETOOTH G186",
+    "nombre": "RECEPTOR DE BLUETOOTH",
     "precio": 3000,
     "categoria": "ACCESORIOS",
     "imagen": "https://drive.google.com/uc?id=1m8VahlTqbE-3_LcBzl0RYh5UZ0r-lV7d",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 8
+    "stock": 7
   },
   {
     "codigo": "1",
@@ -106,15 +151,6 @@
     "imagen": "https://drive.google.com/uc?id=1ph9xd6lG3jxoHx313OGMhR6WKMLodk1T",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 26
-  },
-  {
-    "codigo": "72",
-    "nombre": "SOPORTE DE CELULAR PARA AUTO RA145",
-    "precio": 11000,
-    "categoria": "ACCESORIOS",
-    "imagen": "https://drive.google.com/uc?id=1csORvGadYgn5dIG_WV1UUSQzVcxUD9UH",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 0
   },
   {
     "codigo": "378",
@@ -133,6 +169,15 @@
     "imagen": "https://drive.google.com/uc?id=1aIml6VyzDESKLotM_C6BJgkKhFc0GkCQ",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 2
+  },
+  {
+    "codigo": "10",
+    "nombre": "AURICULARES RC HD-MIC RE-1005",
+    "precio": 1800,
+    "categoria": "AURICULARES",
+    "imagen": "https://drive.google.com/uc?id=1sdwkafDLQKs80CE_NHhgldAeVx7FFkyN",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 18
   },
   {
     "codigo": "6",
@@ -154,7 +199,7 @@
   },
   {
     "codigo": "7",
-    "nombre": "AURICULAR VINCHA BT P47/ NG-A423BT",
+    "nombre": "AURICULAR VINCHA BT P47",
     "precio": 7000,
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=1ThAma6yRNZepjkBLcyPs8JGOybyx1DiY",
@@ -209,7 +254,7 @@
   {
     "codigo": "348",
     "nombre": "PARLANTE BLUETOOTH CHARGE MINI",
-    "precio": 13600,
+    "precio": 14000,
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=1TsLel6-HB_jWmeJ7LFS7CE9VKbhES7f4",
     "estado": "ULTIMOS DISPONIBLES",
@@ -217,7 +262,7 @@
   },
   {
     "codigo": "61",
-    "nombre": "PROYECTOR DE ESTRELLAS STAR MASTER/SUONO",
+    "nombre": "PROYECTOR DE ESTRELLAS STAR MASTER",
     "precio": 9500,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1Jxsx7DsRxNOkZqxcYcqfa7upU2mUNJar",
@@ -226,7 +271,7 @@
   },
   {
     "codigo": "44",
-    "nombre": "LAMPARA 005/121/127/157/Z-139",
+    "nombre": "LAMPARA DE SILICONA",
     "precio": 17000,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1R9V23mcDN0S17xQI1gcUqGEXpjsFKrcF",
@@ -235,7 +280,7 @@
   },
   {
     "codigo": "60",
-    "nombre": "LAMPARA INFANTIL 258 10/11",
+    "nombre": "LAMPARA INFANTIL LAPICERO",
     "precio": 10500,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1yhf6Pvc-3gPFGmbIYqyluS2FpMv5kO4A",
@@ -244,7 +289,7 @@
   },
   {
     "codigo": "56",
-    "nombre": "LAMPARA DE ESCRITORIO TÁCTIL PL-9031",
+    "nombre": "LAMPARA DE ESCRITORIO TÁCTIL",
     "precio": 13500,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1vDmNJHbXo84p3ET3Wr8APt7EFtVGLk-3",
@@ -262,7 +307,7 @@
   },
   {
     "codigo": "298",
-    "nombre": "LINTERNA TGX-8009",
+    "nombre": "LINTERNA RECARGABLE TGX-8009",
     "precio": 8000,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1Yr4l1qgGqoaG_nsAFp2bG1JJ6Fxinv86",
@@ -272,7 +317,7 @@
   {
     "codigo": "205",
     "nombre": "MINI LINTERNA KEYCHAIN BOLSILLO COB-150",
-    "precio": 2600,
+    "precio": 2800,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1z1VE9DffmKc0A56MUKfFP8igh4EoD_f1",
     "estado": "ULTIMOS DISPONIBLES",
@@ -330,7 +375,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1-AQ-TZdaHyqzXUgiYMcPhQwsYDtNhb60",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 7
+    "stock": 6
   },
   {
     "codigo": "330",
@@ -339,7 +384,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1AfRvknY8jNy36WCd83oStGTNjokaYiC2",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 4
+    "stock": 5
   },
   {
     "codigo": "67",
@@ -360,42 +405,6 @@
     "stock": 7
   },
   {
-    "codigo": "565",
-    "nombre": "PIZARRA DIGITAL 12′",
-    "precio": 5300,
-    "categoria": "JUGUETERIA",
-    "imagen": "https://drive.google.com/uc?id=1EUEqE4l0FCImbzt4fgM1eNeGMwvsWP0W",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
-  },
-  {
-    "codigo": "632",
-    "nombre": "ANANA SQU12 X12",
-    "precio": 18000,
-    "categoria": "JUGUETERIA",
-    "imagen": "https://drive.google.com/uc?id=17aCFj1sVEIFq57ofC7pcqw7F-wLADpFT",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": -0.5
-  },
-  {
-    "codigo": "671",
-    "nombre": "TOMATE SQU18 X12",
-    "precio": 18000,
-    "categoria": "JUGUETERIA",
-    "imagen": "https://drive.google.com/uc?id=1VzC43NXmBzitEgCinldDcjML1boVaZL1",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 0.5
-  },
-  {
-    "codigo": "673",
-    "nombre": "UVA SQU20 X12",
-    "precio": 18000,
-    "categoria": "JUGUETERIA",
-    "imagen": "https://drive.google.com/uc?id=1PQwCxnxzFycHWDjBV77mviQgDpbWAg3U",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
-  },
-  {
     "codigo": "76",
     "nombre": "CALCULADORA LEGATUS LCC-11",
     "precio": 5500,
@@ -406,7 +415,7 @@
   },
   {
     "codigo": "75",
-    "nombre": "BANDOLERA CRUZADA ANTIRROBO P260KA",
+    "nombre": "BANDOLERA CRUZADA ANTIRROBO",
     "precio": 20000,
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1S0g3E__CwiAKY3Ht44q18AeMbs0X__tc",
@@ -415,7 +424,7 @@
   },
   {
     "codigo": "399",
-    "nombre": "SET LAPICERA COLOR PASTEL X8 G014-8",
+    "nombre": "SET LAPICERA COLOR PASTEL X8",
     "precio": 2800,
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1WUmsbY1OnMqNtbPKxYojnQSBc22Jq6sZ",
@@ -424,7 +433,7 @@
   },
   {
     "codigo": "400",
-    "nombre": "SET LAPICERA NEON X6 G015-6",
+    "nombre": "SET LAPICERA NEON X6",
     "precio": 2200,
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1BhXoflWv7-rdsc87Wb8hUCaUVotNxhGa",
@@ -433,7 +442,7 @@
   },
   {
     "codigo": "401",
-    "nombre": "SET LAPICERAS C/GLITTER X10 G013-10",
+    "nombre": "SET LAPICERAS C/GLITTER X10",
     "precio": 4000,
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1NtyLG_SFS8vqFFTcSznhHcX2VlELYap7",
@@ -460,7 +469,7 @@
   },
   {
     "codigo": "15",
-    "nombre": "CEPILLO ORYX MODELADOR 3 EN 1 OR 1201",
+    "nombre": "CEPILLO ORYX MODELADOR 3 EN 1",
     "precio": 20000,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1ZShV8cAQWrcJow0Jog42bwr-clamzlmQ",
@@ -469,7 +478,7 @@
   },
   {
     "codigo": "11",
-    "nombre": "CORTA PELO VINTAGE T9 TRIMMER DL-1503AB2",
+    "nombre": "CORTA PELO VINTAGE T9",
     "precio": 6800,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1OSYZO7ecFMz4cOENTARgVKJDikECMTs_",
@@ -495,18 +504,9 @@
     "stock": 1
   },
   {
-    "codigo": "35",
-    "nombre": "ANAFE ELECTRICO ORYX 1HORNALLA HPS-102",
-    "precio": 23000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1um9z8aa6RaK9GkBj1CQwdHJexU_Qw-53",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
-  },
-  {
     "codigo": "39",
     "nombre": "BALANZA DE COCINA SF-400 10KG",
-    "precio": 6500,
+    "precio": 7000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1Cn1kZifednWH6Dpdj93Tv1wcpXDNlmpV",
     "estado": "ULTIMOS DISPONIBLES",
@@ -532,7 +532,7 @@
   },
   {
     "codigo": "40",
-    "nombre": "BOTELLA DEPORTIVA VACUUM CUP/2069",
+    "nombre": "BOTELLA DEPORTIVA VACUUM",
     "precio": 22000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1Y0ncA3t1ANqjNauiZHQOD7msebSIyPJ2",
@@ -541,7 +541,7 @@
   },
   {
     "codigo": "42",
-    "nombre": "BOTELLAS DEPORTIVA 1LT OSR G275-02",
+    "nombre": "BOTELLAS DEPORTIVA 1LT",
     "precio": 10000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=17GaHr6b-USvTEF26braO5Th_4SyrXXqg",
@@ -550,7 +550,7 @@
   },
   {
     "codigo": "43",
-    "nombre": "BOTELLAS DEPORTIVA 800ML OSR G274",
+    "nombre": "BOTELLAS DEPORTIVA 800ML",
     "precio": 11000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1cf3jPHO9ykpHbjLbD4NrHSMqkSXvBy9I",
@@ -564,7 +564,7 @@
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1juQxX54sETQRWT_blCktmk1KT_HCOTpT",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
+    "stock": 1
   },
   {
     "codigo": "45",
@@ -604,7 +604,7 @@
   },
   {
     "codigo": "580",
-    "nombre": "CONTROL DE AIRE KA1028E",
+    "nombre": "CONTROL DE AIRE",
     "precio": 4000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1O60uoCU-2hxi3oYWZ1PtSVhH0dEzRRZq",
@@ -631,7 +631,7 @@
   },
   {
     "codigo": "47",
-    "nombre": "RAQUETA MATA MOSQUITOS USB HJ03",
+    "nombre": "RAQUETA MATA MOSQUITOS",
     "precio": 9500,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1_RkXSJ9f0z-bK6kMr4BmmcrMFlO4FTPp",
@@ -650,7 +650,7 @@
   {
     "codigo": "198",
     "nombre": "INFLADOR MULTIUSO BOQUILLA INTERCAMBIABLE",
-    "precio": 5200,
+    "precio": 5500,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1qWJO3cx7o5P67owApjqhsRutHUow4mzX",
     "estado": "ULTIMOS DISPONIBLES",
@@ -658,7 +658,7 @@
   },
   {
     "codigo": "199",
-    "nombre": "LINGA ANCHI 1.2M AV24244-1",
+    "nombre": "LINGA ANCHI 1.2M",
     "precio": 10500,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1w2jYeCB2XvXADBWWfBeVyJEr0oyn51gM",
