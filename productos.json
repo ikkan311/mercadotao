@@ -42,7 +42,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=19z1XirI6u3nBsdZRnUpbqvoUwgjDqxFi",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 4
+    "stock": 2
   },
   {
     "codigo": "33",
@@ -114,7 +114,7 @@
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1TfyIwJKlUGCrgKLQogOX8agKlEWa2lIv",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 12
+    "stock": 10
   },
   {
     "codigo": "21",
@@ -177,7 +177,7 @@
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=1sdwkafDLQKs80CE_NHhgldAeVx7FFkyN",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 18
+    "stock": 16
   },
   {
     "codigo": "6",
@@ -186,7 +186,7 @@
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=1WKIkUk6fEWewQE5L_NhiRoHw10vq0phv",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 8
+    "stock": 6
   },
   {
     "codigo": "9",
@@ -546,7 +546,7 @@
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=17GaHr6b-USvTEF26braO5Th_4SyrXXqg",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 4
+    "stock": 0
   },
   {
     "codigo": "43",
@@ -591,7 +591,7 @@
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1zCGOIOB0lfoXimp8PnEybOl8eR642qw7",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 3
+    "stock": 2
   },
   {
     "codigo": "52",
@@ -600,7 +600,7 @@
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1CWtzk4KN53h0DoWMrF3w4ADu27Tb_0bh",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 5
+    "stock": 1
   },
   {
     "codigo": "580",
@@ -663,6 +663,6 @@
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1w2jYeCB2XvXADBWWfBeVyJEr0oyn51gM",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
+    "stock": 0
   }
 ]
