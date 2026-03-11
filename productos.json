@@ -168,7 +168,7 @@
     "categoria": "ACCESORIOS",
     "imagen": "https://drive.google.com/uc?id=1aIml6VyzDESKLotM_C6BJgkKhFc0GkCQ",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
+    "stock": 0
   },
   {
     "codigo": "10",
@@ -258,7 +258,7 @@
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=1TsLel6-HB_jWmeJ7LFS7CE9VKbhES7f4",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
+    "stock": 0
   },
   {
     "codigo": "61",
@@ -267,7 +267,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1Jxsx7DsRxNOkZqxcYcqfa7upU2mUNJar",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 3
+    "stock": 2
   },
   {
     "codigo": "44",
@@ -303,7 +303,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=18dorJSqgwt2_STlTMpVxo8ROHQPSpVOr",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 3
+    "stock": 0
   },
   {
     "codigo": "298",
@@ -420,7 +420,7 @@
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1S0g3E__CwiAKY3Ht44q18AeMbs0X__tc",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
+    "stock": 0
   },
   {
     "codigo": "399",
@@ -429,7 +429,7 @@
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1WUmsbY1OnMqNtbPKxYojnQSBc22Jq6sZ",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 5
+    "stock": 0
   },
   {
     "codigo": "400",
@@ -438,7 +438,7 @@
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1BhXoflWv7-rdsc87Wb8hUCaUVotNxhGa",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 4
+    "stock": 0
   },
   {
     "codigo": "401",
@@ -447,7 +447,7 @@
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1NtyLG_SFS8vqFFTcSznhHcX2VlELYap7",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 5
+    "stock": 0
   },
   {
     "codigo": "598",
@@ -537,7 +537,7 @@
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1Y0ncA3t1ANqjNauiZHQOD7msebSIyPJ2",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
+    "stock": 0
   },
   {
     "codigo": "42",
