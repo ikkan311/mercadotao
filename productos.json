@@ -24,7 +24,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1oBvIBj9hq9PCwEA4OqB9fyqnclZvqEB5",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 12
+    "stock": 10
   },
   {
     "codigo": "452",
@@ -33,7 +33,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1PubsAv4g60mq1I-9WJC12Zh68HzleCPa",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 6
+    "stock": 4
   },
   {
     "codigo": "32",
@@ -42,7 +42,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=19z1XirI6u3nBsdZRnUpbqvoUwgjDqxFi",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
+    "stock": 0
   },
   {
     "codigo": "33",
@@ -51,7 +51,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=19z1XirI6u3nBsdZRnUpbqvoUwgjDqxFi",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 6
+    "stock": 4
   },
   {
     "codigo": "34",
@@ -177,7 +177,7 @@
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=1sdwkafDLQKs80CE_NHhgldAeVx7FFkyN",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 16
+    "stock": 13
   },
   {
     "codigo": "6",
@@ -186,7 +186,7 @@
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=1WKIkUk6fEWewQE5L_NhiRoHw10vq0phv",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 6
+    "stock": 3
   },
   {
     "codigo": "9",
@@ -195,7 +195,7 @@
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=1Zi7ZdAf3SeWa_xPkY5A1N7QeG6IXnpVy",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
+    "stock": 0
   },
   {
     "codigo": "7",
@@ -240,7 +240,7 @@
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=1fMSDuq9BefylfSMUO0k8XU-aJTqo4jSU",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 6
+    "stock": 5
   },
   {
     "codigo": "359",
@@ -312,7 +312,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1Yr4l1qgGqoaG_nsAFp2bG1JJ6Fxinv86",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
+    "stock": 0
   },
   {
     "codigo": "205",
@@ -321,7 +321,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1z1VE9DffmKc0A56MUKfFP8igh4EoD_f1",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 4
+    "stock": 2
   },
   {
     "codigo": "71",
@@ -339,7 +339,7 @@
     "categoria": "TECNOLOGIA",
     "imagen": "https://drive.google.com/file/d/1G5vahIIU32z04eUNir1sS_0vxONsNv6f/view?pli=1",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
+    "stock": 0
   },
   {
     "codigo": "37",
@@ -591,7 +591,7 @@
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1zCGOIOB0lfoXimp8PnEybOl8eR642qw7",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
+    "stock": 0
   },
   {
     "codigo": "52",
@@ -618,7 +618,7 @@
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1Zx2ga_v6ZaJK6o4Hct8RBbyChqeSc45i",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
+    "stock": 0
   },
   {
     "codigo": "48",
@@ -654,7 +654,7 @@
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1qWJO3cx7o5P67owApjqhsRutHUow4mzX",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
+    "stock": 0
   },
   {
     "codigo": "199",
