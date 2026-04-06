@@ -155,7 +155,7 @@
   {
     "codigo": "131",
     "nombre": "CABLE USB IPH 1M MD818ZM",
-    "precio": 2500,
+    "precio": 2800,
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1s2WhGJtfLUWtTSU1JAXPfbbZ-qfqo_V2",
     "estado": "A PEDIDO (de 7 a 10 días)",
@@ -381,7 +381,7 @@
     "codigo": "62",
     "nombre": "LAMPARA ASTRONAUTA JS6801H",
     "precio": 7900,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1vnMP4d9dxSe_TXNMCSzpGI4R7IH8GQWH",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
@@ -453,7 +453,7 @@
     "codigo": "79",
     "nombre": "ESFERA DE CRISTAL 8CM DE DIAMETRO",
     "precio": 9500,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1RkGg58P-LrJo5L36kSGYNV3X6c9i8-TP",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
@@ -498,7 +498,7 @@
     "codigo": "310",
     "nombre": "PROYECTOR ASTRONAUTA C/PARLANTE KA-7802",
     "precio": 28000,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1lhz7Sfnk9hozPh1OjkqtXdG8Gdz71zP2",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
@@ -588,7 +588,7 @@
     "codigo": "295",
     "nombre": "LASER RECARGABLE LAMBO TECH 03-3A",
     "precio": 8700,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1itmoWy9xT0o130ecDTbgx3ctVUa9xQ3t",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
@@ -666,15 +666,6 @@
     "stock": 0
   },
   {
-    "codigo": "277",
-    "nombre": "TV BOX STICK R3 8K ANDROID TV 512 GB",
-    "precio": 31900,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1aM1s16xUXu9KAZV3v9WVmbOhQZGfgf_h",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
     "codigo": "371",
     "nombre": "CAMARA DE SEGURIDAD FOCO OR-103",
     "precio": 28500,
@@ -727,6 +718,15 @@
     "imagen": "https://drive.google.com/uc?id=1pXLUJh2Z3yYHzPe4sQo8y-z_1EEfoyWR",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 1
+  },
+  {
+    "codigo": "277",
+    "nombre": "TV BOX STICK R3 8K ANDROID TV 512 GB",
+    "precio": 31900,
+    "categoria": "TECNOLOGIA",
+    "imagen": "https://drive.google.com/uc?id=1aM1s16xUXu9KAZV3v9WVmbOhQZGfgf_h",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
   },
   {
     "codigo": "276",
@@ -1215,15 +1215,6 @@
     "stock": 0
   },
   {
-    "codigo": "78",
-    "nombre": "MOCHILA TRANSPORTADORA DE MASCOTAS HELLO CAT",
-    "precio": 20500,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1Cd91TtR7qXvt__Xq5yMfLh7LggxDQ-dd",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
     "codigo": "97",
     "nombre": "CEPILLO 4 EN 1 ORYX WT-601",
     "precio": 35200,
@@ -1544,6 +1535,15 @@
     "precio": 24000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1ftA9EI0_0usd-Ai5GTBA6j1ELhcArClt",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
+    "codigo": "78",
+    "nombre": "MOCHILA TRANSPORTADORA DE MASCOTAS HELLO CAT",
+    "precio": 20500,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1Cd91TtR7qXvt__Xq5yMfLh7LggxDQ-dd",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -2145,7 +2145,7 @@
     "codigo": "198",
     "nombre": "INFLADOR MULTIUSO BOQUILLA INTERCAMBIABLE",
     "precio": 5500,
-    "categoria": "HERRAMIENTAS",
+    "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1qWJO3cx7o5P67owApjqhsRutHUow4mzX",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
