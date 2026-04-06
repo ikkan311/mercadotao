@@ -31,7 +31,7 @@
     "nombre": "CARGADOR LEGATUS 3.4 MICRO",
     "precio": 3500,
     "categoria": "CARGADORES",
-    "imagen": "https://drive.google.com/uc?id=1PubsAv4g60mq1I-9WJC12Zh68HzleCPa",
+    "imagen": "https://drive.google.com/uc?id=1oBvIBj9hq9PCwEA4OqB9fyqnclZvqEB5",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 4
   },
@@ -103,7 +103,7 @@
     "nombre": "CABLE USB LG-5009 IPHONE",
     "precio": 1800,
     "categoria": "CABLES",
-    "imagen": "https://drive.google.com/uc?id=1TIVboCSHL-R9Eis-adANSB9y7Eb_IqkW",
+    "imagen": "https://drive.google.com/uc?id=1MIdnzsRW-TAAq44kOuSD6wCWdaazPbAu",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -419,7 +419,7 @@
     "precio": 9500,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1Jxsx7DsRxNOkZqxcYcqfa7upU2mUNJar",
-    "estado": "ULTIMOS DISPONIBLES",
+    "estado": "CON STOCK",
     "stock": 2
   },
   {
@@ -428,7 +428,7 @@
     "precio": 17000,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1R9V23mcDN0S17xQI1gcUqGEXpjsFKrcF",
-    "estado": "ULTIMOS DISPONIBLES",
+    "estado": "CON STOCK",
     "stock": 5
   },
   {
@@ -437,7 +437,7 @@
     "precio": 10500,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1yhf6Pvc-3gPFGmbIYqyluS2FpMv5kO4A",
-    "estado": "ULTIMOS DISPONIBLES",
+    "estado": "CON STOCK",
     "stock": 2
   },
   {
@@ -1202,7 +1202,7 @@
     "precio": 7500,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1kHzXSDXwWa1vq_esoqHL8d1FURHVGdwY",
-    "estado": "ULTIMOS DISPONIBLES",
+    "estado": "CON STOCK",
     "stock": 6
   },
   {
@@ -1283,7 +1283,7 @@
     "precio": 6800,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1OSYZO7ecFMz4cOENTARgVKJDikECMTs_",
-    "estado": "ULTIMOS DISPONIBLES",
+    "estado": "CON STOCK",
     "stock": 1
   },
   {
@@ -1741,8 +1741,8 @@
     "nombre": "PAVA ELÉCTRICA 2200 W",
     "precio": 20000,
     "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1QH1D8Pj2LO08yeLrTwcWalfG17Bc1ebN",
-    "estado": "ULTIMOS DISPONIBLES",
+    "imagen": "https://drive.google.com/uc?id=16a7KTZfyLbtOUz1vR3Tm1Uc4GMbG8HXX",
+    "estado": "CON STOCK",
     "stock": 2
   },
   {
@@ -2095,15 +2095,6 @@
     "imagen": "https://drive.google.com/uc?id=109ZMKeLFnia5oc4LMfXPldRNIluu864w",
     "estado": "CON STOCK",
     "stock": 10
-  },
-  {
-    "codigo": "52",
-    "nombre": "ADAPTADOR 2 PATAS",
-    "precio": 700,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1CWtzk4KN53h0DoWMrF3w4ADu27Tb_0bh",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
   },
   {
     "codigo": "580",
