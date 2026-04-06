@@ -666,6 +666,15 @@
     "stock": 0
   },
   {
+    "codigo": "542",
+    "nombre": "LUZ DE SILICONA HJ008-2",
+    "precio": 2800,
+    "categoria": "ILUMINACION",
+    "imagen": "https://drive.google.com/uc?id=15W6E2tjBvZl6CbkktMJPj6QD6bcuPRfN",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
     "codigo": "371",
     "nombre": "CAMARA DE SEGURIDAD FOCO OR-103",
     "precio": 28500,
@@ -2147,15 +2156,6 @@
     "precio": 5500,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1qWJO3cx7o5P67owApjqhsRutHUow4mzX",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "542",
-    "nombre": "LUZ DE SILICONA HJ008-2",
-    "precio": 2800,
-    "categoria": "ILUMINACIÓN",
-    "imagen": "https://drive.google.com/uc?id=15W6E2tjBvZl6CbkktMJPj6QD6bcuPRfN",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
