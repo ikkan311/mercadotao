@@ -214,7 +214,7 @@
 <header class="header">
   <div class="header-top">
     <div class="logo-container"><img src="logo.png" alt="Logo"></div>
-    <div class="leyenda-centro">Precios mayorista solamente para compras mayores a $90.000</div>
+    <div class="leyenda-centro">Descuentos para compras mayores a $100.000</div>
     <button id="btn-carrito-toggle" style="cursor:pointer; padding: 8px 12px; border-radius: 6px; border: 1px solid #ddd;">🛒 Pedido (<span id="carrito-count">0</span>)</button>
   </div>
   <div class="search-wrapper">
@@ -511,7 +511,7 @@ async function generarPDFParaImprimir() {
         doc.addImage(logoData.data, 'JPEG', 105 - (logoData.w / 2), 4, logoData.w, logoData.h);
       }
       doc.setFontSize(12); doc.setTextColor(39, 174, 96); doc.setFont(undefined, 'bold');
-      doc.text("Precios mayorista solamente para compras mayores a $90.000", 105, 21, { align: 'center' });
+      doc.text("Descuento para compras mayores a $100.000", 105, 21, { align: 'center' });
     }
 
     const col = indexEnHoja % 4;
