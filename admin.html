@@ -84,7 +84,10 @@
                         <p>WA: ${p.WHATSAPP}</p>
                     </div>
                     <div class="pedido-total">
-                        <span>$${Number(p.TOTAL).toLocaleString()}</span>
+                        <span style="color: ${Number(p.TOTAL) >= 90000 ? '#16a34a' : '#16a34a'}">
+    $${Number(p.TOTAL).toLocaleString()}
+    ${Number(p.TOTAL) >= 90000 ? '<br><small style="font-size:9px; color:green">DTO. APLICADO</small>' : ''}
+</span>
                         <button onclick="abrirEditor('${p["ID PEDIDO"]}')" class="btn-gestionar">GESTIONAR</button>
                     </div>
                 </div>`).join('');
@@ -120,8 +123,17 @@
                     </div>
                 </div>`;
             }).join('');
-            document.getElementById("edit-total").innerText = total.toLocaleString();
-            pedidoActual.TOTAL_NUEVO = total;
+            let totalFinal = total;
+    let etiquetaDto = "";
+
+    if (total >= 100000) {
+        totalFinal = total * 0.90;
+        etiquetaDto = ` <small style="color:#16a34a; font-size:1rem;">(10% OFF)</small>`;
+    }
+
+    document.getElementById("edit-total").innerHTML = totalFinal.toLocaleString() + etiquetaDto;
+    pedidoActual.TOTAL_NUEVO = totalFinal; // Guardamos el valor real con descuento
+    pedidoActual.SUBTOTAL = total;         // Guardamos el subtotal para el PDF
         }
 
         function generarPDF() {
@@ -132,7 +144,16 @@
             doc.text(`ID: ${pedidoActual["ID PEDIDO"]}`, 15, 40);
             const rows = pedidoActual.carrito.map(i => [i.codigo, i.nombre, i.cantidad, `$${i.precio}`, `$${i.precio * i.cantidad}`]);
             doc.autoTable({ startY: 45, head: [['Cod', 'Producto', 'Cant', 'Precio', 'Sub']], body: rows });
-            doc.text(`TOTAL: $${pedidoActual.TOTAL_NUEVO.toLocaleString()}`, 195, doc.lastAutoTable.finalY + 10, { align: 'right' });
+            let yFinal = doc.lastAutoTable.finalY + 10;
+    if (pedidoActual.SUBTOTAL >= 100000) {
+        doc.setFontSize(9);
+        doc.text(`Subtotal: $${pedidoActual.SUBTOTAL.toLocaleString()}`, 195, yFinal, { align: 'right' });
+        doc.text(`Descuento 10%: -$${(pedidoActual.SUBTOTAL * 0.10).toLocaleString()}`, 195, yFinal + 5, { align: 'right' });
+        yFinal += 12;
+    }
+    doc.setFontSize(12);
+    doc.setFont(undefined, 'bold');
+    doc.text(`TOTAL A COBRAR: $${pedidoActual.TOTAL_NUEVO.toLocaleString()}`, 195, yFinal, { align: 'right' });
             doc.save(`Pedido_${pedidoActual.CLIENTE}.pdf`);
         }
 
@@ -144,7 +165,12 @@
                 generarPDF();
                 await fetch(URL_APPSCRIPT, {
                     method: "POST", mode: "no-cors",
-                    body: JSON.stringify({ action: "APROBAR", idPedido: pedidoActual["ID PEDIDO"], carritoFinal: pedidoActual.carrito })
+                    body: JSON.stringify({ 
+    action: "APROBAR", 
+    idPedido: pedidoActual["ID PEDIDO"], 
+    carritoFinal: pedidoActual.carrito,
+    totalFinal: pedidoActual.TOTAL_NUEVO // Agregamos el total real con descuento
+})
                 });
                 alert("Éxito"); location.reload();
             } catch (e) { alert("Error"); btn.disabled = false; }
