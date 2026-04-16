@@ -389,7 +389,7 @@ function actualizarUI() {
     totalD += sub; totalU += i.cantidad;
     body.innerHTML += `<tr style="border-bottom: 1px solid #eee;"><td style="padding:10px 0;">${i.nombre.substring(0,25)}...<br><small>Cód: ${i.codigo}</small></td><td style="text-align:center;">x${i.cantidad}</td><td style="text-align:right;">$${sub.toLocaleString()}</td><td><button onclick="quitar('${i.codigo}')" style="color:red; border:none; background:none; cursor:pointer; padding-left:10px;">✕</button></td></tr>`;
   });
-  dlet totalFinal = totalD;
+  let totalFinal = totalD;
   let etiquetaDescuento = "";
 
   if (totalD >= 100000) {
