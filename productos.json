@@ -15,7 +15,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=11r4t5dEIcl13Uln7_02VyvdzeM2m8vU1",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 14
+    "stock": 12
   },
   {
     "codigo": "453",
@@ -42,7 +42,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=19z1XirI6u3nBsdZRnUpbqvoUwgjDqxFi",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 12
+    "stock": 10
   },
   {
     "codigo": "33",
@@ -60,7 +60,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1nEnJRpdvPDCOd-ZW_sKKYovESeqp_2ub",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 4
+    "stock": 3
   },
   {
     "codigo": "26",
@@ -123,7 +123,7 @@
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1TfyIwJKlUGCrgKLQogOX8agKlEWa2lIv",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 20
+    "stock": 15
   },
   {
     "codigo": "21",
@@ -177,7 +177,7 @@
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=1sdwkafDLQKs80CE_NHhgldAeVx7FFkyN",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 7
+    "stock": 5
   },
   {
     "codigo": "6",
@@ -186,7 +186,7 @@
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=1WKIkUk6fEWewQE5L_NhiRoHw10vq0phv",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 7
+    "stock": 6
   },
   {
     "codigo": "811",
