@@ -69,7 +69,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1raFC0KypTUNXc9hYoHdOunsb8YFK04m1",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 10
+    "stock": 9
   },
   {
     "codigo": "24",
@@ -105,7 +105,7 @@
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1TfyIwJKlUGCrgKLQogOX8agKlEWa2lIv",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 8
+    "stock": 6
   },
   {
     "codigo": "27",
@@ -126,13 +126,22 @@
     "stock": 24
   },
   {
+    "codigo": "21",
+    "nombre": "CABLE USB RC-5018 TIPO C A TIPO C 2MT",
+    "precio": 4000,
+    "categoria": "CABLES",
+    "imagen": "https://drive.google.com/uc?id=1qA_erwCLAlipvE8OAypOOtnSUMXf0AUW",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 0
+  },
+  {
     "codigo": "17",
     "nombre": "CABLE APPLE IPHONE TIPO C A C",
     "precio": 3700,
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1_5I021ePLX2kftD5dsVAXLKMXI1hIpeA",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 4
+    "stock": 2
   },
   {
     "codigo": "131",
@@ -168,7 +177,7 @@
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=1sdwkafDLQKs80CE_NHhgldAeVx7FFkyN",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 13
+    "stock": 11
   },
   {
     "codigo": "6",
@@ -286,6 +295,15 @@
     "imagen": "https://drive.google.com/uc?id=1z1VE9DffmKc0A56MUKfFP8igh4EoD_f1",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 2
+  },
+  {
+    "codigo": "71",
+    "nombre": "CANDADOS DE BRONCE 50 MM",
+    "precio": 3000,
+    "categoria": "SEGURIDAD",
+    "imagen": "https://drive.google.com/uc?id=1pXLUJh2Z3yYHzPe4sQo8y-z_1EEfoyWR",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 0
   },
   {
     "codigo": "37",
@@ -421,6 +439,15 @@
     "imagen": "https://drive.google.com/uc?id=1z3IVh-zuSx2iAqgMV45S1DNeHc6yNKFs",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 1
+  },
+  {
+    "codigo": "39",
+    "nombre": "BALANZA DE COCINA SF-400 10KG",
+    "precio": 7800,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1Cn1kZifednWH6Dpdj93Tv1wcpXDNlmpV",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 0
   },
   {
     "codigo": "36",
