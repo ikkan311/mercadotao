@@ -41,7 +41,7 @@
     "precio": 5000,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=19z1XirI6u3nBsdZRnUpbqvoUwgjDqxFi",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 15
   },
   {
@@ -50,7 +50,7 @@
     "precio": 5000,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=19z1XirI6u3nBsdZRnUpbqvoUwgjDqxFi",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 4
   },
   {
@@ -59,7 +59,7 @@
     "precio": 10500,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1nEnJRpdvPDCOd-ZW_sKKYovESeqp_2ub",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 6
   },
   {
@@ -68,7 +68,7 @@
     "precio": 9400,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1raFC0KypTUNXc9hYoHdOunsb8YFK04m1",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 10
   },
   {
@@ -77,7 +77,7 @@
     "precio": 4500,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1nDTkVUh6glU2oEjEITgtpKbNkVcJ7DEO",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 2
   },
   {
@@ -86,7 +86,7 @@
     "precio": 4500,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1cW71loadL66DQJ33SQhQ3edkUutXtu9x",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 2
   },
   {
@@ -95,7 +95,7 @@
     "precio": 16700,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=10_eav-lPG4bXjQDbcboheQ6Ip5OTQTU8",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 2
   },
   {
@@ -104,7 +104,7 @@
     "precio": 2000,
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1TfyIwJKlUGCrgKLQogOX8agKlEWa2lIv",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 8
   },
   {
@@ -113,7 +113,7 @@
     "precio": 2000,
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1TfyIwJKlUGCrgKLQogOX8agKlEWa2lIv",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 10
   },
   {
@@ -122,17 +122,8 @@
     "precio": 2000,
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1TfyIwJKlUGCrgKLQogOX8agKlEWa2lIv",
-    "estado": "CON STOCK",
-    "stock": 24
-  },
-  {
-    "codigo": "21",
-    "nombre": "CABLE USB RC-5018 TIPO C A TIPO C 2MT",
-    "precio": 4000,
-    "categoria": "CABLES",
-    "imagen": "https://drive.google.com/uc?id=1qA_erwCLAlipvE8OAypOOtnSUMXf0AUW",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 0
+    "stock": 24
   },
   {
     "codigo": "17",
@@ -140,7 +131,7 @@
     "precio": 3700,
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1_5I021ePLX2kftD5dsVAXLKMXI1hIpeA",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 4
   },
   {
@@ -149,7 +140,7 @@
     "precio": 3100,
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1s2WhGJtfLUWtTSU1JAXPfbbZ-qfqo_V2",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 20
   },
   {
@@ -158,7 +149,7 @@
     "precio": 3400,
     "categoria": "ACCESORIOS",
     "imagen": "https://drive.google.com/uc?id=1m8VahlTqbE-3_LcBzl0RYh5UZ0r-lV7d",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 7
   },
   {
@@ -176,7 +167,7 @@
     "precio": 2000,
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=1sdwkafDLQKs80CE_NHhgldAeVx7FFkyN",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 13
   },
   {
@@ -185,7 +176,7 @@
     "precio": 5000,
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=1WKIkUk6fEWewQE5L_NhiRoHw10vq0phv",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 7
   },
   {
@@ -203,7 +194,7 @@
     "precio": 7800,
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=1ThAma6yRNZepjkBLcyPs8JGOybyx1DiY",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 3
   },
   {
@@ -212,7 +203,7 @@
     "precio": 10000,
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=1D6-wSmDt8MEmGvgXAlBKdIxHe4H54S0s",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 2
   },
   {
@@ -230,7 +221,7 @@
     "precio": 11700,
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=1a_JD6kHx7NyWt3t1XEQnjMYO5bMZxvFc",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 3
   },
   {
@@ -257,7 +248,7 @@
     "precio": 10500,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1Jxsx7DsRxNOkZqxcYcqfa7upU2mUNJar",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 2
   },
   {
@@ -266,7 +257,7 @@
     "precio": 18800,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1R9V23mcDN0S17xQI1gcUqGEXpjsFKrcF",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 5
   },
   {
@@ -275,7 +266,7 @@
     "precio": 11700,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1yhf6Pvc-3gPFGmbIYqyluS2FpMv5kO4A",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 2
   },
   {
@@ -295,15 +286,6 @@
     "imagen": "https://drive.google.com/uc?id=1z1VE9DffmKc0A56MUKfFP8igh4EoD_f1",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 2
-  },
-  {
-    "codigo": "71",
-    "nombre": "CANDADOS DE BRONCE 50 MM",
-    "precio": 3000,
-    "categoria": "SEGURIDAD",
-    "imagen": "https://drive.google.com/uc?id=1pXLUJh2Z3yYHzPe4sQo8y-z_1EEfoyWR",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 0
   },
   {
     "codigo": "37",
@@ -347,7 +329,7 @@
     "precio": 8900,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1AfRvknY8jNy36WCd83oStGTNjokaYiC2",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 5
   },
   {
@@ -374,7 +356,7 @@
     "precio": 6100,
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1jHdC2owsCxcKyYDeuwZyw4iVqYYQOgIK",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 2
   },
   {
@@ -383,7 +365,7 @@
     "precio": 2500,
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1BhXoflWv7-rdsc87Wb8hUCaUVotNxhGa",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 4
   },
   {
@@ -392,7 +374,7 @@
     "precio": 19500,
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1iKOBxEq7z95Jj6pyyq6HNG6MjqSLGGli",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 1
   },
   {
@@ -401,7 +383,7 @@
     "precio": 8300,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1kHzXSDXwWa1vq_esoqHL8d1FURHVGdwY",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 6
   },
   {
@@ -419,7 +401,7 @@
     "precio": 7600,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1OSYZO7ecFMz4cOENTARgVKJDikECMTs_",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 1
   },
   {
@@ -428,7 +410,7 @@
     "precio": 17800,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1-QU-j-I-yCVMbDmS1_s63VCstmXF8Mkd",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 1
   },
   {
@@ -439,15 +421,6 @@
     "imagen": "https://drive.google.com/uc?id=1z3IVh-zuSx2iAqgMV45S1DNeHc6yNKFs",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 1
-  },
-  {
-    "codigo": "39",
-    "nombre": "BALANZA DE COCINA SF-400 10KG",
-    "precio": 7800,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1Cn1kZifednWH6Dpdj93Tv1wcpXDNlmpV",
-    "estado": "CON STOCK",
-    "stock": 0
   },
   {
     "codigo": "36",
@@ -464,7 +437,7 @@
     "precio": 22300,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=16a7KTZfyLbtOUz1vR3Tm1Uc4GMbG8HXX",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 2
   },
   {
@@ -482,7 +455,7 @@
     "precio": 6100,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1juQxX54sETQRWT_blCktmk1KT_HCOTpT",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 1
   },
   {
@@ -491,7 +464,7 @@
     "precio": 1400,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1cKySAao_6rEnc_E6ymw3HjFpjteuH3tp",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 10
   },
   {
@@ -500,7 +473,7 @@
     "precio": 1400,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=109ZMKeLFnia5oc4LMfXPldRNIluu864w",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 8
   },
   {
@@ -509,7 +482,7 @@
     "precio": 4500,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1O60uoCU-2hxi3oYWZ1PtSVhH0dEzRRZq",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 2
   },
   {
@@ -518,7 +491,7 @@
     "precio": 11200,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1FXgqtxq8txGgZC0Gy9k-R6hFH0x8Ar3N",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 1
   },
   {
@@ -527,7 +500,7 @@
     "precio": 10700,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1_RkXSJ9f0z-bK6kMr4BmmcrMFlO4FTPp",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 2
   },
   {
@@ -536,7 +509,7 @@
     "precio": 8800,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1LgL_a1ixzFfxBrL96Bes21eQ4iy0TYt1",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 2
   }
 ]
