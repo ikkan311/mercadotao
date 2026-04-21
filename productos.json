@@ -948,7 +948,7 @@
     "codigo": "539",
     "nombre": "ESFERAS DE CRISTAL 6 CM DE DIAMETRO",
     "precio": 7000,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1ZgSdVRnxT0p0pFGVJ5-49R9AdO4qP7dI",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
@@ -957,7 +957,7 @@
     "codigo": "670",
     "nombre": "TIRA DE LUZ LED LEGATUS LPLO4OA 24W",
     "precio": 10000,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=10IMWyX1SYkGqq8VzLSnNbX7JC8_ABXPc",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
@@ -966,7 +966,7 @@
     "codigo": "915",
     "nombre": "TIRA LED RGB 5M 5048",
     "precio": 13800,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/file/d/1glK9BR9Eo8Bs56XSwRXJtZxaNb1PKoLT/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
@@ -975,7 +975,7 @@
     "codigo": "916",
     "nombre": "TIRA NEÓN LED RBG CON CONTROL",
     "precio": 27500,
-    "categoria": "ILUMINACIÓN",
+    "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/file/d/14G92pAtnwZgUjyJPVfrF7D8DEyjcGoSa/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
@@ -1431,6 +1431,15 @@
     "stock": 0
   },
   {
+    "codigo": "394",
+    "nombre": "SACAPUNTAS DOBLE SHARPENER X60 UNIDADES",
+    "precio": 35400,
+    "categoria": "LIBRERIA",
+    "imagen": "https://drive.google.com/uc?id=1orYfB0WBdWLVuFzPM9OJyrz8S-w8F5nF",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
     "codigo": "76",
     "nombre": "CALCULADORA LEGATUS LCC-11",
     "precio": 6100,
@@ -1517,15 +1526,6 @@
     "precio": 22200,
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1C-ekS3ECjZ2P3oe-vjfb5W1RY16mgpkP",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "394",
-    "nombre": "SACAPUNTAS DOBLE SHARPENER X60 UNIDADES",
-    "precio": 35400,
-    "categoria": "LIBRERIA",
-    "imagen": "https://drive.google.com/uc?id=1orYfB0WBdWLVuFzPM9OJyrz8S-w8F5nF",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -2273,15 +2273,6 @@
     "precio": 13100,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1V06Sh2OiDgYTvnH4vXJIfZ8YkCDfgwPU",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "604",
-    "nombre": "RAQUETA MATAMOSQUITO CX-034/MKL-4998",
-    "precio": 13100,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1JqO8rXnnPpVYGPCYLcTrLnas73ZEuR5-",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
