@@ -648,15 +648,6 @@
     "stock": 0
   },
   {
-    "codigo": "836",
-    "nombre": "LÁMPARA INFANTIL 268H",
-    "precio": 11200,
-    "categoria": "ILUMINACION",
-    "imagen": "https://drive.google.com/file/d/14XpCgJqSjXetImjvYzBXrTrEc2Hngw6F/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
     "codigo": "302",
     "nombre": "LAMPARA INFANTIL 348H",
     "precio": 11200,
@@ -666,29 +657,11 @@
     "stock": 0
   },
   {
-    "codigo": "837",
-    "nombre": "LÁMPARA INFANTIL 348H",
-    "precio": 11200,
-    "categoria": "ILUMINACION",
-    "imagen": "https://drive.google.com/file/d/1Vlya0CRbycyMvNzgwuIowTuQAs2hyQYD/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
     "codigo": "304",
     "nombre": "LAMPARA INFANTIL 356E",
     "precio": 11200,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1kYKrls39Ckfdk_gQtrjiWLHV4HVzRuNa",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "838",
-    "nombre": "LÁMPARA INFANTIL 356E",
-    "precio": 11200,
-    "categoria": "ILUMINACION",
-    "imagen": "https://drive.google.com/file/d/1kmxYJcZZE-iffzHSNOOckt26jmht5XbP/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -761,15 +734,6 @@
     "precio": 15300,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=12GXBseDTkYowVSGikZdrsAmmZzzkeQk0",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "839",
-    "nombre": "LÁMPARAS INFANTILES 343 H/G",
-    "precio": 15300,
-    "categoria": "ILUMINACION",
-    "imagen": "https://drive.google.com/file/d/15GihiXDYO_Qi7yXr0SgwFXM4-QpFVGJt/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
