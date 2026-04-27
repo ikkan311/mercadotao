@@ -207,24 +207,6 @@
     "stock": 0
   },
   {
-    "codigo": "806",
-    "nombre": "ADAPTADOR UNIVERSAL TW-003 OUTLET",
-    "precio": 8800,
-    "categoria": "ACCESORIOS",
-    "imagen": "https://drive.google.com/file/d/1DCNslVQR8_DVI7lyQlvseLtBj8TU-YDL/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "706",
-    "nombre": "PORTA CELULAR CON CORREA GEEKER",
-    "precio": 11100,
-    "categoria": "ACCESORIOS",
-    "imagen": "https://drive.google.com/file/d/1oygvvHgTpGaWq6KZY-QYvn2rnHoKzCiA/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
     "codigo": "377",
     "nombre": "SOPORTE DE CELULAR PARA AUTO RB082",
     "precio": 12200,
@@ -477,15 +459,6 @@
     "stock": 2
   },
   {
-    "codigo": "842",
-    "nombre": "LUZ PARA BICI RECARGABLE BLANCA/ROJA",
-    "precio": 3000,
-    "categoria": "ILUMINACION",
-    "imagen": "https://drive.google.com/file/d/1J2dczvP63zXKU0RyTNxNFd4K0IZGCS1H/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
     "codigo": "840",
     "nombre": "LINTERNA TGX 8009",
     "precio": 8900,
@@ -545,15 +518,6 @@
     "precio": 10500,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/file/d/1LMU8kaT1anfU9Zeyewof1SbrXGs6yakU/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "918",
-    "nombre": "FOCO RGB+CCT OSR TY710",
-    "precio": 11500,
-    "categoria": "ILUMINACION",
-    "imagen": "https://drive.google.com/file/d/1YT_rCo_qjeWE9JIHTZB9TiEfR1HT8f9w/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -680,15 +644,6 @@
     "precio": 10500,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1Vn3GF3DCG0-8amOu2OEwtHVcLCvK4Wuz",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "540",
-    "nombre": "HUMIFICADOR PLANET SX-E323A",
-    "precio": 15100,
-    "categoria": "ILUMINACION",
-    "imagen": "https://drive.google.com/uc?id=1oRuONOrLvR6GBtmaGdhewpC9WCs56Ftt",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -972,20 +927,20 @@
     "stock": 0
   },
   {
-    "codigo": "847",
-    "nombre": "PLANCHAS DE TATUAJES TEMPORALES",
-    "precio": 7400,
-    "categoria": "JUGUETERIA",
-    "imagen": "https://drive.google.com/file/d/1hhw2das1N-xLORq_d5_8JhBG_7D04YWo/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
     "codigo": "860",
     "nombre": "SOMBRERO VIKINGO DE ADULTO",
     "precio": 7100,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/file/d/1ckTj5uFmxOjpEhhBkJ2VdsdjVcwZbyk5/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
+    "codigo": "847",
+    "nombre": "PLANCHAS DE TATUAJES TEMPORALES",
+    "precio": 7400,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/file/d/1hhw2das1N-xLORq_d5_8JhBG_7D04YWo/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -1033,15 +988,6 @@
     "imagen": "https://drive.google.com/uc?id=1ZF0zFDeulSrS-3xRiB6-YPybnd3xzhpC",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 7
-  },
-  {
-    "codigo": "519",
-    "nombre": "LLAVEROS ANIMADOS",
-    "precio": 1700,
-    "categoria": "JUGUETERIA",
-    "imagen": "https://drive.google.com/uc?id=157D0Bh1cewKKxdo1PDJUt4592XHsgigm",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
   },
   {
     "codigo": "667",
@@ -1296,15 +1242,6 @@
     "stock": 0
   },
   {
-    "codigo": "643",
-    "nombre": "JUEGO DE GEOMETRIA X3 PCS",
-    "precio": 1300,
-    "categoria": "LIBRERIA",
-    "imagen": "https://drive.google.com/uc?id=1DZ2KBOdXYP8kWcVaFjrXyrtvukkB8xjC",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
     "codigo": "638",
     "nombre": "CINTA CORRECTOR 6M BH-106",
     "precio": 1500,
@@ -1350,15 +1287,6 @@
     "stock": 0
   },
   {
-    "codigo": "646",
-    "nombre": "KIT DE GEOMETRIA X7 PIEZAS",
-    "precio": 4600,
-    "categoria": "LIBRERIA",
-    "imagen": "https://drive.google.com/uc?id=1bNB7BF7ryBjiT7WOqVD52e6E9I2316rf",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
     "codigo": "394",
     "nombre": "SACAPUNTAS DOBLE SHARPENER X60 UNIDADES",
     "precio": 35400,
@@ -1377,24 +1305,6 @@
     "stock": 1
   },
   {
-    "codigo": "704",
-    "nombre": "CARTERA CROSSBODY CON STRAPS",
-    "precio": 16100,
-    "categoria": "LIBRERIA",
-    "imagen": "https://drive.google.com/file/d/1WggOPo3iodKl1A2KUv669fy2rFL1eWiO/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "392",
-    "nombre": "MOCHILA RUNNING PL POWER AV24668",
-    "precio": 11500,
-    "categoria": "LIBRERIA",
-    "imagen": "https://drive.google.com/uc?id=186pRoTST8iC-EICoRB8XQ7aNrBnvTow1",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
     "codigo": "598",
     "nombre": "MARCADORES DOBLE PUNTA TOUCH 60PCS",
     "precio": 19500,
@@ -1409,15 +1319,6 @@
     "precio": 39000,
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/file/d/16FSwEsaSeqErmkozrmUA0M2LHXVJYCOt/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "388",
-    "nombre": "BOLSO LXB-88",
-    "precio": 20400,
-    "categoria": "LIBRERIA",
-    "imagen": "https://drive.google.com/uc?id=1XhNb6nU4_Tfoi6PcmpRbV998_1YtJBqQ",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -1454,15 +1355,6 @@
     "precio": 36600,
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1bgVNb0ld8_8VQ50iocBBznKSorcf3KWo",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "903",
-    "nombre": "GUANTES PARA BICI/ MOTO NEOPRENE",
-    "precio": 6400,
-    "categoria": "CUIDADO PERSONAL",
-    "imagen": "https://drive.google.com/file/d/1X43g1ICyquG3X2a8olOWRsHxpHGjoKhZ/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -1571,15 +1463,6 @@
     "precio": 20100,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1Y19Kf3rSbthmsnimoniA0rWqYmGn_IFs",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "116",
-    "nombre": "ORGANIZADOR DE COSMETICOS",
-    "precio": 20400,
-    "categoria": "CUIDADO PERSONAL",
-    "imagen": "https://drive.google.com/uc?id=1biUhXi2HuLEeu409_hAVAYQyFQ1v-9PY",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -2106,15 +1989,6 @@
     "stock": 0
   },
   {
-    "codigo": "236",
-    "nombre": "LONCHERA BENTO BOX LP-01/02/03",
-    "precio": 10000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1nJILWdUNQNf4GelPbAZwHBZXn08FWjac",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
     "codigo": "47",
     "nombre": "RAQUETA MATA MOSQUITOS",
     "precio": 10700,
@@ -2147,15 +2021,6 @@
     "precio": 12200,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1cf3jPHO9ykpHbjLbD4NrHSMqkSXvBy9I",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "165",
-    "nombre": "MOLINILLO MANUAL CON RECIPIENTE",
-    "precio": 12200,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1C38SXge57RXWqfBJG5mp_UKUyvIBlSZr",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -2228,15 +2093,6 @@
     "precio": 14700,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=14z9cYQLYGpL_S2zD9z5QN5lDeqSktFP2",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "902",
-    "nombre": "CORTADORA DE PELO PERROS AF3017",
-    "precio": 16000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1Cj-nyPRg23ONuwPrObUp8oyidG03gAQT/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -2912,15 +2768,6 @@
     "precio": 58000,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1t9hzRL2Uh3l91kpkSiU1PcF406wueHw0",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "191",
-    "nombre": "ASPIRADORA INALAMBRICA ORYX OR-VC500",
-    "precio": 58700,
-    "categoria": "HERRAMIENTAS",
-    "imagen": "https://drive.google.com/uc?id=1LpTCV9TI0Zxam-sMIlYIlE5xMNNQjF1V",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
