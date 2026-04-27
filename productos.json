@@ -6,7 +6,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=10FUznbbTRE98huoYjBTGPuxTpmZFfsbO",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 6
+    "stock": null
   },
   {
     "codigo": "30",
@@ -15,7 +15,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=11r4t5dEIcl13Uln7_02VyvdzeM2m8vU1",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 5
+    "stock": null
   },
   {
     "codigo": "452",
@@ -42,7 +42,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=19z1XirI6u3nBsdZRnUpbqvoUwgjDqxFi",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 8
+    "stock": null
   },
   {
     "codigo": "33",
@@ -50,7 +50,7 @@
     "precio": 5000,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=19z1XirI6u3nBsdZRnUpbqvoUwgjDqxFi",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 3
   },
   {
@@ -95,8 +95,8 @@
     "precio": 10500,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1JvEBrDL-qcnKGa5xvLzzWNxHCWPvYyfB",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "estado": "CON STOCK",
+    "stock": 2
   },
   {
     "codigo": "678",
@@ -113,7 +113,7 @@
     "precio": 16700,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=10_eav-lPG4bXjQDbcboheQ6Ip5OTQTU8",
-    "estado": "ULTIMOS DISPONIBLES",
+    "estado": "CON STOCK",
     "stock": 2
   },
   {
@@ -132,7 +132,7 @@
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1TfyIwJKlUGCrgKLQogOX8agKlEWa2lIv",
     "estado": "CON STOCK",
-    "stock": 8
+    "stock": null
   },
   {
     "codigo": "19",
@@ -194,7 +194,7 @@
     "precio": 3400,
     "categoria": "ACCESORIOS",
     "imagen": "https://drive.google.com/uc?id=1m8VahlTqbE-3_LcBzl0RYh5UZ0r-lV7d",
-    "estado": "ULTIMOS DISPONIBLES",
+    "estado": "CON STOCK",
     "stock": 7
   },
   {
@@ -212,15 +212,6 @@
     "precio": 8800,
     "categoria": "ACCESORIOS",
     "imagen": "https://drive.google.com/file/d/1DCNslVQR8_DVI7lyQlvseLtBj8TU-YDL/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "914",
-    "nombre": "SOPORTE DE CELULAR PARA MOTO LX02",
-    "precio": 9700,
-    "categoria": "ACCESORIOS",
-    "imagen": "https://drive.google.com/file/d/1xFtQTXyYzeBdRothn8wRUTow_UnOwhbz/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -261,13 +252,13 @@
     "stock": 0
   },
   {
-    "codigo": "10",
-    "nombre": "AURICULARES RC HD-MIC RE-1005",
+    "codigo": "807",
+    "nombre": "AURICULAR RC RE10012",
     "precio": 2000,
     "categoria": "AURICULARES",
-    "imagen": "https://drive.google.com/uc?id=1sdwkafDLQKs80CE_NHhgldAeVx7FFkyN",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "imagen": "https://drive.google.com/file/d/1CsevWH526JHOIcns9-366MkxOwJhEETy/view?usp=drivesdk",
+    "estado": "CON STOCK",
+    "stock": 7
   },
   {
     "codigo": "894",
@@ -320,7 +311,7 @@
     "precio": 10500,
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/file/d/1uAQedtyrSdwI1UcRVDhceFe6h8IGbTKD/view",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 5
   },
   {
@@ -378,21 +369,12 @@
     "stock": 0
   },
   {
-    "codigo": "689",
-    "nombre": "PARLANTE PORTATIL RGB 3″ XM-129",
-    "precio": 9900,
-    "categoria": "PARLANTES",
-    "imagen": "https://drive.google.com/uc?id=1FcLLGpDkXONH8PrXhENrFbijIiEi23oa",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
     "codigo": "359",
     "nombre": "PARLANTE LEGATUS LP-1130",
     "precio": 13300,
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=1h_JnXAMSV-1BeCBffwtGX0l2jreCpVac",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 2
   },
   {
@@ -486,22 +468,13 @@
     "stock": 0
   },
   {
-    "codigo": "865",
-    "nombre": "PARLANTE ORYX 12″ ARIES",
-    "precio": 204700,
-    "categoria": "PARLANTES",
-    "imagen": "https://drive.google.com/file/d/1XY4GhApCN28WatrZsVXJo36KlE46yzPF/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
     "codigo": "542",
     "nombre": "LUZ DE SILICONA HJ008-2",
     "precio": 3000,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=15W6E2tjBvZl6CbkktMJPj6QD6bcuPRfN",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "estado": "CON STOCK",
+    "stock": 2
   },
   {
     "codigo": "842",
@@ -1071,15 +1044,6 @@
     "stock": 0
   },
   {
-    "codigo": "673",
-    "nombre": "UVA SQU20 X12",
-    "precio": 1500,
-    "categoria": "JUGUETERIA",
-    "imagen": "https://drive.google.com/uc?id=1PQwCxnxzFycHWDjBV77mviQgDpbWAg3U",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
     "codigo": "667",
     "nombre": "Squishy puffer ball caja x 12u",
     "precio": 3000,
@@ -1323,6 +1287,15 @@
     "stock": 0
   },
   {
+    "codigo": "645",
+    "nombre": "LABUBU SQU9",
+    "precio": 4500,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1FFPgKkeX7Z2I9HeoXixOaLq-5tXjVjqN",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
     "codigo": "643",
     "nombre": "JUEGO DE GEOMETRIA X3 PCS",
     "precio": 1300,
@@ -1337,8 +1310,8 @@
     "precio": 1500,
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1lOl9f5XZo-qoVqnvrNLpLhWAUyyk-68H",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "estado": "CON STOCK",
+    "stock": 3
   },
   {
     "codigo": "395",
@@ -1404,6 +1377,15 @@
     "stock": 1
   },
   {
+    "codigo": "704",
+    "nombre": "CARTERA CROSSBODY CON STRAPS",
+    "precio": 16100,
+    "categoria": "LIBRERIA",
+    "imagen": "https://drive.google.com/file/d/1WggOPo3iodKl1A2KUv669fy2rFL1eWiO/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
     "codigo": "392",
     "nombre": "MOCHILA RUNNING PL POWER AV24668",
     "precio": 11500,
@@ -1413,11 +1395,11 @@
     "stock": 0
   },
   {
-    "codigo": "704",
-    "nombre": "CARTERA CROSSBODY CON STRAPS",
-    "precio": 16100,
+    "codigo": "598",
+    "nombre": "MARCADORES DOBLE PUNTA TOUCH 60PCS",
+    "precio": 19500,
     "categoria": "LIBRERIA",
-    "imagen": "https://drive.google.com/file/d/1WggOPo3iodKl1A2KUv669fy2rFL1eWiO/view?usp=drivesdk",
+    "imagen": "https://drive.google.com/uc?id=1iKOBxEq7z95Jj6pyyq6HNG6MjqSLGGli",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -1454,15 +1436,6 @@
     "precio": 20400,
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1cMJfXIcQOb484j6ro6A3hmU3PA898eXQ",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "75",
-    "nombre": "BANDOLERA CRUZADA ANTIRROBO",
-    "precio": 22200,
-    "categoria": "LIBRERIA",
-    "imagen": "https://drive.google.com/uc?id=1S0g3E__CwiAKY3Ht44q18AeMbs0X__tc",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -1679,15 +1652,6 @@
     "precio": 35400,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1p275_iz4dYd4u1lC6XiF1USqnhZAaA1V",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "98",
-    "nombre": "CEPILLO HOT AIR 5 EN 1 YX-818/ OR-1211",
-    "precio": 36400,
-    "categoria": "CUIDADO PERSONAL",
-    "imagen": "https://drive.google.com/uc?id=17BIR6ZV2j7luDGndnb-9Cj9CIFlvQbIi",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -2048,7 +2012,7 @@
     "precio": 6500,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1juQxX54sETQRWT_blCktmk1KT_HCOTpT",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 1
   },
   {
@@ -2066,8 +2030,8 @@
     "precio": 7800,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=12iYQZEERo2peCTGlnVtjHQhZLDkioJgh",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "estado": "CON STOCK",
+    "stock": 2
   },
   {
     "codigo": "267",
@@ -2075,8 +2039,8 @@
     "precio": 7800,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1S6jjquEymNO-V3gWxJjPI-6iWj_dwFDs",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "estado": "CON STOCK",
+    "stock": 1
   },
   {
     "codigo": "817",
@@ -2158,6 +2122,15 @@
     "imagen": "https://drive.google.com/uc?id=1_RkXSJ9f0z-bK6kMr4BmmcrMFlO4FTPp",
     "estado": "CON STOCK",
     "stock": 2
+  },
+  {
+    "codigo": "48",
+    "nombre": "TIMBRE CON PILAS 9610DC",
+    "precio": 11000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1FXgqtxq8txGgZC0Gy9k-R6hFH0x8Ar3N",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
   },
   {
     "codigo": "42",
@@ -2412,40 +2385,13 @@
     "stock": 0
   },
   {
-    "codigo": "40",
-    "nombre": "BOTELLA DEPORTIVA VACUUM",
-    "precio": 27800,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1Y0ncA3t1ANqjNauiZHQOD7msebSIyPJ2",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "224",
-    "nombre": "CAFETERIA ORYX 6 POCILLOS KP-600",
-    "precio": 28700,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1ns12MqwJJGQFNfYRpBUiKUdtKOQ4rwmB",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
     "codigo": "246",
     "nombre": "MINI MAQUINA DE COSER ORYX S01247/OM202A",
     "precio": 28900,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1BHl8750ZxmO86oMhRBd-6Ts3z2cm3lne",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "511",
-    "nombre": "TENDER 8 VARILLAS",
-    "precio": 29300,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1-LC3hUdxlqaiNWrHIWd9OPtvUrOcX6VE",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 3
   },
   {
     "codigo": "685",
@@ -2678,8 +2624,8 @@
     "precio": 47800,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=10MVwKvyDWK847HVhNUUjdPiBvlxnD44v",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "estado": "CON STOCK",
+    "stock": 1
   },
   {
     "codigo": "242",
@@ -2709,83 +2655,11 @@
     "stock": 0
   },
   {
-    "codigo": "861",
-    "nombre": "TABLA DE PLANCHAR PLEGABLE",
-    "precio": 52500,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1ZafJsvpkw2ABFV3_ATMiLaWGVwGQJojE/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
     "codigo": "259",
     "nombre": "PICADORA ELETRICA ORYX VC-10 2L",
     "precio": 53000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1AUmYNqjG-X9M99WvSlm_v5mUna1nWP3b",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "845",
-    "nombre": "MIXER LICUADORA DE MANO HB-6005",
-    "precio": 53200,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1gKtSLAg7vE7Ta-T4Cn2B7FGDScEjUtAt/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "266",
-    "nombre": "SELLADORA DE BOLSAS 40CM",
-    "precio": 54200,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1DfuSEOgx0D5p4mnTB12oWZ3VGovpOPtc",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "223",
-    "nombre": "CAFETERA ELECTRICA OR-12 1.2L",
-    "precio": 56000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=19Sidu13UTb3R9zH-0PqqZnAFewaHuFac",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "153",
-    "nombre": "FABRICA DE PASTAS ORYX",
-    "precio": 56000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1HoPK103RVJ2P5ZEddeUAGMI7Kpefmwsh",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "171",
-    "nombre": "SANDWICHERA 3 EN 1 LEGATUS",
-    "precio": 57800,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1er8AKsFHLQOLEKkeso5MWdTh8pfYZ7Av",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "180",
-    "nombre": "YOGURTERA ELÉCTRICA 720ML SUONO",
-    "precio": 58000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1BKsoWGvKJXr6XVrsq9mjndXWAzN8po-G",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "167",
-    "nombre": "OLLA ELECTRICA ORYX EEL0035/EEL0098/5050",
-    "precio": 58700,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1sFY-sOoxpGBZOzjvHDO7D24b8vJNbUIK",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -2804,15 +2678,6 @@
     "precio": 67400,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1PaDPyeh83dDOM9mSLFnExWCp9QRT2OF5",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "169",
-    "nombre": "POCHOCLERA ORYX OR-0089",
-    "precio": 69400,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=15flBPKtS8iL5SVWe2rPGjW7HVtw1QK8D",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -2961,29 +2826,11 @@
     "stock": 0
   },
   {
-    "codigo": "245",
-    "nombre": "MICROONDAS ORYX 20L OR-MIC01 1000W",
-    "precio": 211800,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1HVzjwH5GvlzuaOGndxi9MPakB9bdAg68",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
     "codigo": "83",
     "nombre": "MAQUINA DE HIELO ORYX",
     "precio": 225000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1xkMaSjxqMsBUzWaQB9-ZtdM-JisHxrKK",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "148",
-    "nombre": "CAFETERA ESPRESSO VINTAGE ORYX 1,2L",
-    "precio": 258900,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1JkJUcPzpbb1roBdh6nXbkvz-fyhwpWtE",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -3002,6 +2849,15 @@
     "precio": 97000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/file/d/1QvviYS4Mw5PovMD-bRbfgm0RvC5zs9nR/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
+    "codigo": "39",
+    "nombre": "BALANZA DE COCINA SF-400 10KG",
+    "precio": 7600,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1Cn1kZifednWH6Dpdj93Tv1wcpXDNlmpV",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -3047,42 +2903,6 @@
     "precio": 9800,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1P4fiDgV16-0WhEtOlP2YZcUq3lNVAoJe",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "212",
-    "nombre": "SET DE HERRAMIENTAS X40 PCS LEGATUS",
-    "precio": 11500,
-    "categoria": "HERRAMIENTAS",
-    "imagen": "https://drive.google.com/uc?id=1S6UETupVVH66kBn8SQj2CvhL5BBRdd_K",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "201",
-    "nombre": "LLAVE TUBO K1073 52 PCS ZHONGXIN",
-    "precio": 32900,
-    "categoria": "HERRAMIENTAS",
-    "imagen": "https://drive.google.com/uc?id=1m_tJXEYb9iPDhAIM-3aV9G2m9I2RBRmS",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "503",
-    "nombre": "PULVERIZADOR A PRESIÓN 5L ORYX",
-    "precio": 32900,
-    "categoria": "HERRAMIENTAS",
-    "imagen": "https://drive.google.com/uc?id=1xNthhXamVl4beZQnJUgJWjjSoI9igpl7",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "692",
-    "nombre": "PISTOLA PARA PINTAR TL0501/0502",
-    "precio": 45300,
-    "categoria": "HERRAMIENTAS",
-    "imagen": "https://drive.google.com/uc?id=14qBdiwko9Z6DiH4n-K4u1HlhAXLcEtTc",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -3141,15 +2961,6 @@
     "stock": 0
   },
   {
-    "codigo": "214",
-    "nombre": "SET JUEGO DE LLAVES TUBOS 108 PCS ORYX",
-    "precio": 97700,
-    "categoria": "HERRAMIENTAS",
-    "imagen": "https://drive.google.com/uc?id=1D3BBNonhN_YIrLslr8er1jPdq_cUBIZ_",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
     "codigo": "217",
     "nombre": "SIERRA CIRCULAR ELECTRICA ORYX OR-1409",
     "precio": 124400,
@@ -3200,15 +3011,6 @@
     "precio": 192200,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=10UXDYpQyiXUN6Y1jSVBMAO2Gzp-jfz9j",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "504",
-    "nombre": "SOLDADORA INVERTER ORYX OR-300WD",
-    "precio": 210000,
-    "categoria": "HERRAMIENTAS",
-    "imagen": "https://drive.google.com/uc?id=17x8-tlqdNsXlNFB07cq7nzB5_loITFGD",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
