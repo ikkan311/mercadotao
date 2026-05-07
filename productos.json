@@ -258,7 +258,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=15W6E2tjBvZl6CbkktMJPj6QD6bcuPRfN",
     "estado": "CON STOCK",
-    "stock": 8
+    "stock": 6
   },
   {
     "codigo": "286",
@@ -393,7 +393,7 @@
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1lOl9f5XZo-qoVqnvrNLpLhWAUyyk-68H",
     "estado": "CON STOCK",
-    "stock": 3
+    "stock": 0
   },
   {
     "codigo": "400",
@@ -528,7 +528,7 @@
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1S6jjquEymNO-V3gWxJjPI-6iWj_dwFDs",
     "estado": "CON STOCK",
-    "stock": 1
+    "stock": 0
   },
   {
     "codigo": "36",
@@ -564,7 +564,7 @@
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=10MVwKvyDWK847HVhNUUjdPiBvlxnD44v",
     "estado": "CON STOCK",
-    "stock": 1
+    "stock": 0
   },
   {
     "codigo": "811",
