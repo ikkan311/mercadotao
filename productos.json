@@ -6,7 +6,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=10FUznbbTRE98huoYjBTGPuxTpmZFfsbO",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 8
+    "stock": 6
   },
   {
     "codigo": "30",
@@ -114,7 +114,7 @@
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1TfyIwJKlUGCrgKLQogOX8agKlEWa2lIv",
     "estado": "CON STOCK",
-    "stock": 15
+    "stock": 12
   },
   {
     "codigo": "19",
