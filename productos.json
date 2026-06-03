@@ -227,7 +227,7 @@
   {
     "codigo": "422",
     "nombre": "MICROFONO F9 TIPO C",
-    "precio": 23400,
+    "precio": 24000,
     "categoria": "ACCESORIOS",
     "imagen": "https://drive.google.com/uc?id=1dITTxuXc1-7ap3I0kt62VZopuuGTabSu",
     "estado": "A PEDIDO (de 7 a 10 días)",
@@ -650,7 +650,7 @@
   {
     "codigo": "56",
     "nombre": "LAMPARA DE ESCRITORIO TÁCTIL",
-    "precio": 15000,
+    "precio": 18000,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1vDmNJHbXo84p3ET3Wr8APt7EFtVGLk-3",
     "estado": "ULTIMOS DISPONIBLES",
@@ -956,7 +956,7 @@
   {
     "codigo": "847",
     "nombre": "PLANCHAS DE TATUAJES TEMPORALES",
-    "precio": 7400,
+    "precio": 7000,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/file/d/1hhw2das1N-xLORq_d5_8JhBG_7D04YWo/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
@@ -1418,15 +1418,6 @@
     "precio": 7000,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1lDnolNLtWgAVF7wbv8rDhzdxeN8sEnZL",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "827",
-    "nombre": "CORTA PELO VINTAGE T9 TRIMMER DL-1503AB2",
-    "precio": 8000,
-    "categoria": "CUIDADO PERSONAL",
-    "imagen": "https://drive.google.com/file/d/1OFjWgdvhYLRie-3fiIJcBKofs_rT5CjH/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
