@@ -60,7 +60,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1nEnJRpdvPDCOd-ZW_sKKYovESeqp_2ub",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 0
+    "stock": -1
   },
   {
     "codigo": "26",
@@ -348,7 +348,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/file/d/18cSxFvjvV9e_M55Asior65UjvvpMnr7E/view?usp=drivesdk",
     "estado": "CON STOCK",
-    "stock": -2
+    "stock": -5
   },
   {
     "codigo": "814",
@@ -357,7 +357,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/file/d/19AQqye29616VvqjLMFr0Hyww34Dr0h_l/view?usp=drivesdk",
     "estado": "CON STOCK",
-    "stock": 0
+    "stock": -2
   },
   {
     "codigo": "329",
@@ -546,7 +546,7 @@
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1Cn1kZifednWH6Dpdj93Tv1wcpXDNlmpV",
     "estado": "CON STOCK",
-    "stock": 0
+    "stock": -2
   },
   {
     "codigo": "36",
