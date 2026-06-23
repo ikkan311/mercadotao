@@ -686,18 +686,9 @@
   {
     "codigo": "946",
     "nombre": "LUZ DE EMERGENCIA 45 LEDS",
-    "precio": 11800,
+    "precio": 13000,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/file/d/1SfMAiSsU27uisTJPuy9LsPwJr712CZFY/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "203",
-    "nombre": "LUZ DE EMERGENCIA 90 LED",
-    "precio": 23000,
-    "categoria": "ILUMINACION",
-    "imagen": "https://drive.google.com/uc?id=1vsFmZglx1qxcsfJBBoQaGhdnBvTQ28Tp",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -707,6 +698,15 @@
     "precio": 19000,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1oa57XD27ba6bn-A9VHNFGxLBGqToLd_p",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
+    "codigo": "203",
+    "nombre": "LUZ DE EMERGENCIA 90 LED",
+    "precio": 23000,
+    "categoria": "ILUMINACION",
+    "imagen": "https://drive.google.com/uc?id=1vsFmZglx1qxcsfJBBoQaGhdnBvTQ28Tp",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -2624,15 +2624,6 @@
     "precio": 222000,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=17x8-tlqdNsXlNFB07cq7nzB5_loITFGD",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "913",
-    "nombre": "SOLDADOR INVERTER ORYX OR-200WD",
-    "precio": 268000,
-    "categoria": "HERRAMIENTAS",
-    "imagen": "https://drive.google.com/file/d/1gaNO6ktsFpK2XoaqMChni4sb_Vsv5LWD/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   }
