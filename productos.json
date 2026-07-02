@@ -42,7 +42,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=19z1XirI6u3nBsdZRnUpbqvoUwgjDqxFi",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 11
+    "stock": 9
   },
   {
     "codigo": "33",
@@ -69,7 +69,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1nDTkVUh6glU2oEjEITgtpKbNkVcJ7DEO",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
+    "stock": 0
   },
   {
     "codigo": "23",
@@ -159,7 +159,7 @@
     "categoria": "ACCESORIOS",
     "imagen": "https://drive.google.com/uc?id=1m8VahlTqbE-3_LcBzl0RYh5UZ0r-lV7d",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 6
+    "stock": 4
   },
   {
     "codigo": "703",
@@ -177,7 +177,7 @@
     "categoria": "ACCESORIOS",
     "imagen": "https://drive.google.com/uc?id=1csORvGadYgn5dIG_WV1UUSQzVcxUD9UH",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 5
+    "stock": 2
   },
   {
     "codigo": "377",
@@ -213,7 +213,7 @@
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=1H7Jcc4SPw0AC8VuwKNGXRFVqKls3usF0",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 5
+    "stock": 2
   },
   {
     "codigo": "811",
@@ -303,7 +303,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/file/d/11Rx_s_wXoPVRCSFZmyp5o33HUPm5vveQ/view?usp=drivesdk",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 3
+    "stock": 0
   },
   {
     "codigo": "286",
@@ -348,7 +348,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1oRuONOrLvR6GBtmaGdhewpC9WCs56Ftt",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
+    "stock": 0
   },
   {
     "codigo": "55",
