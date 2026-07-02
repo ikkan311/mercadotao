@@ -9,15 +9,6 @@
     "stock": 4
   },
   {
-    "codigo": "30",
-    "nombre": "CARGADOR ROYALCELL 2.4A  TIPO C",
-    "precio": 3400,
-    "categoria": "CARGADORES",
-    "imagen": "https://drive.google.com/uc?id=11r4t5dEIcl13Uln7_02VyvdzeM2m8vU1",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": -1
-  },
-  {
     "codigo": "452",
     "nombre": "CARGADOR LEGATUS 3.4 MICRO",
     "precio": 3900,
@@ -61,15 +52,6 @@
     "imagen": "https://drive.google.com/uc?id=1raFC0KypTUNXc9hYoHdOunsb8YFK04m1",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 8
-  },
-  {
-    "codigo": "24",
-    "nombre": "CARGADOR P/ AUTO RC 4801 IPHONE",
-    "precio": 4500,
-    "categoria": "CARGADORES",
-    "imagen": "https://drive.google.com/uc?id=1nDTkVUh6glU2oEjEITgtpKbNkVcJ7DEO",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 0
   },
   {
     "codigo": "23",
@@ -180,15 +162,6 @@
     "stock": 2
   },
   {
-    "codigo": "377",
-    "nombre": "SOPORTE DE CELULAR PARA AUTO RB082",
-    "precio": 12900,
-    "categoria": "ACCESORIOS",
-    "imagen": "https://drive.google.com/uc?id=1OfQKkd6MyllPJkkILuec0WxJpVP6SLc0",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 0
-  },
-  {
     "codigo": "807",
     "nombre": "AURICULAR RC RE10012",
     "precio": 2000,
@@ -261,15 +234,6 @@
     "stock": 2
   },
   {
-    "codigo": "809",
-    "nombre": "AURICULARES INALÁMBRICOS AIR CLIP ROYALCELL",
-    "precio": 33000,
-    "categoria": "AURICULARES",
-    "imagen": "https://drive.google.com/file/d/1fvcjQj4sj4saJFeMgXClTkqrgUoz1L6s/view?usp=drivesdk",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 0
-  },
-  {
     "codigo": "689",
     "nombre": "PARLANTE PORTATIL RGB 3″ XM-129",
     "precio": 9900,
@@ -295,15 +259,6 @@
     "imagen": "https://drive.google.com/uc?id=1fMSDuq9BefylfSMUO0k8XU-aJTqo4jSU",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 2
-  },
-  {
-    "codigo": "840",
-    "nombre": "LINTERNA MS-807",
-    "precio": 8200,
-    "categoria": "ILUMINACION",
-    "imagen": "https://drive.google.com/file/d/11Rx_s_wXoPVRCSFZmyp5o33HUPm5vveQ/view?usp=drivesdk",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 0
   },
   {
     "codigo": "286",
@@ -340,15 +295,6 @@
     "imagen": "https://drive.google.com/uc?id=1vDmNJHbXo84p3ET3Wr8APt7EFtVGLk-3",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 5
-  },
-  {
-    "codigo": "540",
-    "nombre": "HUMIFICADOR PLANET SX-E323A",
-    "precio": 16000,
-    "categoria": "ILUMINACION",
-    "imagen": "https://drive.google.com/uc?id=1oRuONOrLvR6GBtmaGdhewpC9WCs56Ftt",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 0
   },
   {
     "codigo": "55",
@@ -441,15 +387,6 @@
     "stock": 7
   },
   {
-    "codigo": "324",
-    "nombre": "MANTA ALMOHADA CAPIBARA",
-    "precio": 17500,
-    "categoria": "JUGUETERIA",
-    "imagen": "https://drive.google.com/uc?id=1NCUTbAXTrrR4O91fS1kUcadZWstmwv-B",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 0
-  },
-  {
     "codigo": "400",
     "nombre": "SET LAPICERA NEON X6",
     "precio": 2500,
@@ -468,15 +405,6 @@
     "stock": 1
   },
   {
-    "codigo": "598",
-    "nombre": "MARCADORES DOBLE PUNTA TOUCH 80PCS",
-    "precio": 25000,
-    "categoria": "LIBRERIA",
-    "imagen": "https://drive.google.com/uc?id=1iKOBxEq7z95Jj6pyyq6HNG6MjqSLGGli",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 0
-  },
-  {
     "codigo": "3",
     "nombre": "GUANTES WINDS STOPPER XY AV24063",
     "precio": 9000,
@@ -484,24 +412,6 @@
     "imagen": "https://drive.google.com/uc?id=1kHzXSDXwWa1vq_esoqHL8d1FURHVGdwY",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 6
-  },
-  {
-    "codigo": "595",
-    "nombre": "ESPEJO LED C/ LUZ MY FOLD JIN GE JX-988",
-    "precio": 14000,
-    "categoria": "CUIDADO PERSONAL",
-    "imagen": "https://drive.google.com/uc?id=19_6xQHzB-IbAG7x_AtyLF6xF76h2Cg6z",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 0
-  },
-  {
-    "codigo": "631",
-    "nombre": "BALANZA DE BAÑO ORYX OR-2025R 180K",
-    "precio": 18500,
-    "categoria": "CUIDADO PERSONAL",
-    "imagen": "https://drive.google.com/uc?id=1a_nJWufWFFG8s-c2Dct5sGC6NkQaMtaC",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 0
   },
   {
     "codigo": "12",
@@ -520,15 +430,6 @@
     "imagen": "https://drive.google.com/uc?id=1ZShV8cAQWrcJow0Jog42bwr-clamzlmQ",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 3
-  },
-  {
-    "codigo": "568",
-    "nombre": "PLANCHITA P/PELO PRO NANO TITANIUM S1134",
-    "precio": 22200,
-    "categoria": "CUIDADO PERSONAL",
-    "imagen": "https://drive.google.com/uc?id=1KQO2N8rsovi1aaZbYDN7qj3KvnllvpwO",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 0
   },
   {
     "codigo": "127",
@@ -567,15 +468,6 @@
     "stock": 10
   },
   {
-    "codigo": "580",
-    "nombre": "CONTROL DE AIRE",
-    "precio": 4700,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1O60uoCU-2hxi3oYWZ1PtSVhH0dEzRRZq",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
-  },
-  {
     "codigo": "49",
     "nombre": "PILAS REDONDAS CR2032 X 5",
     "precio": 1600,
@@ -583,6 +475,15 @@
     "imagen": "https://drive.google.com/uc?id=1zCGOIOB0lfoXimp8PnEybOl8eR642qw7",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 1
+  },
+  {
+    "codigo": "580",
+    "nombre": "CONTROL DE AIRE",
+    "precio": 4700,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1O60uoCU-2hxi3oYWZ1PtSVhH0dEzRRZq",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 2
   },
   {
     "codigo": "50",
@@ -621,30 +522,12 @@
     "stock": 2
   },
   {
-    "codigo": "844",
-    "nombre": "MINI MAQUINA DE COSER SUONO HOOG0054",
-    "precio": 27000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1wyUMTL5hhc0gJ5_jCYiXfCxhpcKbbhYz/view?usp=drivesdk",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 0
-  },
-  {
     "codigo": "511",
     "nombre": "TENDER 8 VARILLAS",
     "precio": 30000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1-LC3hUdxlqaiNWrHIWd9OPtvUrOcX6VE",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
-  },
-  {
-    "codigo": "925",
-    "nombre": "BATIDORA DE MANO 7 SPEEDS SEIS",
-    "precio": 25000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/10ZbXwQqSE4AOyDGjANNGSBsHMCg6yXy_/view?usp=drivesdk",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 0
+    "stock": 4
   }
 ]
