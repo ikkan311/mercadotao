@@ -42,7 +42,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=19z1XirI6u3nBsdZRnUpbqvoUwgjDqxFi",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 15
+    "stock": 13
   },
   {
     "codigo": "33",
@@ -168,7 +168,7 @@
     "categoria": "ACCESORIOS",
     "imagen": "https://drive.google.com/file/d/1_AlJvh_V3Mlny7kzLS3MuvFcsAnDRent/view?usp=drivesdk",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 6
+    "stock": 4
   },
   {
     "codigo": "72",
@@ -177,7 +177,7 @@
     "categoria": "ACCESORIOS",
     "imagen": "https://drive.google.com/uc?id=1csORvGadYgn5dIG_WV1UUSQzVcxUD9UH",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 7
+    "stock": 5
   },
   {
     "codigo": "377",
@@ -186,7 +186,7 @@
     "categoria": "ACCESORIOS",
     "imagen": "https://drive.google.com/uc?id=1OfQKkd6MyllPJkkILuec0WxJpVP6SLc0",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
+    "stock": 0
   },
   {
     "codigo": "807",
@@ -213,7 +213,7 @@
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=1H7Jcc4SPw0AC8VuwKNGXRFVqKls3usF0",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 6
+    "stock": 5
   },
   {
     "codigo": "811",
@@ -222,7 +222,7 @@
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/file/d/1Y-bt57K9xmH39K_CWE2ctkXoBM0VLKYT/view",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 3
+    "stock": 2
   },
   {
     "codigo": "7",
@@ -267,7 +267,7 @@
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/file/d/1fvcjQj4sj4saJFeMgXClTkqrgUoz1L6s/view?usp=drivesdk",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
+    "stock": 0
   },
   {
     "codigo": "689",
@@ -492,7 +492,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=19_6xQHzB-IbAG7x_AtyLF6xF76h2Cg6z",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
+    "stock": 0
   },
   {
     "codigo": "631",
@@ -501,7 +501,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1a_nJWufWFFG8s-c2Dct5sGC6NkQaMtaC",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
+    "stock": 0
   },
   {
     "codigo": "12",
@@ -510,7 +510,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1-QU-j-I-yCVMbDmS1_s63VCstmXF8Mkd",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
+    "stock": 1
   },
   {
     "codigo": "15",
@@ -528,7 +528,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1KQO2N8rsovi1aaZbYDN7qj3KvnllvpwO",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
+    "stock": 0
   },
   {
     "codigo": "127",
@@ -582,7 +582,7 @@
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1zCGOIOB0lfoXimp8PnEybOl8eR642qw7",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 6
+    "stock": 1
   },
   {
     "codigo": "50",
@@ -600,7 +600,7 @@
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1Cn1kZifednWH6Dpdj93Tv1wcpXDNlmpV",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 8
+    "stock": 4
   },
   {
     "codigo": "36",
@@ -645,6 +645,6 @@
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/file/d/10ZbXwQqSE4AOyDGjANNGSBsHMCg6yXy_/view?usp=drivesdk",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
+    "stock": 0
   }
 ]
