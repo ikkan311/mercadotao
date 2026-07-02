@@ -447,7 +447,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1NCUTbAXTrrR4O91fS1kUcadZWstmwv-B",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
+    "stock": 0
   },
   {
     "codigo": "400",
@@ -474,7 +474,7 @@
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1iKOBxEq7z95Jj6pyyq6HNG6MjqSLGGli",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
+    "stock": 0
   },
   {
     "codigo": "3",
@@ -627,7 +627,7 @@
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/file/d/1wyUMTL5hhc0gJ5_jCYiXfCxhpcKbbhYz/view?usp=drivesdk",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
+    "stock": 0
   },
   {
     "codigo": "511",
