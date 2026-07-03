@@ -69,7 +69,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1OzGP8icPaS3ktu7r6Cs4vHGlEqMPD4pZ",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 4
+    "stock": 2
   },
   {
     "codigo": "138",
@@ -87,7 +87,7 @@
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1TfyIwJKlUGCrgKLQogOX8agKlEWa2lIv",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 9
+    "stock": 7
   },
   {
     "codigo": "27",
@@ -195,7 +195,7 @@
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/file/d/1Y-bt57K9xmH39K_CWE2ctkXoBM0VLKYT/view",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
+    "stock": 0
   },
   {
     "codigo": "7",
@@ -520,14 +520,5 @@
     "imagen": "https://drive.google.com/uc?id=1LgL_a1ixzFfxBrL96Bes21eQ4iy0TYt1",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 2
-  },
-  {
-    "codigo": "511",
-    "nombre": "TENDER 8 VARILLAS",
-    "precio": 30000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1-LC3hUdxlqaiNWrHIWd9OPtvUrOcX6VE",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 4
   }
 ]
