@@ -414,6 +414,15 @@
     "stock": 0
   },
   {
+    "codigo": "90",
+    "nombre": "STEREO P/AUTO C/PANTALLACAR MP5 PL AYER",
+    "precio": 87000,
+    "categoria": "PARLANTES",
+    "imagen": "https://drive.google.com/uc?id=1Wco7esRifdxRbGZT-jcSG8lCX3M9YZc7",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
     "codigo": "911",
     "nombre": "RADIO PARLANTE BT 5.3 PORTÁTIL VINTAGE RETRO",
     "precio": 38000,
@@ -455,15 +464,6 @@
     "precio": 57000,
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=1PrDDR4xmZje75Yq4lm50oqmTaVpY2mI_",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "90",
-    "nombre": "STEREO P/AUTO C/PANTALLACAR MP5 PL AYER",
-    "precio": 87000,
-    "categoria": "PARLANTES",
-    "imagen": "https://drive.google.com/uc?id=1Wco7esRifdxRbGZT-jcSG8lCX3M9YZc7",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -1369,8 +1369,8 @@
   },
   {
     "codigo": "598",
-    "nombre": "MARCADORES DOBLE PUNTA TOUCH 80PCS",
-    "precio": 25000,
+    "nombre": "MARCADORES DOBLE PUNTA TOUCH 60PCS",
+    "precio": 20000,
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1iKOBxEq7z95Jj6pyyq6HNG6MjqSLGGli",
     "estado": "A PEDIDO (de 7 a 10 días)",
@@ -1378,7 +1378,7 @@
   },
   {
     "codigo": "907",
-    "nombre": "MARCADOR DOBLE PUNTA TOUCH 120 PCS",
+    "nombre": "MARCADORES DOBLE PUNTA TOUCH 120 PCS",
     "precio": 41000,
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/file/d/16FSwEsaSeqErmkozrmUA0M2LHXVJYCOt/view?usp=drivesdk",
@@ -1710,15 +1710,6 @@
     "stock": 0
   },
   {
-    "codigo": "276",
-    "nombre": "TV BOX MX9 4K 256 GB MEMORIA",
-    "precio": 31000,
-    "categoria": "TECNOLOGIA",
-    "imagen": "https://drive.google.com/uc?id=14Cu809cxeIxJiaz5a3ruDcRHPCLW0TCk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
     "codigo": "37",
     "nombre": "JOYSTICK PS4 GENERICO LISO",
     "precio": 30000,
@@ -1726,6 +1717,15 @@
     "imagen": "https://drive.google.com/uc?id=1c006E6BiIX2QBqnUL0RmIeiHqrMXcfhI",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 2
+  },
+  {
+    "codigo": "276",
+    "nombre": "TV BOX MX9 4K 256 GB MEMORIA",
+    "precio": 31000,
+    "categoria": "TECNOLOGIA",
+    "imagen": "https://drive.google.com/uc?id=14Cu809cxeIxJiaz5a3ruDcRHPCLW0TCk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
   },
   {
     "codigo": "375",
@@ -1755,6 +1755,15 @@
     "stock": 0
   },
   {
+    "codigo": "239",
+    "nombre": "MAQUINA CONTADORA DE BILLETES M21E",
+    "precio": 138000,
+    "categoria": "SEGURIDAD",
+    "imagen": "https://drive.google.com/uc?id=19Yi5vkEGIsnBl-_aXGRtk9pgoCY3iTt1",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
     "codigo": "370",
     "nombre": "CAMARA DE SEGURIDAD 2 ANTENAS OR-101",
     "precio": 49000,
@@ -1769,15 +1778,6 @@
     "precio": 89000,
     "categoria": "SEGURIDAD",
     "imagen": "https://drive.google.com/uc?id=1eDBpqqB_wOEmkO5wfPChs0Mkzjw7znch",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "239",
-    "nombre": "MAQUINA CONTADORA DE BILLETES M21E",
-    "precio": 138000,
-    "categoria": "SEGURIDAD",
-    "imagen": "https://drive.google.com/uc?id=19Yi5vkEGIsnBl-_aXGRtk9pgoCY3iTt1",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
