@@ -65,7 +65,7 @@
   {
     "codigo": "24",
     "nombre": "CARGADOR P/ AUTO RC 4801 IPHONE",
-    "precio": 4500,
+    "precio": 5000,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1nDTkVUh6glU2oEjEITgtpKbNkVcJ7DEO",
     "estado": "A PEDIDO (de 7 a 10 días)",
@@ -74,9 +74,18 @@
   {
     "codigo": "23",
     "nombre": "CARGADOR P/ AUTO RC 4801 MICRO",
-    "precio": 4500,
+    "precio": 5000,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1cW71loadL66DQJ33SQhQ3edkUutXtu9x",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
+    "codigo": "444",
+    "nombre": "CARGADOR P/ AUTO LEGATUS TIPO C",
+    "precio": 8800,
+    "categoria": "CARGADORES",
+    "imagen": "https://drive.google.com/uc?id=1OzGP8icPaS3ktu7r6Cs4vHGlEqMPD4pZ",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -293,7 +302,7 @@
     "precio": 10000,
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=1D6-wSmDt8MEmGvgXAlBKdIxHe4H54S0s",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 1
   },
   {
@@ -313,15 +322,6 @@
     "imagen": "https://drive.google.com/uc?id=1a_JD6kHx7NyWt3t1XEQnjMYO5bMZxvFc",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 2
-  },
-  {
-    "codigo": "810",
-    "nombre": "AURICULARES INALÁMBRICOS RW-Y90 ROYALCELL",
-    "precio": 24000,
-    "categoria": "AURICULARES",
-    "imagen": "https://drive.google.com/file/d/18UnL2HTwy7yCjzIZ_bsgUfBapdey3eT_/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
   },
   {
     "codigo": "809",
@@ -398,9 +398,18 @@
   {
     "codigo": "369",
     "nombre": "STEREO P/AUTO DESMONTABLE 1788E",
-    "precio": 33500,
+    "precio": 38000,
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=1eotPJXULE59oT6KHJeAze3MftSqRSwsr",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
+    "codigo": "86",
+    "nombre": "ESTEREO P/AUTO OSR FIJO SC002/CS001/1782E",
+    "precio": 28000,
+    "categoria": "PARLANTES",
+    "imagen": "https://drive.google.com/uc?id=18q-XQVZmm9bsOnA9oXyJx7V4D7-Vq79r",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -425,7 +434,7 @@
   {
     "codigo": "650",
     "nombre": "PARLANTE JUNGLE 8″ 15W ORYX",
-    "precio": 52000,
+    "precio": 55000,
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=1ThiaLoU1lUzmaEaU8hENt7AfN1BopqNX",
     "estado": "A PEDIDO (de 7 a 10 días)",
@@ -461,9 +470,27 @@
   {
     "codigo": "621",
     "nombre": "PARLANTE JUPITER 12″",
-    "precio": 160000,
+    "precio": 170000,
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=1fqshzKWtEslDhaGKewMg82sUVAmPwyih",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
+    "codigo": "205",
+    "nombre": "MINI LINTERNA KEYCHAIN BOLSILLO COB-150",
+    "precio": 2800,
+    "categoria": "ILUMINACION",
+    "imagen": "https://drive.google.com/uc?id=1z1VE9DffmKc0A56MUKfFP8igh4EoD_f1",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
+    "codigo": "840",
+    "nombre": "LINTERNA MS-807",
+    "precio": 9000,
+    "categoria": "ILUMINACION",
+    "imagen": "https://drive.google.com/file/d/11Rx_s_wXoPVRCSFZmyp5o33HUPm5vveQ/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -479,27 +506,9 @@
   {
     "codigo": "299",
     "nombre": "LINTERNA RECARGABLE TOOLS ORYX OR125A/03",
-    "precio": 26500,
+    "precio": 29000,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1sZ-OW3V9v9JvaobudeG-BAwWYgUd_T-D",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "840",
-    "nombre": "LINTERNA MS-807",
-    "precio": 8200,
-    "categoria": "ILUMINACION",
-    "imagen": "https://drive.google.com/file/d/11Rx_s_wXoPVRCSFZmyp5o33HUPm5vveQ/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "205",
-    "nombre": "MINI LINTERNA KEYCHAIN BOLSILLO COB-150",
-    "precio": 2800,
-    "categoria": "ILUMINACION",
-    "imagen": "https://drive.google.com/uc?id=1z1VE9DffmKc0A56MUKfFP8igh4EoD_f1",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -527,6 +536,15 @@
     "precio": 5000,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/file/d/1UPi5bpzem9Yqd7nB--azpwKrnXxHIZYC/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
+    "codigo": "297",
+    "nombre": "LINTERNA RECARGABLE P50",
+    "precio": 21000,
+    "categoria": "ILUMINACION",
+    "imagen": "https://drive.google.com/uc?id=1tMgxBC2Uz9KVCRjC5ewtRPpJRfKQoCTg",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -731,7 +749,7 @@
   {
     "codigo": "300",
     "nombre": "LUZ DE EMERGENCIA 60 LED MS7006M/OR-60L",
-    "precio": 19000,
+    "precio": 20000,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1oa57XD27ba6bn-A9VHNFGxLBGqToLd_p",
     "estado": "A PEDIDO (de 7 a 10 días)",
@@ -749,7 +767,7 @@
   {
     "codigo": "61",
     "nombre": "PROYECTOR DE ESTRELLAS STAR MASTER",
-    "precio": 11000,
+    "precio": 12000,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1Jxsx7DsRxNOkZqxcYcqfa7upU2mUNJar",
     "estado": "CON STOCK",
@@ -819,6 +837,15 @@
     "stock": 0
   },
   {
+    "codigo": "308",
+    "nombre": "PROTON 36 LED LM036",
+    "precio": 30000,
+    "categoria": "ILUMINACION",
+    "imagen": "https://drive.google.com/uc?id=14DdoMDfF77wEBviXaLur2IH_AmmVi2js",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
     "codigo": "312",
     "nombre": "REFLECTOR LED PORTATIL PANEL RL-900",
     "precio": 38000,
@@ -848,7 +875,7 @@
   {
     "codigo": "285",
     "nombre": "ARO DE LUZ RGB MJ26 C/ TRIPODE",
-    "precio": 29000,
+    "precio": 30000,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=16Bm1HmYTOePxVx8VBm4OnX5XB6ovTWgx",
     "estado": "A PEDIDO (de 7 a 10 días)",
@@ -873,11 +900,29 @@
     "stock": 0
   },
   {
+    "codigo": "862",
+    "nombre": "TIRA DE LUZ RGB CON CONTROL 5049",
+    "precio": 10500,
+    "categoria": "ILUMINACION",
+    "imagen": "https://drive.google.com/file/d/1voEVwTn1ryaQ0OUgz1qtjPcVIjhLo1JV/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
     "codigo": "916",
     "nombre": "TIRA NEÓN LED RBG CON CONTROL",
     "precio": 30000,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/file/d/14G92pAtnwZgUjyJPVfrF7D8DEyjcGoSa/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
+    "codigo": "314",
+    "nombre": "TIRA DE LUZ NEON VARIOS COLORES",
+    "precio": 17500,
+    "categoria": "ILUMINACION",
+    "imagen": "https://drive.google.com/uc?id=1APY3xhjvbkvu30o4ZdQlgFf_hZVEL4XY",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -1460,7 +1505,7 @@
   {
     "codigo": "568",
     "nombre": "PLANCHITA P/PELO PRO NANO TITANIUM S1134",
-    "precio": 22200,
+    "precio": 24000,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1KQO2N8rsovi1aaZbYDN7qj3KvnllvpwO",
     "estado": "A PEDIDO (de 7 a 10 días)",
@@ -1566,15 +1611,6 @@
     "stock": 0
   },
   {
-    "codigo": "104",
-    "nombre": "CORTA PELO T10 VACUUM TRIMER",
-    "precio": 44000,
-    "categoria": "CUIDADO PERSONAL",
-    "imagen": "https://drive.google.com/uc?id=1B6L9B3_I3MKIGnMCplVrefQPiwPqYtIj",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
     "codigo": "119",
     "nombre": "PLANCHITA DE PELO DL-5205",
     "precio": 45000,
@@ -1622,7 +1658,7 @@
   {
     "codigo": "112",
     "nombre": "MASAJEADOR CERVICAL ORYX MJ-0225",
-    "precio": 68500,
+    "precio": 65000,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1nO2GkcxwfPUaOFDE7lp70PWr9Bcaunok",
     "estado": "A PEDIDO (de 7 a 10 días)",
@@ -1658,7 +1694,7 @@
   {
     "codigo": "188",
     "nombre": "JOYSTICK PARA PS2 ANALÓGICO",
-    "precio": 12500,
+    "precio": 15000,
     "categoria": "TECNOLOGIA",
     "imagen": "https://drive.google.com/uc?id=1j39ejjWyd-aICCGZZfIR6MsEdYyR8ZxL",
     "estado": "A PEDIDO (de 7 a 10 días)",
@@ -1667,7 +1703,7 @@
   {
     "codigo": "642",
     "nombre": "JOYSTICK PS3 GENERICO LISO",
-    "precio": 16000,
+    "precio": 17000,
     "categoria": "TECNOLOGIA",
     "imagen": "https://drive.google.com/uc?id=1e651J7jreCKCDHS2TPryJ9mm94Or-dVr",
     "estado": "A PEDIDO (de 7 a 10 días)",
@@ -1690,6 +1726,15 @@
     "imagen": "https://drive.google.com/uc?id=1c006E6BiIX2QBqnUL0RmIeiHqrMXcfhI",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 2
+  },
+  {
+    "codigo": "375",
+    "nombre": "CÁMARA INTELIGENTE WIFI IP66 0R1115KAA",
+    "precio": 34700,
+    "categoria": "SEGURIDAD",
+    "imagen": "https://drive.google.com/uc?id=15JxkVKRx2WfCOxZyIBnMcVA7YsObzXpb",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
   },
   {
     "codigo": "583",
@@ -1782,6 +1827,15 @@
     "stock": 1
   },
   {
+    "codigo": "198",
+    "nombre": "INFLADOR MULTIUSO BOQUILLA INTERCAMBIABLE",
+    "precio": 8500,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1qWJO3cx7o5P67owApjqhsRutHUow4mzX",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
     "codigo": "381",
     "nombre": "SOPORTE TV FIJO TV 2663",
     "precio": 9900,
@@ -1796,6 +1850,15 @@
     "precio": 6800,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1TkFYmLVb0QpokklN-BGDoQdGjJCTA8wV",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
+    "codigo": "610",
+    "nombre": "SOPORTE DE TV C/ BRAZO 14 A 55′ TV J3000",
+    "precio": 17000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1zn7y5aWJlTbl1-yKk2lTj70xftgLN74p",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -1874,7 +1937,7 @@
   {
     "codigo": "13",
     "nombre": "CEPILLO SACA PELUSA",
-    "precio": 8600,
+    "precio": 10000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1LgL_a1ixzFfxBrL96Bes21eQ4iy0TYt1",
     "estado": "CON STOCK",
@@ -2018,7 +2081,7 @@
   {
     "codigo": "222",
     "nombre": "BALANZA DE BAÑO BLUETOOTH 180KG SEIS",
-    "precio": 24000,
+    "precio": 25000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1T-n2617EAILcvuHh0pUHEFHdtGnUR7Vu",
     "estado": "A PEDIDO (de 7 a 10 días)",
@@ -2106,15 +2169,6 @@
     "stock": 0
   },
   {
-    "codigo": "844",
-    "nombre": "MINI MAQUINA DE COSER SUONO HOOG0054",
-    "precio": 27000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1wyUMTL5hhc0gJ5_jCYiXfCxhpcKbbhYz/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
     "codigo": "176",
     "nombre": "SET X10 UTENSILIOS PARA COCINA DE SILICONA",
     "precio": 27000,
@@ -2171,7 +2225,7 @@
   {
     "codigo": "275",
     "nombre": "TOSTADORA 2 RANURAS ORYX OR-501",
-    "precio": 33000,
+    "precio": 35000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1AKQbcxdC4cXyN1NmFu6g-XzDbgcltH4a",
     "estado": "A PEDIDO (de 7 a 10 días)",
@@ -2210,15 +2264,6 @@
     "precio": 34000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=15hJxZv3H9khqnhDaYs5NIi4hGw9BGSHU",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "249",
-    "nombre": "MOPA CON BALDE CENTRIFUGADOR 2 EN 1",
-    "precio": 39000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1jC8fWueW2_BAea8516VPbNBdLNBF1FAf",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -2304,6 +2349,15 @@
     "stock": 0
   },
   {
+    "codigo": "228",
+    "nombre": "DISPENSOR DE AGUA AUTOMATIC WATER DA-01",
+    "precio": 11000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1I1W9rB8T-YxYxyN5RsDKj7fMqRSAFn6b",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
     "codigo": "513",
     "nombre": "TENDER EXTENSIBLE 60 CM",
     "precio": 45000,
@@ -2318,6 +2372,24 @@
     "precio": 47000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1dxynHxxVmG0L880-7mTMojxFTKgO5PLl",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
+    "codigo": "652",
+    "nombre": "PAVA ELÉCTRICA 2L ORYX OSR 9145",
+    "precio": 27000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=16a7KTZfyLbtOUz1vR3Tm1Uc4GMbG8HXX",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
+    "codigo": "1055",
+    "nombre": "TERMO 1.4 LITROS DE ACERO ORYX",
+    "precio": 29000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/file/d/1gTT3igwTynaWCyDL-HGCbksXcJJQJDTo/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -2412,11 +2484,11 @@
     "stock": 0
   },
   {
-    "codigo": "169",
-    "nombre": "POCHOCLERA ORYX OR-0089",
-    "precio": 75000,
+    "codigo": "256",
+    "nombre": "PANCHUQUERA",
+    "precio": 215000,
     "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=15flBPKtS8iL5SVWe2rPGjW7HVtw1QK8D",
+    "imagen": "https://drive.google.com/uc?id=1iTNLfTTLFIjeMljh-vc1A3K7au6Oi-l6",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -2426,6 +2498,15 @@
     "precio": 75000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1wt3rNLT5FGlD5TTm11lbT_M0tbH1_WnW",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
+    "codigo": "241",
+    "nombre": "MAQUINA DE COSER ORYX S0125/OM SM-505",
+    "precio": 100000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1G_fXG_8h9rw2zG-bW3wzXz2hao8dO1Zh",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -2565,15 +2646,6 @@
     "stock": 0
   },
   {
-    "codigo": "243",
-    "nombre": "MAQUINA DE DONAS ORYX OR5002",
-    "precio": 58500,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1QtHa-3D3yr8SUMrEs_2_bEgoobZ1TM8q",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
     "codigo": "833",
     "nombre": "HORNO ELECTRICO ORYX OR-HE100 1000W",
     "precio": 113000,
@@ -2583,11 +2655,11 @@
     "stock": 0
   },
   {
-    "codigo": "500",
-    "nombre": "PINZA UNIVERSAL 8PULG",
-    "precio": 6500,
-    "categoria": "HERRAMIENTAS",
-    "imagen": "https://drive.google.com/uc?id=1VEhQDYpdWSZ7QXb-iJMYOPVp6kS5OrQu",
+    "codigo": "144",
+    "nombre": "ASPIARADORA DE MANO Y VERTICAL ORYX",
+    "precio": 75000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1oUrSKDZgEYusNN3nzvoQGA5ntde7WNGR",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -2601,6 +2673,15 @@
     "stock": 0
   },
   {
+    "codigo": "956",
+    "nombre": "ORGANIZADOR DE LAVARROPAS",
+    "precio": 45500,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/file/d/1dDBGSHNAOY9tV-a19zzTPvw05nnOLCm-/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
     "codigo": "501",
     "nombre": "PINZAS PUNETAZO SACABOCADO JC821110",
     "precio": 7200,
@@ -2610,11 +2691,11 @@
     "stock": 0
   },
   {
-    "codigo": "956",
-    "nombre": "ORGANIZADOR DE LAVARROPAS",
-    "precio": 45500,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1dDBGSHNAOY9tV-a19zzTPvw05nnOLCm-/view?usp=drivesdk",
+    "codigo": "500",
+    "nombre": "PINZA UNIVERSAL 8PULG",
+    "precio": 6500,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1VEhQDYpdWSZ7QXb-iJMYOPVp6kS5OrQu",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -2745,11 +2826,47 @@
     "stock": 0
   },
   {
+    "codigo": "504",
+    "nombre": "SOLDADORA INVERTER ORYX OR-300WD",
+    "precio": 230000,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=17x8-tlqdNsXlNFB07cq7nzB5_loITFGD",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
     "codigo": "955",
     "nombre": "MOTOSIERRA A EXPLOSION OR-621AB",
     "precio": 190000,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/file/d/13SXhEDDAxhf3ay0YWoO25QnBVBqN7sYI/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
+    "codigo": "190",
+    "nombre": "AMOLADORA ANGULAR ORYX OR-AG115 780W",
+    "precio": 87000,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1n-4dj0Xraa4KToU8BVWJ5p-jprHbImBl",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
+    "codigo": "502",
+    "nombre": "PISTOLA DE CALOR ORYX EL 676 2000W",
+    "precio": 60000,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1pG0YtnGqnLFMrOG1PaUc9FWvelOG0iCW",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
+    "codigo": "197",
+    "nombre": "HIDROLAVADORA INALÁMBRICA ORYX EL677",
+    "precio": 93000,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1Hw8MeJhbDtU8DTtBF-e3yBgP2aTAdpGK",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   }
