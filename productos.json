@@ -360,15 +360,6 @@
     "stock": 0
   },
   {
-    "codigo": "359",
-    "nombre": "PARLANTE LEGATUS LP-1130",
-    "precio": 13500,
-    "categoria": "PARLANTES",
-    "imagen": "https://drive.google.com/uc?id=1h_JnXAMSV-1BeCBffwtGX0l2jreCpVac",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
-  },
-  {
     "codigo": "555",
     "nombre": "PARLANTE LEGATUS 3″ 3306",
     "precio": 14500,
@@ -1301,8 +1292,8 @@
     "precio": 16000,
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/file/d/1WggOPo3iodKl1A2KUv669fy2rFL1eWiO/view?usp=drivesdk",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
   },
   {
     "codigo": "907",
@@ -1319,8 +1310,8 @@
     "precio": 15000,
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1dm5Ckd8c-5a_PLR1EzEb7J0KWCuwfpBG",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
   },
   {
     "codigo": "391",
@@ -1337,8 +1328,8 @@
     "precio": 22200,
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1C-ekS3ECjZ2P3oe-vjfb5W1RY16mgpkP",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
   },
   {
     "codigo": "393",
@@ -2106,22 +2097,13 @@
     "stock": 0
   },
   {
-    "codigo": "685",
-    "nombre": "MIXER LICUADORA DE MANO",
-    "precio": 31000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1yPNzlINN-2U9FdziPDb-XOHSqHtuzz7o",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
-  },
-  {
     "codigo": "275",
     "nombre": "TOSTADORA 2 RANURAS ORYX OR-501",
     "precio": 35000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1AKQbcxdC4cXyN1NmFu6g-XzDbgcltH4a",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
   },
   {
     "codigo": "280",
