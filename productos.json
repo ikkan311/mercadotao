@@ -6,12 +6,12 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=10FUznbbTRE98huoYjBTGPuxTpmZFfsbO",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 4
+    "stock": 3
   },
   {
     "codigo": "452",
     "nombre": "CARGADOR LEGATUS 3.4 MICRO",
-    "precio": 3900,
+    "precio": 4500,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1oBvIBj9hq9PCwEA4OqB9fyqnclZvqEB5",
     "estado": "ULTIMOS DISPONIBLES",
@@ -20,16 +20,16 @@
   {
     "codigo": "453",
     "nombre": "CARGADOR LEGATUS 3.4 TIPO C",
-    "precio": 3900,
+    "precio": 4500,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1oBvIBj9hq9PCwEA4OqB9fyqnclZvqEB5",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 6
+    "stock": 16
   },
   {
     "codigo": "32",
     "nombre": "CARGADOR 5.0A ROYALCELL  TIPO C",
-    "precio": 5000,
+    "precio": 5200,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=19z1XirI6u3nBsdZRnUpbqvoUwgjDqxFi",
     "estado": "ULTIMOS DISPONIBLES",
@@ -38,7 +38,7 @@
   {
     "codigo": "33",
     "nombre": "CARGADOR 5.0A ROYALCELL MICRO",
-    "precio": 5000,
+    "precio": 5200,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=19z1XirI6u3nBsdZRnUpbqvoUwgjDqxFi",
     "estado": "ULTIMOS DISPONIBLES",
@@ -50,8 +50,8 @@
     "precio": 10500,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1nEnJRpdvPDCOd-ZW_sKKYovESeqp_2ub",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 5
   },
   {
     "codigo": "26",
@@ -59,7 +59,7 @@
     "precio": 9400,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1raFC0KypTUNXc9hYoHdOunsb8YFK04m1",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 8
   },
   {
@@ -68,8 +68,8 @@
     "precio": 5000,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1nDTkVUh6glU2oEjEITgtpKbNkVcJ7DEO",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 2
   },
   {
     "codigo": "23",
@@ -77,17 +77,17 @@
     "precio": 5000,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1cW71loadL66DQJ33SQhQ3edkUutXtu9x",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 2
   },
   {
     "codigo": "444",
-    "nombre": "CARGADOR P/ AUTO LEGATUS TIPO C",
-    "precio": 8800,
+    "nombre": "CARGADOR P/ AUTO LEGATUS TIPO C LC4805",
+    "precio": 8700,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1OzGP8icPaS3ktu7r6Cs4vHGlEqMPD4pZ",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 4
   },
   {
     "codigo": "138",
@@ -95,7 +95,7 @@
     "precio": 16700,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=10_eav-lPG4bXjQDbcboheQ6Ip5OTQTU8",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 2
   },
   {
@@ -104,8 +104,8 @@
     "precio": 2000,
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1TfyIwJKlUGCrgKLQogOX8agKlEWa2lIv",
-    "estado": "CON STOCK",
-    "stock": 6
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 25
   },
   {
     "codigo": "27",
@@ -113,8 +113,8 @@
     "precio": 2000,
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1TfyIwJKlUGCrgKLQogOX8agKlEWa2lIv",
-    "estado": "CON STOCK",
-    "stock": 17
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 19
   },
   {
     "codigo": "19",
@@ -122,8 +122,8 @@
     "precio": 2000,
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1TfyIwJKlUGCrgKLQogOX8agKlEWa2lIv",
-    "estado": "CON STOCK",
-    "stock": 3
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 8
   },
   {
     "codigo": "18",
@@ -140,7 +140,7 @@
     "precio": 3700,
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1_5I021ePLX2kftD5dsVAXLKMXI1hIpeA",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 4
   },
   {
@@ -171,6 +171,15 @@
     "stock": 26
   },
   {
+    "codigo": "22",
+    "nombre": "CABLE AUXILIAR - RC5012",
+    "precio": 1800,
+    "categoria": "CABLES",
+    "imagen": "https://drive.google.com/uc?id=1g8TVpdlQk6sLQJIM7RyBpKqxyLIKGZRJ",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 15
+  },
+  {
     "codigo": "2",
     "nombre": "RECEPTOR DE BLUETOOTH",
     "precio": 3400,
@@ -182,11 +191,11 @@
   {
     "codigo": "703",
     "nombre": "SOPORTE P/ AUTO SUONO 0223M/ACC0002",
-    "precio": 6000,
+    "precio": 7500,
     "categoria": "ACCESORIOS",
     "imagen": "https://drive.google.com/file/d/1_AlJvh_V3Mlny7kzLS3MuvFcsAnDRent/view?usp=drivesdk",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
+    "stock": 2
   },
   {
     "codigo": "73",
@@ -194,17 +203,8 @@
     "precio": 11000,
     "categoria": "ACCESORIOS",
     "imagen": "https://drive.google.com/uc?id=16A7oqYERZniSocMUjEPvqEXgUkAg9VvN",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "914",
-    "nombre": "SOPORTE DE CELULAR PARA MOTO LX02",
-    "precio": 11000,
-    "categoria": "ACCESORIOS",
-    "imagen": "https://drive.google.com/file/d/1xFtQTXyYzeBdRothn8wRUTow_UnOwhbz/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 2
   },
   {
     "codigo": "706",
@@ -257,17 +257,8 @@
     "precio": 2000,
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/file/d/1CsevWH526JHOIcns9-366MkxOwJhEETy/view?usp=drivesdk",
-    "estado": "CON STOCK",
-    "stock": 12
-  },
-  {
-    "codigo": "10",
-    "nombre": "AURICULARES RC HD-MIC RE-1005",
-    "precio": 2000,
-    "categoria": "AURICULARES",
-    "imagen": "https://drive.google.com/uc?id=1sdwkafDLQKs80CE_NHhgldAeVx7FFkyN",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 18
   },
   {
     "codigo": "6",
@@ -293,7 +284,7 @@
     "precio": 7800,
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=1ThAma6yRNZepjkBLcyPs8JGOybyx1DiY",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 3
   },
   {
@@ -322,6 +313,15 @@
     "imagen": "https://drive.google.com/uc?id=1a_JD6kHx7NyWt3t1XEQnjMYO5bMZxvFc",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 2
+  },
+  {
+    "codigo": "810",
+    "nombre": "AURICULARES INALÁMBRICOS RW-Y90 ROYALCELL",
+    "precio": 24000,
+    "categoria": "AURICULARES",
+    "imagen": "https://drive.google.com/file/d/18UnL2HTwy7yCjzIZ_bsgUfBapdey3eT_/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
   },
   {
     "codigo": "809",
@@ -405,20 +405,20 @@
     "stock": 0
   },
   {
-    "codigo": "86",
-    "nombre": "ESTEREO P/AUTO OSR FIJO SC002/CS001/1782E",
-    "precio": 28000,
-    "categoria": "PARLANTES",
-    "imagen": "https://drive.google.com/uc?id=18q-XQVZmm9bsOnA9oXyJx7V4D7-Vq79r",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
     "codigo": "90",
     "nombre": "STEREO P/AUTO C/PANTALLACAR MP5 PL AYER",
     "precio": 87000,
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=1Wco7esRifdxRbGZT-jcSG8lCX3M9YZc7",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
+    "codigo": "86",
+    "nombre": "ESTEREO P/AUTO OSR FIJO SC002/CS001/1782E",
+    "precio": 28000,
+    "categoria": "PARLANTES",
+    "imagen": "https://drive.google.com/uc?id=18q-XQVZmm9bsOnA9oXyJx7V4D7-Vq79r",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -482,15 +482,15 @@
     "precio": 2800,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1z1VE9DffmKc0A56MUKfFP8igh4EoD_f1",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 5
   },
   {
-    "codigo": "840",
-    "nombre": "LINTERNA MS-807",
-    "precio": 9000,
+    "codigo": "299",
+    "nombre": "LINTERNA RECARGABLE TOOLS ORYX OR125A/03",
+    "precio": 29000,
     "categoria": "ILUMINACION",
-    "imagen": "https://drive.google.com/file/d/11Rx_s_wXoPVRCSFZmyp5o33HUPm5vveQ/view?usp=drivesdk",
+    "imagen": "https://drive.google.com/uc?id=1sZ-OW3V9v9JvaobudeG-BAwWYgUd_T-D",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -504,29 +504,11 @@
     "stock": 0
   },
   {
-    "codigo": "299",
-    "nombre": "LINTERNA RECARGABLE TOOLS ORYX OR125A/03",
-    "precio": 29000,
+    "codigo": "297",
+    "nombre": "LINTERNA RECARGABLE P50",
+    "precio": 21000,
     "categoria": "ILUMINACION",
-    "imagen": "https://drive.google.com/uc?id=1sZ-OW3V9v9JvaobudeG-BAwWYgUd_T-D",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "648",
-    "nombre": "LINTERNA VINCHA MINERA RECARGABLE SEIS",
-    "precio": 14200,
-    "categoria": "ILUMINACION",
-    "imagen": "https://reinaelectronica.com.ar/wp-content/uploads/2026/04/lampara-silicona-28.png",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "906",
-    "nombre": "LINTERNA 18 LED RECARGABLE MS815",
-    "precio": 13000,
-    "categoria": "ILUMINACION",
-    "imagen": "https://drive.google.com/file/d/1sRWOCOXkk_TfzIRbFZ0561ajwM7F3Izr/view?usp=drivesdk",
+    "imagen": "https://drive.google.com/uc?id=1tMgxBC2Uz9KVCRjC5ewtRPpJRfKQoCTg",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -540,11 +522,29 @@
     "stock": 0
   },
   {
-    "codigo": "297",
-    "nombre": "LINTERNA RECARGABLE P50",
-    "precio": 21000,
+    "codigo": "840",
+    "nombre": "LINTERNA MS-807",
+    "precio": 9000,
     "categoria": "ILUMINACION",
-    "imagen": "https://drive.google.com/uc?id=1tMgxBC2Uz9KVCRjC5ewtRPpJRfKQoCTg",
+    "imagen": "https://drive.google.com/file/d/11Rx_s_wXoPVRCSFZmyp5o33HUPm5vveQ/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
+    "codigo": "906",
+    "nombre": "LINTERNA 18 LED RECARGABLE MS815",
+    "precio": 13000,
+    "categoria": "ILUMINACION",
+    "imagen": "https://drive.google.com/file/d/1sRWOCOXkk_TfzIRbFZ0561ajwM7F3Izr/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
+    "codigo": "648",
+    "nombre": "LINTERNA VINCHA MINERA RECARGABLE SEIS",
+    "precio": 14200,
+    "categoria": "ILUMINACION",
+    "imagen": "https://reinaelectronica.com.ar/wp-content/uploads/2026/04/lampara-silicona-28.png",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -554,7 +554,7 @@
     "precio": 3500,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=18dorJSqgwt2_STlTMpVxo8ROHQPSpVOr",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 2
   },
   {
@@ -623,10 +623,10 @@
   {
     "codigo": "835",
     "nombre": "LÁMPARA INFANTIL 258 10/11",
-    "precio": 11200,
+    "precio": 11500,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/file/d/1Rac5l2pvzynraHLqVj0yKNpMFr3r8IU-/view?usp=drivesdk",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 2
   },
   {
@@ -671,7 +671,7 @@
     "precio": 19000,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1R9V23mcDN0S17xQI1gcUqGEXpjsFKrcF",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 5
   },
   {
@@ -681,7 +681,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1vDmNJHbXo84p3ET3Wr8APt7EFtVGLk-3",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 5
+    "stock": 4
   },
   {
     "codigo": "234",
@@ -770,7 +770,7 @@
     "precio": 12000,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1Jxsx7DsRxNOkZqxcYcqfa7upU2mUNJar",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 2
   },
   {
@@ -785,7 +785,7 @@
   {
     "codigo": "384",
     "nombre": "CARTEL ‘ABIERTO’",
-    "precio": 21000,
+    "precio": 23000,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1f-hr9Azv-ej7XwAyT8HuJGA3VK80NmGL",
     "estado": "A PEDIDO (de 7 a 10 días)",
@@ -794,7 +794,7 @@
   {
     "codigo": "383",
     "nombre": "CARTEL LED ‘KIOSKO’",
-    "precio": 20000,
+    "precio": 23000,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1ekErEu6DAm76GH1hUUA0jV7y2toGfFqi",
     "estado": "A PEDIDO (de 7 a 10 días)",
@@ -803,7 +803,7 @@
   {
     "codigo": "591",
     "nombre": "CARTEL LED CAFE",
-    "precio": 20000,
+    "precio": 24000,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1dn7EUJtMgbYDaKk0RZw-kWoL7b_-mF7R",
     "estado": "A PEDIDO (de 7 a 10 días)",
@@ -875,7 +875,7 @@
   {
     "codigo": "285",
     "nombre": "ARO DE LUZ RGB MJ26 C/ TRIPODE",
-    "precio": 30000,
+    "precio": 33000,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=16Bm1HmYTOePxVx8VBm4OnX5XB6ovTWgx",
     "estado": "A PEDIDO (de 7 a 10 días)",
@@ -900,24 +900,6 @@
     "stock": 0
   },
   {
-    "codigo": "862",
-    "nombre": "TIRA DE LUZ RGB CON CONTROL 5049",
-    "precio": 10500,
-    "categoria": "ILUMINACION",
-    "imagen": "https://drive.google.com/file/d/1voEVwTn1ryaQ0OUgz1qtjPcVIjhLo1JV/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "916",
-    "nombre": "TIRA NEÓN LED RBG CON CONTROL",
-    "precio": 30000,
-    "categoria": "ILUMINACION",
-    "imagen": "https://drive.google.com/file/d/14G92pAtnwZgUjyJPVfrF7D8DEyjcGoSa/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
     "codigo": "314",
     "nombre": "TIRA DE LUZ NEON VARIOS COLORES",
     "precio": 17500,
@@ -927,11 +909,11 @@
     "stock": 0
   },
   {
-    "codigo": "813",
-    "nombre": "BANDERA PARA AUTO",
-    "precio": 1200,
-    "categoria": "JUGUETERIA",
-    "imagen": "https://drive.google.com/file/d/1O_Xlf7cDPFiMHQNK5r8LsTYGchoG7-NW/view?usp=drivesdk",
+    "codigo": "916",
+    "nombre": "TIRA NEÓN LED RBG CON CONTROL",
+    "precio": 30000,
+    "categoria": "ILUMINACION",
+    "imagen": "https://drive.google.com/file/d/14G92pAtnwZgUjyJPVfrF7D8DEyjcGoSa/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -952,42 +934,6 @@
     "imagen": "https://drive.google.com/file/d/18cSxFvjvV9e_M55Asior65UjvvpMnr7E/view?usp=drivesdk",
     "estado": "ULTIMOS DISPONIBLES",
     "stock": 6
-  },
-  {
-    "codigo": "864",
-    "nombre": "VUVUZELA DESPLEGABLE XL 50CM",
-    "precio": 3500,
-    "categoria": "JUGUETERIA",
-    "imagen": "https://drive.google.com/file/d/15frrIA_G_kVxwR-_bk74zypX-iAJsph2/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "890",
-    "nombre": "VUVUZELA DESPLEGABLE XXL 70CM",
-    "precio": 6500,
-    "categoria": "JUGUETERIA",
-    "imagen": "https://drive.google.com/file/d/185IDNZmfmkOqq287DrmFn0Vkx3ZGVGdB/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "895",
-    "nombre": "BOCINA CORNETA MANUAL",
-    "precio": 5500,
-    "categoria": "JUGUETERIA",
-    "imagen": "https://drive.google.com/file/d/1KQk6DRzCvcS5oeJe6ELrXJj5ZozP900A/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "847",
-    "nombre": "PLANCHAS DE TATUAJES TEMPORALES",
-    "precio": 7000,
-    "categoria": "JUGUETERIA",
-    "imagen": "https://drive.google.com/file/d/1hhw2das1N-xLORq_d5_8JhBG_7D04YWo/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
   },
   {
     "codigo": "860",
@@ -1013,7 +959,7 @@
     "precio": 5500,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1-AQ-TZdaHyqzXUgiYMcPhQwsYDtNhb60",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 3
   },
   {
@@ -1022,7 +968,7 @@
     "precio": 9300,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1AfRvknY8jNy36WCd83oStGTNjokaYiC2",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 5
   },
   {
@@ -1058,15 +1004,6 @@
     "precio": 3600,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1w09MdVxV4vQ65L_I3XAG5c9ntiDXXG_R",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "645",
-    "nombre": "LABUBU SQU9",
-    "precio": 4200,
-    "categoria": "JUGUETERIA",
-    "imagen": "https://drive.google.com/uc?id=1FFPgKkeX7Z2I9HeoXixOaLq-5tXjVjqN",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -1319,7 +1256,7 @@
     "precio": 2500,
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1BhXoflWv7-rdsc87Wb8hUCaUVotNxhGa",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 3
   },
   {
@@ -1361,20 +1298,11 @@
   {
     "codigo": "704",
     "nombre": "CARTERA CROSSBODY CON STRAPS",
-    "precio": 18000,
+    "precio": 16000,
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/file/d/1WggOPo3iodKl1A2KUv669fy2rFL1eWiO/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "598",
-    "nombre": "MARCADORES DOBLE PUNTA TOUCH 60PCS",
-    "precio": 20000,
-    "categoria": "LIBRERIA",
-    "imagen": "https://drive.google.com/uc?id=1iKOBxEq7z95Jj6pyyq6HNG6MjqSLGGli",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 2
   },
   {
     "codigo": "907",
@@ -1391,8 +1319,8 @@
     "precio": 15000,
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1dm5Ckd8c-5a_PLR1EzEb7J0KWCuwfpBG",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 2
   },
   {
     "codigo": "391",
@@ -1402,6 +1330,15 @@
     "imagen": "https://drive.google.com/uc?id=1cMJfXIcQOb484j6ro6A3hmU3PA898eXQ",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
+  },
+  {
+    "codigo": "390",
+    "nombre": "MOCHILA INFANTIL SUONO",
+    "precio": 22200,
+    "categoria": "LIBRERIA",
+    "imagen": "https://drive.google.com/uc?id=1C-ekS3ECjZ2P3oe-vjfb5W1RY16mgpkP",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 1
   },
   {
     "codigo": "393",
@@ -1490,7 +1427,7 @@
     "precio": 19000,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1-QU-j-I-yCVMbDmS1_s63VCstmXF8Mkd",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 1
   },
   {
@@ -1499,7 +1436,7 @@
     "precio": 22000,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1ZShV8cAQWrcJow0Jog42bwr-clamzlmQ",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 3
   },
   {
@@ -1728,29 +1665,11 @@
     "stock": 0
   },
   {
-    "codigo": "375",
-    "nombre": "CÁMARA INTELIGENTE WIFI IP66 0R1115KAA",
-    "precio": 34700,
-    "categoria": "SEGURIDAD",
-    "imagen": "https://drive.google.com/uc?id=15JxkVKRx2WfCOxZyIBnMcVA7YsObzXpb",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
     "codigo": "583",
     "nombre": "MINI CAJA FUERTE DE METAL",
     "precio": 36000,
     "categoria": "SEGURIDAD",
     "imagen": "https://drive.google.com/uc?id=1cosWLDVahg64XHGzBjcA8nl0daPxzf_x",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "226",
-    "nombre": "CONTADORA DE BILLETES M10E",
-    "precio": 133000,
-    "categoria": "SEGURIDAD",
-    "imagen": "https://drive.google.com/uc?id=1xeLS6XdRTUOY0n5RKtPHmJ2Gwdxcd2et",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -1764,11 +1683,11 @@
     "stock": 0
   },
   {
-    "codigo": "370",
-    "nombre": "CAMARA DE SEGURIDAD 2 ANTENAS OR-101",
-    "precio": 49000,
+    "codigo": "226",
+    "nombre": "CONTADORA DE BILLETES M10E",
+    "precio": 133000,
     "categoria": "SEGURIDAD",
-    "imagen": "https://drive.google.com/uc?id=14Q0cEU2U5ICfJQwsHbcLtp_AWEi5IgR6",
+    "imagen": "https://drive.google.com/uc?id=1xeLS6XdRTUOY0n5RKtPHmJ2Gwdxcd2et",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -1796,7 +1715,7 @@
     "precio": 1400,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1cKySAao_6rEnc_E6ymw3HjFpjteuH3tp",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 10
   },
   {
@@ -1805,7 +1724,7 @@
     "precio": 1400,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=109ZMKeLFnia5oc4LMfXPldRNIluu864w",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 10
   },
   {
@@ -1814,7 +1733,7 @@
     "precio": 4700,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1O60uoCU-2hxi3oYWZ1PtSVhH0dEzRRZq",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 2
   },
   {
@@ -1836,38 +1755,11 @@
     "stock": 0
   },
   {
-    "codigo": "381",
-    "nombre": "SOPORTE TV FIJO TV 2663",
-    "precio": 9900,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1gwYgRblU4e1JNFTHeo8tZGHJDixZrhNQ",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
     "codigo": "380",
     "nombre": "SOPORTE TV FIJO TV 1442",
     "precio": 6800,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1TkFYmLVb0QpokklN-BGDoQdGjJCTA8wV",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "610",
-    "nombre": "SOPORTE DE TV C/ BRAZO 14 A 55′ TV J3000",
-    "precio": 17000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1zn7y5aWJlTbl1-yKk2lTj70xftgLN74p",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "636",
-    "nombre": "CONTROL UNIVERSAL SMART RM-014S",
-    "precio": 5800,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1Absejjjf5eeksOC-F0HyUOh3BewJ8vKK",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -1940,7 +1832,7 @@
     "precio": 10000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1LgL_a1ixzFfxBrL96Bes21eQ4iy0TYt1",
-    "estado": "CON STOCK",
+    "estado": "ULTIMOS DISPONIBLES",
     "stock": 2
   },
   {
@@ -2097,15 +1989,6 @@
     "stock": 0
   },
   {
-    "codigo": "674",
-    "nombre": "VASOS TÉRMICOS 500ML CON SENSOR DE TEMPERATURA",
-    "precio": 22500,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=18p4Y9XQi-MK7bPpM_vfT3keXB1uY_oel",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
     "codigo": "157",
     "nombre": "JARRO ANTIADHERENTE ORYX 14 CM",
     "precio": 21500,
@@ -2196,6 +2079,15 @@
     "stock": 0
   },
   {
+    "codigo": "224",
+    "nombre": "CAFETERIA ORYX 6 POCILLOS KP-600",
+    "precio": 32000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1ns12MqwJJGQFNfYRpBUiKUdtKOQ4rwmB",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
     "codigo": "246",
     "nombre": "MINI MAQUINA DE COSER ORYX S01247/OM202A",
     "precio": 34000,
@@ -2219,8 +2111,8 @@
     "precio": 31000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1yPNzlINN-2U9FdziPDb-XOHSqHtuzz7o",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 1
   },
   {
     "codigo": "275",
@@ -2228,8 +2120,8 @@
     "precio": 35000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1AKQbcxdC4cXyN1NmFu6g-XzDbgcltH4a",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 1
   },
   {
     "codigo": "280",
@@ -2340,20 +2232,20 @@
     "stock": 0
   },
   {
-    "codigo": "264",
-    "nombre": "SANDWICHERA ORYX OR-1700",
-    "precio": 45000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1nq4YI7bg8D5k8A6t-yaXDj-PzhFoss_0",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
     "codigo": "228",
     "nombre": "DISPENSOR DE AGUA AUTOMATIC WATER DA-01",
     "precio": 11000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1I1W9rB8T-YxYxyN5RsDKj7fMqRSAFn6b",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
+    "codigo": "264",
+    "nombre": "SANDWICHERA ORYX OR-1700",
+    "precio": 45000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1nq4YI7bg8D5k8A6t-yaXDj-PzhFoss_0",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -2390,15 +2282,6 @@
     "precio": 29000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/file/d/1gTT3igwTynaWCyDL-HGCbksXcJJQJDTo/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "242",
-    "nombre": "MAQUINA DE CUPCAKES ORYX OR-C02",
-    "precio": 50000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1wwj-2rQ2zMMODrzZM-uaAbBCtkLRZva6",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -2498,15 +2381,6 @@
     "precio": 75000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1wt3rNLT5FGlD5TTm11lbT_M0tbH1_WnW",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "241",
-    "nombre": "MAQUINA DE COSER ORYX S0125/OM SM-505",
-    "precio": 100000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1G_fXG_8h9rw2zG-bW3wzXz2hao8dO1Zh",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -2691,15 +2565,6 @@
     "stock": 0
   },
   {
-    "codigo": "500",
-    "nombre": "PINZA UNIVERSAL 8PULG",
-    "precio": 6500,
-    "categoria": "HERRAMIENTAS",
-    "imagen": "https://drive.google.com/uc?id=1VEhQDYpdWSZ7QXb-iJMYOPVp6kS5OrQu",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
     "codigo": "503",
     "nombre": "PULVERIZADOR A PRESIÓN 5L ORYX",
     "precio": 34000,
@@ -2718,20 +2583,20 @@
     "stock": 0
   },
   {
-    "codigo": "219",
-    "nombre": "SOPLADOR PORTÁTIL SUONO",
-    "precio": 60000,
-    "categoria": "HERRAMIENTAS",
-    "imagen": "https://drive.google.com/uc?id=1t9hzRL2Uh3l91kpkSiU1PcF406wueHw0",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
     "codigo": "538",
     "nombre": "CINTA AISLADORA ROLLO X10",
     "precio": 10000,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1hdXrWTOP6JhDdOuGHN_n7zozjblhTCWW",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
+    "codigo": "219",
+    "nombre": "SOPLADOR PORTÁTIL SUONO",
+    "precio": 60000,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1t9hzRL2Uh3l91kpkSiU1PcF406wueHw0",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
@@ -2772,15 +2637,6 @@
     "stock": 0
   },
   {
-    "codigo": "209",
-    "nombre": "SET AMOLADORA+TALADRO ORYX OR-A125/508",
-    "precio": 157000,
-    "categoria": "HERRAMIENTAS",
-    "imagen": "https://drive.google.com/uc?id=1f5I0PFX_QMJHfB217CuzoV4qnVQJ0ZOx",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
     "codigo": "216",
     "nombre": "SIERRA CIRCULAR 1500W CSL1500-8",
     "precio": 150000,
@@ -2813,15 +2669,6 @@
     "precio": 205000,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=10UXDYpQyiXUN6Y1jSVBMAO2Gzp-jfz9j",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "919",
-    "nombre": "AMOLADORA INALAMBRICA",
-    "precio": 152000,
-    "categoria": "HERRAMIENTAS",
-    "imagen": "https://drive.google.com/file/d/1gFS5Zec6JGhkShwNw0gOh-WcfIbuCV1O/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
   },
