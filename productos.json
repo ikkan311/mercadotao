@@ -177,7 +177,7 @@
     "categoria": "ACCESORIOS",
     "imagen": "https://drive.google.com/file/d/1_AlJvh_V3Mlny7kzLS3MuvFcsAnDRent/view?usp=drivesdk",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
+    "stock": 0
   },
   {
     "codigo": "73",
@@ -240,7 +240,7 @@
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/file/d/1uAQedtyrSdwI1UcRVDhceFe6h8IGbTKD/view",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
+    "stock": 0
   },
   {
     "codigo": "4",
@@ -285,7 +285,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/file/d/1Rac5l2pvzynraHLqVj0yKNpMFr3r8IU-/view?usp=drivesdk",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
+    "stock": 0
   },
   {
     "codigo": "44",
@@ -321,7 +321,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1pkAvbghmr6d7tPo-uQXqj656n-a2qByQ",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
+    "stock": 0
   },
   {
     "codigo": "61",
@@ -330,7 +330,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1Jxsx7DsRxNOkZqxcYcqfa7upU2mUNJar",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
+    "stock": 1
   },
   {
     "codigo": "812",
@@ -348,7 +348,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1-AQ-TZdaHyqzXUgiYMcPhQwsYDtNhb60",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 3
+    "stock": 1
   },
   {
     "codigo": "330",
@@ -357,7 +357,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1AfRvknY8jNy36WCd83oStGTNjokaYiC2",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 5
+    "stock": 3
   },
   {
     "codigo": "67",
@@ -492,7 +492,7 @@
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1O60uoCU-2hxi3oYWZ1PtSVhH0dEzRRZq",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
+    "stock": 1
   },
   {
     "codigo": "50",
@@ -519,7 +519,7 @@
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1lNc80yJIIXzjLc_HnGTiQgRyDwdSj5rk",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 16
+    "stock": 14
   },
   {
     "codigo": "13",
