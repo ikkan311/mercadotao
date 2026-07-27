@@ -6,7 +6,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=10FUznbbTRE98huoYjBTGPuxTpmZFfsbO",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 3
+    "stock": 0
   },
   {
     "codigo": "452",
@@ -15,7 +15,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1oBvIBj9hq9PCwEA4OqB9fyqnclZvqEB5",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
+    "stock": 0
   },
   {
     "codigo": "453",
@@ -24,7 +24,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1oBvIBj9hq9PCwEA4OqB9fyqnclZvqEB5",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 16
+    "stock": 8
   },
   {
     "codigo": "32",
@@ -60,7 +60,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1raFC0KypTUNXc9hYoHdOunsb8YFK04m1",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 8
+    "stock": 5
   },
   {
     "codigo": "24",
@@ -69,7 +69,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1nDTkVUh6glU2oEjEITgtpKbNkVcJ7DEO",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
+    "stock": 0
   },
   {
     "codigo": "23",
@@ -96,7 +96,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=10_eav-lPG4bXjQDbcboheQ6Ip5OTQTU8",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
+    "stock": 1
   },
   {
     "codigo": "20",
@@ -105,7 +105,7 @@
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1TfyIwJKlUGCrgKLQogOX8agKlEWa2lIv",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 15
+    "stock": 10
   },
   {
     "codigo": "27",
@@ -123,7 +123,7 @@
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1TfyIwJKlUGCrgKLQogOX8agKlEWa2lIv",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 8
+    "stock": 4
   },
   {
     "codigo": "17",
@@ -132,7 +132,7 @@
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1_5I021ePLX2kftD5dsVAXLKMXI1hIpeA",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 4
+    "stock": 1
   },
   {
     "codigo": "131",
