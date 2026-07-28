@@ -611,24 +611,33 @@ async function generarPDFParaImprimir() {
   const aviso = document.createElement("div");
   aviso.id = "aviso-pdf";
   aviso.innerHTML = "Generando PDF, por favor espere...";
-  aviso.style = "position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); background:rgba(0,0,0,0.8); color:white; padding:20px; border-radius:10px; z-index:5000; font-weight:bold;";
+  aviso.style = "position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); background:rgba(0,0,0,0.8); color:white; padding:20px; border-radius:10px; z-index:5000; font-weight:bold; text-align:center;";
   document.body.appendChild(aviso);
 
   const { jsPDF } = window.jspdf;
   const doc = new jsPDF('p', 'mm', 'a4');
 
   // CONFIGURACIÓN 4x4
-  const marginX = 10; 
-  const marginY = 25; 
-  const gap = 2; 
-  const cardW = (210 - (marginX * 2) - (gap * 3)) / 4; 
-  const cardH = 65; 
-  const productosPorHoja = 16; 
+  const marginX = 10;
+  const marginY = 25;
+  const gap = 2;
+  const cardW = (210 - (marginX * 2) - (gap * 3)) / 4;
+  const cardH = 65;
+  const productosPorHoja = 16;
   const lista = filtrados;
+
+  // Con el catálogo completo (300+ productos con foto en Drive), cargar las imágenes
+  // una por una y sin límite de tiempo puede tardar varios minutos o directamente
+  // colgarse si una sola imagen no responde. precargarImagenesPDF() las va bajando en
+  // paralelo por adelantado, para que cuando el dibujo llegue a cada producto la imagen
+  // ya esté lista (o haya hecho timeout) en vez de tener que esperarla recién ahí.
+  precargarImagenesPDF(lista);
 
   for (let i = 0; i < lista.length; i++) {
     const p = lista[i];
     const indexEnHoja = i % productosPorHoja;
+
+    aviso.innerHTML = `Generando PDF, por favor espere...<br><small>Producto ${i + 1} de ${lista.length}</small>`;
 
     if (i > 0 && indexEnHoja === 0) {
       // Footer de cada hoja antes de pasar a la siguiente
@@ -669,7 +678,7 @@ async function generarPDFParaImprimir() {
     // IMAGEN (42x42 para que no toque bordes)
     const imgUrl = obtenerImagen(p.imagen);
     try {
-      const imgRes = await aplanarImagenProporcional(imgUrl, 42, 42);
+      const imgRes = await cargarImagenPDF(imgUrl, 42, 42);
       if (imgRes) {
         doc.addImage(imgRes.data, 'JPEG', x + ((cardW - 40) / 2), y + 2, 40, 40);
       }
@@ -722,6 +731,36 @@ async function generarPDFParaImprimir() {
 
   descargarPDF(doc, "Catalogo_TAO_Imprimir.pdf");
   aviso.remove();
+}
+
+/* --- CARGA DE IMAGENES PARA EL PDF: con timeout y sin repetir descargas ---
+   Sin esto, una sola imagen de Drive que no responde cuelga el PDF entero para siempre
+   (aplanarImagenProporcional no tiene límite de tiempo propio). */
+function cargarImagenPDF(url, maxW, maxH, timeoutMs = 8000) {
+  if (!cargarImagenPDF._cache) cargarImagenPDF._cache = new Map();
+  const key = url + '|' + maxW + 'x' + maxH;
+  if (cargarImagenPDF._cache.has(key)) return cargarImagenPDF._cache.get(key);
+
+  const promesa = Promise.race([
+    aplanarImagenProporcional(url, maxW, maxH),
+    new Promise((resolve) => setTimeout(() => resolve(null), timeoutMs)),
+  ]);
+  cargarImagenPDF._cache.set(key, promesa);
+  return promesa;
+}
+
+/* Dispara varias descargas de imagen en paralelo (no todas juntas, para no saturar la
+   conexión del celular) para que el dibujo secuencial del PDF encuentre el cache ya tibio.
+   No se espera (no 'await'): corre de fondo mientras arranca el resto de generarPDFParaImprimir. */
+function precargarImagenesPDF(lista) {
+  const CONCURRENCIA = 5;
+  let siguiente = 0;
+  function trabajador() {
+    const idx = siguiente++;
+    if (idx >= lista.length) return Promise.resolve();
+    return cargarImagenPDF(obtenerImagen(lista[idx].imagen), 42, 42).then(trabajador);
+  }
+  for (let k = 0; k < CONCURRENCIA; k++) trabajador();
 }
 
 function aplanarImagenProporcional(url, maxW, maxH) {
