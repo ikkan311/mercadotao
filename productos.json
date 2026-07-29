@@ -1,5 +1,14 @@
 [
   {
+    "codigo": "979",
+    "nombre": "CARGADOR RC 2.4A MICRO",
+    "precio": 3500,
+    "categoria": "CARGADORES",
+    "imagen": "https://drive.google.com/file/d/1uA37ndiNNjWWozXUCNSnirEVErZO8iTA/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 0
+  },
+  {
     "codigo": "453",
     "nombre": "CARGADOR LEGATUS 3.4 TIPO C",
     "precio": 4500,
@@ -7,195 +16,6 @@
     "imagen": "https://drive.google.com/uc?id=1oBvIBj9hq9PCwEA4OqB9fyqnclZvqEB5",
     "estado": "CON STOCK",
     "stock": 8
-  },
-  {
-    "codigo": "26",
-    "nombre": "CABEZAL APPLE TIPO C 20W",
-    "precio": 9400,
-    "categoria": "CARGADORES",
-    "imagen": "https://drive.google.com/uc?id=1raFC0KypTUNXc9hYoHdOunsb8YFK04m1",
-    "estado": "CON STOCK",
-    "stock": 2
-  },
-  {
-    "codigo": "138",
-    "nombre": "CARGADOR DE NOTEBOOK UNIVERSAL",
-    "precio": 16700,
-    "categoria": "CARGADORES",
-    "imagen": "https://drive.google.com/uc?id=10_eav-lPG4bXjQDbcboheQ6Ip5OTQTU8",
-    "estado": "CON STOCK",
-    "stock": 1
-  },
-  {
-    "codigo": "27",
-    "nombre": "CABLE USB LG-5009 MICRO",
-    "precio": 2000,
-    "categoria": "CABLES",
-    "imagen": "https://drive.google.com/uc?id=1TfyIwJKlUGCrgKLQogOX8agKlEWa2lIv",
-    "estado": "CON STOCK",
-    "stock": 10
-  },
-  {
-    "codigo": "17",
-    "nombre": "CABLE APPLE IPHONE TIPO C A C",
-    "precio": 3700,
-    "categoria": "CABLES",
-    "imagen": "https://drive.google.com/uc?id=1_5I021ePLX2kftD5dsVAXLKMXI1hIpeA",
-    "estado": "CON STOCK",
-    "stock": 1
-  },
-  {
-    "codigo": "807",
-    "nombre": "AURICULAR RC RE10012",
-    "precio": 2000,
-    "categoria": "AURICULARES",
-    "imagen": "https://drive.google.com/file/d/1CsevWH526JHOIcns9-366MkxOwJhEETy/view?usp=drivesdk",
-    "estado": "CON STOCK",
-    "stock": 18
-  },
-  {
-    "codigo": "7",
-    "nombre": "AURICULAR VINCHA BT P47",
-    "precio": 7800,
-    "categoria": "AURICULARES",
-    "imagen": "https://drive.google.com/uc?id=1ThAma6yRNZepjkBLcyPs8JGOybyx1DiY",
-    "estado": "CON STOCK",
-    "stock": 2
-  },
-  {
-    "codigo": "8",
-    "nombre": "AURICULAR VINCHA BT P47M",
-    "precio": 9500,
-    "categoria": "AURICULARES",
-    "imagen": "https://drive.google.com/uc?id=1D6-wSmDt8MEmGvgXAlBKdIxHe4H54S0s",
-    "estado": "CON STOCK",
-    "stock": 1
-  },
-  {
-    "codigo": "205",
-    "nombre": "MINI LINTERNA KEYCHAIN BOLSILLO COB-150",
-    "precio": 2800,
-    "categoria": "ILUMINACION",
-    "imagen": "https://drive.google.com/uc?id=1z1VE9DffmKc0A56MUKfFP8igh4EoD_f1",
-    "estado": "CON STOCK",
-    "stock": 2
-  },
-  {
-    "codigo": "286",
-    "nombre": "FOCO GIRATORIO LED OSR",
-    "precio": 3500,
-    "categoria": "ILUMINACION",
-    "imagen": "https://drive.google.com/uc?id=18dorJSqgwt2_STlTMpVxo8ROHQPSpVOr",
-    "estado": "CON STOCK",
-    "stock": 2
-  },
-  {
-    "codigo": "44",
-    "nombre": "LAMPARA DE SILICONA",
-    "precio": 15000,
-    "categoria": "ILUMINACION",
-    "imagen": "https://drive.google.com/uc?id=1R9V23mcDN0S17xQI1gcUqGEXpjsFKrcF",
-    "estado": "CON STOCK",
-    "stock": 1
-  },
-  {
-    "codigo": "61",
-    "nombre": "PROYECTOR DE ESTRELLAS STAR MASTER",
-    "precio": 12000,
-    "categoria": "ILUMINACION",
-    "imagen": "https://drive.google.com/uc?id=1Jxsx7DsRxNOkZqxcYcqfa7upU2mUNJar",
-    "estado": "CON STOCK",
-    "stock": 1
-  },
-  {
-    "codigo": "812",
-    "nombre": "BANDERA DE ARGENTINA 90X60 cm",
-    "precio": 3300,
-    "categoria": "JUGUETERIA",
-    "imagen": "https://drive.google.com/file/d/18cSxFvjvV9e_M55Asior65UjvvpMnr7E/view?usp=drivesdk",
-    "estado": "CON STOCK",
-    "stock": 6
-  },
-  {
-    "codigo": "330",
-    "nombre": "PELOTA DE FUTBOL NUMERO 5 SPIDERMAN",
-    "precio": 9300,
-    "categoria": "JUGUETERIA",
-    "imagen": "https://drive.google.com/uc?id=1AfRvknY8jNy36WCd83oStGTNjokaYiC2",
-    "estado": "CON STOCK",
-    "stock": 3
-  },
-  {
-    "codigo": "63",
-    "nombre": "MUNECA BARBIE",
-    "precio": 8900,
-    "categoria": "JUGUETERIA",
-    "imagen": "https://drive.google.com/uc?id=1RhFfCQs-WuOHJ3hOPR_OoWmKthCZ7zAR",
-    "estado": "CON STOCK",
-    "stock": 5
-  },
-  {
-    "codigo": "400",
-    "nombre": "SET LAPICERA NEON X6",
-    "precio": 2000,
-    "categoria": "LIBRERIA",
-    "imagen": "https://drive.google.com/uc?id=1BhXoflWv7-rdsc87Wb8hUCaUVotNxhGa",
-    "estado": "CON STOCK",
-    "stock": 3
-  },
-  {
-    "codigo": "12",
-    "nombre": "PLANCHITA P/PELO OSR 199 40W",
-    "precio": 19000,
-    "categoria": "CUIDADO PERSONAL",
-    "imagen": "https://drive.google.com/uc?id=1-QU-j-I-yCVMbDmS1_s63VCstmXF8Mkd",
-    "estado": "CON STOCK",
-    "stock": 1
-  },
-  {
-    "codigo": "15",
-    "nombre": "CEPILLO ORYX MODELADOR 3 EN 1",
-    "precio": 22000,
-    "categoria": "CUIDADO PERSONAL",
-    "imagen": "https://drive.google.com/uc?id=1ZShV8cAQWrcJow0Jog42bwr-clamzlmQ",
-    "estado": "CON STOCK",
-    "stock": 3
-  },
-  {
-    "codigo": "45",
-    "nombre": "PILAS ORYX AA X4",
-    "precio": 1400,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1cKySAao_6rEnc_E6ymw3HjFpjteuH3tp",
-    "estado": "CON STOCK",
-    "stock": 10
-  },
-  {
-    "codigo": "46",
-    "nombre": "PILAS ORYX AAA X4",
-    "precio": 1400,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=109ZMKeLFnia5oc4LMfXPldRNIluu864w",
-    "estado": "CON STOCK",
-    "stock": 8
-  },
-  {
-    "codigo": "580",
-    "nombre": "CONTROL DE AIRE",
-    "precio": 4700,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1O60uoCU-2hxi3oYWZ1PtSVhH0dEzRRZq",
-    "estado": "CON STOCK",
-    "stock": 1
-  },
-  {
-    "codigo": "13",
-    "nombre": "CEPILLO SACA PELUSA",
-    "precio": 10000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1LgL_a1ixzFfxBrL96Bes21eQ4iy0TYt1",
-    "estado": "CON STOCK",
-    "stock": 2
   },
   {
     "codigo": "32",
@@ -216,166 +36,13 @@
     "stock": 3
   },
   {
-    "codigo": "1",
-    "nombre": "BOLSA DE AGUA PARA CELULAR",
-    "precio": 2000,
-    "categoria": "ACCESORIOS",
-    "imagen": "https://drive.google.com/uc?id=1ph9xd6lG3jxoHx313OGMhR6WKMLodk1T",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 26
-  },
-  {
-    "codigo": "22",
-    "nombre": "CABLE AUXILIAR - RC5012",
-    "precio": 1800,
-    "categoria": "CABLES",
-    "imagen": "https://drive.google.com/uc?id=1g8TVpdlQk6sLQJIM7RyBpKqxyLIKGZRJ",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 13
-  },
-  {
-    "codigo": "6",
-    "nombre": "AURICULAR RC RE10013 TIPO C",
-    "precio": 5000,
-    "categoria": "AURICULARES",
-    "imagen": "https://drive.google.com/uc?id=1WKIkUk6fEWewQE5L_NhiRoHw10vq0phv",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 6
-  },
-  {
-    "codigo": "436",
-    "nombre": "AURICULARES INALAMBRICO E6S",
-    "precio": 7500,
-    "categoria": "AURICULARES",
-    "imagen": "https://drive.google.com/uc?id=1H7Jcc4SPw0AC8VuwKNGXRFVqKls3usF0",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
-  },
-  {
-    "codigo": "4",
-    "nombre": "AURICULAR BT BS961",
-    "precio": 11700,
-    "categoria": "AURICULARES",
-    "imagen": "https://drive.google.com/uc?id=1a_JD6kHx7NyWt3t1XEQnjMYO5bMZxvFc",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
-  },
-  {
-    "codigo": "555",
-    "nombre": "PARLANTE LEGATUS 3″ 3306",
-    "precio": 13000,
-    "categoria": "PARLANTES",
-    "imagen": "https://drive.google.com/uc?id=1fMSDuq9BefylfSMUO0k8XU-aJTqo4jSU",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
-  },
-  {
-    "codigo": "56",
-    "nombre": "LAMPARA DE ESCRITORIO TÁCTIL",
-    "precio": 17000,
-    "categoria": "ILUMINACION",
-    "imagen": "https://drive.google.com/uc?id=1vDmNJHbXo84p3ET3Wr8APt7EFtVGLk-3",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 4
-  },
-  {
-    "codigo": "55",
-    "nombre": "HUMIDIFICADOR 036/041",
-    "precio": 12500,
-    "categoria": "ILUMINACION",
-    "imagen": "https://drive.google.com/uc?id=1EWo66EHn9vFoT6yowfHx4EgqHqzqZC-5",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
-  },
-  {
-    "codigo": "67",
-    "nombre": "PELOTA INFLABLE 50CM CHOCOLATE",
-    "precio": 3400,
-    "categoria": "JUGUETERIA",
-    "imagen": "https://drive.google.com/uc?id=16OTTTFdwWgSyomRKAt3m1NMjnwVor-6a",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 8
-  },
-  {
-    "codigo": "66",
-    "nombre": "SALVAVIDAS 50CM ESTAMPADO",
-    "precio": 3000,
-    "categoria": "JUGUETERIA",
-    "imagen": "https://drive.google.com/uc?id=1ZF0zFDeulSrS-3xRiB6-YPybnd3xzhpC",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 7
-  },
-  {
-    "codigo": "76",
-    "nombre": "CALCULADORA LEGATUS LCC-11",
-    "precio": 6200,
-    "categoria": "LIBRERIA",
-    "imagen": "https://drive.google.com/uc?id=1jHdC2owsCxcKyYDeuwZyw4iVqYYQOgIK",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
-  },
-  {
-    "codigo": "3",
-    "nombre": "GUANTES WINDS STOPPER XY AV24063",
-    "precio": 9000,
-    "categoria": "CUIDADO PERSONAL",
-    "imagen": "https://drive.google.com/uc?id=1kHzXSDXwWa1vq_esoqHL8d1FURHVGdwY",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 6
-  },
-  {
-    "codigo": "127",
-    "nombre": "SECADOR DE PELO SEIS SP 34 2400W",
-    "precio": 28300,
-    "categoria": "CUIDADO PERSONAL",
-    "imagen": "https://drive.google.com/uc?id=1z3IVh-zuSx2iAqgMV45S1DNeHc6yNKFs",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
-  },
-  {
-    "codigo": "37",
-    "nombre": "JOYSTICK PS4 GENERICO LISO",
-    "precio": 30000,
-    "categoria": "TECNOLOGIA",
-    "imagen": "https://drive.google.com/uc?id=1c006E6BiIX2QBqnUL0RmIeiHqrMXcfhI",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 2
-  },
-  {
-    "codigo": "49",
-    "nombre": "PILAS REDONDAS CR2032 X 5",
-    "precio": 1600,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1zCGOIOB0lfoXimp8PnEybOl8eR642qw7",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
-  },
-  {
-    "codigo": "50",
-    "nombre": "RELOJ DESPERTADOR DIGITAL CUBO LED",
-    "precio": 6800,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1juQxX54sETQRWT_blCktmk1KT_HCOTpT",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
-  },
-  {
-    "codigo": "36",
-    "nombre": "DELANTAL DE COCINA TELA TRUCKER",
-    "precio": 10000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1lNc80yJIIXzjLc_HnGTiQgRyDwdSj5rk",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 14
-  },
-  {
-    "codigo": "979",
-    "nombre": "CARGADOR RC 2.4A MICRO",
-    "precio": 3500,
+    "codigo": "26",
+    "nombre": "CABEZAL APPLE TIPO C 20W",
+    "precio": 9400,
     "categoria": "CARGADORES",
-    "imagen": "https://drive.google.com/file/d/1uA37ndiNNjWWozXUCNSnirEVErZO8iTA/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "imagen": "https://drive.google.com/uc?id=1raFC0KypTUNXc9hYoHdOunsb8YFK04m1",
+    "estado": "CON STOCK",
+    "stock": 2
   },
   {
     "codigo": "24",
@@ -414,6 +81,15 @@
     "stock": 0
   },
   {
+    "codigo": "138",
+    "nombre": "CARGADOR DE NOTEBOOK UNIVERSAL",
+    "precio": 16700,
+    "categoria": "CARGADORES",
+    "imagen": "https://drive.google.com/uc?id=10_eav-lPG4bXjQDbcboheQ6Ip5OTQTU8",
+    "estado": "CON STOCK",
+    "stock": 1
+  },
+  {
     "codigo": "1025",
     "nombre": "POWER BANK 10.000 MAH SUONO",
     "precio": 23500,
@@ -421,6 +97,15 @@
     "imagen": "https://drive.google.com/file/d/1yJgMIyxah6fjT9y1y2bSYJ7Y1yT3wmJD/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
+  },
+  {
+    "codigo": "27",
+    "nombre": "CABLE USB LG-5009 MICRO",
+    "precio": 2000,
+    "categoria": "CABLES",
+    "imagen": "https://drive.google.com/uc?id=1TfyIwJKlUGCrgKLQogOX8agKlEWa2lIv",
+    "estado": "CON STOCK",
+    "stock": 10
   },
   {
     "codigo": "19",
@@ -441,6 +126,15 @@
     "stock": 0
   },
   {
+    "codigo": "17",
+    "nombre": "CABLE APPLE IPHONE TIPO C A C",
+    "precio": 3700,
+    "categoria": "CABLES",
+    "imagen": "https://drive.google.com/uc?id=1_5I021ePLX2kftD5dsVAXLKMXI1hIpeA",
+    "estado": "CON STOCK",
+    "stock": 1
+  },
+  {
     "codigo": "425",
     "nombre": "OTG MICRO",
     "precio": 1000,
@@ -448,6 +142,24 @@
     "imagen": "https://drive.google.com/uc?id=1nY5acse4OHPmi2hpn9HU-Sfz5N3EbCmE",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
+  },
+  {
+    "codigo": "1",
+    "nombre": "BOLSA DE AGUA PARA CELULAR",
+    "precio": 2000,
+    "categoria": "ACCESORIOS",
+    "imagen": "https://drive.google.com/uc?id=1ph9xd6lG3jxoHx313OGMhR6WKMLodk1T",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 26
+  },
+  {
+    "codigo": "22",
+    "nombre": "CABLE AUXILIAR - RC5012",
+    "precio": 1800,
+    "categoria": "CABLES",
+    "imagen": "https://drive.google.com/uc?id=1g8TVpdlQk6sLQJIM7RyBpKqxyLIKGZRJ",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 13
   },
   {
     "codigo": "703",
@@ -513,6 +225,15 @@
     "stock": 0
   },
   {
+    "codigo": "807",
+    "nombre": "AURICULAR RC RE10012",
+    "precio": 2000,
+    "categoria": "AURICULARES",
+    "imagen": "https://drive.google.com/file/d/1CsevWH526JHOIcns9-366MkxOwJhEETy/view?usp=drivesdk",
+    "estado": "CON STOCK",
+    "stock": 18
+  },
+  {
     "codigo": "10",
     "nombre": "AURICULARES RC HD-MIC RE-1005",
     "precio": 2000,
@@ -522,6 +243,24 @@
     "stock": 0
   },
   {
+    "codigo": "6",
+    "nombre": "AURICULAR RC RE10013 TIPO C",
+    "precio": 5000,
+    "categoria": "AURICULARES",
+    "imagen": "https://drive.google.com/uc?id=1WKIkUk6fEWewQE5L_NhiRoHw10vq0phv",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 6
+  },
+  {
+    "codigo": "436",
+    "nombre": "AURICULARES INALAMBRICO E6S",
+    "precio": 7500,
+    "categoria": "AURICULARES",
+    "imagen": "https://drive.google.com/uc?id=1H7Jcc4SPw0AC8VuwKNGXRFVqKls3usF0",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 2
+  },
+  {
     "codigo": "965",
     "nombre": "AURICULARES INALÁMBRICOS LEGATUS LA700",
     "precio": 9000,
@@ -529,6 +268,33 @@
     "imagen": "https://drive.google.com/file/d/1yH_g2qSzTMwiMP7kpUuW9ilo_3d2kswh/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
+  },
+  {
+    "codigo": "7",
+    "nombre": "AURICULAR VINCHA BT P47",
+    "precio": 7800,
+    "categoria": "AURICULARES",
+    "imagen": "https://drive.google.com/uc?id=1ThAma6yRNZepjkBLcyPs8JGOybyx1DiY",
+    "estado": "CON STOCK",
+    "stock": 2
+  },
+  {
+    "codigo": "8",
+    "nombre": "AURICULAR VINCHA BT P47M",
+    "precio": 9500,
+    "categoria": "AURICULARES",
+    "imagen": "https://drive.google.com/uc?id=1D6-wSmDt8MEmGvgXAlBKdIxHe4H54S0s",
+    "estado": "CON STOCK",
+    "stock": 1
+  },
+  {
+    "codigo": "4",
+    "nombre": "AURICULAR BT BS961",
+    "precio": 11700,
+    "categoria": "AURICULARES",
+    "imagen": "https://drive.google.com/uc?id=1a_JD6kHx7NyWt3t1XEQnjMYO5bMZxvFc",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 2
   },
   {
     "codigo": "810",
@@ -583,6 +349,15 @@
     "imagen": "https://drive.google.com/file/d/1vG6ekJtWUy1HyQJbz-VM38Urv0sPP-Em/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
+  },
+  {
+    "codigo": "555",
+    "nombre": "PARLANTE LEGATUS 3″ 3306",
+    "precio": 13000,
+    "categoria": "PARLANTES",
+    "imagen": "https://drive.google.com/uc?id=1fMSDuq9BefylfSMUO0k8XU-aJTqo4jSU",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 1
   },
   {
     "codigo": "1013",
@@ -738,6 +513,15 @@
     "stock": 0
   },
   {
+    "codigo": "205",
+    "nombre": "MINI LINTERNA KEYCHAIN BOLSILLO COB-150",
+    "precio": 2800,
+    "categoria": "ILUMINACION",
+    "imagen": "https://drive.google.com/uc?id=1z1VE9DffmKc0A56MUKfFP8igh4EoD_f1",
+    "estado": "CON STOCK",
+    "stock": 2
+  },
+  {
     "codigo": "906",
     "nombre": "LINTERNA 18 LED RECARGABLE MS815",
     "precio": 13000,
@@ -808,6 +592,15 @@
     "imagen": "https://drive.google.com/uc?id=1w9nGLzhmg2ATtnOKJUQRQyPIsg-d3fAX",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
+  },
+  {
+    "codigo": "286",
+    "nombre": "FOCO GIRATORIO LED OSR",
+    "precio": 3500,
+    "categoria": "ILUMINACION",
+    "imagen": "https://drive.google.com/uc?id=18dorJSqgwt2_STlTMpVxo8ROHQPSpVOr",
+    "estado": "CON STOCK",
+    "stock": 2
   },
   {
     "codigo": "230",
@@ -927,6 +720,24 @@
     "stock": 0
   },
   {
+    "codigo": "44",
+    "nombre": "LAMPARA DE SILICONA",
+    "precio": 15000,
+    "categoria": "ILUMINACION",
+    "imagen": "https://drive.google.com/uc?id=1R9V23mcDN0S17xQI1gcUqGEXpjsFKrcF",
+    "estado": "CON STOCK",
+    "stock": 1
+  },
+  {
+    "codigo": "56",
+    "nombre": "LAMPARA DE ESCRITORIO TÁCTIL",
+    "precio": 17000,
+    "categoria": "ILUMINACION",
+    "imagen": "https://drive.google.com/uc?id=1vDmNJHbXo84p3ET3Wr8APt7EFtVGLk-3",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 4
+  },
+  {
     "codigo": "994",
     "nombre": "LÁMPARA DE ESCRITORIO LM2640",
     "precio": 16000,
@@ -963,6 +774,15 @@
     "stock": 0
   },
   {
+    "codigo": "55",
+    "nombre": "HUMIDIFICADOR 036/041",
+    "precio": 12500,
+    "categoria": "ILUMINACION",
+    "imagen": "https://drive.google.com/uc?id=1EWo66EHn9vFoT6yowfHx4EgqHqzqZC-5",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 2
+  },
+  {
     "codigo": "904",
     "nombre": "LAMPARA HUMIDIFICADOR LUNA 3D",
     "precio": 17300,
@@ -997,6 +817,15 @@
     "imagen": "https://drive.google.com/uc?id=1vsFmZglx1qxcsfJBBoQaGhdnBvTQ28Tp",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
+  },
+  {
+    "codigo": "61",
+    "nombre": "PROYECTOR DE ESTRELLAS STAR MASTER",
+    "precio": 12000,
+    "categoria": "ILUMINACION",
+    "imagen": "https://drive.google.com/uc?id=1Jxsx7DsRxNOkZqxcYcqfa7upU2mUNJar",
+    "estado": "CON STOCK",
+    "stock": 1
   },
   {
     "codigo": "59",
@@ -1233,6 +1062,15 @@
     "stock": 0
   },
   {
+    "codigo": "812",
+    "nombre": "BANDERA DE ARGENTINA 90X60 cm",
+    "precio": 3300,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/file/d/18cSxFvjvV9e_M55Asior65UjvvpMnr7E/view?usp=drivesdk",
+    "estado": "CON STOCK",
+    "stock": 6
+  },
+  {
     "codigo": "860",
     "nombre": "SOMBRERO VIKINGO DE ADULTO",
     "precio": 7200,
@@ -1258,6 +1096,33 @@
     "imagen": "https://drive.google.com/uc?id=1-AQ-TZdaHyqzXUgiYMcPhQwsYDtNhb60",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
+  },
+  {
+    "codigo": "330",
+    "nombre": "PELOTA DE FUTBOL NUMERO 5 SPIDERMAN",
+    "precio": 9300,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1AfRvknY8jNy36WCd83oStGTNjokaYiC2",
+    "estado": "CON STOCK",
+    "stock": 3
+  },
+  {
+    "codigo": "67",
+    "nombre": "PELOTA INFLABLE 50CM CHOCOLATE",
+    "precio": 3400,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=16OTTTFdwWgSyomRKAt3m1NMjnwVor-6a",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 8
+  },
+  {
+    "codigo": "66",
+    "nombre": "SALVAVIDAS 50CM ESTAMPADO",
+    "precio": 3000,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1ZF0zFDeulSrS-3xRiB6-YPybnd3xzhpC",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 7
   },
   {
     "codigo": "667",
@@ -1330,6 +1195,15 @@
     "imagen": "https://drive.google.com/uc?id=1NSyXINIBQc1WSgw_okLoRxX9hViRL7T_",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
+  },
+  {
+    "codigo": "63",
+    "nombre": "MUNECA BARBIE",
+    "precio": 8900,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=1RhFfCQs-WuOHJ3hOPR_OoWmKthCZ7zAR",
+    "estado": "CON STOCK",
+    "stock": 5
   },
   {
     "codigo": "334",
@@ -1521,6 +1395,15 @@
     "stock": 0
   },
   {
+    "codigo": "76",
+    "nombre": "CALCULADORA LEGATUS LCC-11",
+    "precio": 6200,
+    "categoria": "LIBRERIA",
+    "imagen": "https://drive.google.com/uc?id=1jHdC2owsCxcKyYDeuwZyw4iVqYYQOgIK",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 1
+  },
+  {
     "codigo": "638",
     "nombre": "CINTA CORRECTOR 6M BH-106",
     "precio": 1500,
@@ -1546,6 +1429,15 @@
     "imagen": "https://drive.google.com/uc?id=1FjGZv-4c3phY9PFFV236rEtv1l0ovA5_",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
+  },
+  {
+    "codigo": "400",
+    "nombre": "SET LAPICERA NEON X6",
+    "precio": 2000,
+    "categoria": "LIBRERIA",
+    "imagen": "https://drive.google.com/uc?id=1BhXoflWv7-rdsc87Wb8hUCaUVotNxhGa",
+    "estado": "CON STOCK",
+    "stock": 3
   },
   {
     "codigo": "401",
@@ -1674,6 +1566,15 @@
     "stock": 0
   },
   {
+    "codigo": "3",
+    "nombre": "GUANTES WINDS STOPPER XY AV24063",
+    "precio": 9000,
+    "categoria": "CUIDADO PERSONAL",
+    "imagen": "https://drive.google.com/uc?id=1kHzXSDXwWa1vq_esoqHL8d1FURHVGdwY",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 6
+  },
+  {
     "codigo": "990",
     "nombre": "GUANTES TÉRMICOS TOUCH PARA MOTO",
     "precio": 14000,
@@ -1746,6 +1647,15 @@
     "stock": 0
   },
   {
+    "codigo": "12",
+    "nombre": "PLANCHITA P/PELO OSR 199 40W",
+    "precio": 19000,
+    "categoria": "CUIDADO PERSONAL",
+    "imagen": "https://drive.google.com/uc?id=1-QU-j-I-yCVMbDmS1_s63VCstmXF8Mkd",
+    "estado": "CON STOCK",
+    "stock": 1
+  },
+  {
     "codigo": "828",
     "nombre": "CORTAPELO ORYX CP1031",
     "precio": 23000,
@@ -1753,6 +1663,15 @@
     "imagen": "https://drive.google.com/file/d/1eq36ev4Oy_IXfOGk5YSBl-SE5XAVvh8n/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
+  },
+  {
+    "codigo": "15",
+    "nombre": "CEPILLO ORYX MODELADOR 3 EN 1",
+    "precio": 22000,
+    "categoria": "CUIDADO PERSONAL",
+    "imagen": "https://drive.google.com/uc?id=1ZShV8cAQWrcJow0Jog42bwr-clamzlmQ",
+    "estado": "CON STOCK",
+    "stock": 3
   },
   {
     "codigo": "98",
@@ -1798,6 +1717,15 @@
     "imagen": "https://drive.google.com/file/d/1o5r_G4qezfL6Tq4FZRBGyX8IzpN5jffw/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
+  },
+  {
+    "codigo": "127",
+    "nombre": "SECADOR DE PELO SEIS SP 34 2400W",
+    "precio": 28300,
+    "categoria": "CUIDADO PERSONAL",
+    "imagen": "https://drive.google.com/uc?id=1z3IVh-zuSx2iAqgMV45S1DNeHc6yNKFs",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 1
   },
   {
     "codigo": "108",
@@ -1989,6 +1917,15 @@
     "stock": 0
   },
   {
+    "codigo": "37",
+    "nombre": "JOYSTICK PS4 GENERICO LISO",
+    "precio": 30000,
+    "categoria": "TECNOLOGIA",
+    "imagen": "https://drive.google.com/uc?id=1c006E6BiIX2QBqnUL0RmIeiHqrMXcfhI",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 2
+  },
+  {
     "codigo": "276",
     "nombre": "TV BOX MX9 4K 256 GB MEMORIA",
     "precio": 31000,
@@ -2061,6 +1998,42 @@
     "stock": 0
   },
   {
+    "codigo": "45",
+    "nombre": "PILAS ORYX AA X4",
+    "precio": 1400,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1cKySAao_6rEnc_E6ymw3HjFpjteuH3tp",
+    "estado": "CON STOCK",
+    "stock": 10
+  },
+  {
+    "codigo": "46",
+    "nombre": "PILAS ORYX AAA X4",
+    "precio": 1400,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=109ZMKeLFnia5oc4LMfXPldRNIluu864w",
+    "estado": "CON STOCK",
+    "stock": 8
+  },
+  {
+    "codigo": "580",
+    "nombre": "CONTROL DE AIRE",
+    "precio": 4700,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1O60uoCU-2hxi3oYWZ1PtSVhH0dEzRRZq",
+    "estado": "CON STOCK",
+    "stock": 1
+  },
+  {
+    "codigo": "49",
+    "nombre": "PILAS REDONDAS CR2032 X 5",
+    "precio": 1600,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1zCGOIOB0lfoXimp8PnEybOl8eR642qw7",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 1
+  },
+  {
     "codigo": "537",
     "nombre": "BALANZA PORTATIL SEIS AV-637/K24056",
     "precio": 5100,
@@ -2086,6 +2059,15 @@
     "imagen": "https://drive.google.com/uc?id=1TkFYmLVb0QpokklN-BGDoQdGjJCTA8wV",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
+  },
+  {
+    "codigo": "50",
+    "nombre": "RELOJ DESPERTADOR DIGITAL CUBO LED",
+    "precio": 6800,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1juQxX54sETQRWT_blCktmk1KT_HCOTpT",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 1
   },
   {
     "codigo": "162",
@@ -2122,6 +2104,24 @@
     "imagen": "https://drive.google.com/uc?id=1S6iQSKN--Xsspah-xo7vDYkWDFeAZj4P",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "stock": 0
+  },
+  {
+    "codigo": "36",
+    "nombre": "DELANTAL DE COCINA TELA TRUCKER",
+    "precio": 10000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1lNc80yJIIXzjLc_HnGTiQgRyDwdSj5rk",
+    "estado": "ULTIMOS DISPONIBLES",
+    "stock": 14
+  },
+  {
+    "codigo": "13",
+    "nombre": "CEPILLO SACA PELUSA",
+    "precio": 10000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1LgL_a1ixzFfxBrL96Bes21eQ4iy0TYt1",
+    "estado": "CON STOCK",
+    "stock": 2
   },
   {
     "codigo": "1038",
