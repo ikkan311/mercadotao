@@ -15,7 +15,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1oBvIBj9hq9PCwEA4OqB9fyqnclZvqEB5",
     "estado": "CON STOCK",
-    "stock": 8
+    "stock": 10
   },
   {
     "codigo": "32",
@@ -24,7 +24,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=19z1XirI6u3nBsdZRnUpbqvoUwgjDqxFi",
     "estado": "ULTIMOS DISPONIBLES",
-    "stock": 4
+    "stock": 10
   },
   {
     "codigo": "33",
@@ -51,7 +51,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1nDTkVUh6glU2oEjEITgtpKbNkVcJ7DEO",
     "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "stock": 1
   },
   {
     "codigo": "23",
@@ -60,7 +60,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1cW71loadL66DQJ33SQhQ3edkUutXtu9x",
     "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "stock": 2
   },
   {
     "codigo": "978",
@@ -69,7 +69,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/file/d/1XcD9InW8patiqQBA-DsbXMFz9pgmc35U/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "stock": 6
   },
   {
     "codigo": "977",
@@ -78,7 +78,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/file/d/13mw1bbmXMWkC423C1qqM2tTksL7_hFJQ/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "stock": 1
   },
   {
     "codigo": "138",
@@ -108,6 +108,15 @@
     "stock": 10
   },
   {
+    "codigo": "898",
+    "nombre": "CABLE USB RC-5006 TIPO C",
+    "precio": 2200,
+    "categoria": "CABLES",
+    "imagen": "https://drive.google.com/file/d/1H0nrkOYPkustyHlP7n_VnSWpPDZi6QE7/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 20
+  },
+  {
     "codigo": "19",
     "nombre": "CABLE USB LG-5009 IPHONE",
     "precio": 2000,
@@ -132,7 +141,7 @@
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1_5I021ePLX2kftD5dsVAXLKMXI1hIpeA",
     "estado": "CON STOCK",
-    "stock": 1
+    "stock": 3
   },
   {
     "codigo": "425",
@@ -168,7 +177,7 @@
     "categoria": "ACCESORIOS",
     "imagen": "https://drive.google.com/file/d/1_AlJvh_V3Mlny7kzLS3MuvFcsAnDRent/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "stock": 2
   },
   {
     "codigo": "914",
@@ -348,7 +357,7 @@
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/file/d/1vG6ekJtWUy1HyQJbz-VM38Urv0sPP-Em/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "stock": 2
   },
   {
     "codigo": "555",
@@ -519,7 +528,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1z1VE9DffmKc0A56MUKfFP8igh4EoD_f1",
     "estado": "CON STOCK",
-    "stock": 2
+    "stock": 4
   },
   {
     "codigo": "906",
@@ -726,7 +735,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1R9V23mcDN0S17xQI1gcUqGEXpjsFKrcF",
     "estado": "CON STOCK",
-    "stock": 1
+    "stock": 3
   },
   {
     "codigo": "56",
@@ -1005,7 +1014,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/file/d/1egh2JsKxN7v-7qu1WwnplnV6DuLDlSrO/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "stock": 1
   },
   {
     "codigo": "988",
@@ -1221,7 +1230,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1-8M9qQFZsO3ME94rqqp0hM0Ky0TAhRFk",
     "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "stock": 3
   },
   {
     "codigo": "332",
@@ -1482,7 +1491,7 @@
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1flf9iDka0kHZqQ1IItHRCBYjoP3n8gQ4",
     "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "stock": 2
   },
   {
     "codigo": "991",
@@ -1527,7 +1536,7 @@
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1cMJfXIcQOb484j6ro6A3hmU3PA898eXQ",
     "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "stock": 1
   },
   {
     "codigo": "393",
@@ -1626,7 +1635,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1AATzHlvpRkri20dHnnNUktMpEpf7c8AB",
     "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "stock": 1
   },
   {
     "codigo": "123",
@@ -1662,7 +1671,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/file/d/1eq36ev4Oy_IXfOGk5YSBl-SE5XAVvh8n/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "stock": 1
   },
   {
     "codigo": "15",
@@ -1743,7 +1752,16 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/file/d/1lQbYbb4wLTU_6E5zizoviF3y5TxeqfRX/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "stock": 2
+  },
+  {
+    "codigo": "985",
+    "nombre": "DEPILADORA DE CRISTAL EPILATOR",
+    "precio": 2900,
+    "categoria": "CUIDADO PERSONAL",
+    "imagen": "https://drive.google.com/file/d/1lQbYbb4wLTU_6E5zizoviF3y5TxeqfRX/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "stock": 2
   },
   {
     "codigo": "109",
@@ -1896,7 +1914,7 @@
     "categoria": "TECNOLOGIA",
     "imagen": "https://drive.google.com/uc?id=1PaVfjIiH3Sct91_RT-nmVFTmwrTGTySn",
     "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "stock": 1
   },
   {
     "codigo": "188",
@@ -1950,7 +1968,7 @@
     "categoria": "SEGURIDAD",
     "imagen": "https://drive.google.com/uc?id=1cosWLDVahg64XHGzBjcA8nl0daPxzf_x",
     "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "stock": 2
   },
   {
     "codigo": "226",
@@ -2130,7 +2148,7 @@
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/file/d/1PxSG1UD6yAmMNaVA5DhPcGoXkf5sfPan/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "stock": 3
   },
   {
     "codigo": "107",
@@ -2166,7 +2184,7 @@
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/file/d/1EG3TEhWiDrO2key0yfMkE6GQFCg_bwXE/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "stock": 3
   },
   {
     "codigo": "48",
@@ -2229,7 +2247,7 @@
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1ZWnD480f4BS95HfKVI0kmpv9gZrmW-PW",
     "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "stock": 1
   },
   {
     "codigo": "268",
@@ -2238,7 +2256,7 @@
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1QP24NmL6Hixl81C_SP1SNukBmr3sVlV2",
     "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "stock": 1
   },
   {
     "codigo": "178",
@@ -3030,7 +3048,7 @@
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1hdXrWTOP6JhDdOuGHN_n7zozjblhTCWW",
     "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "stock": 1
   },
   {
     "codigo": "219",
