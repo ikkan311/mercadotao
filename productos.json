@@ -6,7 +6,18 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1oBvIBj9hq9PCwEA4OqB9fyqnclZvqEB5",
     "estado": "CON STOCK",
-    "stock": 8
+    "estadoCodigo": 1,
+    "stock": 18
+  },
+  {
+    "codigo": "452",
+    "nombre": "CARGADOR LEGATUS 3.4 MICRO",
+    "precio": 4500,
+    "categoria": "CARGADORES",
+    "imagen": "https://drive.google.com/uc?id=1oBvIBj9hq9PCwEA4OqB9fyqnclZvqEB5",
+    "estado": "CON STOCK",
+    "estadoCodigo": 1,
+    "stock": 10
   },
   {
     "codigo": "1001",
@@ -15,69 +26,77 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/file/d/1mKKtvrom767SvEps7JdjGb6bfREjCy3N/view?usp=drivesdk",
     "estado": "CON STOCK",
+    "estadoCodigo": 1,
     "stock": 10
   },
   {
     "codigo": "26",
     "nombre": "CABEZAL APPLE TIPO C 20W",
-    "precio": 9400,
+    "precio": 9000,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1raFC0KypTUNXc9hYoHdOunsb8YFK04m1",
     "estado": "CON STOCK",
+    "estadoCodigo": 1,
     "stock": 2
   },
   {
     "codigo": "24",
     "nombre": "CARGADOR P/ AUTO RC 4801 IPHONE",
-    "precio": 5000,
+    "precio": 4800,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1nDTkVUh6glU2oEjEITgtpKbNkVcJ7DEO",
     "estado": "CON STOCK",
+    "estadoCodigo": 1,
     "stock": 1
-  },
-  {
-    "codigo": "23",
-    "nombre": "CARGADOR P/ AUTO RC 4801 MICRO",
-    "precio": 5000,
-    "categoria": "CARGADORES",
-    "imagen": "https://drive.google.com/uc?id=1cW71loadL66DQJ33SQhQ3edkUutXtu9x",
-    "estado": "CON STOCK",
-    "stock": 2
   },
   {
     "codigo": "34",
     "nombre": "CARGADOR ROYALCELL 55W USB Y TIPO C",
-    "precio": 12000,
+    "precio": 11700,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1nEnJRpdvPDCOd-ZW_sKKYovESeqp_2ub",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "estado": "CON STOCK",
+    "estadoCodigo": 1,
+    "stock": 2
+  },
+  {
+    "codigo": "23",
+    "nombre": "CARGADOR P/ AUTO RC 4801 MICRO",
+    "precio": 4800,
+    "categoria": "CARGADORES",
+    "imagen": "https://drive.google.com/uc?id=1cW71loadL66DQJ33SQhQ3edkUutXtu9x",
+    "estado": "CON STOCK",
+    "estadoCodigo": 1,
+    "stock": 2
   },
   {
     "codigo": "978",
     "nombre": "CARGADOR PARA AUTO LEGATUS TIPO C LC-4805",
-    "precio": 8900,
+    "precio": 8600,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/file/d/1XcD9InW8patiqQBA-DsbXMFz9pgmc35U/view?usp=drivesdk",
     "estado": "CON STOCK",
+    "estadoCodigo": 1,
     "stock": 3
   },
   {
     "codigo": "977",
     "nombre": "CARGADOR P/MOTO CON USB PP716KA",
-    "precio": 10800,
+    "precio": 10700,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/file/d/13mw1bbmXMWkC423C1qqM2tTksL7_hFJQ/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
     "codigo": "138",
     "nombre": "CARGADOR DE NOTEBOOK UNIVERSAL",
-    "precio": 16700,
+    "precio": 16300,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=10_eav-lPG4bXjQDbcboheQ6Ip5OTQTU8",
     "estado": "CON STOCK",
+    "estadoCodigo": 1,
     "stock": 1
   },
   {
@@ -87,6 +106,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/file/d/1fOIxnVXp58jzPIHsTR6WQwkEeV877Tf3/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -96,6 +116,7 @@
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/file/d/1E8eA8vtGXhPDSo3-EqTCFDSn4XItZv_w/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -105,7 +126,18 @@
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1TfyIwJKlUGCrgKLQogOX8agKlEWa2lIv",
     "estado": "CON STOCK",
-    "stock": 10
+    "estadoCodigo": 1,
+    "stock": 20
+  },
+  {
+    "codigo": "898",
+    "nombre": "CABLE USB LG-5008 TIPO C",
+    "precio": 2200,
+    "categoria": "CABLES",
+    "imagen": "https://drive.google.com/file/d/1H0nrkOYPkustyHlP7n_VnSWpPDZi6QE7/view?usp=drivesdk",
+    "estado": "CON STOCK",
+    "estadoCodigo": 1,
+    "stock": 50
   },
   {
     "codigo": "19",
@@ -113,25 +145,28 @@
     "precio": 2200,
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1TfyIwJKlUGCrgKLQogOX8agKlEWa2lIv",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "estado": "CON STOCK",
+    "estadoCodigo": 1,
+    "stock": 10
   },
   {
     "codigo": "18",
     "nombre": "CABLE RC 5015 C-C",
-    "precio": 3500,
+    "precio": 3400,
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1q6ZnJDzFOz-tPcqehLwy9HDPqJPNWDD9",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
     "codigo": "17",
     "nombre": "CABLE APPLE IPHONE TIPO C A C",
-    "precio": 3700,
+    "precio": 3500,
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1_5I021ePLX2kftD5dsVAXLKMXI1hIpeA",
     "estado": "CON STOCK",
+    "estadoCodigo": 1,
     "stock": 3
   },
   {
@@ -141,6 +176,7 @@
     "categoria": "ACCESORIOS",
     "imagen": "https://drive.google.com/uc?id=1nY5acse4OHPmi2hpn9HU-Sfz5N3EbCmE",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -150,6 +186,7 @@
     "categoria": "ACCESORIOS",
     "imagen": "https://drive.google.com/uc?id=1ph9xd6lG3jxoHx313OGMhR6WKMLodk1T",
     "estado": "ULTIMOS DISPONIBLES",
+    "estadoCodigo": 2,
     "stock": 26
   },
   {
@@ -159,33 +196,37 @@
     "categoria": "ACCESORIOS",
     "imagen": "https://drive.google.com/file/d/1_AlJvh_V3Mlny7kzLS3MuvFcsAnDRent/view?usp=drivesdk",
     "estado": "CON STOCK",
+    "estadoCodigo": 1,
     "stock": 2
   },
   {
     "codigo": "914",
     "nombre": "SOPORTE DE CELULAR PARA MOTO LX02",
-    "precio": 11500,
+    "precio": 11300,
     "categoria": "ACCESORIOS",
     "imagen": "https://drive.google.com/file/d/1xFtQTXyYzeBdRothn8wRUTow_UnOwhbz/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
     "codigo": "706",
     "nombre": "PORTA CELULAR CON CORREA GEEKER",
-    "precio": 12500,
+    "precio": 12000,
     "categoria": "ACCESORIOS",
     "imagen": "https://drive.google.com/file/d/1oygvvHgTpGaWq6KZY-QYvn2rnHoKzCiA/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
     "codigo": "377",
     "nombre": "SOPORTE DE CELULAR PARA AUTO RB082",
-    "precio": 12900,
+    "precio": 12500,
     "categoria": "ACCESORIOS",
     "imagen": "https://drive.google.com/uc?id=1OfQKkd6MyllPJkkILuec0WxJpVP6SLc0",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -195,6 +236,7 @@
     "categoria": "ACCESORIOS",
     "imagen": "https://drive.google.com/uc?id=1HvokCY_wY5IFWH8x4HxIwSGmdzqtoXNJ",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -204,6 +246,7 @@
     "categoria": "ACCESORIOS",
     "imagen": "https://drive.google.com/file/d/1LqntZA_cm5eaauY_zbFFGDcnlyFjRu9i/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -213,6 +256,7 @@
     "categoria": "ACCESORIOS",
     "imagen": "https://drive.google.com/uc?id=1poP78_S9cu9LXgt4ot6A1yEG3gyhYCCh",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -222,6 +266,7 @@
     "categoria": "ACCESORIOS",
     "imagen": "https://drive.google.com/uc?id=1dITTxuXc1-7ap3I0kt62VZopuuGTabSu",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -231,33 +276,37 @@
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/file/d/1CsevWH526JHOIcns9-366MkxOwJhEETy/view?usp=drivesdk",
     "estado": "CON STOCK",
-    "stock": 13
+    "estadoCodigo": 1,
+    "stock": 20
   },
   {
     "codigo": "10",
     "nombre": "AURICULARES RC HD-MIC RE-1005",
-    "precio": 2200,
+    "precio": 2000,
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=1sdwkafDLQKs80CE_NHhgldAeVx7FFkyN",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
     "codigo": "6",
     "nombre": "AURICULAR RC RE10013 TIPO C",
-    "precio": 5000,
+    "precio": 4900,
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=1WKIkUk6fEWewQE5L_NhiRoHw10vq0phv",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 3
+    "estado": "CON STOCK",
+    "estadoCodigo": 1,
+    "stock": 6
   },
   {
     "codigo": "436",
     "nombre": "AURICULARES INALAMBRICO E6S",
-    "precio": 7500,
+    "precio": 7400,
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=1H7Jcc4SPw0AC8VuwKNGXRFVqKls3usF0",
     "estado": "ULTIMOS DISPONIBLES",
+    "estadoCodigo": 2,
     "stock": 2
   },
   {
@@ -267,6 +316,7 @@
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/file/d/1yH_g2qSzTMwiMP7kpUuW9ilo_3d2kswh/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -275,8 +325,9 @@
     "precio": 7800,
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=1ThAma6yRNZepjkBLcyPs8JGOybyx1DiY",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
+    "estado": "CON STOCK",
+    "estadoCodigo": 1,
+    "stock": 3
   },
   {
     "codigo": "8",
@@ -285,6 +336,7 @@
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=1D6-wSmDt8MEmGvgXAlBKdIxHe4H54S0s",
     "estado": "CON STOCK",
+    "estadoCodigo": 1,
     "stock": 1
   },
   {
@@ -294,51 +346,57 @@
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=1a_JD6kHx7NyWt3t1XEQnjMYO5bMZxvFc",
     "estado": "ULTIMOS DISPONIBLES",
+    "estadoCodigo": 2,
     "stock": 1
   },
   {
     "codigo": "810",
     "nombre": "AURICULARES INALÁMBRICOS RW-Y90 ROYALCELL",
-    "precio": 24000,
+    "precio": 23500,
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/file/d/18UnL2HTwy7yCjzIZ_bsgUfBapdey3eT_/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
     "codigo": "809",
     "nombre": "AURICULARES INALÁMBRICOS AIR CLIP ROYALCELL",
-    "precio": 33000,
+    "precio": 32500,
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/file/d/1fvcjQj4sj4saJFeMgXClTkqrgUoz1L6s/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
     "codigo": "94",
     "nombre": "AURICULARES LABUBU RGB 706N",
-    "precio": 33000,
+    "precio": 32600,
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=175MEq5pFVGvt_IzDcoXyc1vYbTAw7R92",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
     "codigo": "95",
     "nombre": "AURICULARES LABUBU RGB 906C",
-    "precio": 33000,
+    "precio": 32600,
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=1Z86nTwGWdHOhXyzv7D_r2DDRHVYEIECk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
     "codigo": "1018",
     "nombre": "PARLANTE PORTÁTIL TG 113",
-    "precio": 11000,
+    "precio": 10500,
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/file/d/1vG6ekJtWUy1HyQJbz-VM38Urv0sPP-Em/view?usp=drivesdk",
     "estado": "CON STOCK",
+    "estadoCodigo": 1,
     "stock": 2
   },
   {
@@ -348,15 +406,17 @@
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=1fMSDuq9BefylfSMUO0k8XU-aJTqo4jSU",
     "estado": "ULTIMOS DISPONIBLES",
+    "estadoCodigo": 2,
     "stock": 1
   },
   {
     "codigo": "1013",
     "nombre": "PARLANTE BLUETOOTH 3″ GTS -2307",
-    "precio": 11000,
+    "precio": 13800,
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/file/d/1cBh0W1zVqAQ9ZauqzcMjDJWJLHiGZRd0/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -366,6 +426,7 @@
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/file/d/13jXAOyKWrItL8Kr5wx1ytTFBjrB4qRJM/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -375,6 +436,7 @@
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/file/d/1Qsi5xjdcxzeJ4VX96vI18czvfvugQ3mg/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -384,6 +446,7 @@
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/file/d/1IdyVBNGRdJO4iuwC-zbqiK_9pGc1Q8td/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -393,6 +456,7 @@
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/file/d/1kremPYmzF5ZphQuLqvcFaRqwGCmepE2W/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -402,6 +466,7 @@
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/file/d/1gzOaph8aosfYMrxnn_FgtEF4d4sjgcH9/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -411,15 +476,17 @@
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/file/d/1Dvdmoy_JpTcq9m4KiFHr9By7UKXtcLHZ/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
     "codigo": "689",
     "nombre": "PARLANTE PORTATIL RGB 3″ XM-129",
-    "precio": 9900,
+    "precio": 12000,
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=1FcLLGpDkXONH8PrXhENrFbijIiEi23oa",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -429,6 +496,7 @@
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=18q-XQVZmm9bsOnA9oXyJx7V4D7-Vq79r",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -438,15 +506,17 @@
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=1Wco7esRifdxRbGZT-jcSG8lCX3M9YZc7",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
     "codigo": "369",
     "nombre": "STEREO P/AUTO DESMONTABLE 1788E",
-    "precio": 38000,
+    "precio": 37000,
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=1eotPJXULE59oT6KHJeAze3MftSqRSwsr",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -456,6 +526,7 @@
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/file/d/123xGTvjbz_m_6M54fJbC9rvyCcW8J9ZC/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -465,6 +536,7 @@
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=137c1gm0eP9FBGnvxm5EDqZyIyFpXdGwb",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -474,6 +546,7 @@
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=1ThiaLoU1lUzmaEaU8hENt7AfN1BopqNX",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -483,6 +556,7 @@
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=16QA5HfqSFd65X4cbjq-UA_fQt9ScK4IT",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -492,6 +566,7 @@
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=1PrDDR4xmZje75Yq4lm50oqmTaVpY2mI_",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -501,6 +576,7 @@
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=1fqshzKWtEslDhaGKewMg82sUVAmPwyih",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -510,6 +586,7 @@
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/file/d/1wjjDAL2xQOyZeW-3X0wGMTM_FMAiP3SL/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -519,6 +596,7 @@
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/uc?id=1tfgRi6ag9AfDvmfX7ESz4dSYifgAob7Z",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -528,6 +606,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1z1VE9DffmKc0A56MUKfFP8igh4EoD_f1",
     "estado": "CON STOCK",
+    "estadoCodigo": 1,
     "stock": 4
   },
   {
@@ -537,6 +616,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/file/d/1sRWOCOXkk_TfzIRbFZ0561ajwM7F3Izr/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -546,6 +626,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/file/d/11Rx_s_wXoPVRCSFZmyp5o33HUPm5vveQ/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -555,6 +636,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1tMgxBC2Uz9KVCRjC5ewtRPpJRfKQoCTg",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -564,6 +646,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1sZ-OW3V9v9JvaobudeG-BAwWYgUd_T-D",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -573,6 +656,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://reinaelectronica.com.ar/wp-content/uploads/2026/04/lampara-silicona-28.png",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -582,6 +666,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/file/d/1NdDnIk1DPVrVi4Dr_HD4C9vwrECuirGR/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -591,6 +676,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=18dorJSqgwt2_STlTMpVxo8ROHQPSpVOr",
     "estado": "CON STOCK",
+    "estadoCodigo": 1,
     "stock": 2
   },
   {
@@ -600,6 +686,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1YPPLpSKj_dCs5VBOKqHjOnOEhiPl8xa0",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -609,6 +696,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1vnMP4d9dxSe_TXNMCSzpGI4R7IH8GQWH",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -618,6 +706,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1CvtiktXvMXQz0qAbY0OBwodLTjp1qfth",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -627,6 +716,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1MHpCdm9XmFoZ9KsaG0XgtE18t3f4qKzR",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -636,6 +726,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/file/d/1ipLU2Z_RjapVxR3THJ8SOr_84FKA74wO/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -645,6 +736,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1RkGg58P-LrJo5L36kSGYNV3X6c9i8-TP",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -654,6 +746,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/file/d/1Rac5l2pvzynraHLqVj0yKNpMFr3r8IU-/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -663,6 +756,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1CwG0PlEhzJngVp_21ZWF0ZhawFMvcqhd",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -672,6 +766,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1ASYp8u5dqJ9Pl8RNXFC-fZoTQiS5ww8T",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -681,6 +776,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1kYKrls39Ckfdk_gQtrjiWLHV4HVzRuNa",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -690,6 +786,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=12GXBseDTkYowVSGikZdrsAmmZzzkeQk0",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -699,6 +796,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1R9V23mcDN0S17xQI1gcUqGEXpjsFKrcF",
     "estado": "CON STOCK",
+    "estadoCodigo": 1,
     "stock": 3
   },
   {
@@ -708,6 +806,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1vDmNJHbXo84p3ET3Wr8APt7EFtVGLk-3",
     "estado": "ULTIMOS DISPONIBLES",
+    "estadoCodigo": 2,
     "stock": 4
   },
   {
@@ -717,6 +816,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/file/d/1T3lpvKr_DZExdvSfeczEGPWL6jjf7NgE/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -726,6 +826,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1oRuONOrLvR6GBtmaGdhewpC9WCs56Ftt",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -735,6 +836,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1EWo66EHn9vFoT6yowfHx4EgqHqzqZC-5",
     "estado": "CON STOCK",
+    "estadoCodigo": 1,
     "stock": 2
   },
   {
@@ -744,6 +846,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1oa57XD27ba6bn-A9VHNFGxLBGqToLd_p",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -753,6 +856,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1vsFmZglx1qxcsfJBBoQaGhdnBvTQ28Tp",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -762,6 +866,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1Jxsx7DsRxNOkZqxcYcqfa7upU2mUNJar",
     "estado": "CON STOCK",
+    "estadoCodigo": 1,
     "stock": 1
   },
   {
@@ -771,6 +876,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1DLkStsdgzP5xFWoCOZviMIsYRHCDtOHx",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -780,6 +886,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1f-hr9Azv-ej7XwAyT8HuJGA3VK80NmGL",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -789,6 +896,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1ekErEu6DAm76GH1hUUA0jV7y2toGfFqi",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -798,6 +906,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1dn7EUJtMgbYDaKk0RZw-kWoL7b_-mF7R",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -807,6 +916,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1aRbmDRX4QgT15MzxB9mcb2z8ocvaSeso",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -816,6 +926,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=16CADXL5Em6im7QBTXFNulBmulKcPOVcb",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -825,6 +936,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1wN0V_DKbQarr2J3pnaD3m2vRQaKf7DKq",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -834,6 +946,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=14DdoMDfF77wEBviXaLur2IH_AmmVi2js",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -843,6 +956,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1tOIL8KcoUQk8daQPfhMwHEl6uSwuzGH8",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -852,6 +966,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1JZC-XUw-5ov1lkQpAv5bv2JN2rWRkt42",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -861,6 +976,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=13DRx32tv46UBG3Xyaitt9cOp_5Dx3YRQ",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -870,6 +986,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/file/d/1f3LRDWAXieEzS5GK_qoz4oS1P33l35aK/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -879,6 +996,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=16Bm1HmYTOePxVx8VBm4OnX5XB6ovTWgx",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -888,6 +1006,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1hqoO9w0Z52q19vSFsF2t6SFfLXOsDTtG",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -897,6 +1016,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1X7zZrJqzjLqc_jRhh_-NCaaH9bCtMn_Q",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -906,6 +1026,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1APY3xhjvbkvu30o4ZdQlgFf_hZVEL4XY",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -915,6 +1036,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/file/d/14G92pAtnwZgUjyJPVfrF7D8DEyjcGoSa/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -924,6 +1046,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/file/d/1SDyUOmk3IhnSfTgybf_O1ek1XvEYvMYb/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -933,6 +1056,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/file/d/1egh2JsKxN7v-7qu1WwnplnV6DuLDlSrO/view?usp=drivesdk",
     "estado": "ULTIMOS DISPONIBLES",
+    "estadoCodigo": 2,
     "stock": 1
   },
   {
@@ -942,6 +1066,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/file/d/1za79YNkvokasuPfUbe1pp2UprSHhWqeX/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -951,6 +1076,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/file/d/1zkPQNLaP5Mb1N1OPn77r-9S1rwB0Y3ke/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -960,6 +1086,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/file/d/13N2eE8PidAMwcMiFUNCpcsewwp61xK-t/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -969,6 +1096,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/file/d/19-BWF2QIdHydt6KUidg9fWtluC7Zhyss/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -978,6 +1106,7 @@
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/file/d/1YCoMAcjSNMTR0jKShyd2m3JHaBxalCUp/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -987,6 +1116,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/file/d/18cSxFvjvV9e_M55Asior65UjvvpMnr7E/view?usp=drivesdk",
     "estado": "ULTIMOS DISPONIBLES",
+    "estadoCodigo": 2,
     "stock": 6
   },
   {
@@ -996,6 +1126,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/file/d/1ckTj5uFmxOjpEhhBkJ2VdsdjVcwZbyk5/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1005,6 +1136,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/file/d/1RFNz0IeMKKbSS_Y9gok3MrBpxt3Lj6KB/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1014,6 +1146,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1AfRvknY8jNy36WCd83oStGTNjokaYiC2",
     "estado": "CON STOCK",
+    "estadoCodigo": 1,
     "stock": 3
   },
   {
@@ -1023,6 +1156,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=16OTTTFdwWgSyomRKAt3m1NMjnwVor-6a",
     "estado": "ULTIMOS DISPONIBLES",
+    "estadoCodigo": 2,
     "stock": 8
   },
   {
@@ -1032,6 +1166,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1ZF0zFDeulSrS-3xRiB6-YPybnd3xzhpC",
     "estado": "ULTIMOS DISPONIBLES",
+    "estadoCodigo": 2,
     "stock": 7
   },
   {
@@ -1041,6 +1176,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1om8IRaRI_Fp_xq47QrZWmOhXyWNUNGHg",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1050,6 +1186,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1w09MdVxV4vQ65L_I3XAG5c9ntiDXXG_R",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1059,15 +1196,17 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1EixyWgzgdtWq-gatjJATYohg81YMX0al",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
-    "codigo": "321",
-    "nombre": "CONSOLA PUSH RUSSIA/CONSOLA BAILE",
-    "precio": 4900,
+    "codigo": "1071",
+    "nombre": "SQUISHIES DE PERSONAJES",
+    "precio": 3300,
     "categoria": "JUGUETERIA",
-    "imagen": "https://drive.google.com/uc?id=11y4Q7uLd4XSviMKbjs4QoF7Ko5Ph9UXK",
+    "imagen": "https://drive.google.com/file/d/1vqWQGHpHmlIZVse6Bm-cEUnm_uIyzEsp/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 5,
     "stock": 0
   },
   {
@@ -1077,6 +1216,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1Slg0TN_9f7WKnkXu2qS3wSbprVUkGhl7",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1086,6 +1226,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1AXr2IuwILj7DQYxG573S-vcdAZdhPBnN",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1095,6 +1236,27 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/file/d/14WhyOvw7eJWkw2OIuIw7nppSLxQwovTR/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "1219",
+    "nombre": "PIZARRA CON LED- JY 1863",
+    "precio": 11500,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/file/d/1CgisO-IpFn6Aqx8dAKw3RtvXIIyuhnmk/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 5,
+    "stock": 0
+  },
+  {
+    "codigo": "321",
+    "nombre": "CONSOLA PUSH RUSSIA/CONSOLA BAILE",
+    "precio": 4900,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/uc?id=11y4Q7uLd4XSviMKbjs4QoF7Ko5Ph9UXK",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1104,6 +1266,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1NSyXINIBQc1WSgw_okLoRxX9hViRL7T_",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1113,6 +1276,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1RhFfCQs-WuOHJ3hOPR_OoWmKthCZ7zAR",
     "estado": "ULTIMOS DISPONIBLES",
+    "estadoCodigo": 2,
     "stock": 5
   },
   {
@@ -1122,6 +1286,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1kz1j6qpY6c6P6VuWKI_gr2Hgmm3Yc9eI",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1131,6 +1296,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1-8M9qQFZsO3ME94rqqp0hM0Ky0TAhRFk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1140,6 +1306,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1DEWgKgKYQSEKaMSetnUkbokXuc9lf5d-",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1149,6 +1316,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1B5PpspAU4hHgye71Y9eh3ZraHbe1NeNW",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1158,6 +1326,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1RK9OlsSVsKGnG3J-VVoCmCeUNCqKPWHZ",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1167,6 +1336,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1ssryZtqisEAToaVX0Fj5Xcb9SoYEByPx",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1176,6 +1346,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1NCUTbAXTrrR4O91fS1kUcadZWstmwv-B",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1185,6 +1356,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=17Ejqb18ZlL7YK4dOR4ZhIJ16SlfJP0aV",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1194,6 +1366,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1fYC3NEenhMbz616rnkJLHDko5NZQZ5Px",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1203,6 +1376,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1f-ARXbk89e74jIWCD2V-CkTecK-KNm6m",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1212,6 +1386,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1f42VNz9dyuxi7jlekWat9QrLa2Wkem0K",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1221,6 +1396,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=16Li3BZxrT-HTJt1luqqp288Twiv43I-S",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1230,6 +1406,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1o85RYGyfEPBCwWtyEGTSlGDaxYSHQeTa",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1239,6 +1416,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=11C6Wk7Z6v-nQpYj5M3alAtVtAUqlsL42",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1248,6 +1426,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=16MmUbr0Sd-u9A-O9Ndlboonhwj_JOIE2",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1257,6 +1436,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=10zoR6UYnSaYCIrABdDMX3qrls8Tr0hQc",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1266,6 +1446,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/file/d/1ifuLMf76uFZPH6TEo_fCJBsvWRL5x56Q/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1275,6 +1456,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/file/d/1mXkX5Q7s5fBlK1PLjoOUTp0jblB9S4u2/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1284,6 +1466,7 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1Wa-yf60UpVQd_dgZy7h8nBRHNZdmARxh",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1293,6 +1476,17 @@
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/file/d/1UXfW7CKmypH7mP8ksHzlE5kIMFTHcMpG/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "1320",
+    "nombre": "SET DE POKER CON FICHAS Y CARTAS",
+    "precio": 16200,
+    "categoria": "JUGUETERIA",
+    "imagen": "https://drive.google.com/file/d/1e1kIchzox6tjpHIiVkKMgA25S4Lq42ou/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 5,
     "stock": 0
   },
   {
@@ -1302,6 +1496,7 @@
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1jHdC2owsCxcKyYDeuwZyw4iVqYYQOgIK",
     "estado": "ULTIMOS DISPONIBLES",
+    "estadoCodigo": 2,
     "stock": 1
   },
   {
@@ -1311,6 +1506,7 @@
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1tL1abMTnC7gHzzAcpxRJ4_o-hfUb697P",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1320,6 +1516,7 @@
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1FjGZv-4c3phY9PFFV236rEtv1l0ovA5_",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1329,6 +1526,7 @@
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1BhXoflWv7-rdsc87Wb8hUCaUVotNxhGa",
     "estado": "CON STOCK",
+    "estadoCodigo": 1,
     "stock": 2
   },
   {
@@ -1338,6 +1536,7 @@
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1NtyLG_SFS8vqFFTcSznhHcX2VlELYap7",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1347,6 +1546,7 @@
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1KP_hScjWMoe0uWSNO8NcH_L5dUMcg6hh",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1356,6 +1556,7 @@
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1bNB7BF7ryBjiT7WOqVD52e6E9I2316rf",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1365,6 +1566,7 @@
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1orYfB0WBdWLVuFzPM9OJyrz8S-w8F5nF",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1374,6 +1576,7 @@
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1flf9iDka0kHZqQ1IItHRCBYjoP3n8gQ4",
     "estado": "CON STOCK",
+    "estadoCodigo": 1,
     "stock": 2
   },
   {
@@ -1383,6 +1586,7 @@
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/file/d/1g-KbjIH-LeFsMrB6GeD5JciI4LWEIh5Y/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1392,6 +1596,17 @@
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1iKOBxEq7z95Jj6pyyq6HNG6MjqSLGGli",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "1247",
+    "nombre": "SET DE ARTE 168 PCS",
+    "precio": 12800,
+    "categoria": "LIBRERIA",
+    "imagen": "https://drive.google.com/file/d/1m_ntF7Ul5YatH71yuXY2Nk-pYmsufliI/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 5,
     "stock": 0
   },
   {
@@ -1401,6 +1616,7 @@
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/file/d/16FSwEsaSeqErmkozrmUA0M2LHXVJYCOt/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1410,6 +1626,7 @@
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1dm5Ckd8c-5a_PLR1EzEb7J0KWCuwfpBG",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1419,6 +1636,7 @@
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1cMJfXIcQOb484j6ro6A3hmU3PA898eXQ",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1428,6 +1646,7 @@
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1bgVNb0ld8_8VQ50iocBBznKSorcf3KWo",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1437,6 +1656,7 @@
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/file/d/1WggOPo3iodKl1A2KUv669fy2rFL1eWiO/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1446,6 +1666,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/file/d/1RGwyZCQyoSWLMXxKIDFd6KnaBU7sXhfv/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1455,6 +1676,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/file/d/16s508ABq4OWsDZuaDnqsI7uuap14alAY/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1464,6 +1686,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1kHzXSDXwWa1vq_esoqHL8d1FURHVGdwY",
     "estado": "ULTIMOS DISPONIBLES",
+    "estadoCodigo": 2,
     "stock": 6
   },
   {
@@ -1473,6 +1696,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/file/d/1myyUtK4Lw7yyD0uGem7Q16J7PS3yWGd7/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1482,6 +1706,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1OSYZO7ecFMz4cOENTARgVKJDikECMTs_",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1491,6 +1716,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1lDnolNLtWgAVF7wbv8rDhzdxeN8sEnZL",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1500,6 +1726,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/file/d/1Wdi2v-VAWE7GEQh5xxu8aTj8CTlmttNV/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1509,6 +1736,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/file/d/1-6t-NkZcSMu85gtsQnAcPlnXJ8ELA_cr/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1518,6 +1746,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=19_6xQHzB-IbAG7x_AtyLF6xF76h2Cg6z",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1527,6 +1756,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1AATzHlvpRkri20dHnnNUktMpEpf7c8AB",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1536,6 +1766,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1vcQMg8MTb3_Ru3e3VI_ZEmwreSYUtqSL",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1545,6 +1776,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1a_nJWufWFFG8s-c2Dct5sGC6NkQaMtaC",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1554,6 +1786,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1-QU-j-I-yCVMbDmS1_s63VCstmXF8Mkd",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1563,6 +1796,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/file/d/1eq36ev4Oy_IXfOGk5YSBl-SE5XAVvh8n/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1572,6 +1806,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1ZShV8cAQWrcJow0Jog42bwr-clamzlmQ",
     "estado": "CON STOCK",
+    "estadoCodigo": 1,
     "stock": 3
   },
   {
@@ -1581,6 +1816,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=17BIR6ZV2j7luDGndnb-9Cj9CIFlvQbIi",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1590,6 +1826,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1M3YaxzgHf1ymvx7uyShTP2JvcPuwnQaY",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1599,6 +1836,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/file/d/19oz7AT92eby67FAZxZF7KY8aXMOWrv0b/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1608,6 +1846,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1KQO2N8rsovi1aaZbYDN7qj3KvnllvpwO",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1617,6 +1856,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/file/d/1o5r_G4qezfL6Tq4FZRBGyX8IzpN5jffw/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1626,6 +1866,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1z3IVh-zuSx2iAqgMV45S1DNeHc6yNKFs",
     "estado": "ULTIMOS DISPONIBLES",
+    "estadoCodigo": 2,
     "stock": 1
   },
   {
@@ -1635,6 +1876,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1SCEE68SqiW3pTGeTOMIRfXPTXiRV0Mia",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1644,6 +1886,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/file/d/1lQbYbb4wLTU_6E5zizoviF3y5TxeqfRX/view?usp=drivesdk",
     "estado": "CON STOCK",
+    "estadoCodigo": 1,
     "stock": 2
   },
   {
@@ -1653,6 +1896,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1pjTk1gRzOrY5Bp0MenjByDpbQ787UfOe",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1662,6 +1906,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1vnk_yD_i0usM5HiGKaPX2glei-Ue-fh2",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1671,6 +1916,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1p275_iz4dYd4u1lC6XiF1USqnhZAaA1V",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1680,6 +1926,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1xjF9LBD2k-YXgueIz0Qs9TawbXeFE8oe",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1689,6 +1936,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/file/d/1mDcimznNHyRiiQQlN4Q_lsJHhM9mD8_5/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1698,6 +1946,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=11VSJkLrilOJbME2W2Xdq9xzz6K-VzHjx",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1707,6 +1956,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1GkaoM6qAuueh_BbMxtjXWCVzkOHYIXdI",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1716,6 +1966,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/file/d/1F_nEMZeQ8Sk4YDXdmkvKmeJisfsh2Fd-/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1725,6 +1976,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1qcrS25vs9mEmS9hQq_54qSUroM_xu15q",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1734,6 +1986,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=16ydvfHNwy-d6icTB_YJDq4vwE7kATU5f",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1743,6 +1996,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/file/d/1UFDmTY8MwmvNKpbd-t6xob5xNFEM6dUI/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1752,6 +2006,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/file/d/1XvX3csAMs9vIBl7daIKme-V3Ka7CGL7T/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1761,6 +2016,47 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1gCgCx7ZEPnuw_f6UU_JzFYVLuYUgUYGd",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "1208",
+    "nombre": "ESPEJO LED DOBLE CARA EXXTRATECH",
+    "precio": 11000,
+    "categoria": "CUIDADO PERSONAL",
+    "imagen": "https://drive.google.com/file/d/1ZnvEui8TQc4wxM4OZbiAAfPRpk3aAzUl/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 5,
+    "stock": 0
+  },
+  {
+    "codigo": "1227",
+    "nombre": "SET DE 8 BROCHAS PARA MAQUILLAJE",
+    "precio": 11800,
+    "categoria": "CUIDADO PERSONAL",
+    "imagen": "https://drive.google.com/file/d/1I5Jpb5sh83txC9n2aVItdPobp_uwGDN1/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 5,
+    "stock": 0
+  },
+  {
+    "codigo": "1246",
+    "nombre": "SET DE MAQUILLAJE CUP CAKE - 3363",
+    "precio": 12800,
+    "categoria": "CUIDADO PERSONAL",
+    "imagen": "https://drive.google.com/file/d/1LHY8hnkBa72GVAXExXXJEoxizSgLoFdl/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 5,
+    "stock": 0
+  },
+  {
+    "codigo": "1267",
+    "nombre": "SET DE MANICURA - D3577",
+    "precio": 13500,
+    "categoria": "CUIDADO PERSONAL",
+    "imagen": "https://drive.google.com/file/d/1PURFb73LiWlRfjGbJBq1g-DhFIlCQzKf/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 5,
     "stock": 0
   },
   {
@@ -1770,6 +2066,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1cgQVV1lEIVd5pD41l9XsDqqXAFCaFFUx",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1779,6 +2076,7 @@
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1nO2GkcxwfPUaOFDE7lp70PWr9Bcaunok",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1788,6 +2086,7 @@
     "categoria": "TECNOLOGIA",
     "imagen": "https://drive.google.com/uc?id=1UfKezLJ3qQ1e_3IjFJApmyQ5WMQHDwkZ",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1797,6 +2096,7 @@
     "categoria": "TECNOLOGIA",
     "imagen": "https://drive.google.com/uc?id=1ksBKxCAVKo6gVfegQQaf2iEv1962vFCs",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1806,6 +2106,7 @@
     "categoria": "TECNOLOGIA",
     "imagen": "https://drive.google.com/uc?id=1PaVfjIiH3Sct91_RT-nmVFTmwrTGTySn",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1815,6 +2116,7 @@
     "categoria": "TECNOLOGIA",
     "imagen": "https://drive.google.com/uc?id=1j39ejjWyd-aICCGZZfIR6MsEdYyR8ZxL",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1824,6 +2126,7 @@
     "categoria": "TECNOLOGIA",
     "imagen": "https://drive.google.com/uc?id=1c006E6BiIX2QBqnUL0RmIeiHqrMXcfhI",
     "estado": "ULTIMOS DISPONIBLES",
+    "estadoCodigo": 2,
     "stock": 2
   },
   {
@@ -1833,6 +2136,7 @@
     "categoria": "TECNOLOGIA",
     "imagen": "https://drive.google.com/uc?id=1RLBEshPCxRSmX-eHO6U6SJhBLOEPwRiw",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1842,6 +2146,7 @@
     "categoria": "TECNOLOGIA",
     "imagen": "https://drive.google.com/uc?id=14Cu809cxeIxJiaz5a3ruDcRHPCLW0TCk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1851,6 +2156,17 @@
     "categoria": "TECNOLOGIA",
     "imagen": "https://drive.google.com/file/d/1a8qtIj5xEUHGRWp55JXWYsYg8j9Gc83f/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "1552",
+    "nombre": "NOKIA 106 4G",
+    "precio": 44900,
+    "categoria": "TECNOLOGIA",
+    "imagen": "https://drive.google.com/file/d/11DUeeTEzlNJrjpMM34Tzb8rhOV0q_R9L/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 5,
     "stock": 0
   },
   {
@@ -1860,6 +2176,7 @@
     "categoria": "SEGURIDAD",
     "imagen": "https://drive.google.com/uc?id=1cosWLDVahg64XHGzBjcA8nl0daPxzf_x",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1869,6 +2186,7 @@
     "categoria": "SEGURIDAD",
     "imagen": "https://drive.google.com/uc?id=1xeLS6XdRTUOY0n5RKtPHmJ2Gwdxcd2et",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1878,6 +2196,7 @@
     "categoria": "SEGURIDAD",
     "imagen": "https://drive.google.com/file/d/1FmXZii6GAmrGH7eOj22wni7Zd7BEcGvI/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1887,6 +2206,7 @@
     "categoria": "SEGURIDAD",
     "imagen": "https://drive.google.com/uc?id=1eDBpqqB_wOEmkO5wfPChs0Mkzjw7znch",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1896,6 +2216,7 @@
     "categoria": "SEGURIDAD",
     "imagen": "https://drive.google.com/uc?id=1FH2qQ1WxO37phGByN25pI7lRiX9MGXiG",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1905,6 +2226,7 @@
     "categoria": "SEGURIDAD",
     "imagen": "https://drive.google.com/file/d/1NbX2FCBFKaY85_PZ-zXtPXJVsBLbvBu6/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1914,6 +2236,7 @@
     "categoria": "SEGURIDAD",
     "imagen": "https://drive.google.com/file/d/1lr7QBSmL7YABE3imVqkEvfcTFCjp-4J2/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -1923,115 +2246,738 @@
     "categoria": "SEGURIDAD",
     "imagen": "https://drive.google.com/file/d/1NB7DxsPGCwNtNQapoIi0GYl_15zS4EPo/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
-    "codigo": "45",
-    "nombre": "PILAS ORYX AA X4",
-    "precio": 1500,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1cKySAao_6rEnc_E6ymw3HjFpjteuH3tp",
-    "estado": "CON STOCK",
-    "stock": 4
-  },
-  {
-    "codigo": "46",
-    "nombre": "PILAS ORYX AAA X4",
-    "precio": 1500,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=109ZMKeLFnia5oc4LMfXPldRNIluu864w",
+    "codigo": "1110",
+    "nombre": "LINGA PITON ANTIRROBO REFORZADO 12 x 120cm",
+    "precio": 6200,
+    "categoria": "SEGURIDAD",
+    "imagen": "https://drive.google.com/file/d/1dHPOnjLUEOHzYBcDUJppAuh_Z7fBbBp7/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 5,
     "stock": 0
   },
   {
-    "codigo": "580",
-    "nombre": "CONTROL DE AIRE",
-    "precio": 4600,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1O60uoCU-2hxi3oYWZ1PtSVhH0dEzRRZq",
-    "estado": "CON STOCK",
-    "stock": 1
+    "codigo": "1300",
+    "nombre": "LINGA DE MOTO",
+    "precio": 15300,
+    "categoria": "SEGURIDAD",
+    "imagen": "https://drive.google.com/file/d/1-pqHu-omoLjG2OgWJpr7DZDHAph35ZZB/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 5,
+    "stock": 0
   },
   {
-    "codigo": "49",
-    "nombre": "PILAS REDONDAS CR2032 X 5",
-    "precio": 1800,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1zCGOIOB0lfoXimp8PnEybOl8eR642qw7",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
+    "codigo": "1355",
+    "nombre": "CADENA CON CANDADO DE SEGURIDAD - OG I 2MB",
+    "precio": 18900,
+    "categoria": "SEGURIDAD",
+    "imagen": "https://drive.google.com/file/d/1FY3QoUsuM_4aMT22G7LKa0k3kl7loeTM/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 5,
+    "stock": 0
+  },
+  {
+    "codigo": "1140",
+    "nombre": "BALANZA COCINA",
+    "precio": 7800,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/file/d/1BfofY2pQwdM-tcGS3Zs2gXmnXQmCCq5D/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 5,
+    "stock": 0
   },
   {
     "codigo": "537",
     "nombre": "BALANZA PORTATIL SEIS AV-637/K24056",
     "precio": 5300,
-    "categoria": "HOGAR",
+    "categoria": "COCINA",
     "imagen": "https://drive.google.com/uc?id=1OLkcMc7sFmLznkY8a8_cWGCxmQxYBqwW",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
-  },
-  {
-    "codigo": "198",
-    "nombre": "INFLADOR MULTIUSO BOQUILLA INTERCAMBIABLE",
-    "precio": 7800,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1qWJO3cx7o5P67owApjqhsRutHUow4mzX",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "50",
-    "nombre": "RELOJ DESPERTADOR DIGITAL CUBO LED",
-    "precio": 6800,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1juQxX54sETQRWT_blCktmk1KT_HCOTpT",
-    "estado": "ULTIMOS DISPONIBLES",
-    "stock": 1
   },
   {
     "codigo": "162",
     "nombre": "MINI BALANZA DIGITAL 500 GRAMOS",
     "precio": 8000,
-    "categoria": "HOGAR",
+    "categoria": "COCINA",
     "imagen": "https://drive.google.com/uc?id=1E0CVsNP5KnLG06YLEoROtHZfXYOEH8b5",
     "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "607",
-    "nombre": "SET DE CUCHILLO MADERA X6 S-1158",
-    "precio": 9000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=12iYQZEERo2peCTGlnVtjHQhZLDkioJgh",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "267",
-    "nombre": "SET DE TENEDOR MADERA X6 S-1160",
-    "precio": 9000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1S6jjquEymNO-V3gWxJjPI-6iWj_dwFDs",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "464",
-    "nombre": "VASO DOBLE PARED DE VIDRIO OSR 350ML",
-    "precio": 8500,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1S6iQSKN--Xsspah-xo7vDYkWDFeAZj4P",
-    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
     "codigo": "36",
     "nombre": "DELANTAL DE COCINA TELA TRUCKER",
     "precio": 10000,
-    "categoria": "HOGAR",
+    "categoria": "COCINA",
     "imagen": "https://drive.google.com/uc?id=1lNc80yJIIXzjLc_HnGTiQgRyDwdSj5rk",
     "estado": "ULTIMOS DISPONIBLES",
+    "estadoCodigo": 2,
     "stock": 14
+  },
+  {
+    "codigo": "1044",
+    "nombre": "SET DE 12 CUBIERTOS ASADEROS DE MADERA",
+    "precio": 42500,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/file/d/1fjT10y33llHLfN9NmC_msRiXB81juzSj/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "1258",
+    "nombre": "SET DE CUBIERTOS CHEPITA -25 PCS",
+    "precio": 13400,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/file/d/1dKBkDkk746QN-zOVLoyFPo3h7WoZyPLx/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 5,
+    "stock": 0
+  },
+  {
+    "codigo": "462",
+    "nombre": "SET DE CUBIERTOS JK-4154",
+    "precio": 42500,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1R9HqO9HT_TFeX5rRa4HaJvDEG5gRDsam",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "607",
+    "nombre": "SET DE CUCHILLO MADERA X6 S-1158",
+    "precio": 9000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=12iYQZEERo2peCTGlnVtjHQhZLDkioJgh",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "688",
+    "nombre": "SET DE CUCHILLOS X6 PCS",
+    "precio": 27000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1YyPrilHOP3nyjsf4-kH8xVMGfvNJRQg6",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "267",
+    "nombre": "SET DE TENEDOR MADERA X6 S-1160",
+    "precio": 9000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1S6jjquEymNO-V3gWxJjPI-6iWj_dwFDs",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "1102",
+    "nombre": "SET DE UTENSILIOS DE COCINA X5",
+    "precio": 6000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/file/d/1XhOCoi-MMLY7TOLafPMKSoKrBKv-S5Ad/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 5,
+    "stock": 0
+  },
+  {
+    "codigo": "937",
+    "nombre": "CUCHILLO DE ACERO CMA5-A",
+    "precio": 6500,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/file/d/17jXHOnuN4MszkxiQxyGSyGIEpbivSofW/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "458",
+    "nombre": "CUCHILLOS C/CHAIRA HUIHANG X3 S-2196",
+    "precio": 13500,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1U4IQPilTIJJfUI3eLtOnR6qK8jf_MYLS",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "176",
+    "nombre": "SET X10 UTENSILIOS PARA COCINA DE SILICONA",
+    "precio": 27000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1vkk5-HdrdYP4CRX9KupPWjX9NWf2gS0I",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "863",
+    "nombre": "UTENSILIOS DE COCINA SILICONA P029",
+    "precio": 24000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/file/d/1_LH_tySaZG023-vjk0z08nNSi0RgZQLR/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "805",
+    "nombre": "UTENSILIOS DE COCINA SILICONA X21",
+    "precio": 28000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/file/d/17hdeSlDKxmre7DDQqyRsM47OxqiUpP3f/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "178",
+    "nombre": "UTENSILIOS DE COCINA X5 SAA125",
+    "precio": 14500,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1xq07KnpeAl7ZuEU-tZ1fRz7m2dSRQe2H",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "278",
+    "nombre": "UTENSILIOS DE COCINA X6 PIEZAS COLORES",
+    "precio": 15000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1npUmRuBmNJXfvqWKNFppCeuP_iE82nzr",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "174",
+    "nombre": "SET DE OLLAS 5 PCS ANTIADHERENTES",
+    "precio": 108000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1pR5tr48-xA_Jzig52wLMO7vURZi8Q4oQ",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "856",
+    "nombre": "SET VAJILLA DE VIDRIO BLANCA ORYX 18PCS",
+    "precio": 115000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/file/d/1W3bT1c8o-V2h3KzWKtublIucyj9n0-cf/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "857",
+    "nombre": "SET VAJILLA DE VIDRIO ORYX 18 PCS",
+    "precio": 115000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/file/d/18TUM8xexXSfUnIsAFdtFgdS7Ia94Z11N/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "270",
+    "nombre": "SET X5 DE OLLAS ORYX EKT0499B/D/G/W",
+    "precio": 75000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1wt3rNLT5FGlD5TTm11lbT_M0tbH1_WnW",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "271",
+    "nombre": "SET X9 DE OLLAS ORYX OR-118",
+    "precio": 160000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1wScR-iH43tN9hVkKUOHnwqceUOc0gz5a",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "464",
+    "nombre": "VASO DOBLE PARED DE VIDRIO OSR 350ML",
+    "precio": 8500,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1S6iQSKN--Xsspah-xo7vDYkWDFeAZj4P",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "168",
+    "nombre": "ORGANIZADOR DE ALIMENTOS JM-828-4 X4 PCS",
+    "precio": 32500,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1jk7iaZ6Ty10TsfEpAEHykiZP5_kL-Cdr",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "252",
+    "nombre": "ORGANIZADOR DE ALIMENTOS JN-330 X5 PCS",
+    "precio": 34000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=15hJxZv3H9khqnhDaYs5NIi4hGw9BGSHU",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "1338",
+    "nombre": "SET DE TUPPER CUADRADO CON JARRA",
+    "precio": 17100,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/file/d/1v-rJy7E3gARUK7H5EvtrcO4gqiNZ8AD1/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 5,
+    "stock": 0
+  },
+  {
+    "codigo": "1064",
+    "nombre": "AFILADOR DE CUCHILLO DE CAJA",
+    "precio": 2900,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/file/d/1ZrxJBrcpN1qIj3VsDAikFPF802cbIXWt/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 5,
+    "stock": 0
+  },
+  {
+    "codigo": "925",
+    "nombre": "BATIDORA DE MANO 7 SPEEDS SEIS",
+    "precio": 25000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/file/d/10ZbXwQqSE4AOyDGjANNGSBsHMCg6yXy_/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "157",
+    "nombre": "JARRO ANTIADHERENTE ORYX 14 CM",
+    "precio": 21500,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1xfJaW0G-q-XuOVvaYZuQnpa4-uCYz92B",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "160",
+    "nombre": "LICUADORA 1,5L ORYX OR-1004",
+    "precio": 85000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1JJGEpNdDQsXy6shAb1lW7YIJw7nwS38G",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "244",
+    "nombre": "MAQUINA DE GALLETAS OR-BIM01",
+    "precio": 69000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1PaDPyeh83dDOM9mSLFnExWCp9QRT2OF5",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "161",
+    "nombre": "MAQUINA DE HAMBURGUESAS ORYX",
+    "precio": 64000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1lWI63jUbFNzoWAC81CJ4_cfEpUxa23a2",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "83",
+    "nombre": "MAQUINA DE HIELO ORYX",
+    "precio": 235000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1xkMaSjxqMsBUzWaQB9-ZtdM-JisHxrKK",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "163",
+    "nombre": "MINI PIMER ORYX HB-3505",
+    "precio": 38000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1xaq2t-xzHqt4cCShCIBCqA3F8bJ1TxxE",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "845",
+    "nombre": "MIXER LICUADORA DE MANO HB-6005",
+    "precio": 78000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/file/d/1gKtSLAg7vE7Ta-T4Cn2B7FGDScEjUtAt/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "953",
+    "nombre": "MIXER MINI PIMER CON VASO 600W ORYX",
+    "precio": 54000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/file/d/14_AT7ocUsmQhe2gUsAR5AksEGzyHwCpd/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "1070",
+    "nombre": "MOLDE DE SILICONA REUTILIZABLES",
+    "precio": 3300,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/file/d/1eKGuSMqseujBzWrgXn-NG2_x6haKq2TK/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 5,
+    "stock": 0
+  },
+  {
+    "codigo": "165",
+    "nombre": "MOLINILLO MANUAL CON RECIPIENTE",
+    "precio": 12700,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1C38SXge57RXWqfBJG5mp_UKUyvIBlSZr",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "250",
+    "nombre": "MULTIPROCESADORA + LICUADORA ORYX OR0946",
+    "precio": 145000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1GYqdUtqj1mlS-7PdRo0LwDPgudcQnIJ3",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "256",
+    "nombre": "PANCHUQUERA",
+    "precio": 215000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1iTNLfTTLFIjeMljh-vc1A3K7au6Oi-l6",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "1068",
+    "nombre": "PELAPAPAS X UNIDAD",
+    "precio": 3200,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/file/d/1c7AqFSNXifpsWHD0s3xpBy-MWImju98U/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 5,
+    "stock": 0
+  },
+  {
+    "codigo": "259",
+    "nombre": "PICADORA ELETRICA ORYX VC-10 2L",
+    "precio": 63000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1AUmYNqjG-X9M99WvSlm_v5mUna1nWP3b",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "1078",
+    "nombre": "PISAPAPAS METALICO",
+    "precio": 3800,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/file/d/1g1aIDdyyv87LaaHigkBdxnaEjG6p1B9A/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 5,
+    "stock": 0
+  },
+  {
+    "codigo": "169",
+    "nombre": "POCHOCLERA ORYX OR-0089",
+    "precio": 85000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=15flBPKtS8iL5SVWe2rPGjW7HVtw1QK8D",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "260",
+    "nombre": "PROCESADORA DE VERDURA OSR C/USB P589-01",
+    "precio": 13000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1ZWnD480f4BS95HfKVI0kmpv9gZrmW-PW",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "261",
+    "nombre": "RALLADOR MANDOLINA MANUAL ORYX RAMKA3",
+    "precio": 21500,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=14pDip7rrgDaYYhHNvmkBGLXB7kBFrZln",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "1092",
+    "nombre": "SACACORCHO MULTIFUNCION",
+    "precio": 4900,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/file/d/1pO6Dmth1vaqLAa3P_39sX09x1Gq7wML1/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 5,
+    "stock": 0
+  },
+  {
+    "codigo": "171",
+    "nombre": "SANDWICHERA 3 EN 1 LEGATUS",
+    "precio": 57800,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1er8AKsFHLQOLEKkeso5MWdTh8pfYZ7Av",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "264",
+    "nombre": "SANDWICHERA ORYX OR-1700",
+    "precio": 45000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1nq4YI7bg8D5k8A6t-yaXDj-PzhFoss_0",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "1040",
+    "nombre": "SECAPLATOS DOBLE CON PUERTA HOG0635",
+    "precio": 107000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/file/d/1eQQr1f0Knu6WCUl-2CS8nQ1e4DAYSLdE/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "1041",
+    "nombre": "SECAPLATOS ESCURRIDOR CON PORTA VASOS ORYX OR-DR01",
+    "precio": 53000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/file/d/1B8RulAyVeBWkmjsGz-DMEaMFCAjydwII/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "1042",
+    "nombre": "SECAPLATOS ESCURRIDOR DOBLE",
+    "precio": 76000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/file/d/1EWtkAWHrhrIjSV_nknX9KHj-4e0SBe4N/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "265",
+    "nombre": "SECAPLATOS ORYX OR-744",
+    "precio": 40000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1sbTR26c3WSO6SuiSlNSTuSkRhSDTC8MZ",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "275",
+    "nombre": "TOSTADORA 2 RANURAS ORYX OR-501",
+    "precio": 36000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1AKQbcxdC4cXyN1NmFu6g-XzDbgcltH4a",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "228",
+    "nombre": "DISPENSOR DE AGUA AUTOMATIC WATER DA-01",
+    "precio": 11000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1I1W9rB8T-YxYxyN5RsDKj7fMqRSAFn6b",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "158",
+    "nombre": "JUGUERA ELECTRICA ORYX",
+    "precio": 145000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=19S_URTNeEgyw7OgRxVsOCIzuygIaNPPe",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "159",
+    "nombre": "JUGUERA ELÉCTRICA SUONO 500W",
+    "precio": 105000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1WHXcRGkQLomDpli4bOGYGmMGogCtT0Lt",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "971",
+    "nombre": "CAFETERA ELÉCTRICA 1.5L 12 POCILLOS OR-25",
+    "precio": 60000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/file/d/1cQz7rPpJYTGp4JIHN7fzSy3i2mAKhcq6/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "148",
+    "nombre": "CAFETERA ESPRESSO VINTAGE ORYX 1,2L",
+    "precio": 300000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1JkJUcPzpbb1roBdh6nXbkvz-fyhwpWtE",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "224",
+    "nombre": "CAFETERIA ORYX 6 POCILLOS KP-600",
+    "precio": 35000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1ns12MqwJJGQFNfYRpBUiKUdtKOQ4rwmB",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "950",
+    "nombre": "MÁQUINA DE CAFÉ ESPRESSO ORYX",
+    "precio": 256000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/file/d/1p65K9KzIefuuNTxFOnRRYUrFvfVKErp2/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "652",
+    "nombre": "PAVA ELÉCTRICA 2L ORYX OSR 9145",
+    "precio": 27000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=16a7KTZfyLbtOUz1vR3Tm1Uc4GMbG8HXX",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "258",
+    "nombre": "PAVA TERMO KANJI",
+    "precio": 47000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=1dxynHxxVmG0L880-7mTMojxFTKgO5PLl",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "154",
+    "nombre": "FREIDORA DE AIRE 3.2 LITROS ORYX OR-939A-1",
+    "precio": 105000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/uc?id=16C8Aj577lyIKLj8uGJpggEoc9UgAb6Mh",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "938",
+    "nombre": "FREIDORA DE AIRE KANJI 4L",
+    "precio": 105000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/file/d/1whCQxtIn7x81P4YK-U5VwDnrP4uACG6L/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "833",
+    "nombre": "HORNO ELECTRICO ORYX OR-HE100 1000W",
+    "precio": 113000,
+    "categoria": "COCINA",
+    "imagen": "https://drive.google.com/file/d/1QvviYS4Mw5PovMD-bRbfgm0RvC5zs9nR/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "1167",
+    "nombre": "KIT DE COSTURA 85 PCS CON LUPA",
+    "precio": 8900,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/file/d/1Y1yD27i0k9Ap4SlhTf9TLouC-gjVuc4b/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 5,
+    "stock": 0
+  },
+  {
+    "codigo": "1158",
+    "nombre": "KIT DE COSTURA DE 116 PCS",
+    "precio": 8500,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/file/d/1dJ1gCt_ZSkKvcH9P7x9lMig5itZUmgfU/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 5,
+    "stock": 0
+  },
+  {
+    "codigo": "1308",
+    "nombre": "KIT DE COSTURA DE 88 PCS",
+    "precio": 15700,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/file/d/1mhmvP30Vwh0k9Xu6GfesaguRYcS5NrDw/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 5,
+    "stock": 0
   },
   {
     "codigo": "13",
@@ -2040,6 +2986,7 @@
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1LgL_a1ixzFfxBrL96Bes21eQ4iy0TYt1",
     "estado": "CON STOCK",
+    "estadoCodigo": 1,
     "stock": 2
   },
   {
@@ -2049,276 +2996,7 @@
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/file/d/1PxSG1UD6yAmMNaVA5DhPcGoXkf5sfPan/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "107",
-    "nombre": "CORTADORA DE PELO PERRO ORYX CP1030/1024",
-    "precio": 34000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1a5MPlEpoXehlgenId7r6ZncE9Ixt6Dg2",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "954",
-    "nombre": "MOCHILA TRANSPORTADORA PARA MASCOTAS",
-    "precio": 40000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1Xl0eLg0WfA5UfN9Nz6gYLX7J-f7ixGdi/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "47",
-    "nombre": "RAQUETA MATA MOSQUITOS",
-    "precio": 10500,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1_RkXSJ9f0z-bK6kMr4BmmcrMFlO4FTPp",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "817",
-    "nombre": "BOTELLA CUERNO SPACE IFANTIL 500ML",
-    "precio": 8500,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1EG3TEhWiDrO2key0yfMkE6GQFCg_bwXE/view?usp=drivesdk",
-    "estado": "CON STOCK",
-    "stock": 2
-  },
-  {
-    "codigo": "48",
-    "nombre": "TIMBRE CON PILAS 9610DC",
-    "precio": 12000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1FXgqtxq8txGgZC0Gy9k-R6hFH0x8Ar3N",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "42",
-    "nombre": "BOTELLAS DEPORTIVA 1LT",
-    "precio": 11700,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=17GaHr6b-USvTEF26braO5Th_4SyrXXqg",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "43",
-    "nombre": "BOTELLAS DEPORTIVA 800ML",
-    "precio": 12800,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1cf3jPHO9ykpHbjLbD4NrHSMqkSXvBy9I",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "937",
-    "nombre": "CUCHILLO DE ACERO CMA5-A",
-    "precio": 6500,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/17jXHOnuN4MszkxiQxyGSyGIEpbivSofW/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "165",
-    "nombre": "MOLINILLO MANUAL CON RECIPIENTE",
-    "precio": 12700,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1C38SXge57RXWqfBJG5mp_UKUyvIBlSZr",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "458",
-    "nombre": "CUCHILLOS C/CHAIRA HUIHANG X3 S-2196",
-    "precio": 13500,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1U4IQPilTIJJfUI3eLtOnR6qK8jf_MYLS",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "260",
-    "nombre": "PROCESADORA DE VERDURA OSR C/USB P589-01",
-    "precio": 13000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1ZWnD480f4BS95HfKVI0kmpv9gZrmW-PW",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "268",
-    "nombre": "SET X3 DE BOTELLAS DE AGUA BT01/21-26",
-    "precio": 14500,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1QP24NmL6Hixl81C_SP1SNukBmr3sVlV2",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "178",
-    "nombre": "UTENSILIOS DE COCINA X5 SAA125",
-    "precio": 14500,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1xq07KnpeAl7ZuEU-tZ1fRz7m2dSRQe2H",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "278",
-    "nombre": "UTENSILIOS DE COCINA X6 PIEZAS COLORES",
-    "precio": 15000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1npUmRuBmNJXfvqWKNFppCeuP_iE82nzr",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "676",
-    "nombre": "VENTILADOR PORTATIL CON PINZA",
-    "precio": 17500,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1oRLPNCG5xA769cD_ADvImrEpIQ13YpQU",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "222",
-    "nombre": "BALANZA DE BAÑO BLUETOOTH 180KG SEIS",
-    "precio": 25000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1T-n2617EAILcvuHh0pUHEFHdtGnUR7Vu",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "261",
-    "nombre": "RALLADOR MANDOLINA MANUAL ORYX RAMKA3",
-    "precio": 21500,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=14pDip7rrgDaYYhHNvmkBGLXB7kBFrZln",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "157",
-    "nombre": "JARRO ANTIADHERENTE ORYX 14 CM",
-    "precio": 21500,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1xfJaW0G-q-XuOVvaYZuQnpa4-uCYz92B",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "41",
-    "nombre": "BOTELLA SITARUN INSULATED 800ML SUS 304",
-    "precio": 26000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1p4lFGw8KMuTCqAdDvMSm3XkZC0S1OU0w",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "863",
-    "nombre": "UTENSILIOS DE COCINA SILICONA P029",
-    "precio": 24000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1_LH_tySaZG023-vjk0z08nNSi0RgZQLR/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "457",
-    "nombre": "BOTELLA DE ACERO INOXIDABLE 500ML SUONO",
-    "precio": 26500,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1U-EJdYvSZ1EYzHvigNIOAwgbw8bR5BCc",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "1045",
-    "nombre": "SET DE BOTELLAS MOTIVACIONALES X3",
-    "precio": 14000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1Jh0tv60IIOwr6wte0oAqiFO9VMPlVe2u/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "951",
-    "nombre": "MATE 260 ML ACERO INOXIDABLE",
-    "precio": 9000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1uVEDS4aTFeVWr7Y0Gg9ElDLwbqHQ1kcW/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "688",
-    "nombre": "SET DE CUCHILLOS X6 PCS",
-    "precio": 27000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1YyPrilHOP3nyjsf4-kH8xVMGfvNJRQg6",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "176",
-    "nombre": "SET X10 UTENSILIOS PARA COCINA DE SILICONA",
-    "precio": 27000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1vkk5-HdrdYP4CRX9KupPWjX9NWf2gS0I",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "805",
-    "nombre": "UTENSILIOS DE COCINA SILICONA X21",
-    "precio": 28000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/17hdeSlDKxmre7DDQqyRsM47OxqiUpP3f/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "40",
-    "nombre": "BOTELLA DEPORTIVA VACUUM",
-    "precio": 34000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1Y0ncA3t1ANqjNauiZHQOD7msebSIyPJ2",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "224",
-    "nombre": "CAFETERIA ORYX 6 POCILLOS KP-600",
-    "precio": 35000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1ns12MqwJJGQFNfYRpBUiKUdtKOQ4rwmB",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "148",
-    "nombre": "CAFETERA ESPRESSO VINTAGE ORYX 1,2L",
-    "precio": 300000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1JkJUcPzpbb1roBdh6nXbkvz-fyhwpWtE",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "971",
-    "nombre": "CAFETERA ELÉCTRICA 1.5L 12 POCILLOS OR-25",
-    "precio": 60000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1cQz7rPpJYTGp4JIHN7fzSy3i2mAKhcq6/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -2328,537 +3006,7 @@
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1BHl8750ZxmO86oMhRBd-6Ts3z2cm3lne",
     "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "511",
-    "nombre": "TENDER 8 VARILLAS",
-    "precio": 30000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1-LC3hUdxlqaiNWrHIWd9OPtvUrOcX6VE",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "275",
-    "nombre": "TOSTADORA 2 RANURAS ORYX OR-501",
-    "precio": 36000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1AKQbcxdC4cXyN1NmFu6g-XzDbgcltH4a",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "280",
-    "nombre": "VENTILADOR PORTÁTIL FX918",
-    "precio": 32000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1yDyNGkSujP2WHHkJg4GQBnVtp14XDyh7",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "168",
-    "nombre": "ORGANIZADOR DE ALIMENTOS JM-828-4 X4 PCS",
-    "precio": 32500,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1jk7iaZ6Ty10TsfEpAEHykiZP5_kL-Cdr",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "265",
-    "nombre": "SECAPLATOS ORYX OR-744",
-    "precio": 40000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1sbTR26c3WSO6SuiSlNSTuSkRhSDTC8MZ",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "252",
-    "nombre": "ORGANIZADOR DE ALIMENTOS JN-330 X5 PCS",
-    "precio": 34000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=15hJxZv3H9khqnhDaYs5NIi4hGw9BGSHU",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "465",
-    "nombre": "VASO TÉRMICO ACERO INOXIDABLE SUONO 1200ML",
-    "precio": 36000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1Pt5iiOmiO9cO7ObdQRO1VXxx2XfxQAkX",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "491",
-    "nombre": "CANILLA MONOCOMANDO ORYX 265A NEGRO",
-    "precio": 37000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=17FD8BEdO6Y_osEphVC5CYOgH1tdaeBRq",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "163",
-    "nombre": "MINI PIMER ORYX HB-3505",
-    "precio": 38000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1xaq2t-xzHqt4cCShCIBCqA3F8bJ1TxxE",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "510",
-    "nombre": "SÁBANAS ORYX QUEEN SIZE",
-    "precio": 40000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1tSzJxrSnWYDuEmcbCRPUIvHjLZmwV0p2",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "462",
-    "nombre": "SET DE CUBIERTOS JK-4154",
-    "precio": 42500,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1R9HqO9HT_TFeX5rRa4HaJvDEG5gRDsam",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "1044",
-    "nombre": "SET DE 12 CUBIERTOS ASADEROS DE MADERA",
-    "precio": 42500,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1fjT10y33llHLfN9NmC_msRiXB81juzSj/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "588",
-    "nombre": "SELLADORA DE BOLSAS 30CM",
-    "precio": 43000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1sIE1ovkowbIWEinPj_Q2B34u_LdEqpjm",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "279",
-    "nombre": "VENTILADOR PORTÁTIL F13",
-    "precio": 44000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1G2LaVyRandR4GmiWKLnkFiNvpNsslQCa",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "228",
-    "nombre": "DISPENSOR DE AGUA AUTOMATIC WATER DA-01",
-    "precio": 11000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1I1W9rB8T-YxYxyN5RsDKj7fMqRSAFn6b",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "264",
-    "nombre": "SANDWICHERA ORYX OR-1700",
-    "precio": 45000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1nq4YI7bg8D5k8A6t-yaXDj-PzhFoss_0",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "513",
-    "nombre": "TENDER EXTENSIBLE 60 CM",
-    "precio": 45000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=19pdUPic74WUKReEH8mtvSrzkCTdgbgVz",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "652",
-    "nombre": "PAVA ELÉCTRICA 2L ORYX OSR 9145",
-    "precio": 27000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=16a7KTZfyLbtOUz1vR3Tm1Uc4GMbG8HXX",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "258",
-    "nombre": "PAVA TERMO KANJI",
-    "precio": 47000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1dxynHxxVmG0L880-7mTMojxFTKgO5PLl",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "1055",
-    "nombre": "TERMO 1.4 LITROS DE ACERO ORYX",
-    "precio": 30000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1gTT3igwTynaWCyDL-HGCbksXcJJQJDTo/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "846",
-    "nombre": "PLANCHA A VAPOR ORYX 2200W SP-101",
-    "precio": 50000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1DfGBVfnGh-aQgFfA12qeL4rUTmsjGFS0/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "950",
-    "nombre": "MÁQUINA DE CAFÉ ESPRESSO ORYX",
-    "precio": 256000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1p65K9KzIefuuNTxFOnRRYUrFvfVKErp2/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "861",
-    "nombre": "TABLA DE PLANCHAR PLEGABLE",
-    "precio": 54000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1ZafJsvpkw2ABFV3_ATMiLaWGVwGQJojE/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "845",
-    "nombre": "MIXER LICUADORA DE MANO HB-6005",
-    "precio": 78000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1gKtSLAg7vE7Ta-T4Cn2B7FGDScEjUtAt/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "249",
-    "nombre": "MOPA CON BALDE CENTRIFUGADOR 2 EN 1",
-    "precio": 42000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1jC8fWueW2_BAea8516VPbNBdLNBF1FAf",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "953",
-    "nombre": "MIXER MINI PIMER CON VASO 600W ORYX",
-    "precio": 54000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/14_AT7ocUsmQhe2gUsAR5AksEGzyHwCpd/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "266",
-    "nombre": "SELLADORA DE BOLSAS 40CM",
-    "precio": 55000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1DfuSEOgx0D5p4mnTB12oWZ3VGovpOPtc",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "1043",
-    "nombre": "SELLADORA DE BOLSAS AL VACIO RECARGABLE",
-    "precio": 27000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1C8mGhhcjk5yIbsR67pUTjcX9mGNArRMO/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "171",
-    "nombre": "SANDWICHERA 3 EN 1 LEGATUS",
-    "precio": 57800,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1er8AKsFHLQOLEKkeso5MWdTh8pfYZ7Av",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "161",
-    "nombre": "MAQUINA DE HAMBURGUESAS ORYX",
-    "precio": 64000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1lWI63jUbFNzoWAC81CJ4_cfEpUxa23a2",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "244",
-    "nombre": "MAQUINA DE GALLETAS OR-BIM01",
-    "precio": 69000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1PaDPyeh83dDOM9mSLFnExWCp9QRT2OF5",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "256",
-    "nombre": "PANCHUQUERA",
-    "precio": 215000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1iTNLfTTLFIjeMljh-vc1A3K7au6Oi-l6",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "169",
-    "nombre": "POCHOCLERA ORYX OR-0089",
-    "precio": 85000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=15flBPKtS8iL5SVWe2rPGjW7HVtw1QK8D",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "270",
-    "nombre": "SET X5 DE OLLAS ORYX EKT0499B/D/G/W",
-    "precio": 75000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1wt3rNLT5FGlD5TTm11lbT_M0tbH1_WnW",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "160",
-    "nombre": "LICUADORA 1,5L ORYX OR-1004",
-    "precio": 85000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1JJGEpNdDQsXy6shAb1lW7YIJw7nwS38G",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "925",
-    "nombre": "BATIDORA DE MANO 7 SPEEDS SEIS",
-    "precio": 25000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/10ZbXwQqSE4AOyDGjANNGSBsHMCg6yXy_/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "177",
-    "nombre": "TERMO ELECTRICO 1L",
-    "precio": 87000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1CPxf1uof7wwkfMgJO41gDpRm6z_kriCO",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "154",
-    "nombre": "FREIDORA DE AIRE 3.2 LITROS ORYX OR-939A-1",
-    "precio": 105000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=16C8Aj577lyIKLj8uGJpggEoc9UgAb6Mh",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "938",
-    "nombre": "FREIDORA DE AIRE KANJI 4L",
-    "precio": 105000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1whCQxtIn7x81P4YK-U5VwDnrP4uACG6L/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "508",
-    "nombre": "MANTA TERMICA ELECTRICA USB ORYX",
-    "precio": 90000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1DfaBalMpiqW-u8rdwX8sL0Am5oRPzaQ_",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "856",
-    "nombre": "SET VAJILLA DE VIDRIO BLANCA ORYX 18PCS",
-    "precio": 115000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1W3bT1c8o-V2h3KzWKtublIucyj9n0-cf/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "857",
-    "nombre": "SET VAJILLA DE VIDRIO ORYX 18 PCS",
-    "precio": 115000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/18TUM8xexXSfUnIsAFdtFgdS7Ia94Z11N/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "159",
-    "nombre": "JUGUERA ELÉCTRICA SUONO 500W",
-    "precio": 105000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1WHXcRGkQLomDpli4bOGYGmMGogCtT0Lt",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "158",
-    "nombre": "JUGUERA ELECTRICA ORYX",
-    "precio": 150000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=19S_URTNeEgyw7OgRxVsOCIzuygIaNPPe",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "174",
-    "nombre": "SET DE OLLAS 5 PCS ANTIADHERENTES",
-    "precio": 108000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1pR5tr48-xA_Jzig52wLMO7vURZi8Q4oQ",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "271",
-    "nombre": "SET X9 DE OLLAS ORYX OR-118",
-    "precio": 160000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1wScR-iH43tN9hVkKUOHnwqceUOc0gz5a",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "259",
-    "nombre": "PICADORA ELETRICA ORYX VC-10 2L",
-    "precio": 63000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1AUmYNqjG-X9M99WvSlm_v5mUna1nWP3b",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "250",
-    "nombre": "MULTIPROCESADORA + LICUADORA ORYX OR0946",
-    "precio": 145000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1GYqdUtqj1mlS-7PdRo0LwDPgudcQnIJ3",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "245",
-    "nombre": "MICROONDAS ORYX 20L OR-MIC01 1000W",
-    "precio": 250000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1HVzjwH5GvlzuaOGndxi9MPakB9bdAg68",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "83",
-    "nombre": "MAQUINA DE HIELO ORYX",
-    "precio": 235000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1xkMaSjxqMsBUzWaQB9-ZtdM-JisHxrKK",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "833",
-    "nombre": "HORNO ELECTRICO ORYX OR-HE100 1000W",
-    "precio": 113000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1QvviYS4Mw5PovMD-bRbfgm0RvC5zs9nR/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "144",
-    "nombre": "ASPIARADORA DE MANO Y VERTICAL ORYX",
-    "precio": 75000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1oUrSKDZgEYusNN3nzvoQGA5ntde7WNGR",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "115",
-    "nombre": "ORGANIZADOR DE BAÑO",
-    "precio": 47000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=17fCC5RR_rupIcETJKNW9Ld7oajbFpAF7",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "956",
-    "nombre": "ORGANIZADOR DE LAVARROPAS",
-    "precio": 45500,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1dDBGSHNAOY9tV-a19zzTPvw05nnOLCm-/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "1011",
-    "nombre": "ORGANIZADOR DE JOYAS LD-1006",
-    "precio": 9000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1CM_50etX9Qzg2SfMJ4Ywfv8S2FKnDiUM/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "1012",
-    "nombre": "ORGANIZADOR DE ZAPATOS X9 NIVELES",
-    "precio": 36000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1eiN4k470kK7gUwJOJ7zSC8hWy8G0B5FS/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "698",
-    "nombre": "ORGANIZADOR DE ZAPATOS VERTICAL X10 NIVELES",
-    "precio": 45000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/10NDD893K-QEmvoa3bjOegzg1xf-X0qRK/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "1021",
-    "nombre": "PERCHERO ORGANIZADOR DOBLE",
-    "precio": 40000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/133_1a8aHA7X3tOpp_plcBcaTomhe57XM/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "1001",
-    "nombre": "LAVARROPAS AUTOMÁTICO 7,5KG ORYX",
-    "precio": 810000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1TafuuBzqBnINZOA4YAALuan6i04OUDxs/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -2868,42 +3016,257 @@
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1G_fXG_8h9rw2zG-bW3wzXz2hao8dO1Zh",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
-    "codigo": "1040",
-    "nombre": "SECAPLATOS DOBLE CON PUERTA HOG0635",
-    "precio": 107000,
+    "codigo": "511",
+    "nombre": "TENDER 8 VARILLAS",
+    "precio": 30000,
     "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1eQQr1f0Knu6WCUl-2CS8nQ1e4DAYSLdE/view?usp=drivesdk",
+    "imagen": "https://drive.google.com/uc?id=1-LC3hUdxlqaiNWrHIWd9OPtvUrOcX6VE",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
-    "codigo": "1041",
-    "nombre": "SECAPLATOS ESCURRIDOR CON PORTA VASOS ORYX OR-DR01",
-    "precio": 53000,
+    "codigo": "513",
+    "nombre": "TENDER EXTENSIBLE 60 CM",
+    "precio": 45000,
     "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1B8RulAyVeBWkmjsGz-DMEaMFCAjydwII/view?usp=drivesdk",
+    "imagen": "https://drive.google.com/uc?id=19pdUPic74WUKReEH8mtvSrzkCTdgbgVz",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
-    "codigo": "1042",
-    "nombre": "SECAPLATOS ESCURRIDOR DOBLE",
-    "precio": 76000,
+    "codigo": "846",
+    "nombre": "PLANCHA A VAPOR ORYX 2200W SP-101",
+    "precio": 50000,
     "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1EWtkAWHrhrIjSV_nknX9KHj-4e0SBe4N/view?usp=drivesdk",
+    "imagen": "https://drive.google.com/file/d/1DfGBVfnGh-aQgFfA12qeL4rUTmsjGFS0/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
-    "codigo": "1026",
-    "nombre": "PROLONGADOR ORYX 5 SALIDAS",
-    "precio": 28000,
+    "codigo": "861",
+    "nombre": "TABLA DE PLANCHAR PLEGABLE",
+    "precio": 54000,
     "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1OoIhTnbMd0UkyxiAa2013F4M7thvdJlR/view?usp=drivesdk",
+    "imagen": "https://drive.google.com/file/d/1ZafJsvpkw2ABFV3_ATMiLaWGVwGQJojE/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "956",
+    "nombre": "ORGANIZADOR DE LAVARROPAS",
+    "precio": 42000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/file/d/1dDBGSHNAOY9tV-a19zzTPvw05nnOLCm-/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "1012",
+    "nombre": "ORGANIZADOR DE ZAPATOS X9 NIVELES",
+    "precio": 36000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/file/d/1eiN4k470kK7gUwJOJ7zSC8hWy8G0B5FS/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "698",
+    "nombre": "ORGANIZADOR DE ZAPATOS VERTICAL X10 NIVELES",
+    "precio": 45000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/file/d/10NDD893K-QEmvoa3bjOegzg1xf-X0qRK/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "1021",
+    "nombre": "PERCHERO ORGANIZADOR DOBLE",
+    "precio": 40000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/file/d/133_1a8aHA7X3tOpp_plcBcaTomhe57XM/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "115",
+    "nombre": "ORGANIZADOR DE BAÑO",
+    "precio": 47000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=17fCC5RR_rupIcETJKNW9Ld7oajbFpAF7",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "1011",
+    "nombre": "ORGANIZADOR DE JOYAS LD-1006",
+    "precio": 9000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/file/d/1CM_50etX9Qzg2SfMJ4Ywfv8S2FKnDiUM/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "676",
+    "nombre": "VENTILADOR PORTATIL CON PINZA",
+    "precio": 17500,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1oRLPNCG5xA769cD_ADvImrEpIQ13YpQU",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "280",
+    "nombre": "VENTILADOR PORTÁTIL FX918",
+    "precio": 32000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1yDyNGkSujP2WHHkJg4GQBnVtp14XDyh7",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "279",
+    "nombre": "VENTILADOR PORTÁTIL F13",
+    "precio": 44000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1G2LaVyRandR4GmiWKLnkFiNvpNsslQCa",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "508",
+    "nombre": "MANTA TERMICA ELECTRICA USB ORYX",
+    "precio": 90000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1DfaBalMpiqW-u8rdwX8sL0Am5oRPzaQ_",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "1504",
+    "nombre": "FRAZADA PIEL DOBLE",
+    "precio": 36000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/file/d/1uikUU2LWF_BggXQJGk2r_uvBEuwxjr-g/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 5,
+    "stock": 0
+  },
+  {
+    "codigo": "249",
+    "nombre": "MOPA CON BALDE CENTRIFUGADOR 2 EN 1",
+    "precio": 42000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1jC8fWueW2_BAea8516VPbNBdLNBF1FAf",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "144",
+    "nombre": "ASPIARADORA DE MANO Y VERTICAL ORYX",
+    "precio": 75000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1oUrSKDZgEYusNN3nzvoQGA5ntde7WNGR",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "580",
+    "nombre": "CONTROL DE AIRE",
+    "precio": 4600,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1O60uoCU-2hxi3oYWZ1PtSVhH0dEzRRZq",
+    "estado": "CON STOCK",
+    "estadoCodigo": 1,
+    "stock": 1
+  },
+  {
+    "codigo": "50",
+    "nombre": "RELOJ DESPERTADOR DIGITAL CUBO LED",
+    "precio": 6800,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1juQxX54sETQRWT_blCktmk1KT_HCOTpT",
+    "estado": "ULTIMOS DISPONIBLES",
+    "estadoCodigo": 2,
+    "stock": 1
+  },
+  {
+    "codigo": "222",
+    "nombre": "BALANZA DE BAÑO BLUETOOTH 180KG SEIS",
+    "precio": 25000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1T-n2617EAILcvuHh0pUHEFHdtGnUR7Vu",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "48",
+    "nombre": "TIMBRE CON PILAS 9610DC",
+    "precio": 12000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1FXgqtxq8txGgZC0Gy9k-R6hFH0x8Ar3N",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "45",
+    "nombre": "PILAS ORYX AA X4",
+    "precio": 1500,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1cKySAao_6rEnc_E6ymw3HjFpjteuH3tp",
+    "estado": "CON STOCK",
+    "estadoCodigo": 1,
+    "stock": 4
+  },
+  {
+    "codigo": "49",
+    "nombre": "PILAS REDONDAS CR2032 X 5",
+    "precio": 1800,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1zCGOIOB0lfoXimp8PnEybOl8eR642qw7",
+    "estado": "ULTIMOS DISPONIBLES",
+    "estadoCodigo": 2,
+    "stock": 1
+  },
+  {
+    "codigo": "46",
+    "nombre": "PILAS ORYX AAA X4",
+    "precio": 1500,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=109ZMKeLFnia5oc4LMfXPldRNIluu864w",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "1441",
+    "nombre": "BANQUITO PLEGABLE",
+    "precio": 27000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/file/d/1qlQ-s0vqepRhAoIfCkP-kJeuxYUGbs3p/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 5,
     "stock": 0
   },
   {
@@ -2913,24 +3276,237 @@
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/file/d/1CGEg82y0LmWKIrnhh1gMtOxGndDFdxgd/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
-    "codigo": "503",
-    "nombre": "PULVERIZADOR A PRESIÓN 5L ORYX",
-    "precio": 38000,
-    "categoria": "HERRAMIENTAS",
-    "imagen": "https://drive.google.com/uc?id=1xNthhXamVl4beZQnJUgJWjjSoI9igpl7",
+    "codigo": "1026",
+    "nombre": "PROLONGADOR ORYX 5 SALIDAS",
+    "precio": 28000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/file/d/1OoIhTnbMd0UkyxiAa2013F4M7thvdJlR/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
-    "codigo": "692",
-    "nombre": "PISTOLA PARA PINTAR TL0501/0502",
-    "precio": 62000,
-    "categoria": "HERRAMIENTAS",
-    "imagen": "https://drive.google.com/uc?id=14qBdiwko9Z6DiH4n-K4u1HlhAXLcEtTc",
+    "codigo": "817",
+    "nombre": "BOTELLA CUERNO SPACE IFANTIL 500ML",
+    "precio": 8500,
+    "categoria": "BOTELLAS Y TERMOS",
+    "imagen": "https://drive.google.com/file/d/1EG3TEhWiDrO2key0yfMkE6GQFCg_bwXE/view?usp=drivesdk",
+    "estado": "CON STOCK",
+    "estadoCodigo": 1,
+    "stock": 2
+  },
+  {
+    "codigo": "1130",
+    "nombre": "BOTELLA INFANTIL ESPACIAL CON SORBETE",
+    "precio": 7400,
+    "categoria": "BOTELLAS Y TERMOS",
+    "imagen": "https://drive.google.com/file/d/1ZtGVA6OeW5BmoxIY0D4MDRCZjeTygQ0t/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 5,
+    "stock": 0
+  },
+  {
+    "codigo": "43",
+    "nombre": "BOTELLAS DEPORTIVA 800ML",
+    "precio": 12800,
+    "categoria": "BOTELLAS Y TERMOS",
+    "imagen": "https://drive.google.com/uc?id=1cf3jPHO9ykpHbjLbD4NrHSMqkSXvBy9I",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "42",
+    "nombre": "BOTELLAS DEPORTIVA 1LT",
+    "precio": 11700,
+    "categoria": "BOTELLAS Y TERMOS",
+    "imagen": "https://drive.google.com/uc?id=17GaHr6b-USvTEF26braO5Th_4SyrXXqg",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "1045",
+    "nombre": "SET DE BOTELLAS MOTIVACIONALES X3",
+    "precio": 14000,
+    "categoria": "BOTELLAS Y TERMOS",
+    "imagen": "https://drive.google.com/file/d/1Jh0tv60IIOwr6wte0oAqiFO9VMPlVe2u/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "268",
+    "nombre": "SET X3 DE BOTELLAS DE AGUA BT01/21-26",
+    "precio": 14500,
+    "categoria": "BOTELLAS Y TERMOS",
+    "imagen": "https://drive.google.com/uc?id=1QP24NmL6Hixl81C_SP1SNukBmr3sVlV2",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "457",
+    "nombre": "BOTELLA DE ACERO INOXIDABLE 500ML SUONO",
+    "precio": 26500,
+    "categoria": "BOTELLAS Y TERMOS",
+    "imagen": "https://drive.google.com/uc?id=1U-EJdYvSZ1EYzHvigNIOAwgbw8bR5BCc",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "41",
+    "nombre": "BOTELLA SITARUN INSULATED 800ML SUS 304",
+    "precio": 26000,
+    "categoria": "BOTELLAS Y TERMOS",
+    "imagen": "https://drive.google.com/uc?id=1p4lFGw8KMuTCqAdDvMSm3XkZC0S1OU0w",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "465",
+    "nombre": "VASO TÉRMICO ACERO INOXIDABLE SUONO 1200ML",
+    "precio": 27000,
+    "categoria": "BOTELLAS Y TERMOS",
+    "imagen": "https://drive.google.com/uc?id=1Pt5iiOmiO9cO7ObdQRO1VXxx2XfxQAkX",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "40",
+    "nombre": "BOTELLA DEPORTIVA VACUUM",
+    "precio": 34000,
+    "categoria": "BOTELLAS Y TERMOS",
+    "imagen": "https://drive.google.com/uc?id=1Y0ncA3t1ANqjNauiZHQOD7msebSIyPJ2",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "951",
+    "nombre": "MATE 260 ML ACERO INOXIDABLE",
+    "precio": 9000,
+    "categoria": "BOTELLAS Y TERMOS",
+    "imagen": "https://drive.google.com/file/d/1uVEDS4aTFeVWr7Y0Gg9ElDLwbqHQ1kcW/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "1055",
+    "nombre": "TERMO 1.4 LITROS DE ACERO ORYX",
+    "precio": 30000,
+    "categoria": "BOTELLAS Y TERMOS",
+    "imagen": "https://drive.google.com/file/d/1gTT3igwTynaWCyDL-HGCbksXcJJQJDTo/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "177",
+    "nombre": "TERMO ELECTRICO 1L",
+    "precio": 87000,
+    "categoria": "BOTELLAS Y TERMOS",
+    "imagen": "https://drive.google.com/uc?id=1CPxf1uof7wwkfMgJO41gDpRm6z_kriCO",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "1379",
+    "nombre": "TERMO MEDIA MANIJA",
+    "precio": 20900,
+    "categoria": "BOTELLAS Y TERMOS",
+    "imagen": "https://drive.google.com/file/d/1yjosNFkM7ORim6_3vDRV-dKOk1iR_z-2/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 5,
+    "stock": 0
+  },
+  {
+    "codigo": "1202",
+    "nombre": "CORREA RETRACTIL PARA PERROS 3M",
+    "precio": 10500,
+    "categoria": "MASCOTAS",
+    "imagen": "https://drive.google.com/file/d/1nwwcTyue9ciDNaKUbRjLLy0OaqwWhQ0e/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 5,
+    "stock": 0
+  },
+  {
+    "codigo": "107",
+    "nombre": "CORTADORA DE PELO PERRO ORYX CP1030/1024",
+    "precio": 34000,
+    "categoria": "MASCOTAS",
+    "imagen": "https://drive.google.com/uc?id=1a5MPlEpoXehlgenId7r6ZncE9Ixt6Dg2",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "954",
+    "nombre": "MOCHILA TRANSPORTADORA PARA MASCOTAS",
+    "precio": 40000,
+    "categoria": "MASCOTAS",
+    "imagen": "https://drive.google.com/file/d/1Xl0eLg0WfA5UfN9Nz6gYLX7J-f7ixGdi/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "47",
+    "nombre": "RAQUETA MATA MOSQUITOS",
+    "precio": 10500,
+    "categoria": "MASCOTAS",
+    "imagen": "https://drive.google.com/uc?id=1_RkXSJ9f0z-bK6kMr4BmmcrMFlO4FTPp",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "1077",
+    "nombre": "CEPILLO PARA MASCOTAS CON SPRAY",
+    "precio": 3800,
+    "categoria": "MASCOTAS",
+    "imagen": "https://drive.google.com/file/d/1eXn0sKeZ0QvXiDzKvAEIBjiAIBdjYXCz/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 5,
+    "stock": 0
+  },
+  {
+    "codigo": "588",
+    "nombre": "SELLADORA DE BOLSAS 30CM",
+    "precio": 43000,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1sIE1ovkowbIWEinPj_Q2B34u_LdEqpjm",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "266",
+    "nombre": "SELLADORA DE BOLSAS 40CM",
+    "precio": 55000,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1DfuSEOgx0D5p4mnTB12oWZ3VGovpOPtc",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "1043",
+    "nombre": "SELLADORA DE BOLSAS AL VACIO RECARGABLE",
+    "precio": 27000,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/file/d/1C8mGhhcjk5yIbsR67pUTjcX9mGNArRMO/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -2940,6 +3516,7 @@
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1RRhyvfhNBVcRWm1tz7lMceniRtEZZWW3",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -2949,15 +3526,7 @@
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1hdXrWTOP6JhDdOuGHN_n7zozjblhTCWW",
     "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "219",
-    "nombre": "SOPLADOR PORTÁTIL SUONO",
-    "precio": 60000,
-    "categoria": "HERRAMIENTAS",
-    "imagen": "https://drive.google.com/uc?id=1t9hzRL2Uh3l91kpkSiU1PcF406wueHw0",
-    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -2967,15 +3536,7 @@
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/file/d/1PHFfE58KyOQXS9-d5OPbN2EZWM9r6ndy/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "220",
-    "nombre": "TALADRO DE IMPACTO ORYX OR0750 750W",
-    "precio": 81000,
-    "categoria": "HERRAMIENTAS",
-    "imagen": "https://drive.google.com/uc?id=1k2yFiYyY0c1xJ89lc11Gg2DZd19D4C4m",
-    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -2985,6 +3546,7 @@
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/file/d/1lVo1pZtRbOSXxiPuL4YtJU1UUwojJxy2/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
@@ -2994,114 +3556,17 @@
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1D3BBNonhN_YIrLslr8er1jPdq_cUBIZ_",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   },
   {
-    "codigo": "217",
-    "nombre": "SIERRA CIRCULAR ELECTRICA ORYX OR-1409",
-    "precio": 125500,
+    "codigo": "1245",
+    "nombre": "CAJA TUBO DE 46 PCS ROJA",
+    "precio": 12700,
     "categoria": "HERRAMIENTAS",
-    "imagen": "https://drive.google.com/uc?id=1aK-nQg5ESe7Tm0xkyVy04MFvFbRDi_IS",
+    "imagen": "https://drive.google.com/file/d/1H0RNB0F9gsYuCCsLycVy-gvA0OSND4XY/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "216",
-    "nombre": "SIERRA CIRCULAR 1500W CSL1500-8",
-    "precio": 150000,
-    "categoria": "HERRAMIENTAS",
-    "imagen": "https://drive.google.com/uc?id=17wJvsHZngDNKTObREEwMMKzK5F2L3SeV",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "196",
-    "nombre": "HIDROLAVADORA 1200W ORYX",
-    "precio": 165000,
-    "categoria": "HERRAMIENTAS",
-    "imagen": "https://drive.google.com/uc?id=1XDjg2X4Ai-rpXE5uUHEQZVGCVJbcI5IM",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "832",
-    "nombre": "HIDROLAVADORA ORYX OR-HL03",
-    "precio": 215000,
-    "categoria": "HERRAMIENTAS",
-    "imagen": "https://drive.google.com/file/d/1UwWS1vyaMwVqjYdqCtlnBp_3tAC2ftCW/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "193",
-    "nombre": "CAJA DE HERRAMIENTAS 85 PCS ORYX",
-    "precio": 230000,
-    "categoria": "HERRAMIENTAS",
-    "imagen": "https://drive.google.com/uc?id=10UXDYpQyiXUN6Y1jSVBMAO2Gzp-jfz9j",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "504",
-    "nombre": "SOLDADORA INVERTER ORYX OR-300WD",
-    "precio": 230000,
-    "categoria": "HERRAMIENTAS",
-    "imagen": "https://drive.google.com/uc?id=17x8-tlqdNsXlNFB07cq7nzB5_loITFGD",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "955",
-    "nombre": "MOTOSIERRA A EXPLOSION OR-621AB",
-    "precio": 190000,
-    "categoria": "HERRAMIENTAS",
-    "imagen": "https://drive.google.com/file/d/13SXhEDDAxhf3ay0YWoO25QnBVBqN7sYI/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "190",
-    "nombre": "AMOLADORA ANGULAR ORYX OR-AG115 780W",
-    "precio": 87000,
-    "categoria": "HERRAMIENTAS",
-    "imagen": "https://drive.google.com/uc?id=1n-4dj0Xraa4KToU8BVWJ5p-jprHbImBl",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "502",
-    "nombre": "PISTOLA DE CALOR ORYX EL 676 2000W",
-    "precio": 60000,
-    "categoria": "HERRAMIENTAS",
-    "imagen": "https://drive.google.com/uc?id=1pG0YtnGqnLFMrOG1PaUc9FWvelOG0iCW",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "197",
-    "nombre": "HIDROLAVADORA INALÁMBRICA ORYX EL677",
-    "precio": 100000,
-    "categoria": "HERRAMIENTAS",
-    "imagen": "https://drive.google.com/uc?id=1Hw8MeJhbDtU8DTtBF-e3yBgP2aTAdpGK",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "1050",
-    "nombre": "SOLDADOR INVERTER ORYX OR-200WD",
-    "precio": 275000,
-    "categoria": "HERRAMIENTAS",
-    "imagen": "https://drive.google.com/file/d/1R5FaAM7kbwY5KkJRw7dYzUaaoKikVsbB/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "stock": 0
-  },
-  {
-    "codigo": "961",
-    "nombre": "ARRANCADOR DE AUTO PORTÁTIL ORYX",
-    "precio": 105000,
-    "categoria": "HERRAMIENTAS",
-    "imagen": "https://drive.google.com/file/d/1yQI68_EnnfJIiOHojJbCyUMHe6Hk7bRj/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 5,
     "stock": 0
   },
   {
@@ -3111,6 +3576,207 @@
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/file/d/1T1IjKOO-E1pjSNVY-etzRoWWsoM_0_X8/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "193",
+    "nombre": "CAJA DE HERRAMIENTAS 85 PCS ORYX",
+    "precio": 230000,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=10UXDYpQyiXUN6Y1jSVBMAO2Gzp-jfz9j",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "503",
+    "nombre": "PULVERIZADOR A PRESIÓN 5L ORYX",
+    "precio": 38000,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1xNthhXamVl4beZQnJUgJWjjSoI9igpl7",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "692",
+    "nombre": "PISTOLA PARA PINTAR TL0501/0502",
+    "precio": 62000,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=14qBdiwko9Z6DiH4n-K4u1HlhAXLcEtTc",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "190",
+    "nombre": "AMOLADORA ANGULAR ORYX OR-AG115 780W",
+    "precio": 87000,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1n-4dj0Xraa4KToU8BVWJ5p-jprHbImBl",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "502",
+    "nombre": "PISTOLA DE CALOR ORYX EL 676 2000W",
+    "precio": 60000,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1pG0YtnGqnLFMrOG1PaUc9FWvelOG0iCW",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "220",
+    "nombre": "TALADRO DE IMPACTO ORYX OR0750 750W",
+    "precio": 81000,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1k2yFiYyY0c1xJ89lc11Gg2DZd19D4C4m",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "219",
+    "nombre": "SOPLADOR PORTÁTIL SUONO",
+    "precio": 60000,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1t9hzRL2Uh3l91kpkSiU1PcF406wueHw0",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "961",
+    "nombre": "ARRANCADOR DE AUTO PORTÁTIL ORYX",
+    "precio": 105000,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/file/d/1yQI68_EnnfJIiOHojJbCyUMHe6Hk7bRj/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "1549",
+    "nombre": "COMPRESOR DE AIRE PORTATIL 12V",
+    "precio": 44100,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/file/d/1kgtJeKigc4-LlANJcLBF2WRCvivKVXjr/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 5,
+    "stock": 0
+  },
+  {
+    "codigo": "1561",
+    "nombre": "COMPRESOR DE AIRE DIGITAL 4 EN 1",
+    "precio": 47900,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/file/d/1UYQLMqqKTXPyPaZShZpcg-5YFg6DwqTG/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 5,
+    "stock": 0
+  },
+  {
+    "codigo": "1567",
+    "nombre": "COMPRESOR DE AIRE PORTATIL HIMK",
+    "precio": 50000,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/file/d/1zZDTvGiuoVkX9I5lq3GJ-MFTjAcDbjOX/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 5,
+    "stock": 0
+  },
+  {
+    "codigo": "198",
+    "nombre": "INFLADOR MULTIUSO BOQUILLA INTERCAMBIABLE",
+    "precio": 7800,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1qWJO3cx7o5P67owApjqhsRutHUow4mzX",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "197",
+    "nombre": "HIDROLAVADORA INALÁMBRICA ORYX EL677",
+    "precio": 100000,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1Hw8MeJhbDtU8DTtBF-e3yBgP2aTAdpGK",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "196",
+    "nombre": "HIDROLAVADORA 1200W ORYX",
+    "precio": 165000,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1XDjg2X4Ai-rpXE5uUHEQZVGCVJbcI5IM",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "832",
+    "nombre": "HIDROLAVADORA ORYX OR-HL03",
+    "precio": 215000,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/file/d/1UwWS1vyaMwVqjYdqCtlnBp_3tAC2ftCW/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "955",
+    "nombre": "MOTOSIERRA A EXPLOSION OR-621AB",
+    "precio": 190000,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/file/d/13SXhEDDAxhf3ay0YWoO25QnBVBqN7sYI/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "216",
+    "nombre": "SIERRA CIRCULAR 1500W CSL1500-8",
+    "precio": 150000,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=17wJvsHZngDNKTObREEwMMKzK5F2L3SeV",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "217",
+    "nombre": "SIERRA CIRCULAR ELECTRICA ORYX OR-1409",
+    "precio": 125500,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1aK-nQg5ESe7Tm0xkyVy04MFvFbRDi_IS",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "1050",
+    "nombre": "SOLDADOR INVERTER ORYX OR-200WD",
+    "precio": 275000,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/file/d/1R5FaAM7kbwY5KkJRw7dYzUaaoKikVsbB/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "504",
+    "nombre": "SOLDADORA INVERTER ORYX OR-300WD",
+    "precio": 230000,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=17x8-tlqdNsXlNFB07cq7nzB5_loITFGD",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
     "stock": 0
   }
 ]
