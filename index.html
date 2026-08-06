@@ -272,13 +272,22 @@
     
     <div style="display: flex; flex-direction: column; gap: 12px; margin: 20px 0;">
       <label style="color: #0070c0; font-weight: bold; cursor:pointer; display: flex; align-items: center; gap: 10px;">
-        <input type="checkbox" id="p-stock" checked> CON STOCK
+        <input type="checkbox" id="p-1" checked> CON STOCK (1)
+      </label>
+      <label style="color: #0070c0; font-weight: bold; cursor:pointer; display: flex; align-items: center; gap: 10px;">
+        <input type="checkbox" id="p-6" checked> CON STOCK (6)
       </label>
       <label style="color: #e74c3c; font-weight: bold; cursor:pointer; display: flex; align-items: center; gap: 10px;">
-        <input type="checkbox" id="p-ultimos" checked> ULTIMOS DISPONIBLES
+        <input type="checkbox" id="p-2" checked> ULTIMOS DISPONIBLES (2)
+      </label>
+      <label style="color: #e74c3c; font-weight: bold; cursor:pointer; display: flex; align-items: center; gap: 10px;">
+        <input type="checkbox" id="p-7" checked> ULTIMOS DISPONIBLES (7)
       </label>
       <label style="color: #e67e22; font-weight: bold; cursor:pointer; display: flex; align-items: center; gap: 10px;">
-        <input type="checkbox" id="p-pedido" checked> A PEDIDO
+        <input type="checkbox" id="p-3" checked> A PEDIDO (3)
+      </label>
+      <label style="color: #e67e22; font-weight: bold; cursor:pointer; display: flex; align-items: center; gap: 10px;">
+        <input type="checkbox" id="p-5" checked> A PEDIDO (5)
       </label>
     </div>
 
@@ -831,22 +840,18 @@ window.addEventListener('keydown', (e) => {
   // Cerramos el menú
   document.getElementById('modal-print-options').style.display = 'none';
 
-  // Leemos qué estados quieres imprimir
-  const verStock = document.getElementById('p-stock').checked;
-  const verUltimos = document.getElementById('p-ultimos').checked;
-  const verPedido = document.getElementById('p-pedido').checked;
+  // Leemos qué estados quieres imprimir. Los 6 checkboxes filtran por estadoCodigo (el número
+  // real 1/2/3/5/6/7), no por el texto: 1 y 6 se ven igual como "CON STOCK" en el catálogo,
+  // pero acá hace falta poder elegirlos por separado.
+  const codigosSeleccionados = new Set(
+    [1, 2, 3, 5, 6, 7].filter(n => document.getElementById('p-' + n).checked)
+  );
 
   // Guardamos la lista actual para no romper lo que el usuario ve en la web
   const listaOriginalFiltrados = [...filtrados];
 
   // Filtramos temporalmente la lista solo para el PDF
-  filtrados = filtrados.filter(p => {
-    const est = p.estado.toUpperCase();
-    if (est.includes("CON STOCK") && !verStock) return false;
-    if (est.includes("ULTIMOS") && !verUltimos) return false;
-    if (est.includes("A PEDIDO") && !verPedido) return false;
-    return true;
-  });
+  filtrados = filtrados.filter(p => codigosSeleccionados.has(p.estadoCodigo));
 
   // Si no quedó nada para imprimir, avisamos
   if (filtrados.length === 0) {
