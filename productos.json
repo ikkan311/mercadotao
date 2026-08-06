@@ -40,16 +40,6 @@
     "stock": 2
   },
   {
-    "codigo": "24",
-    "nombre": "CARGADOR P/ AUTO RC 4801 IPHONE",
-    "precio": 4800,
-    "categoria": "CARGADORES",
-    "imagen": "https://drive.google.com/uc?id=1nDTkVUh6glU2oEjEITgtpKbNkVcJ7DEO",
-    "estado": "CON STOCK",
-    "estadoCodigo": 1,
-    "stock": 1
-  },
-  {
     "codigo": "34",
     "nombre": "CARGADOR ROYALCELL 55W USB Y TIPO C",
     "precio": 11700,
@@ -58,6 +48,16 @@
     "estado": "CON STOCK",
     "estadoCodigo": 1,
     "stock": 2
+  },
+  {
+    "codigo": "24",
+    "nombre": "CARGADOR P/ AUTO RC 4801 IPHONE",
+    "precio": 4800,
+    "categoria": "CARGADORES",
+    "imagen": "https://drive.google.com/uc?id=1nDTkVUh6glU2oEjEITgtpKbNkVcJ7DEO",
+    "estado": "CON STOCK",
+    "estadoCodigo": 1,
+    "stock": 1
   },
   {
     "codigo": "23",
@@ -272,7 +272,7 @@
   {
     "codigo": "807",
     "nombre": "AURICULAR RC RE10012",
-    "precio": 2000,
+    "precio": 2200,
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/file/d/1CsevWH526JHOIcns9-366MkxOwJhEETy/view?usp=drivesdk",
     "estado": "CON STOCK",
@@ -282,7 +282,7 @@
   {
     "codigo": "10",
     "nombre": "AURICULARES RC HD-MIC RE-1005",
-    "precio": 2000,
+    "precio": 2200,
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=1sdwkafDLQKs80CE_NHhgldAeVx7FFkyN",
     "estado": "A PEDIDO (de 7 a 10 días)",
@@ -802,7 +802,7 @@
   {
     "codigo": "56",
     "nombre": "LAMPARA DE ESCRITORIO TÁCTIL",
-    "precio": 17000,
+    "precio": 16000,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1vDmNJHbXo84p3ET3Wr8APt7EFtVGLk-3",
     "estado": "ULTIMOS DISPONIBLES",
@@ -862,7 +862,7 @@
   {
     "codigo": "61",
     "nombre": "PROYECTOR DE ESTRELLAS STAR MASTER",
-    "precio": 12000,
+    "precio": 11500,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1Jxsx7DsRxNOkZqxcYcqfa7upU2mUNJar",
     "estado": "CON STOCK",
@@ -902,7 +902,7 @@
   {
     "codigo": "591",
     "nombre": "CARTEL LED CAFE",
-    "precio": 24000,
+    "precio": 23000,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1dn7EUJtMgbYDaKk0RZw-kWoL7b_-mF7R",
     "estado": "A PEDIDO (de 7 a 10 días)",
@@ -912,7 +912,7 @@
   {
     "codigo": "87",
     "nombre": "PROYECTOR ASTRONAUTA S-1239",
-    "precio": 32000,
+    "precio": 20000,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1aRbmDRX4QgT15MzxB9mcb2z8ocvaSeso",
     "estado": "A PEDIDO (de 7 a 10 días)",
@@ -1032,7 +1032,7 @@
   {
     "codigo": "916",
     "nombre": "TIRA NEÓN LED RBG CON CONTROL",
-    "precio": 34000,
+    "precio": 33500,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/file/d/14G92pAtnwZgUjyJPVfrF7D8DEyjcGoSa/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
@@ -1112,7 +1112,7 @@
   {
     "codigo": "812",
     "nombre": "BANDERA DE ARGENTINA 90X60 cm",
-    "precio": 3300,
+    "precio": 3200,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/file/d/18cSxFvjvV9e_M55Asior65UjvvpMnr7E/view?usp=drivesdk",
     "estado": "ULTIMOS DISPONIBLES",
@@ -1132,7 +1132,7 @@
   {
     "codigo": "859",
     "nombre": "SOMBRERO CON PELOTA DE NIÑO",
-    "precio": 8500,
+    "precio": 8300,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/file/d/1RFNz0IeMKKbSS_Y9gok3MrBpxt3Lj6KB/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
@@ -1142,7 +1142,7 @@
   {
     "codigo": "330",
     "nombre": "PELOTA DE FUTBOL NUMERO 5 SPIDERMAN",
-    "precio": 9300,
+    "precio": 9000,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1AfRvknY8jNy36WCd83oStGTNjokaYiC2",
     "estado": "CON STOCK",
@@ -1152,7 +1152,7 @@
   {
     "codigo": "67",
     "nombre": "PELOTA INFLABLE 50CM CHOCOLATE",
-    "precio": 3400,
+    "precio": 3300,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=16OTTTFdwWgSyomRKAt3m1NMjnwVor-6a",
     "estado": "ULTIMOS DISPONIBLES",
@@ -1172,7 +1172,7 @@
   {
     "codigo": "667",
     "nombre": "Squishy puffer ball caja x 12u",
-    "precio": 3200,
+    "precio": 3100,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1om8IRaRI_Fp_xq47QrZWmOhXyWNUNGHg",
     "estado": "A PEDIDO (de 7 a 10 días)",
@@ -1242,7 +1242,7 @@
   {
     "codigo": "1219",
     "nombre": "PIZARRA CON LED- JY 1863",
-    "precio": 11500,
+    "precio": 12000,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/file/d/1CgisO-IpFn6Aqx8dAKw3RtvXIIyuhnmk/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
@@ -1292,7 +1292,7 @@
   {
     "codigo": "335",
     "nombre": "RELOJ PROYECTOR LABUBU/CAPIBARA",
-    "precio": 10300,
+    "precio": 10200,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1-8M9qQFZsO3ME94rqqp0hM0Ky0TAhRFk",
     "estado": "A PEDIDO (de 7 a 10 días)",
@@ -1542,7 +1542,7 @@
   {
     "codigo": "617",
     "nombre": "KIT DE ARTE 68 PIEZAS ERAZER",
-    "precio": 11500,
+    "precio": 11300,
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1KP_hScjWMoe0uWSNO8NcH_L5dUMcg6hh",
     "estado": "A PEDIDO (de 7 a 10 días)",
@@ -1892,7 +1892,7 @@
   {
     "codigo": "109",
     "nombre": "ESPEJO DE MAQUILLAJE CON LUZ LED SUONO",
-    "precio": 33000,
+    "precio": 31000,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1pjTk1gRzOrY5Bp0MenjByDpbQ787UfOe",
     "estado": "A PEDIDO (de 7 a 10 días)",
@@ -2542,7 +2542,7 @@
   {
     "codigo": "1338",
     "nombre": "SET DE TUPPER CUADRADO CON JARRA",
-    "precio": 17100,
+    "precio": 17200,
     "categoria": "COCINA",
     "imagen": "https://drive.google.com/file/d/1v-rJy7E3gARUK7H5EvtrcO4gqiNZ8AD1/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
@@ -2552,7 +2552,7 @@
   {
     "codigo": "1064",
     "nombre": "AFILADOR DE CUCHILLO DE CAJA",
-    "precio": 2900,
+    "precio": 3000,
     "categoria": "COCINA",
     "imagen": "https://drive.google.com/file/d/1ZrxJBrcpN1qIj3VsDAikFPF802cbIXWt/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
@@ -3302,7 +3302,7 @@
   {
     "codigo": "1130",
     "nombre": "BOTELLA INFANTIL ESPACIAL CON SORBETE",
-    "precio": 7400,
+    "precio": 9500,
     "categoria": "BOTELLAS Y TERMOS",
     "imagen": "https://drive.google.com/file/d/1ZtGVA6OeW5BmoxIY0D4MDRCZjeTygQ0t/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
@@ -3422,7 +3422,7 @@
   {
     "codigo": "1379",
     "nombre": "TERMO MEDIA MANIJA",
-    "precio": 20900,
+    "precio": 21000,
     "categoria": "BOTELLAS Y TERMOS",
     "imagen": "https://drive.google.com/file/d/1yjosNFkM7ORim6_3vDRV-dKOk1iR_z-2/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
@@ -3472,7 +3472,7 @@
   {
     "codigo": "1077",
     "nombre": "CEPILLO PARA MASCOTAS CON SPRAY",
-    "precio": 3800,
+    "precio": 4000,
     "categoria": "MASCOTAS",
     "imagen": "https://drive.google.com/file/d/1eXn0sKeZ0QvXiDzKvAEIBjiAIBdjYXCz/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
@@ -3562,7 +3562,7 @@
   {
     "codigo": "1245",
     "nombre": "CAJA TUBO DE 46 PCS ROJA",
-    "precio": 12700,
+    "precio": 13000,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/file/d/1H0RNB0F9gsYuCCsLycVy-gvA0OSND4XY/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
@@ -3662,7 +3662,7 @@
   {
     "codigo": "1549",
     "nombre": "COMPRESOR DE AIRE PORTATIL 12V",
-    "precio": 44100,
+    "precio": 45000,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/file/d/1kgtJeKigc4-LlANJcLBF2WRCvivKVXjr/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
@@ -3672,7 +3672,7 @@
   {
     "codigo": "1561",
     "nombre": "COMPRESOR DE AIRE DIGITAL 4 EN 1",
-    "precio": 47900,
+    "precio": 48000,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/file/d/1UYQLMqqKTXPyPaZShZpcg-5YFg6DwqTG/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
