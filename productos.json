@@ -7,7 +7,7 @@
     "imagen": "https://drive.google.com/uc?id=1oBvIBj9hq9PCwEA4OqB9fyqnclZvqEB5",
     "estado": "CON STOCK",
     "estadoCodigo": 1,
-    "stock": 18
+    "stock": 28
   },
   {
     "codigo": "452",
@@ -17,7 +17,7 @@
     "imagen": "https://drive.google.com/uc?id=1oBvIBj9hq9PCwEA4OqB9fyqnclZvqEB5",
     "estado": "CON STOCK",
     "estadoCodigo": 1,
-    "stock": 10
+    "stock": 14
   },
   {
     "codigo": "1001",
@@ -27,7 +27,7 @@
     "imagen": "https://drive.google.com/file/d/1mKKtvrom767SvEps7JdjGb6bfREjCy3N/view?usp=drivesdk",
     "estado": "CON STOCK",
     "estadoCodigo": 1,
-    "stock": 10
+    "stock": 14
   },
   {
     "codigo": "26",
@@ -47,7 +47,7 @@
     "imagen": "https://drive.google.com/uc?id=1nEnJRpdvPDCOd-ZW_sKKYovESeqp_2ub",
     "estado": "CON STOCK",
     "estadoCodigo": 1,
-    "stock": 2
+    "stock": 3
   },
   {
     "codigo": "24",
@@ -57,7 +57,7 @@
     "imagen": "https://drive.google.com/uc?id=1nDTkVUh6glU2oEjEITgtpKbNkVcJ7DEO",
     "estado": "CON STOCK",
     "estadoCodigo": 1,
-    "stock": 1
+    "stock": 2
   },
   {
     "codigo": "23",
@@ -67,7 +67,7 @@
     "imagen": "https://drive.google.com/uc?id=1cW71loadL66DQJ33SQhQ3edkUutXtu9x",
     "estado": "CON STOCK",
     "estadoCodigo": 1,
-    "stock": 2
+    "stock": 3
   },
   {
     "codigo": "978",
@@ -77,7 +77,47 @@
     "imagen": "https://drive.google.com/file/d/1XcD9InW8patiqQBA-DsbXMFz9pgmc35U/view?usp=drivesdk",
     "estado": "CON STOCK",
     "estadoCodigo": 1,
-    "stock": 3
+    "stock": 6
+  },
+  {
+    "codigo": "138",
+    "nombre": "CARGADOR DE NOTEBOOK UNIVERSAL",
+    "precio": 16300,
+    "categoria": "CARGADORES",
+    "imagen": "https://drive.google.com/uc?id=10_eav-lPG4bXjQDbcboheQ6Ip5OTQTU8",
+    "estado": "CON STOCK",
+    "estadoCodigo": 1,
+    "stock": 1
+  },
+  {
+    "codigo": "27",
+    "nombre": "CABLE USB LG-5008 MICRO",
+    "precio": 2200,
+    "categoria": "CABLES",
+    "imagen": "https://drive.google.com/uc?id=1TfyIwJKlUGCrgKLQogOX8agKlEWa2lIv",
+    "estado": "CON STOCK",
+    "estadoCodigo": 1,
+    "stock": 22
+  },
+  {
+    "codigo": "898",
+    "nombre": "CABLE USB LG-5008 TIPO C",
+    "precio": 2200,
+    "categoria": "CABLES",
+    "imagen": "https://drive.google.com/file/d/1H0nrkOYPkustyHlP7n_VnSWpPDZi6QE7/view?usp=drivesdk",
+    "estado": "CON STOCK",
+    "estadoCodigo": 1,
+    "stock": 60
+  },
+  {
+    "codigo": "19",
+    "nombre": "CABLE USB LG-5008 IPHONE",
+    "precio": 2200,
+    "categoria": "CABLES",
+    "imagen": "https://drive.google.com/uc?id=1TfyIwJKlUGCrgKLQogOX8agKlEWa2lIv",
+    "estado": "CON STOCK",
+    "estadoCodigo": 1,
+    "stock": 12
   },
   {
     "codigo": "977",
@@ -90,14 +130,14 @@
     "stock": 0
   },
   {
-    "codigo": "138",
-    "nombre": "CARGADOR DE NOTEBOOK UNIVERSAL",
-    "precio": 16300,
-    "categoria": "CARGADORES",
-    "imagen": "https://drive.google.com/uc?id=10_eav-lPG4bXjQDbcboheQ6Ip5OTQTU8",
+    "codigo": "17",
+    "nombre": "CABLE APPLE IPHONE TIPO C A C",
+    "precio": 3500,
+    "categoria": "CABLES",
+    "imagen": "https://drive.google.com/uc?id=1_5I021ePLX2kftD5dsVAXLKMXI1hIpeA",
     "estado": "CON STOCK",
     "estadoCodigo": 1,
-    "stock": 1
+    "stock": 3
   },
   {
     "codigo": "1005",
@@ -120,61 +160,11 @@
     "stock": 0
   },
   {
-    "codigo": "27",
-    "nombre": "CABLE USB LG-5008 MICRO",
-    "precio": 2200,
-    "categoria": "CABLES",
-    "imagen": "https://drive.google.com/uc?id=1TfyIwJKlUGCrgKLQogOX8agKlEWa2lIv",
-    "estado": "CON STOCK",
-    "estadoCodigo": 1,
-    "stock": 20
-  },
-  {
-    "codigo": "898",
-    "nombre": "CABLE USB LG-5008 TIPO C",
-    "precio": 2200,
-    "categoria": "CABLES",
-    "imagen": "https://drive.google.com/file/d/1H0nrkOYPkustyHlP7n_VnSWpPDZi6QE7/view?usp=drivesdk",
-    "estado": "CON STOCK",
-    "estadoCodigo": 1,
-    "stock": 50
-  },
-  {
-    "codigo": "19",
-    "nombre": "CABLE USB LG-5008 IPHONE",
-    "precio": 2200,
-    "categoria": "CABLES",
-    "imagen": "https://drive.google.com/uc?id=1TfyIwJKlUGCrgKLQogOX8agKlEWa2lIv",
-    "estado": "CON STOCK",
-    "estadoCodigo": 1,
-    "stock": 10
-  },
-  {
     "codigo": "18",
     "nombre": "CABLE RC 5015 C-C",
     "precio": 3400,
     "categoria": "CABLES",
     "imagen": "https://drive.google.com/uc?id=1q6ZnJDzFOz-tPcqehLwy9HDPqJPNWDD9",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 3,
-    "stock": 0
-  },
-  {
-    "codigo": "17",
-    "nombre": "CABLE APPLE IPHONE TIPO C A C",
-    "precio": 3500,
-    "categoria": "CABLES",
-    "imagen": "https://drive.google.com/uc?id=1_5I021ePLX2kftD5dsVAXLKMXI1hIpeA",
-    "estado": "CON STOCK",
-    "estadoCodigo": 1,
-    "stock": 3
-  },
-  {
-    "codigo": "425",
-    "nombre": "OTG MICRO",
-    "precio": 1000,
-    "categoria": "ACCESORIOS",
-    "imagen": "https://drive.google.com/uc?id=1nY5acse4OHPmi2hpn9HU-Sfz5N3EbCmE",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "estadoCodigo": 3,
     "stock": 0
@@ -190,6 +180,16 @@
     "stock": 26
   },
   {
+    "codigo": "425",
+    "nombre": "OTG MICRO",
+    "precio": 1000,
+    "categoria": "ACCESORIOS",
+    "imagen": "https://drive.google.com/uc?id=1nY5acse4OHPmi2hpn9HU-Sfz5N3EbCmE",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
     "codigo": "703",
     "nombre": "SOPORTE P/ AUTO SUONO 0223M/ACC0002",
     "precio": 7500,
@@ -197,7 +197,7 @@
     "imagen": "https://drive.google.com/file/d/1_AlJvh_V3Mlny7kzLS3MuvFcsAnDRent/view?usp=drivesdk",
     "estado": "CON STOCK",
     "estadoCodigo": 1,
-    "stock": 2
+    "stock": 4
   },
   {
     "codigo": "914",
@@ -1200,16 +1200,6 @@
     "stock": 0
   },
   {
-    "codigo": "1071",
-    "nombre": "SQUISHIES DE PERSONAJES",
-    "precio": 3300,
-    "categoria": "JUGUETERIA",
-    "imagen": "https://drive.google.com/file/d/1vqWQGHpHmlIZVse6Bm-cEUnm_uIyzEsp/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 5,
-    "stock": 0
-  },
-  {
     "codigo": "628",
     "nombre": "PIZARRA MAGICA DE 12PULG SEIS",
     "precio": 15300,
@@ -1237,16 +1227,6 @@
     "imagen": "https://drive.google.com/file/d/14WhyOvw7eJWkw2OIuIw7nppSLxQwovTR/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "estadoCodigo": 3,
-    "stock": 0
-  },
-  {
-    "codigo": "1219",
-    "nombre": "PIZARRA CON LED- JY 1863",
-    "precio": 12000,
-    "categoria": "JUGUETERIA",
-    "imagen": "https://drive.google.com/file/d/1CgisO-IpFn6Aqx8dAKw3RtvXIIyuhnmk/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 5,
     "stock": 0
   },
   {
@@ -1480,16 +1460,6 @@
     "stock": 0
   },
   {
-    "codigo": "1320",
-    "nombre": "SET DE POKER CON FICHAS Y CARTAS",
-    "precio": 16200,
-    "categoria": "JUGUETERIA",
-    "imagen": "https://drive.google.com/file/d/1e1kIchzox6tjpHIiVkKMgA25S4Lq42ou/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 5,
-    "stock": 0
-  },
-  {
     "codigo": "76",
     "nombre": "CALCULADORA LEGATUS LCC-11",
     "precio": 6200,
@@ -1597,16 +1567,6 @@
     "imagen": "https://drive.google.com/uc?id=1iKOBxEq7z95Jj6pyyq6HNG6MjqSLGGli",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "estadoCodigo": 3,
-    "stock": 0
-  },
-  {
-    "codigo": "1247",
-    "nombre": "SET DE ARTE 168 PCS",
-    "precio": 12800,
-    "categoria": "LIBRERIA",
-    "imagen": "https://drive.google.com/file/d/1m_ntF7Ul5YatH71yuXY2Nk-pYmsufliI/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 5,
     "stock": 0
   },
   {
@@ -2020,46 +1980,6 @@
     "stock": 0
   },
   {
-    "codigo": "1208",
-    "nombre": "ESPEJO LED DOBLE CARA EXXTRATECH",
-    "precio": 11000,
-    "categoria": "CUIDADO PERSONAL",
-    "imagen": "https://drive.google.com/file/d/1ZnvEui8TQc4wxM4OZbiAAfPRpk3aAzUl/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 5,
-    "stock": 0
-  },
-  {
-    "codigo": "1227",
-    "nombre": "SET DE 8 BROCHAS PARA MAQUILLAJE",
-    "precio": 11800,
-    "categoria": "CUIDADO PERSONAL",
-    "imagen": "https://drive.google.com/file/d/1I5Jpb5sh83txC9n2aVItdPobp_uwGDN1/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 5,
-    "stock": 0
-  },
-  {
-    "codigo": "1246",
-    "nombre": "SET DE MAQUILLAJE CUP CAKE - 3363",
-    "precio": 12800,
-    "categoria": "CUIDADO PERSONAL",
-    "imagen": "https://drive.google.com/file/d/1LHY8hnkBa72GVAXExXXJEoxizSgLoFdl/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 5,
-    "stock": 0
-  },
-  {
-    "codigo": "1267",
-    "nombre": "SET DE MANICURA - D3577",
-    "precio": 13500,
-    "categoria": "CUIDADO PERSONAL",
-    "imagen": "https://drive.google.com/file/d/1PURFb73LiWlRfjGbJBq1g-DhFIlCQzKf/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 5,
-    "stock": 0
-  },
-  {
     "codigo": "113",
     "nombre": "MASAJEADOR CERVICAL ORYX MJ-0229",
     "precio": 69000,
@@ -2160,16 +2080,6 @@
     "stock": 0
   },
   {
-    "codigo": "1552",
-    "nombre": "NOKIA 106 4G",
-    "precio": 44900,
-    "categoria": "TECNOLOGIA",
-    "imagen": "https://drive.google.com/file/d/11DUeeTEzlNJrjpMM34Tzb8rhOV0q_R9L/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 5,
-    "stock": 0
-  },
-  {
     "codigo": "583",
     "nombre": "MINI CAJA FUERTE DE METAL",
     "precio": 36000,
@@ -2250,46 +2160,6 @@
     "stock": 0
   },
   {
-    "codigo": "1110",
-    "nombre": "LINGA PITON ANTIRROBO REFORZADO 12 x 120cm",
-    "precio": 6200,
-    "categoria": "SEGURIDAD",
-    "imagen": "https://drive.google.com/file/d/1dHPOnjLUEOHzYBcDUJppAuh_Z7fBbBp7/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 5,
-    "stock": 0
-  },
-  {
-    "codigo": "1300",
-    "nombre": "LINGA DE MOTO",
-    "precio": 15300,
-    "categoria": "SEGURIDAD",
-    "imagen": "https://drive.google.com/file/d/1-pqHu-omoLjG2OgWJpr7DZDHAph35ZZB/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 5,
-    "stock": 0
-  },
-  {
-    "codigo": "1355",
-    "nombre": "CADENA CON CANDADO DE SEGURIDAD - OG I 2MB",
-    "precio": 18900,
-    "categoria": "SEGURIDAD",
-    "imagen": "https://drive.google.com/file/d/1FY3QoUsuM_4aMT22G7LKa0k3kl7loeTM/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 5,
-    "stock": 0
-  },
-  {
-    "codigo": "1140",
-    "nombre": "BALANZA COCINA",
-    "precio": 7800,
-    "categoria": "COCINA",
-    "imagen": "https://drive.google.com/file/d/1BfofY2pQwdM-tcGS3Zs2gXmnXQmCCq5D/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 5,
-    "stock": 0
-  },
-  {
     "codigo": "537",
     "nombre": "BALANZA PORTATIL SEIS AV-637/K24056",
     "precio": 5300,
@@ -2330,16 +2200,6 @@
     "stock": 0
   },
   {
-    "codigo": "1258",
-    "nombre": "SET DE CUBIERTOS CHEPITA -25 PCS",
-    "precio": 13400,
-    "categoria": "COCINA",
-    "imagen": "https://drive.google.com/file/d/1dKBkDkk746QN-zOVLoyFPo3h7WoZyPLx/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 5,
-    "stock": 0
-  },
-  {
     "codigo": "462",
     "nombre": "SET DE CUBIERTOS JK-4154",
     "precio": 42500,
@@ -2377,16 +2237,6 @@
     "imagen": "https://drive.google.com/uc?id=1S6jjquEymNO-V3gWxJjPI-6iWj_dwFDs",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "estadoCodigo": 3,
-    "stock": 0
-  },
-  {
-    "codigo": "1102",
-    "nombre": "SET DE UTENSILIOS DE COCINA X5",
-    "precio": 6000,
-    "categoria": "COCINA",
-    "imagen": "https://drive.google.com/file/d/1XhOCoi-MMLY7TOLafPMKSoKrBKv-S5Ad/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 5,
     "stock": 0
   },
   {
@@ -2540,26 +2390,6 @@
     "stock": 0
   },
   {
-    "codigo": "1338",
-    "nombre": "SET DE TUPPER CUADRADO CON JARRA",
-    "precio": 17200,
-    "categoria": "COCINA",
-    "imagen": "https://drive.google.com/file/d/1v-rJy7E3gARUK7H5EvtrcO4gqiNZ8AD1/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 5,
-    "stock": 0
-  },
-  {
-    "codigo": "1064",
-    "nombre": "AFILADOR DE CUCHILLO DE CAJA",
-    "precio": 3000,
-    "categoria": "COCINA",
-    "imagen": "https://drive.google.com/file/d/1ZrxJBrcpN1qIj3VsDAikFPF802cbIXWt/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 5,
-    "stock": 0
-  },
-  {
     "codigo": "925",
     "nombre": "BATIDORA DE MANO 7 SPEEDS SEIS",
     "precio": 25000,
@@ -2650,16 +2480,6 @@
     "stock": 0
   },
   {
-    "codigo": "1070",
-    "nombre": "MOLDE DE SILICONA REUTILIZABLES",
-    "precio": 3300,
-    "categoria": "COCINA",
-    "imagen": "https://drive.google.com/file/d/1eKGuSMqseujBzWrgXn-NG2_x6haKq2TK/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 5,
-    "stock": 0
-  },
-  {
     "codigo": "165",
     "nombre": "MOLINILLO MANUAL CON RECIPIENTE",
     "precio": 12700,
@@ -2690,16 +2510,6 @@
     "stock": 0
   },
   {
-    "codigo": "1068",
-    "nombre": "PELAPAPAS X UNIDAD",
-    "precio": 3200,
-    "categoria": "COCINA",
-    "imagen": "https://drive.google.com/file/d/1c7AqFSNXifpsWHD0s3xpBy-MWImju98U/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 5,
-    "stock": 0
-  },
-  {
     "codigo": "259",
     "nombre": "PICADORA ELETRICA ORYX VC-10 2L",
     "precio": 63000,
@@ -2707,16 +2517,6 @@
     "imagen": "https://drive.google.com/uc?id=1AUmYNqjG-X9M99WvSlm_v5mUna1nWP3b",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "estadoCodigo": 3,
-    "stock": 0
-  },
-  {
-    "codigo": "1078",
-    "nombre": "PISAPAPAS METALICO",
-    "precio": 3800,
-    "categoria": "COCINA",
-    "imagen": "https://drive.google.com/file/d/1g1aIDdyyv87LaaHigkBdxnaEjG6p1B9A/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 5,
     "stock": 0
   },
   {
@@ -2747,16 +2547,6 @@
     "imagen": "https://drive.google.com/uc?id=14pDip7rrgDaYYhHNvmkBGLXB7kBFrZln",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "estadoCodigo": 3,
-    "stock": 0
-  },
-  {
-    "codigo": "1092",
-    "nombre": "SACACORCHO MULTIFUNCION",
-    "precio": 4900,
-    "categoria": "COCINA",
-    "imagen": "https://drive.google.com/file/d/1pO6Dmth1vaqLAa3P_39sX09x1Gq7wML1/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 5,
     "stock": 0
   },
   {
@@ -2950,36 +2740,6 @@
     "stock": 0
   },
   {
-    "codigo": "1167",
-    "nombre": "KIT DE COSTURA 85 PCS CON LUPA",
-    "precio": 8900,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1Y1yD27i0k9Ap4SlhTf9TLouC-gjVuc4b/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 5,
-    "stock": 0
-  },
-  {
-    "codigo": "1158",
-    "nombre": "KIT DE COSTURA DE 116 PCS",
-    "precio": 8500,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1dJ1gCt_ZSkKvcH9P7x9lMig5itZUmgfU/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 5,
-    "stock": 0
-  },
-  {
-    "codigo": "1308",
-    "nombre": "KIT DE COSTURA DE 88 PCS",
-    "precio": 15700,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1mhmvP30Vwh0k9Xu6GfesaguRYcS5NrDw/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 5,
-    "stock": 0
-  },
-  {
     "codigo": "13",
     "nombre": "CEPILLO SACA PELUSA",
     "precio": 10000,
@@ -3160,16 +2920,6 @@
     "stock": 0
   },
   {
-    "codigo": "1504",
-    "nombre": "FRAZADA PIEL DOBLE",
-    "precio": 36000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1uikUU2LWF_BggXQJGk2r_uvBEuwxjr-g/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 5,
-    "stock": 0
-  },
-  {
     "codigo": "249",
     "nombre": "MOPA CON BALDE CENTRIFUGADOR 2 EN 1",
     "precio": 42000,
@@ -3260,16 +3010,6 @@
     "stock": 0
   },
   {
-    "codigo": "1441",
-    "nombre": "BANQUITO PLEGABLE",
-    "precio": 27000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1qlQ-s0vqepRhAoIfCkP-kJeuxYUGbs3p/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 5,
-    "stock": 0
-  },
-  {
     "codigo": "1036",
     "nombre": "ROLLO DE VINILO AUTOADHESIVO DE MÁRMOL 3m x 1.2m",
     "precio": 63000,
@@ -3298,16 +3038,6 @@
     "estado": "CON STOCK",
     "estadoCodigo": 1,
     "stock": 2
-  },
-  {
-    "codigo": "1130",
-    "nombre": "BOTELLA INFANTIL ESPACIAL CON SORBETE",
-    "precio": 9500,
-    "categoria": "BOTELLAS Y TERMOS",
-    "imagen": "https://drive.google.com/file/d/1ZtGVA6OeW5BmoxIY0D4MDRCZjeTygQ0t/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 5,
-    "stock": 0
   },
   {
     "codigo": "43",
@@ -3420,26 +3150,6 @@
     "stock": 0
   },
   {
-    "codigo": "1379",
-    "nombre": "TERMO MEDIA MANIJA",
-    "precio": 21000,
-    "categoria": "BOTELLAS Y TERMOS",
-    "imagen": "https://drive.google.com/file/d/1yjosNFkM7ORim6_3vDRV-dKOk1iR_z-2/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 5,
-    "stock": 0
-  },
-  {
-    "codigo": "1202",
-    "nombre": "CORREA RETRACTIL PARA PERROS 3M",
-    "precio": 10500,
-    "categoria": "MASCOTAS",
-    "imagen": "https://drive.google.com/file/d/1nwwcTyue9ciDNaKUbRjLLy0OaqwWhQ0e/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 5,
-    "stock": 0
-  },
-  {
     "codigo": "107",
     "nombre": "CORTADORA DE PELO PERRO ORYX CP1030/1024",
     "precio": 34000,
@@ -3467,16 +3177,6 @@
     "imagen": "https://drive.google.com/uc?id=1_RkXSJ9f0z-bK6kMr4BmmcrMFlO4FTPp",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "estadoCodigo": 3,
-    "stock": 0
-  },
-  {
-    "codigo": "1077",
-    "nombre": "CEPILLO PARA MASCOTAS CON SPRAY",
-    "precio": 4000,
-    "categoria": "MASCOTAS",
-    "imagen": "https://drive.google.com/file/d/1eXn0sKeZ0QvXiDzKvAEIBjiAIBdjYXCz/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 5,
     "stock": 0
   },
   {
@@ -3557,16 +3257,6 @@
     "imagen": "https://drive.google.com/uc?id=1D3BBNonhN_YIrLslr8er1jPdq_cUBIZ_",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "estadoCodigo": 3,
-    "stock": 0
-  },
-  {
-    "codigo": "1245",
-    "nombre": "CAJA TUBO DE 46 PCS ROJA",
-    "precio": 13000,
-    "categoria": "HERRAMIENTAS",
-    "imagen": "https://drive.google.com/file/d/1H0RNB0F9gsYuCCsLycVy-gvA0OSND4XY/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 5,
     "stock": 0
   },
   {
@@ -3657,36 +3347,6 @@
     "imagen": "https://drive.google.com/file/d/1yQI68_EnnfJIiOHojJbCyUMHe6Hk7bRj/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "estadoCodigo": 3,
-    "stock": 0
-  },
-  {
-    "codigo": "1549",
-    "nombre": "COMPRESOR DE AIRE PORTATIL 12V",
-    "precio": 45000,
-    "categoria": "HERRAMIENTAS",
-    "imagen": "https://drive.google.com/file/d/1kgtJeKigc4-LlANJcLBF2WRCvivKVXjr/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 5,
-    "stock": 0
-  },
-  {
-    "codigo": "1561",
-    "nombre": "COMPRESOR DE AIRE DIGITAL 4 EN 1",
-    "precio": 48000,
-    "categoria": "HERRAMIENTAS",
-    "imagen": "https://drive.google.com/file/d/1UYQLMqqKTXPyPaZShZpcg-5YFg6DwqTG/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 5,
-    "stock": 0
-  },
-  {
-    "codigo": "1567",
-    "nombre": "COMPRESOR DE AIRE PORTATIL HIMK",
-    "precio": 50000,
-    "categoria": "HERRAMIENTAS",
-    "imagen": "https://drive.google.com/file/d/1zZDTvGiuoVkX9I5lq3GJ-MFTjAcDbjOX/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 5,
     "stock": 0
   },
   {
