@@ -7,7 +7,7 @@
     "imagen": "https://drive.google.com/uc?id=1oBvIBj9hq9PCwEA4OqB9fyqnclZvqEB5",
     "estado": "CON STOCK",
     "estadoCodigo": 1,
-    "stock": 28
+    "stock": 20
   },
   {
     "codigo": "452",
@@ -17,7 +17,7 @@
     "imagen": "https://drive.google.com/uc?id=1oBvIBj9hq9PCwEA4OqB9fyqnclZvqEB5",
     "estado": "CON STOCK",
     "estadoCodigo": 1,
-    "stock": 14
+    "stock": 11
   },
   {
     "codigo": "1001",
@@ -27,7 +27,7 @@
     "imagen": "https://drive.google.com/file/d/1mKKtvrom767SvEps7JdjGb6bfREjCy3N/view?usp=drivesdk",
     "estado": "CON STOCK",
     "estadoCodigo": 1,
-    "stock": 14
+    "stock": 11
   },
   {
     "codigo": "26",
@@ -35,9 +35,9 @@
     "precio": 9000,
     "categoria": "CARGADORES",
     "imagen": "https://drive.google.com/uc?id=1raFC0KypTUNXc9hYoHdOunsb8YFK04m1",
-    "estado": "CON STOCK",
-    "estadoCodigo": 1,
-    "stock": 2
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
   },
   {
     "codigo": "34",
@@ -47,7 +47,7 @@
     "imagen": "https://drive.google.com/uc?id=1nEnJRpdvPDCOd-ZW_sKKYovESeqp_2ub",
     "estado": "CON STOCK",
     "estadoCodigo": 1,
-    "stock": 3
+    "stock": 1
   },
   {
     "codigo": "24",
@@ -67,7 +67,7 @@
     "imagen": "https://drive.google.com/uc?id=1cW71loadL66DQJ33SQhQ3edkUutXtu9x",
     "estado": "CON STOCK",
     "estadoCodigo": 1,
-    "stock": 3
+    "stock": 2
   },
   {
     "codigo": "978",
@@ -77,7 +77,7 @@
     "imagen": "https://drive.google.com/file/d/1XcD9InW8patiqQBA-DsbXMFz9pgmc35U/view?usp=drivesdk",
     "estado": "CON STOCK",
     "estadoCodigo": 1,
-    "stock": 6
+    "stock": 2
   },
   {
     "codigo": "138",
@@ -97,7 +97,7 @@
     "imagen": "https://drive.google.com/uc?id=1TfyIwJKlUGCrgKLQogOX8agKlEWa2lIv",
     "estado": "CON STOCK",
     "estadoCodigo": 1,
-    "stock": 22
+    "stock": 16
   },
   {
     "codigo": "898",
@@ -107,7 +107,7 @@
     "imagen": "https://drive.google.com/file/d/1H0nrkOYPkustyHlP7n_VnSWpPDZi6QE7/view?usp=drivesdk",
     "estado": "CON STOCK",
     "estadoCodigo": 1,
-    "stock": 60
+    "stock": 48
   },
   {
     "codigo": "19",
@@ -137,7 +137,7 @@
     "imagen": "https://drive.google.com/uc?id=1_5I021ePLX2kftD5dsVAXLKMXI1hIpeA",
     "estado": "CON STOCK",
     "estadoCodigo": 1,
-    "stock": 3
+    "stock": 1
   },
   {
     "codigo": "1005",
@@ -277,7 +277,7 @@
     "imagen": "https://drive.google.com/file/d/1CsevWH526JHOIcns9-366MkxOwJhEETy/view?usp=drivesdk",
     "estado": "CON STOCK",
     "estadoCodigo": 1,
-    "stock": 20
+    "stock": 18
   },
   {
     "codigo": "10",
@@ -297,7 +297,7 @@
     "imagen": "https://drive.google.com/uc?id=1WKIkUk6fEWewQE5L_NhiRoHw10vq0phv",
     "estado": "CON STOCK",
     "estadoCodigo": 1,
-    "stock": 6
+    "stock": 5
   },
   {
     "codigo": "436",
@@ -335,9 +335,9 @@
     "precio": 9800,
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=1D6-wSmDt8MEmGvgXAlBKdIxHe4H54S0s",
-    "estado": "CON STOCK",
-    "estadoCodigo": 1,
-    "stock": 1
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
   },
   {
     "codigo": "4",
@@ -605,9 +605,9 @@
     "precio": 3500,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1z1VE9DffmKc0A56MUKfFP8igh4EoD_f1",
-    "estado": "CON STOCK",
-    "estadoCodigo": 1,
-    "stock": 4
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
   },
   {
     "codigo": "906",
@@ -807,7 +807,7 @@
     "imagen": "https://drive.google.com/uc?id=1vDmNJHbXo84p3ET3Wr8APt7EFtVGLk-3",
     "estado": "ULTIMOS DISPONIBLES",
     "estadoCodigo": 2,
-    "stock": 4
+    "stock": 2
   },
   {
     "codigo": "994",
@@ -1050,16 +1050,6 @@
     "stock": 0
   },
   {
-    "codigo": "987",
-    "nombre": "FOCO LED LCI 15W BLANCA FRÍA PACK X10 UNIDADES",
-    "precio": 16000,
-    "categoria": "ILUMINACION",
-    "imagen": "https://drive.google.com/file/d/1egh2JsKxN7v-7qu1WwnplnV6DuLDlSrO/view?usp=drivesdk",
-    "estado": "ULTIMOS DISPONIBLES",
-    "estadoCodigo": 2,
-    "stock": 1
-  },
-  {
     "codigo": "988",
     "nombre": "FOCO LED LCI 9W BLANCA FRÍA PACK X10 UNIDADES",
     "precio": 12000,
@@ -1147,7 +1137,7 @@
     "imagen": "https://drive.google.com/uc?id=1AfRvknY8jNy36WCd83oStGTNjokaYiC2",
     "estado": "CON STOCK",
     "estadoCodigo": 1,
-    "stock": 3
+    "stock": 2
   },
   {
     "codigo": "67",
@@ -1257,7 +1247,7 @@
     "imagen": "https://drive.google.com/uc?id=1RhFfCQs-WuOHJ3hOPR_OoWmKthCZ7zAR",
     "estado": "ULTIMOS DISPONIBLES",
     "estadoCodigo": 2,
-    "stock": 5
+    "stock": 3
   },
   {
     "codigo": "334",
@@ -1458,16 +1448,6 @@
     "estado": "A PEDIDO (de 7 a 10 días)",
     "estadoCodigo": 3,
     "stock": 0
-  },
-  {
-    "codigo": "76",
-    "nombre": "CALCULADORA LEGATUS LCC-11",
-    "precio": 6200,
-    "categoria": "LIBRERIA",
-    "imagen": "https://drive.google.com/uc?id=1jHdC2owsCxcKyYDeuwZyw4iVqYYQOgIK",
-    "estado": "ULTIMOS DISPONIBLES",
-    "estadoCodigo": 2,
-    "stock": 1
   },
   {
     "codigo": "395",
@@ -1845,9 +1825,9 @@
     "precio": 3200,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/file/d/1lQbYbb4wLTU_6E5zizoviF3y5TxeqfRX/view?usp=drivesdk",
-    "estado": "CON STOCK",
-    "estadoCodigo": 1,
-    "stock": 2
+    "estado": "ULTIMOS DISPONIBLES",
+    "estadoCodigo": 2,
+    "stock": 1
   },
   {
     "codigo": "109",
@@ -2187,7 +2167,7 @@
     "imagen": "https://drive.google.com/uc?id=1lNc80yJIIXzjLc_HnGTiQgRyDwdSj5rk",
     "estado": "ULTIMOS DISPONIBLES",
     "estadoCodigo": 2,
-    "stock": 14
+    "stock": 10
   },
   {
     "codigo": "1044",
@@ -3035,9 +3015,9 @@
     "precio": 8500,
     "categoria": "BOTELLAS Y TERMOS",
     "imagen": "https://drive.google.com/file/d/1EG3TEhWiDrO2key0yfMkE6GQFCg_bwXE/view?usp=drivesdk",
-    "estado": "CON STOCK",
-    "estadoCodigo": 1,
-    "stock": 2
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
   },
   {
     "codigo": "43",
