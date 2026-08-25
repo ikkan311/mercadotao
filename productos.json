@@ -1145,8 +1145,8 @@
     "precio": 4500,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=11y4Q7uLd4XSviMKbjs4QoF7Ko5Ph9UXK",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 3,
+    "estado": "CON STOCK",
+    "estadoCodigo": 1,
     "stock": 1
   },
   {
@@ -2540,21 +2540,21 @@
     "stock": 0
   },
   {
-    "codigo": "246",
-    "nombre": "MINI MAQUINA DE COSER ORYX S01247/OM202A",
-    "precio": 34000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/uc?id=1BHl8750ZxmO86oMhRBd-6Ts3z2cm3lne",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 3,
-    "stock": 0
-  },
-  {
     "codigo": "257",
     "nombre": "PANQUEQUERA ELECTRICA ORYX OR-201PC",
     "precio": 50000,
     "categoria": "HOGAR",
     "imagen": "https://drive.google.com/uc?id=1tm1JgBaADHGhvfp0TEgFKCcVw6iwpVyu",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "246",
+    "nombre": "MINI MAQUINA DE COSER ORYX S01247/OM202A",
+    "precio": 34000,
+    "categoria": "HOGAR",
+    "imagen": "https://drive.google.com/uc?id=1BHl8750ZxmO86oMhRBd-6Ts3z2cm3lne",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "estadoCodigo": 3,
     "stock": 0
