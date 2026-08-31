@@ -50,6 +50,16 @@
     "stock": 2
   },
   {
+    "codigo": "23",
+    "nombre": "CARGADOR P/ AUTO RC 4801 TIPO C",
+    "precio": 4800,
+    "categoria": "CARGADORES",
+    "imagen": "https://drive.google.com/uc?id=1cW71loadL66DQJ33SQhQ3edkUutXtu9x",
+    "estado": "CON STOCK",
+    "estadoCodigo": 1,
+    "stock": 2
+  },
+  {
     "codigo": "978",
     "nombre": "CARGADOR PARA AUTO LEGATUS TIPO C LC-4805",
     "precio": 8600,
@@ -137,6 +147,16 @@
     "imagen": "https://drive.google.com/uc?id=1TfyIwJKlUGCrgKLQogOX8agKlEWa2lIv",
     "estado": "CON STOCK",
     "estadoCodigo": 1,
+    "stock": 9
+  },
+  {
+    "codigo": "22",
+    "nombre": "CABLE AUXILIAR - RC5012",
+    "precio": 1800,
+    "categoria": "CABLES",
+    "imagen": "https://drive.google.com/uc?id=1g8TVpdlQk6sLQJIM7RyBpKqxyLIKGZRJ",
+    "estado": "CON STOCK",
+    "estadoCodigo": 1,
     "stock": 10
   },
   {
@@ -157,7 +177,7 @@
     "imagen": "https://drive.google.com/uc?id=1_5I021ePLX2kftD5dsVAXLKMXI1hIpeA",
     "estado": "CON STOCK",
     "estadoCodigo": 1,
-    "stock": 1
+    "stock": 2
   },
   {
     "codigo": "425",
@@ -325,8 +345,8 @@
     "precio": 9800,
     "categoria": "AURICULARES",
     "imagen": "https://drive.google.com/uc?id=1D6-wSmDt8MEmGvgXAlBKdIxHe4H54S0s",
-    "estado": "CON STOCK",
-    "estadoCodigo": 1,
+    "estado": "ULTIMOS DISPONIBLES",
+    "estadoCodigo": 2,
     "stock": 2
   },
   {
@@ -380,14 +400,14 @@
     "stock": 0
   },
   {
-    "codigo": "1018",
-    "nombre": "PARLANTE PORTÁTIL TG 113",
-    "precio": 10500,
+    "codigo": "555",
+    "nombre": "PARLANTE LEGATUS 3″ 3306",
+    "precio": 13000,
     "categoria": "PARLANTES",
-    "imagen": "https://drive.google.com/file/d/1vG6ekJtWUy1HyQJbz-VM38Urv0sPP-Em/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 3,
-    "stock": 0
+    "imagen": "https://drive.google.com/uc?id=1fMSDuq9BefylfSMUO0k8XU-aJTqo4jSU",
+    "estado": "ULTIMOS DISPONIBLES",
+    "estadoCodigo": 2,
+    "stock": 1
   },
   {
     "codigo": "1013",
@@ -490,16 +510,6 @@
     "stock": 0
   },
   {
-    "codigo": "560",
-    "nombre": "PARLANTE P/AUTO 6X9 VIAS OR-1055 1200 W",
-    "precio": 70000,
-    "categoria": "PARLANTES",
-    "imagen": "https://drive.google.com/uc?id=1eIBxNZz2ri6zqHATPmf5WNKQqzwGd-2r",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 3,
-    "stock": 0
-  },
-  {
     "codigo": "911",
     "nombre": "RADIO PARLANTE BT 5.3 PORTÁTIL VINTAGE RETRO",
     "precio": 38000,
@@ -565,6 +575,16 @@
     "precio": 565000,
     "categoria": "PARLANTES",
     "imagen": "https://drive.google.com/file/d/1wjjDAL2xQOyZeW-3X0wGMTM_FMAiP3SL/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "542",
+    "nombre": "LUZ DE SILICONA HJ008-2",
+    "precio": 3200,
+    "categoria": "ILUMINACION",
+    "imagen": "https://drive.google.com/uc?id=15W6E2tjBvZl6CbkktMJPj6QD6bcuPRfN",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "estadoCodigo": 3,
     "stock": 0
@@ -675,9 +695,9 @@
     "precio": 7000,
     "categoria": "ILUMINACION",
     "imagen": "https://drive.google.com/uc?id=1MHpCdm9XmFoZ9KsaG0XgtE18t3f4qKzR",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 3,
-    "stock": 0
+    "estado": "CON STOCK",
+    "estadoCodigo": 1,
+    "stock": 2
   },
   {
     "codigo": "995",
@@ -767,7 +787,7 @@
     "imagen": "https://drive.google.com/uc?id=1vDmNJHbXo84p3ET3Wr8APt7EFtVGLk-3",
     "estado": "ULTIMOS DISPONIBLES",
     "estadoCodigo": 2,
-    "stock": 1
+    "stock": 2
   },
   {
     "codigo": "540",
@@ -1085,8 +1105,8 @@
     "precio": 9000,
     "categoria": "JUGUETERIA",
     "imagen": "https://drive.google.com/uc?id=1AfRvknY8jNy36WCd83oStGTNjokaYiC2",
-    "estado": "CON STOCK",
-    "estadoCodigo": 1,
+    "estado": "ULTIMOS DISPONIBLES",
+    "estadoCodigo": 2,
     "stock": 2
   },
   {
@@ -1300,16 +1320,6 @@
     "stock": 0
   },
   {
-    "codigo": "322",
-    "nombre": "INFLADOR DE GLOBOS OSR",
-    "precio": 29000,
-    "categoria": "JUGUETERIA",
-    "imagen": "https://drive.google.com/uc?id=16MmUbr0Sd-u9A-O9Ndlboonhwj_JOIE2",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 3,
-    "stock": 0
-  },
-  {
     "codigo": "338",
     "nombre": "TANQUE CON CONTROL REMOTO RCK01 CX-100",
     "precio": 64000,
@@ -1385,9 +1395,9 @@
     "precio": 2000,
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1BhXoflWv7-rdsc87Wb8hUCaUVotNxhGa",
-    "estado": "CON STOCK",
-    "estadoCodigo": 1,
-    "stock": 2
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
   },
   {
     "codigo": "401",
@@ -1545,16 +1555,6 @@
     "precio": 14000,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/file/d/1myyUtK4Lw7yyD0uGem7Q16J7PS3yWGd7/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 3,
-    "stock": 0
-  },
-  {
-    "codigo": "11",
-    "nombre": "CORTA PELO VINTAGE T9",
-    "precio": 9000,
-    "categoria": "CUIDADO PERSONAL",
-    "imagen": "https://drive.google.com/uc?id=1OSYZO7ecFMz4cOENTARgVKJDikECMTs_",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "estadoCodigo": 3,
     "stock": 0
@@ -1735,16 +1735,6 @@
     "precio": 31000,
     "categoria": "CUIDADO PERSONAL",
     "imagen": "https://drive.google.com/uc?id=1pjTk1gRzOrY5Bp0MenjByDpbQ787UfOe",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 3,
-    "stock": 0
-  },
-  {
-    "codigo": "96",
-    "nombre": "CABINA DE UÑAS 36LED 120W LEGATUS LSU102",
-    "precio": 34000,
-    "categoria": "CUIDADO PERSONAL",
-    "imagen": "https://drive.google.com/uc?id=1vnk_yD_i0usM5HiGKaPX2glei-Ue-fh2",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "estadoCodigo": 3,
     "stock": 0
@@ -2037,7 +2027,7 @@
     "imagen": "https://drive.google.com/uc?id=1lNc80yJIIXzjLc_HnGTiQgRyDwdSj5rk",
     "estado": "ULTIMOS DISPONIBLES",
     "estadoCodigo": 2,
-    "stock": 10
+    "stock": 8
   },
   {
     "codigo": "1044",
@@ -2225,16 +2215,6 @@
     "precio": 34000,
     "categoria": "COCINA",
     "imagen": "https://drive.google.com/uc?id=15hJxZv3H9khqnhDaYs5NIi4hGw9BGSHU",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 3,
-    "stock": 0
-  },
-  {
-    "codigo": "925",
-    "nombre": "BATIDORA DE MANO 7 SPEEDS SEIS",
-    "precio": 25000,
-    "categoria": "COCINA",
-    "imagen": "https://drive.google.com/file/d/10ZbXwQqSE4AOyDGjANNGSBsHMCg6yXy_/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "estadoCodigo": 3,
     "stock": 0
@@ -2860,16 +2840,6 @@
     "stock": 3
   },
   {
-    "codigo": "1036",
-    "nombre": "ROLLO DE VINILO AUTOADHESIVO DE MÁRMOL 3m x 1.2m",
-    "precio": 42000,
-    "categoria": "HOGAR",
-    "imagen": "https://drive.google.com/file/d/1CGEg82y0LmWKIrnhh1gMtOxGndDFdxgd/view?usp=drivesdk",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 3,
-    "stock": 0
-  },
-  {
     "codigo": "1026",
     "nombre": "PROLONGADOR ORYX 5 SALIDAS",
     "precio": 28000,
@@ -3060,6 +3030,16 @@
     "stock": 0
   },
   {
+    "codigo": "500",
+    "nombre": "PINZA UNIVERSAL 8PULG",
+    "precio": 6500,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/uc?id=1VEhQDYpdWSZ7QXb-iJMYOPVp6kS5OrQu",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
     "codigo": "501",
     "nombre": "PINZAS PUNETAZO SACABOCADO JC821110",
     "precio": 7200,
@@ -3077,7 +3057,7 @@
     "imagen": "https://drive.google.com/uc?id=1hdXrWTOP6JhDdOuGHN_n7zozjblhTCWW",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "estadoCodigo": 3,
-    "stock": 0
+    "stock": 1
   },
   {
     "codigo": "972",
@@ -3085,6 +3065,16 @@
     "precio": 60000,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/file/d/1PHFfE58KyOQXS9-d5OPbN2EZWM9r6ndy/view?usp=drivesdk",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "841",
+    "nombre": "LLAVE TUBO 82 PCS STARDOM",
+    "precio": 110000,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/file/d/1lVo1pZtRbOSXxiPuL4YtJU1UUwojJxy2/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "estadoCodigo": 3,
     "stock": 0
@@ -3195,6 +3185,16 @@
     "precio": 7800,
     "categoria": "HERRAMIENTAS",
     "imagen": "https://drive.google.com/uc?id=1qWJO3cx7o5P67owApjqhsRutHUow4mzX",
+    "estado": "A PEDIDO (de 7 a 10 días)",
+    "estadoCodigo": 3,
+    "stock": 0
+  },
+  {
+    "codigo": "939",
+    "nombre": "JUEGO DE LLAVE TUBO CHICA HC-12006",
+    "precio": 15000,
+    "categoria": "HERRAMIENTAS",
+    "imagen": "https://drive.google.com/file/d/1CX4laaQ7lpfQi6TZnzdoCQa0ig2axq7s/view?usp=drivesdk",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "estadoCodigo": 3,
     "stock": 0
