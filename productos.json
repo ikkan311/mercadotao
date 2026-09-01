@@ -254,7 +254,7 @@
     "nombre": "ADAPTADOR DE VIAJE",
     "precio": 8500,
     "categoria": "ACCESORIOS",
-    "imagen": "https://drive.google.com/uc?export=view&id=1ZS0UkPXaVj3mJmdyMUjBy6UtbxkNuIFr",
+    "imagen": "https://lh3.googleusercontent.com/d/1ZS0UkPXaVj3mJmdyMUjBy6UtbxkNuIFr",
     "estado": "CON STOCK",
     "estadoCodigo": 1,
     "stock": 3
@@ -1485,16 +1485,6 @@
     "precio": 14000,
     "categoria": "LIBRERIA",
     "imagen": "https://drive.google.com/uc?id=1dm5Ckd8c-5a_PLR1EzEb7J0KWCuwfpBG",
-    "estado": "A PEDIDO (de 7 a 10 días)",
-    "estadoCodigo": 3,
-    "stock": 0
-  },
-  {
-    "codigo": "391",
-    "nombre": "MOCHILA PELUCHE CAPIBARA CP-3167",
-    "precio": 16000,
-    "categoria": "LIBRERIA",
-    "imagen": "https://drive.google.com/uc?id=1cMJfXIcQOb484j6ro6A3hmU3PA898eXQ",
     "estado": "A PEDIDO (de 7 a 10 días)",
     "estadoCodigo": 3,
     "stock": 0
