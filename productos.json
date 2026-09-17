@@ -7,7 +7,7 @@
     "imagen": "https://drive.google.com/uc?id=1oBvIBj9hq9PCwEA4OqB9fyqnclZvqEB5",
     "estado": "CON STOCK",
     "estadoCodigo": 1,
-    "stock": 15
+    "stock": 13
   },
   {
     "codigo": "452",
@@ -17,7 +17,7 @@
     "imagen": "https://drive.google.com/uc?id=1oBvIBj9hq9PCwEA4OqB9fyqnclZvqEB5",
     "estado": "ULTIMOS DISPONIBLES",
     "estadoCodigo": 2,
-    "stock": 9
+    "stock": 7
   },
   {
     "codigo": "1001",
@@ -37,7 +37,7 @@
     "imagen": "https://drive.google.com/file/d/1wUAyGhHXfY0AbB9AnuoJtH06qIRy_UNO/view?usp=drivesdk",
     "estado": "CON STOCK",
     "estadoCodigo": 1,
-    "stock": 2
+    "stock": 1
   },
   {
     "codigo": "1695",
@@ -47,7 +47,7 @@
     "imagen": "https://drive.google.com/file/d/143cN8B4FhCRnR5YaQYKLCcToBHaVrlj_/view?usp=drivesdk",
     "estado": "CON STOCK",
     "estadoCodigo": 1,
-    "stock": 3
+    "stock": 2
   },
   {
     "codigo": "24",
@@ -157,7 +157,7 @@
     "imagen": "https://drive.google.com/file/d/1H0nrkOYPkustyHlP7n_VnSWpPDZi6QE7/view?usp=drivesdk",
     "estado": "ULTIMOS DISPONIBLES",
     "estadoCodigo": 2,
-    "stock": 39
+    "stock": 34
   },
   {
     "codigo": "19",
@@ -167,7 +167,7 @@
     "imagen": "https://drive.google.com/uc?id=1TfyIwJKlUGCrgKLQogOX8agKlEWa2lIv",
     "estado": "ULTIMOS DISPONIBLES",
     "estadoCodigo": 2,
-    "stock": 8
+    "stock": 6
   },
   {
     "codigo": "22",
@@ -197,7 +197,7 @@
     "imagen": "https://drive.google.com/uc?id=1_5I021ePLX2kftD5dsVAXLKMXI1hIpeA",
     "estado": "CON STOCK",
     "estadoCodigo": 1,
-    "stock": 2
+    "stock": 1
   },
   {
     "codigo": "425",
@@ -327,7 +327,7 @@
     "imagen": "https://drive.google.com/uc?id=1WKIkUk6fEWewQE5L_NhiRoHw10vq0phv",
     "estado": "ULTIMOS DISPONIBLES",
     "estadoCodigo": 2,
-    "stock": 3
+    "stock": 4
   },
   {
     "codigo": "436",
@@ -357,7 +357,7 @@
     "imagen": "https://drive.google.com/uc?id=1ThAma6yRNZepjkBLcyPs8JGOybyx1DiY",
     "estado": "CON STOCK",
     "estadoCodigo": 1,
-    "stock": 3
+    "stock": 1
   },
   {
     "codigo": "8",
@@ -1168,26 +1168,6 @@
     "estado": "A PEDIDO (de 7 a 10 días)",
     "estadoCodigo": 3,
     "stock": 0
-  },
-  {
-    "codigo": "321",
-    "nombre": "CONSOLA PUSH RUSSIA/CONSOLA BAILE",
-    "precio": 4000,
-    "categoria": "JUGUETERIA",
-    "imagen": "https://drive.google.com/uc?id=11y4Q7uLd4XSviMKbjs4QoF7Ko5Ph9UXK",
-    "estado": "CON STOCK",
-    "estadoCodigo": 1,
-    "stock": 1
-  },
-  {
-    "codigo": "320",
-    "nombre": "CONSOLA PUSH C/LUZ Y MUSICA WA49",
-    "precio": 9000,
-    "categoria": "JUGUETERIA",
-    "imagen": "https://drive.google.com/uc?id=1NSyXINIBQc1WSgw_okLoRxX9hViRL7T_",
-    "estado": "CON STOCK",
-    "estadoCodigo": 1,
-    "stock": 1
   },
   {
     "codigo": "63",
@@ -2017,7 +1997,7 @@
     "imagen": "https://drive.google.com/uc?id=1lNc80yJIIXzjLc_HnGTiQgRyDwdSj5rk",
     "estado": "ULTIMOS DISPONIBLES",
     "estadoCodigo": 2,
-    "stock": 8
+    "stock": 6
   },
   {
     "codigo": "1044",
