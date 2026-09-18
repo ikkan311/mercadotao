@@ -47,7 +47,7 @@
     "imagen": "https://drive.google.com/file/d/143cN8B4FhCRnR5YaQYKLCcToBHaVrlj_/view?usp=drivesdk",
     "estado": "CON STOCK",
     "estadoCodigo": 1,
-    "stock": 2
+    "stock": 1
   },
   {
     "codigo": "24",
@@ -350,16 +350,6 @@
     "stock": 0
   },
   {
-    "codigo": "7",
-    "nombre": "AURICULAR VINCHA BT P47",
-    "precio": 7800,
-    "categoria": "AURICULARES",
-    "imagen": "https://drive.google.com/uc?id=1ThAma6yRNZepjkBLcyPs8JGOybyx1DiY",
-    "estado": "CON STOCK",
-    "estadoCodigo": 1,
-    "stock": 1
-  },
-  {
     "codigo": "8",
     "nombre": "AURICULAR VINCHA BT P47M",
     "precio": 9800,
@@ -418,16 +408,6 @@
     "estado": "A PEDIDO (de 7 a 10 días)",
     "estadoCodigo": 3,
     "stock": 0
-  },
-  {
-    "codigo": "555",
-    "nombre": "PARLANTE LEGATUS 3″ 3306",
-    "precio": 13000,
-    "categoria": "PARLANTES",
-    "imagen": "https://drive.google.com/uc?id=1fMSDuq9BefylfSMUO0k8XU-aJTqo4jSU",
-    "estado": "ULTIMOS DISPONIBLES",
-    "estadoCodigo": 2,
-    "stock": 1
   },
   {
     "codigo": "1013",
